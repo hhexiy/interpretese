@@ -1,0 +1,32 @@
+This has been published under the title , " Syntactic Analysis of Natural Language using Finite-State Automata " .
+Firstly , to speak of the background , currently , the need for the analysis of spoken language is increasing .
+Because what is being analyzed is spoken language , the analysis must happen in real time . Furthermore , it is believed that this kind of analysis will be utilized well in natural language processing systems , such as that of speech dialogue .
+Next , I 'll explain in detail about natural language analysis processing . Natural language analysis is made up of three stages : morphemic analysis , syntactical analysis , and semantic analysis .
+I 'll now explain about these various analyzes . First , in morphemic analysis , the sentence input is divided into individual words , and each word is assigned a part of speech .
+Next , in syntactical analysis , the structure of the sentence input is analyzed , and its structure is output as a syntax tree .
+Various grammar rules for the purpose of analyzing natural language can be given , such as context-free grammar and regular grammar .
+Finally , in semantic analysis , the meaning of the words , the context between them , and so on are analyzed . Based on this , we can come to know what sort of meaning a sentence indicates .
+From here , I 'd like to consider syntactical analysis . We 'll consider an example of syntactical analysis .
+We 'll think about these six grammar rules . In the first , what is shown is how a noun phrase and verb phrase arranged together are recognized as a sentence .
+In the second , when an article determiner and a noun are arranged together is indicated to be a noun phrase .
+In the third , a verb is indicated to be a verbal phrase .
+In light of the grammar rules up to this point , the following three show what parts of speech correspond to each word . For example , in this , " the " is an article .
+" Boy " is a noun . And , lastly , " runs " in a verb . From that , each is represented .
+So , as an actual case , we will consider the analysis of the sentence input " The boy runs " using these grammar rules .
+First of all , from the following three grammar rules , we understand that " the " is an article , " boy " is a noun , and " run " is a verb ; this sort of structure is made firstly in this way , with " the " an article , " boy " a noun , and " runs " a verb .
+Then , next , because we understand that the article and the noun together are an arrangement , we understand that those two , " The boy " , are a noun phrase ; at the same time , because this " runs " is a verb , from these three grammar rules we can also understand that " runs " is a verbal phrase .
+Based on this , it becomes like so .
+Finally , from the arrangement of the noun phrase and verbal phrase , this " The boy runs " becomes a sentence , and these together form a complete syntax tree .
+Next , I 'd like to make some comparisons for analyzes using context-free grammar and finite-state automata .
+Firstly , analysis using context-free grammar has the ability to accurately analyze natural language sentences . However , it has a weakness in that processing in this manner takes time .
+Conversely , analysis using finite-state automata is good in that it processes quickly , but it also has a drawback in that it does n't necessarily always accurately analyze the full of a natural language sentence .
+With this , I 'd like to consider an analysis that combines the strengths of the two : context-free grammar 's ability to analyze accurately and the speed of analysis that comes with using finite-state automata .
+This figure shows the flow of analysis using finite-state automata . First of all , context-free grammar is converted to a finite-state automaton .
+Next , using the converted finite-state automaton , the sentence input is analyzed and a syntax tree is created .
+Based on this conversion conversion of context-free grammar to a finite-state automaton , this finite-state automaton has the same capabilities as this context-free grammar , and , also , through the use of this finite-state automaton in carrying out analyzes , we can analyze quickly , making for an analysis that combines both strengths .
+As an actual example for analysis using finite-state automata , we will first look at the previously-considered context-free grammar . Converting it to a finite-state automaton , it will become like so .
+Thusly , here , too , we consider the analysis of the sentence input " The boy runs " , using the converted finite-state automaton . When the sentence input is analyzed morphemically and converted into parts of speech , we can see the " article noun verb " arrangement .
+With that , we can generate a syntax tree from the transition that comes from the initial state of each to the final state , that is , article noun verb .
+Now for a summary . This time , I explained about a method of analysis using finite-state automata .
+This analysis is made up of two stages , in which the first stage is the conversation from context-free grammar to a finite-state automaton . The other stage is a processing procedure in which the sentence input is analyzed using the finite-state automaton .
+Using this method , it is possible to have a high-speed analysis that also has a capacity near that of context-free grammar . With that , we conclude .

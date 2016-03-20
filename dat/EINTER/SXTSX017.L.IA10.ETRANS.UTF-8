@@ -1,0 +1,509 @@
+0001 - 00:07:376-00:10:831 I:
+Today, I'd like to talk about the Japanese language processing
+0002 - 00:11:288-00:11:616 I:
+(F ah)
+0003 - 00:11:840-00:16:328 I:
+based upon derivational grammar and its application<SB> I'd like to (noise talk) about the result of
+0004 - 00:15:168-00:15:440 I:<noise>
+0005 - 00:16:544-00:17:592 I:
+our research<SB>
+0006 - 00:18:031-00:18:847 I:
+(F ah) First of all
+0007 - 00:19:191-00:21:871 I:
+(F ah) Japanese language processing by computer<SB>
+0008 - 00:23:872-00:25:135 I:
+Generally speaking,
+0009 - 00:25:720-00:26:175 I:
+when
+0010 - 00:26:728-00:27:759 I:
+a computer
+0011 - 00:28:048-00:28:976 I:
+(F ah) processes
+0012 - 00:29:215-00:30:103 I:
+(F ah) human
+0013 - 00:31:040-00:32:432 I:
+(F ah) languages
+0014 - 00:32:704-00:35:423 I:
+(F ah) first of all, the input of the sentences will be
+0015 - 00:35:759-00:36:800 I:
+(F eh) divided
+0016 - 00:37:240-00:40:663 I:
+with a morphological analysis (W a) followed by parsing,
+0017 - 00:41:159-00:44:848 I:
+(F ah) followed by semantic analysis and context analysis<SB>
+0018 - 00:46:240-00:49:551 I:
+And the finally (F ah) through these (F ah) processes (F ah) human
+0019 - 00:51:368-00:51:952 I:
+(F ah)
+0020 - 00:52:231-00:54:079 I:
+(F ah) spoken words (F ah) will be
+0021 - 00:54:400-01:00:848 I:
+(F eh) analyzed<SB> First one is the (X morpheme analysis) morphological analysis (W a) that is (F ah) first (F ah) process
+0022 - 01:01:248-01:02:296 I:
+(F ah) to be done<SB>
+0023 - 01:02:464-01:04:920 I:
+If there should be any mistakes at this (F ah) step,
+0024 - 01:05:520-01:06:479 I:
+the later
+0025 - 01:06:728-01:09:240 I:
+(F ah) analysis and the process will be
+0026 - 01:09:480-01:09:911 I:
+wrong<SB>
+0027 - 01:10:288-01:10:952 I:
+And therefore,
+0028 - 01:11:184-01:13:456 I:
+this (F ah) process is (F ah) critical<SB>
+0029 - 01:17:856-01:18:687 I:
+In addition,
+0030 - 01:19:168-01:19:999 I:
+language
+0031 - 01:20:432-01:24:591 I:
+of (F ah) Japanese (F ah) They are not (F ah) divided in writing<SB>
+0032 - 01:25:615-01:29:103 I:
+In a case of (F ah) English, (F ah) there are space (F uh) between words,
+0033 - 01:29:448-01:30:096 I:
+and therefore,
+0034 - 01:30:295-01:32:288 I:
+you can identify which one is
+0035 - 01:32:599-01:32:967 I:
+one
+0036 - 01:33:160-01:33:576 I:
+word<SB>
+0037 - 01:33:864-01:36:271 I:
+But in a case of (F ah) Japanese (F ah) language
+0038 - 01:36:640-01:36:927 I:
+(F ah)
+0039 - 01:37:176-01:38:815 I:
+it is a continuous, (F uh) therefore
+0040 - 01:39:015-01:40:111 I:
+(X you can not (F uh) see)
+0041 - 01:40:447-01:41:160 I:
+(F ah) (S the)
+0042 - 01:41:384-01:45:392 I:
+(F ah) the computer cannot (F ah) see the separation of different (F ah) words<SB>
+0043 - 01:45:760-01:48:575 I:
+And therefore, it's necessary to divide into
+0044 - 01:49:288-01:49:712 I:
+(F eh)
+0045 - 01:49:919-01:50:480 I:
+pieces of
+0046 - 01:50:736-01:51:407 I:
+words<SB>
+0047 - 01:52:312-01:55:368 I:
+And the each word should be identified<SB>
+0048 - 01:55:639-01:56:655 I:
+For instance (F ah)
+0049 - 01:57:008-01:57:887 I:
+(F ah) this one
+0050 - 01:58:320-02:01:327 I:
+(F ah) the self examination report is a noun,
+0051 - 02:01:632-02:03:903 I:
+(F ah) this is the postpositional
+0052 - 02:04:192-02:04:855 I:
+particle,
+0053 - 02:05:280-02:06:503 I:
+(F ah) this is verb,
+0054 - 02:06:952-02:10:144 I:
+(O ka) is a verb and then followed by auxiliary
+0055 - 02:10:344-02:10:815 I:
+verb<SB>
+0056 - 02:11:423-02:12:239 I:
+And therefore,
+0057 - 02:12:568-02:14:527 I:
+(F ah) each one (F ah) should
+0058 - 02:15:024-02:15:791 I:
+(F ah) be
+0059 - 02:17:104-02:19:256 I:
+(F ah) with a part of speech tag<SB>
+0060 - 02:19:487-02:22:535 I:
+So it has to be divided into different parts of the
+0061 - 02:22:895-02:26:664 I:
+(F ah) speech and (F ah) we need to put the part of (F ah) speech tag
+0062 - 02:27:144-02:27:983 I:
+to each
+0063 - 02:28:720-02:30:232 I:
+component of the words<SB>
+0064 - 02:30:560-02:33:095 I:
+(F ah) That is a morphological analysis<SB>
+0065 - 02:34:112-02:34:256 I:<noise>
+0066 - 02:34:360-02:36:231 I:
+(W a) this is a simplified
+0067 - 02:37:760-02:38:983 I:
+(F ah) expression
+0068 - 02:39:328-02:39:999 I:
+of the
+0069 - 02:40:400-02:44:776 I:
+(F ah) structure of (F ah) the Japanese (F ah) sentence, but (F ah) this is not (F ah) that simple<SB>
+0070 - 02:44:776-02:45:143 I:<breath>
+0071 - 02:45:528-02:49:007 I:
+(F ah) Actually, this is a little bit more complex<SB> I think that's a
+0072 - 02:49:704-02:50:416 I:
+(F ah)
+0073 - 02:52:576-02:57:007 I:
+elementary school or junior high school I think you have learned a school grammar<SB>
+0074 - 02:57:512-02:59:167 I:
+And (W the) this is the
+0075 - 02:59:776-03:00:367 I:
+(O kaku)<SB>
+0076 - 03:04:936-03:06:856 I:
+There is (F ah) inflection of
+0077 - 03:07:159-03:11:847 I:
+(F ah) verbs (F ah) (O kaku) (O kaku) (O kaku toki) (O kake ba) and <FV> so forth,
+0078 - 03:12:111-03:13:208 I:
+imperfect
+0079 - 03:13:536-03:16:936 I:
+continuative, conclusive, attributive, (F ah) provisional
+0080 - 03:17:312-03:18:815 I:
+imperative are the
+0081 - 03:19:320-03:22:120 I:
+names for each different (F ah) types of inflection<SB>
+0082 - 03:22:584-03:24:056 I:
+For instance, (F ah) five
+0083 - 03:24:536-03:28:495 I:
+(F ah) stages and also the upper one stage
+0084 - 03:29:000-03:34:159 I:
+(F eh) the inflection, there are different types of (W a) conjugation of (W a) Japanese (F ah) verbs<SB>
+0085 - 03:34:608-03:36:703 I:
+And the (O seru) is (W a;an) auxiliary
+0086 - 03:37:096-03:38:160 I:
+(F eh) verb,
+0087 - 03:38:528-03:41:343 I:
+(F ah) that is to make somebody do something<SB>
+0088 - 03:44:336-03:46:151 I:
+And in addition to these (F ah)
+0089 - 03:46:688-03:47:983 I:
+(F ah) conjugations
+0090 - 03:48:480-03:49:335 I:
+(F ah) (O seru)
+0091 - 03:49:768-03:53:695 I:
+(F ah) is the connected only to imperfects
+0092 - 03:53:967-03:54:935 I:
+(F ah) form of
+0093 - 03:55:255-03:55:927 I:
+a verb<SB>
+0094 - 03:56:248-03:58:727 I:
+This is (F ah) (O rareru)<SB> This is a passive
+0095 - 03:59:864-04:00:239 I:
+form,
+0096 - 04:00:664-04:04:272 I:
+and (F ah) this is (F ah) connected only to imperfect form of a
+0097 - 04:04:472-04:04:983 I:
+verb<SB>
+0098 - 04:05:920-04:09:024 I:
+And this is (F ah) (O ta) which means (F ah) perfects,
+0099 - 04:09:736-04:11:199 I:
+(F uh) but (F ah) it has a
+0100 - 04:11:960-04:12:695 I:
+irregular
+0101 - 04:13:408-04:14:592 I:
+(F ah) inflections,
+0102 - 04:14:920-04:16:119 I:
+and (F uh) there is no
+0103 - 04:17:112-04:19:848 I:
+(F eh) imperative (W a) nor continuative
+0104 - 04:20:048-04:20:487 I:
+form
+0105 - 04:22:360-04:26:327 I:
+and the only connected to continuative (W a) form of the previous
+0106 - 04:27:304-04:27:760 I:
+word<SB>
+0107 - 04:29:464-04:30:335 I:
+(F ah) Therefore,
+0108 - 04:30:768-04:32:831 I:
+(F ah) this is a highly complex
+0109 - 04:33:264-04:36:032 I:
+(F ah) inflexion and also the rules
+0110 - 04:36:296-04:36:599 I:
+for
+0111 - 04:36:952-04:39:367 I:
+(F ah) the connection between words<SB>
+0112 - 04:39:728-04:40:527 I:
+(F ah) Therefore,
+0113 - 04:40:760-04:42:263 I:
+when (O kakase rare ta)
+0114 - 04:42:511-04:44:407 I:
+is analyzed, you have to
+0115 - 04:44:839-04:45:703 I:
+(F ah) go through
+0116 - 04:45:935-04:48:151 I:
+(F eh) the processes which require
+0117 - 04:48:496-04:49:015 I:
+(F ah)
+0118 - 04:49:608-04:50:215 I:
+this (F ah)
+0119 - 04:51:416-04:52:439 I:
+very complex
+0120 - 04:52:695-04:53:535 I:
+inflections<SB>
+0121 - 04:54:960-04:57:655 I:
+(F ah) Therefore, for the analysis of (W a) Japanese language,
+0122 - 04:58:032-05:02:215 I:
+(F uh) the (F uh) process of (W the) very complex (F ah) conjugations is (F ah) needed<SB>
+0123 - 05:03:776-05:04:791 I:
+As far as the
+0124 - 05:05:184-05:09:455 I:
+(F ah) Japanese (F ah) language has a conjugation, you need to have the
+0125 - 05:09:736-05:12:535 I:
+(F ah) processing of conjugation (W the) for Japanese (F ah)
+0126 - 05:13:032-05:14:504 I:
+language, but
+0127 - 05:15:608-05:16:959 I:
+you can assume
+0128 - 05:17:328-05:21:831 I:
+that (F ah) Japanese (F ah) language does not have (X a) any inflexion,
+0129 - 05:22:240-05:23:768 I:
+and that is one of the theories
+0130 - 05:23:976-05:25:255 I:
+in addition to school
+0131 - 05:25:456-05:26:112 I:
+grammar
+0132 - 05:26:440-05:29:944 I:
+actually there another type of (F ah) grammar
+0133 - 05:30:248-05:34:719 I:
+to describe Japanese language, which is the derivational of grammar<SB>
+0134 - 05:38:408-05:39:863 I:
+(F ah) Derivational grammar
+0135 - 05:40:224-05:42:479 I:
+(F ah) focus upon the agglutinative
+0136 - 05:42:936-05:45:207 I:
+(F ah) character of Japanese (F ah) language<SB>
+0137 - 05:45:576-05:47:159 I:
+(F ah) Japanese and the
+0138 - 05:47:560-05:50:527 I:
+(F ah) Korean and (F uh) Turkish languages
+0139 - 05:50:767-05:52:263 I:
+are similar with each other<SB>
+0140 - 05:52:936-05:53:535 I:
+And
+0141 - 05:53:783-05:57:399 I:
+agglutinative (F ah) character is (F ah) common to these<SB>
+0142 - 05:57:768-06:00:887 I:
+And (F uh) derivational grammar focused upon this (F ah)
+0143 - 06:01:544-06:02:279 I:
+(F ah) feature
+0144 - 06:02:768-06:04:175 I:
+and the conjugation of
+0145 - 06:05:160-06:05:768 I:
+verbs
+0146 - 06:06:023-06:08:199 I:
+that is inflection that I talked about,
+0147 - 06:08:568-06:12:568 I:
+(F ah) is (F ah) made up of a stem of the verb and the suffix<SB>
+0148 - 06:13:312-06:14:807 I:
+Let me give you an example<SB>
+0149 - 06:16:352-06:17:047 I:
+Earlier,
+0150 - 06:17:688-06:18:903 I:
+I talked about the
+0151 - 06:19:143-06:20:456 I:
+(O kaku) which means
+0152 - 06:20:760-06:21:407 I:
+(Q write),
+0153 - 06:21:663-06:27:503 I:
+in a case of (F ah) school grammar, this is the type of a conjugation for the particular verb,
+0154 - 06:28:504-06:29:336 I:
+this parts
+0155 - 06:29:720-06:31:104 I:
+(O kaka nai), (O kaki masu)
+0156 - 06:31:400-06:32:200 I:
+(Q don't write),
+0157 - 06:32:407-06:32:951 I:
+(Q write)
+0158 - 06:33:272-06:34:072 I:
+and there are the
+0159 - 06:34:528-06:38:399 I:
+(F ah) different forms depending upon the conjugation<SB>
+0160 - 06:39:608-06:40:863 I:
+(F mm) But,
+0161 - 06:41:568-06:42:143 I:
+if you
+0162 - 06:42:528-06:42:951 I:
+(F ah)
+0163 - 06:43:312-06:44:855 I:
+look at a phonemes,
+0164 - 06:46:456-06:50:048 I:
+(F ah) for instance, (F ah) this is written in Roman characters
+0165 - 06:50:488-06:52:279 I:
+for (O hiragana) expression<SB>
+0166 - 06:54:488-06:56:232 I:
+(F ah) this (F ah) part (O kaku)
+0167 - 06:56:616-06:57:719 I:
+(Q to write)
+0168 - 06:58:376-06:58:839 I:
+(F ah )
+0169 - 06:59:400-07:01:055 I:
+(F ah) is (F ah) with the
+0170 - 07:01:263-07:02:079 I:
+consonant
+0171 - 07:02:328-07:02:711 I:
+(Q k),
+0172 - 07:03:288-07:05:335 I:
+(F ah) it doesn't (F ah) change
+0173 - 07:05:656-07:07:263 I:
+(F eh) which means a this part (F ah)
+0174 - 07:07:808-07:09:928 I:
+(F ah) constitute a stem of the word,
+0175 - 07:10:360-07:14:079 I:
+and then (F ah) this is (F ah) connected with a suffix (F ah) to show
+0176 - 07:14:504-07:16:303 I:
+(F ah) the different (F uh) types of the
+0177 - 07:17:552-07:18:463 I:
+conjugation
+0178 - 07:19:024-07:19:679 I:
+forms<SB>
+0179 - 07:21:080-07:22:232 I:
+Compared with the
+0180 - 07:22:639-07:24:847 I:
+(X school grammar) derivational grammar
+0181 - 07:25:320-07:28:719 I:
+is (F uh) (noise simplified) and (F uh) more systematic<SB>
+0182 - 07:26:192-07:26:247 I:<noise>
+0183 - 07:29:064-07:31:207 I:
+So if you want to use (noise computer) for
+0184 - 07:30:096-07:30:175 I:<noise>
+0185 - 07:31:455-07:33:407 I:
+the processing of Japanese language
+0186 - 07:33:759-07:36:287 I:
+derivational grammar is much more suitable
+0187 - 07:36:492-07:37:355 I:
+in comparison
+0188 - 07:37:656-07:39:112 I:
+with the school grammar<SB>
+0189 - 07:39:880-07:40:695 I:
+And therefore
+0190 - 07:40:792-07:40:848 I:<noise>
+0191 - 07:41:152-07:42:447 I:
+we decided to
+0192 - 07:44:168-07:44:479 I:
+(F ah)
+0193 - 07:44:960-07:47:680 I:
+make a morphological analysis system
+0194 - 07:48:088-07:49:743 I:
+(F ah) based upon derivational
+0195 - 07:50:952-07:51:615 I:
+(X grammar
+0196 - 07:52:304-07:56:808 I:
+and<H>) (X grammar and analysis is much more simplified)
+0197 - 07:57:248-07:59:760 I:
+grammar and analysis are much more simplified
+0198 - 08:00:168-08:02:295 I:
+and analyses are procession
+0199 - 08:02:680-08:04:087 I:
+is as high as
+0200 - 08:04:344-08:05:295 I:
+ninety eight percent<SB>
+0201 - 08:06:000-08:06:679 I:
+(F eh) putting
+0202 - 08:07:032-08:11:095 I:
+(F eh) into different components of the word of Japanese
+0203 - 08:11:432-08:12:279 I:
+and the
+0204 - 08:13:160-08:15:647 I:
+analysis is as (F ah) precise as (W a)
+0205 - 08:16:064-08:19:888 I:
+ninety eight percent, (F uh) this is the result of the analysis of the
+0206 - 08:20:344-08:21:367 I:
+(F ah) phrase<SB>
+0207 - 08:23:032-08:24:095 I:
+(Q kakase rare ta)
+0208 - 08:25:032-08:26:847 I:
+and (F uh) based (noise upon)
+0209 - 08:26:552-08:26:631 I:<noise>
+0210 - 08:27:128-08:28:455 I:
+this kind of (F uh) theory
+0211 - 08:29:328-08:30:039 I:
+(F ah) we
+0212 - 08:30:408-08:31:447 I:
+(F eh) perform the
+0213 - 08:31:727-08:33:847 I:
+(F ah) study of the translation (X from)
+0214 - 08:34:080-08:36:031 I:
+between Japanese and Uighur<SB>
+0215 - 08:36:864-08:37:648 I:
+(F ah) Uighur
+0216 - 08:37:911-08:38:391 I:
+(F ah)
+0217 - 08:38:968-08:41:655 I:
+is a language spoken at the Shangjan Uighur
+0218 - 08:42:168-08:46:039 I:
+and (F uh) people living in a Shangjan Uighur area of (W a) China<SB>
+0219 - 08:46:336-08:48:239 I:
+Although you may not aware of that,
+0220 - 08:48:640-08:49:255 I:
+but
+0221 - 08:49:592-08:53:407 I:
+(F ah) these two language is (F ah) very similar and word orders are
+0222 - 08:53:848-08:54:415 I:
+similar
+0223 - 08:54:904-08:56:839 I:
+(F uh) between Japanese and Uighur<SB>
+0224 - 08:57:344-08:57:704 I:
+(F ah)
+0225 - 08:57:904-08:58:583 I:
+Therefore
+0226 - 08:59:080-09:01:415 I:
+after morphological analysis
+0227 - 09:01:752-09:03:935 I:
+(F ah) by just (F ah) replacing by
+0228 - 09:04:368-09:04:871 I:
+(F ah)
+0229 - 09:06:248-09:10:175 I:
+respective words, it is (F ah) possible to make a translation<SB>
+0230 - 09:11:112-09:13:455 I:
+Let me give you the previous (F ah) example
+0231 - 09:13:816-09:15:215 I:
+of (O kakase rare ta)
+0232 - 09:15:896-09:16:559 I:
+(Q I was made
+0233 - 09:16:847-09:17:143 I:
+write)<SB>
+0234 - 09:18:424-09:18:983 I:
+And (W the)
+0235 - 09:19:424-09:21:143 I:
+after morphological analysis
+0236 - 09:21:488-09:22:191 I:
+(F ah) you can
+0237 - 09:22:648-09:25:167 I:
+(F ah) replace by Uighur words, and
+0238 - 09:25:424-09:27:903 I:
+you can get a translation in Uighur<SB>
+0239 - 09:32:648-09:33:472 I:
+In summary,
+0240 - 09:34:136-09:35:368 I:
+(F ah) we used
+0241 - 09:35:583-09:36:295 I:
+derivational
+0242 - 09:36:568-09:38:143 I:
+(F um) grammar rather than
+0243 - 09:38:652-09:39:634 I:
+(F ah) traditional
+0244 - 09:39:838-09:43:540 I:
+school grammar for Japanese language analysis which enabled us
+0245 - 09:43:968-09:44:959 I:
+(F ah) simpler
+0246 - 09:45:263-09:46:111 I:
+(F ah) analysis<SB>
+0247 - 09:46:415-09:48:631 I:
+And for the application of this technology,
+0248 - 09:49:152-09:49:471 I:
+we
+0249 - 09:49:840-09:50:975 I:
+are conducting
+0250 - 09:51:280-09:53:911 I:
+(F ah) translation between Japanese and Uigjur<SB>
+0251 - 09:54:288-09:54:655 I:
+(F ah) We
+0252 - 09:55:096-09:56:519 I:
+make a full use of the
+0253 - 09:56:944-10:00:543 I:
+(F ah) similarity (F ah) between Japanese and (F ah) Uighur<SB>
+0254 - 10:00:984-10:03:256 I:
+And (F ah) translation of the
+0255 - 10:03:608-10:04:687 I:
+(F ah) verbal
+0256 - 10:05:136-10:05:560 I:
+(F or)
+0257 - 10:05:767-10:07:335 I:
+phrases as well as the
+0258 - 10:07:640-10:11:127 I:
+translation of a sentences (F uh) from Japanese to Uighur<SB>

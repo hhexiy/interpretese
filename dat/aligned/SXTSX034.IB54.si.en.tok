@@ -1,0 +1,24 @@
+Determining Output-Timing in Incremental Parsing , this is a subject of my speech today .
+First , I will like to give you the explanation about what is a framework of incremental parsing . An incremental parsing is a framework to figure out syntactic relation in course of input of sentences .
+For example , as the sample sentence goes I saw her aunt in the park , kouen de obasan wo mikake ta , when the English term , saw is input , incremental parsing is executed . In a way that the noun I is a subject for the English verb saw .
+Such a syntactic structure is figured out by this incremental parsing . And why this kind of framework is needed is to realize the real time dialogue processing system , such as the simultaneous interpretation system .
+This incremental parsing can be considered from the point of view that the importance of output-timing concerning incremental parsing . It 's because it is not clear that a point syntactic relation is determined .
+For example , the input , I saw her is done and at this point there are two possibilities . The one possibility is the word , her is an object of the verb saw . On the other hand , the her is not an object of the verb saw because her is followed by a noun so that term her is a possessive pronoun . So we can not determine at this point that the input of the word , her is done .
+And when this sample goes with the word , aunt after her , this aunt is an object of the verb , that was the one of the possibility , but this possibility is gone now . And her is a possessive pronoun . And at this point , it can be determined of that term , aunt for the first time .
+In this way , we determine the output-timing using incremental parsing . And now I would like to propose a method to realize this output-timing determination .
+The feature of this output- timing determination is that we can determine output-timing dynamically .
+And let me explain how it goes . First , in order to determine syntactic structure , we delay output-timing as long as it needs .
+And then we output as as early stage as possible , just a framework I made . , sorry , then let me explain an outline of this method .
+This method consist ; consists of  incremental parsing and output control . There 're two modules in this method .
+At the incremental pursing , when the word is input , looking at possible syntactic structure of the word which are earlier input and we , then , analyze it . Then the result of its parsing is transferred to the next stage that is output control .
+And this output control using syntactic structure processed by incremental parsing then determine what part is done or what part is not done using syntactic structure . Then , concerning the part , syntactic relation is determined , then the output control outputs that part . That is the function of these two modules .
+And let me give you an example .
+The previous sentence , which I mentioned earlier , this is the same as the previous one . And the sentence , when I saw her was input , the word , her is input in the incremental parsing module .
+Then incremental parsing output the possible syntactic relation . And there 're two possibilities that the word , her is an object of the verb , saw and the other possibility is the word , her is a possessive pronoun .
+And these two possibilities are output to the next module . And the output control module , it ca n't decide what the syntactic relations are , so it maintains the word , her .
+Then it moves to the next stage that the aunt is input . When the word aunt is input on the incremental parsing module , then the result of the parsing is that the information which is the word , aunt is a noun .
+And its result is transferred to the output control . Then the possibility that the word , her is an object of the verb saw is erased .
+Then the word , her is a possessive pronoun . Thus it is determined . Then the output control outputs that information .
+Thus , by controlling the output this way , when the syntactic structure is determined , it is possible to output those information . This time , I made a proposal on a method of dynamically determining output timing in incremental parsing .
+And I installed this software order program on the computer , then I conducted an experiment to confirm incremental output of syntactic structure is possible . This is the end of my speech .
+Thank you very much .

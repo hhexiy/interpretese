@@ -1,0 +1,32 @@
+Today 's presentation is entitled , Creating and evaluating a speech dialogue MP3 player .
+In recent years , thanks to the Internet , a vast amount of MP3 files are available anywhere you go .
+MP3 is a file format on the computer. Simply put , it allows us to use the audio files inside a CD on a computer .
+Today , you can obtain tens of thousands of MP3 files from the Internet . Also , portable music players like these are getting smaller and smaller while its capacity keeps getting bigger and bigger .
+With such devices , we can make use of a vast amount of MP3 files .
+So , this is where we are today. But when we want to search for a specific MP3 file or when using it in a portable music player , it is very difficult to control them using keyboards . On the other hand , researchers are taking a closer look at dictation systems as an efficient method for searching for MP3 files . Furthermore , the voice input interface is very easy to use .
+So , we created a speech dialogue MP3 player . With this system , you can operate the system using your voice and search for songs as well .
+How did we do it ? First , let me explain about how spoken words are processed .
+First , we set keywords based on the functions of an MP3 file and user speech . Using these keywords , we processed spoken words .
+This time , we registered eighty two keywords . Some examples are " play " , " fast forward " , " a little bit " , and so on .
+Based on these keywords , we sorted it by patterns of spoken sentences . As a result , we classified these words into one hundred and eight patterns .
+For example , " I want to listen to this " is one pattern , and " Fast forward this a little bit " is another .
+Next , I will explain about how such keywords are processed .
+First , I will talk about speech input . The sentence is , search for the Beatles. The machine will then look for keywords in that sentence . In this example , the keyword is " Beatles " and " Search " . The system will now look for these keywords .
+Then , these keywords will be converted into a command . Here , the word " Beatles " will turn into a command for artist keywords when conducting the search .
+Then these are put into order and rows of keywords are extracted . This process applies to the previous example. Currently there are one hundred and eight patterns
+After these are formulated , each command performs its registered action . In this case , the system will search for artists based on the rows of keywords , then respond to the search .
+We created this system based on such analysis .
+We mounted it on a WINDOWS 98 OS . We used the Visual C++ language .
+As I mentioned earlier , there are eighty two words registered . Regarding the keyword rows , there are one hundred and eight types defined .
+Next , we conducted an evaluation experiment . Our goal is to evaluate the usability of this system .
+We had twenty college students test out the system . We also compared the system with a conventional system .
+The objective was to perform as many tasks as possible within the given time . Now I will explain about the tasks we assigned to the students .
+For example , we would ask the students to play a certain song . This example is pretty simple , all you have to do is search for the song and play it .
+In another task , we asked the students to find the title of the song that starts with , " all white " Here are the results .
+First , we compared the task completion rate between our system and the conventional system . The vertical axis represents the number of tasks completed .
+The blue indicates this system , and the green represents the conventional system . We can see here that the task completion rate has increased with this system . This result indicates that the speech input increased the operation and search efficiency .
+Next , we evaluated the usability of the system by conducting a survey asking about the new and old systems . A five star rating system was used .
+Five being the highest rating . This diagram indicates that six people gave the new system a five. Ten people gave a four , three people gave a three , one person gave a one . With the conventional system , the results were one , eight , eight , three , respectively .
+When we compare these results , we can see that the new system got a higher rating overall . On average , the new system scored one point higher than the old one at four point zero five. The new system scored three point three five . Ok , I will summarize .
+Today I talked about a speech dialogue MP3 player system that processes tasks based on keyword analysis . We also conducted an experiment to evaluate the system and confirmed the effectiveness of operating and searching for tracks using dictation .
+That is all , thank you for your time .

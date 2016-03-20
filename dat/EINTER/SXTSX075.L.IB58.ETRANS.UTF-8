@@ -1,0 +1,506 @@
+0001 - 00:06:432-00:07:071 I:
+Today,
+0002 - 00:08:736-00:10:703 I:
+I will make a presentation on the mobile
+0003 - 00:10:984-00:13:519 I:
+agent system for supporting adhoc communication<SB>
+0004 - 00:14:072-00:17:207 I:<noise>
+0005 - 00:15:368-00:17:071 I:
+(noise (F uh) first, the background of the study),
+0006 - 00:17:648-00:20:415 I:
+the internet has been (noise (F uh)) used very
+0007 - 00:19:136-00:19:447 I:<noise>
+0008 - 00:20:680-00:21:247 I:
+widely
+0009 - 00:22:152-00:22:847 I:
+these days<SB>
+0010 - 00:23:024-00:23:647 I:
+And (X these the)
+0011 - 00:24:000-00:24:887 I:
+these days the
+0012 - 00:25:424-00:25:623 I:
+(D i)
+0013 - 00:26:456-00:28:352 I:
+radio (W infras (F uh) structure;infrastructure)
+0014 - 00:28:936-00:30:983 I:
+(F uh) has (F uh) shown (W a;an) improvement
+0015 - 00:31:416-00:35:335 I:
+to the satisfactory level that anybody can make the communication anywhere, anytime<SB>
+0016 - 00:35:744-00:39:159 I:
+And the mobile (F uh) computing that's a small scale of the computer
+0017 - 00:39:392-00:39:887 I:
+has been
+0018 - 00:40:256-00:40:631 I:
+(F uh)
+0019 - 00:41:280-00:42:767 I:
+broad in a portable (D s)
+0020 - 00:43:064-00:46:079 I:
+state, and in which that (F uh) personal information
+0021 - 00:47:192-00:47:551 I:
+(S is) (D ob)
+0022 - 00:48:720-00:49:383 I:
+is kept<SB>
+0023 - 00:50:184-00:51:135 I:
+(F eh) Such (F uh)
+0024 - 00:51:752-00:54:159 I:
+portable terminals (W is;are) (W a) (D carr) carried around
+0025 - 00:54:432-00:55:415 I:
+so that people can
+0026 - 00:56:672-00:56:967 I:
+get
+0027 - 00:57:448-00:59:503 I:
+information anytime, anywhere
+0028 - 01:00:336-01:01:527 I:
+very freely and casually<SB>
+0029 - 01:03:120-01:03:431 I:
+But
+0030 - 01:04:104-01:07:232 I:
+the communication under this (F uh) mobile circumstance
+0031 - 01:07:968-01:08:519 I:
+had been
+0032 - 01:09:064-01:12:031 I:
+(F uh) (D s) so far placed importance on the
+0033 - 01:12:408-01:13:864 I:
+(F uh) mobile permeability<SB>
+0034 - 01:14:040-01:17:455 I:
+What it means is that (F uh) in the mobile situation there is no power
+0035 - 01:18:072-01:20:151 I:
+and (F um) there is some restrictions<SB>
+0036 - 01:21:360-01:23:983 I:
+But the (W a) mobile permeability means that
+0037 - 01:24:512-01:25:823 I:
+just like to (D shh)
+0038 - 01:26:552-01:27:999 I:
+show that as if that
+0039 - 01:28:384-01:28:759 I:
+in
+0040 - 01:29:248-01:29:615 I:
+(W am;a)
+0041 - 01:29:936-01:33:047 I:
+(F uh) sitting situation that even if you are in a mobile situation<SB>
+0042 - 01:33:936-01:34:799 I:
+So that's why
+0043 - 01:35:336-01:35:967 I:
+that (F uh)
+0044 - 01:36:184-01:38:255 I:
+the cellular phones or the radio have been used<SB>
+0045 - 01:38:392-01:40:143 I:
+But what we'd like to do here is that
+0046 - 01:40:560-01:41:975 I:
+(F uh) mobile dependence<SB>
+0047 - 01:42:648-01:44:967 I:
+That means, there is a meaning in mobility,
+0048 - 01:45:752-01:46:879 I:
+that there is a meaning (W if)
+0049 - 01:47:176-01:49:959 I:
+because I'm here in front of this TV or in front of the
+0050 - 01:50:168-01:52:015 I:
+refrigerator or in the meeting room<SB>
+0051 - 01:52:712-01:55:503 I:
+That kind of (W a) communication is what we are talking about<SB>
+0052 - 01:56:368-01:59:959 I:
+So this is the communication depending upon the mobility<SB>
+0053 - 02:01:904-02:02:599 I:
+This is
+0054 - 02:02:840-02:06:047 I:
+the communication that made in (W a) regular meetings or
+0055 - 02:06:312-02:07:439 I:
+in accidental
+0056 - 02:07:728-02:08:503 I:
+(F uh) meetings<SB>
+0057 - 02:10:720-02:11:103 I:
+So,
+0058 - 02:11:784-02:14:095 I:
+in this kind of accidental communication
+0059 - 02:14:544-02:15:375 I:
+(F uh) we will
+0060 - 02:15:616-02:16:415 I:
+like to define this
+0061 - 02:16:416-02:16:519 I:<noise>
+0062 - 02:16:816-02:20:727 I:
+as adhoc communication (noise and I'd like to support this adhoc communication)<SB>
+0063 - 02:18:368-02:20:823 I:<noise>
+0064 - 02:21:546-02:24:255 I:
+Here is (W a;an) example of the adhoc communication<SB>
+0065 - 02:24:305-02:24:771 I:
+For instance,
+0066 - 02:25:112-02:26:495 I:
+a man is walking in the street
+0067 - 02:27:104-02:27:343 I:
+and
+0068 - 02:27:728-02:29:671 I:
+he meets eyes (F uh) friends
+0069 - 02:30:368-02:32:743 I:
+and they just (W happens;happen) to meet, and then they talk,
+0070 - 02:33:224-02:36:935 I:
+and in addition to that, (W a) they have this portable (F uh) computer
+0071 - 02:37:384-02:38:615 I:
+and they (W a) directly
+0072 - 02:38:880-02:39:831 I:
+(W a) communicate
+0073 - 02:40:048-02:40:215 I:
+(D a)
+0074 - 02:40:776-02:41:975 I:
+and then exchange (F um)
+0075 - 02:42:904-02:44:711 I:
+information (F uh) in this terminal,
+0076 - 02:45:368-02:46:575 I:
+and (F uh) in this (F uh)
+0077 - 02:47:328-02:52:439 I:
+terminal they have their schedule or picture information and those information can be exchanged<SB>
+0078 - 02:53:728-02:55:495 I:
+And by exchanging those information
+0079 - 02:56:056-02:57:335 I:
+you can make the
+0080 - 02:57:616-02:58:591 I:
+normal dialog
+0081 - 02:58:808-02:59:423 I:
+(F uh) richer
+0082 - 02:59:896-03:02:695 I:
+(F uh) or more (F uh) information can be exchanged<SB>
+0083 - 03:04:096-03:06:031 I:
+So in this sense (D the)
+0084 - 03:07:040-03:08:855 I:
+this is the (F uh) mobile
+0085 - 03:09:560-03:10:879 I:
+(F uh) information system
+0086 - 03:11:088-03:12:871 I:
+to support the adhoc communication<SB>
+0087 - 03:14:576-03:15:311 I:
+And (F uh) (S we)
+0088 - 03:15:640-03:18:887 I:
+what we're trying to support is the dialog between the man and man<SB>
+0089 - 03:19:456-03:23:879 I:
+For instance, (D en) (D encoun) supporting the (D e) encounter they meet the first time,
+0090 - 03:24:232-03:27:191 I:
+but maybe they have (noise (X somebody)) (F uh) some common friends<SB>
+0091 - 03:25:272-03:25:487 I:<noise>
+0092 - 03:27:600-03:28:631 I:
+So, by using
+0093 - 03:28:952-03:29:967 I:
+the matching of the
+0094 - 03:30:384-03:33:687 I:
+(F uh) (D in) individual information like, for instance, my high school
+0095 - 03:34:192-03:38:991 I:
+(S and) and then his high school can be matched, and then just happens to be that we went to the same
+0096 - 03:39:224-03:40:463 I:
+high school or something<SB>
+0097 - 03:40:976-03:41:263 I:
+So,
+0098 - 03:41:496-03:43:975 I:
+in a normal conversation you don't know those things,
+0099 - 03:44:184-03:44:407 I:
+but
+0100 - 03:44:615-03:45:447 I:
+by exchanging
+0101 - 03:45:720-03:48:231 I:
+the information through the terminal they find out about it<SB>
+0102 - 03:48:840-03:50:815 I:
+And the other way of the
+0103 - 03:51:200-03:53:415 I:
+(F uh) support is that (F uh)
+0104 - 03:54:496-03:56:575 I:
+men and information systems dialog,
+0105 - 03:57:032-03:57:783 I:
+that for instance,
+0106 - 03:58:303-03:59:567 I:
+(F uh) if you go to the station
+0107 - 03:59:904-04:01:583 I:
+(D the) there is a information Kiosk
+0108 - 04:02:080-04:03:487 I:
+for the use by
+0109 - 04:04:776-04:05:751 I:
+pressing the button,
+0110 - 04:09:192-04:09:447 I:
+if
+0111 - 04:09:656-04:10:271 I:
+this person
+0112 - 04:10:536-04:12:591 I:
+has this (F uh) portable terminal with this
+0113 - 04:12:792-04:14:199 I:
+(F uh) personal information,
+0114 - 04:14:456-04:16:967 I:
+by (W exchanges;exhanging) information with the Kiosk terminal
+0115 - 04:17:400-04:20:615 I:
+you can (F uh) use this Kiosk terminal more easily<SB>
+0116 - 04:20:960-04:22:839 I:
+You can use all of those terminals
+0117 - 04:24:288-04:25:351 I:
+freely and easily<SB>
+0118 - 04:25:800-04:26:559 I:
+And then, this
+0119 - 04:26:904-04:27:199 I:
+(F uh)
+0120 - 04:27:568-04:29:071 I:
+terminal is connected to
+0121 - 04:29:448-04:29:751 I:
+the
+0122 - 04:30:456-04:31:847 I:
+office and home or
+0123 - 04:32:144-04:33:335 I:
+a mobile location<SB>
+0124 - 04:38:448-04:41:503 I:
+So, the meaning of the adhoc communication is as follows<SB>
+0125 - 04:43:984-04:48:879 I:
+As in the case of the dialog between man and man, when man (X and) (F uh) meets another man,
+0126 - 04:49:200-04:51:495 I:
+and we'd like to support such a dialog<SB>
+0127 - 04:52:088-04:52:839 I:
+That means that
+0128 - 04:53:144-04:56:231 I:
+the feature is that the number of the participants to this dialog
+0129 - 04:56:512-04:57:703 I:
+changes dynamically<SB>
+0130 - 04:58:071-05:00:231 I:
+There're sometimes two people, sometimes three people<SB>
+0131 - 05:00:528-05:03:135 I:
+In the lecture (W a) case there're one hundred audiences<SB>
+0132 - 05:03:496-05:04:911 I:
+In the panel discussions case
+0133 - 05:05:232-05:07:295 I:
+(F uh) or in (F uh) some meetings there're
+0134 - 05:07:688-05:08:991 I:
+specific number of the people<SB>
+0135 - 05:09:448-05:10:671 I:
+And in many cases
+0136 - 05:10:976-05:13:407 I:
+(F uhh) there is no prior preparation<SB>
+0137 - 05:13:792-05:16:343 I:
+They don't prepare (D some) something to talk about<SB>
+0138 - 05:16:544-05:19:191 I:
+They don't know (X what to) (F uh) what kind of information to exchange<SB>
+0139 - 05:19:784-05:20:615 I:
+(F eh) It just (F um)
+0140 - 05:20:960-05:23:311 I:
+happens that information necessary to exchange<SB>
+0141 - 05:23:960-05:24:487 I:
+And (F uh)
+0142 - 05:26:848-05:27:823 I:
+so that's why
+0143 - 05:28:136-05:29:879 I:
+that the (? appli)
+0144 - 05:30:160-05:31:128 I:
+(F uh) should be shared<SB>
+0145 - 05:31:192-05:35:064 I:
+For instance, in the meeting room you distribute a paper and take a (F uh) note<SB>
+0146 - 05:35:336-05:37:551 I:
+And this is one way of the information sharing
+0147 - 05:38:184-05:41:247 I:
+and so how we can support this in a portable terminal's case<SB>
+0148 - 05:41:936-05:43:159 I:
+And (D nec) the last
+0149 - 05:43:384-05:44:567 I:
+case is that necessary,
+0150 - 05:44:944-05:48:239 I:
+(F uh) the dialog should be (F uh) circumstantial <FV> dependence<SB>
+0151 - 05:48:712-05:49:319 I:
+That means
+0152 - 05:49:560-05:49:847 I:
+that
+0153 - 05:50:224-05:54:111 I:
+(F uh) it (W depending;depends) upon the circumstance or the places, their objective differs<SB>
+0154 - 05:54:416-05:55:319 I:
+If it's the meeting
+0155 - 05:55:664-05:56:175 I:
+room,
+0156 - 05:56:648-05:57:087 I:
+(S the) (F uh)
+0157 - 05:57:392-05:58:847 I:
+the paper should be distributed<SB>
+0158 - 05:59:224-06:01:391 I:
+If it's the meeting (F uh) in a street corner,
+0159 - 06:01:632-06:04:695 I:
+it's not a meeting, it's (W a) personal information you need to exchange<SB>
+0160 - 06:05:280-06:08:191 I:
+So, how (X should be) a portable terminal
+0161 - 06:08:608-06:09:487 I:
+(X can support)
+0162 - 06:10:272-06:11:023 I:
+should support?<SB>
+0163 - 06:15:088-06:19:735 I:
+And the understanding of that situation (F uh) is necessary to provide than necessary
+0164 - 06:19:936-06:20:759 I:
+information<SB>
+0165 - 06:22:464-06:22:783 I:
+(F uh)
+0166 - 06:23:504-06:25:303 I:
+First, the dynamic network
+0167 - 06:25:512-06:26:183 I:
+technology,
+0168 - 06:26:704-06:26:967 I:
+as
+0169 - 06:27:320-06:29:295 I:
+for that adhoc network system
+0170 - 06:29:800-06:30:159 I:
+is
+0171 - 06:30:416-06:32:111 I:
+(D als) recently researched<SB>
+0172 - 06:32:504-06:37:279 I:
+Adhoc network system means that network that (W i;is) being constructed on a necessary basis,
+0173 - 06:39:208-06:41:575 I:
+(D i) network that (W being;is being) instantly established<SB>
+0174 - 06:41:968-06:44:783 I:
+Many cases it's a radio network system<SB>
+0175 - 06:45:312-06:46:511 I:
+And the feature here
+0176 - 06:47:136-06:47:455 I:
+(W are;is)
+0177 - 06:47:656-06:52:511 I:
+that there is no server existing to control the network, because there is no prior preparation,
+0178 - 06:52:784-06:54:247 I:
+we cannot (D s) (F uh) set
+0179 - 06:54:616-06:54:871 I:
+(F uh)
+0180 - 06:55:192-06:56:815 I:
+particular server for control<SB>
+0181 - 06:58:616-06:59:319 I:
+And for this
+0182 - 06:59:744-07:03:823 I:
+(F uh) there are multiple number of the mounting or proposals existing<SB>
+0183 - 07:04:184-07:06:503 I:
+We have (F uh) introduced and (D re) (D re) (F uh)
+0184 - 07:06:912-07:08:127 I:
+researched infra<C>
+0185 - 07:08:368-07:09:895 I:
+red adhoc (noise network)<SB>
+0186 - 07:09:216-07:09:391 I:<noise>
+0187 - 07:09:712-07:09:879 I:<noise>
+0188 - 07:11:840-07:15:383 I:
+And next, (F uh) talking about this (F uh) (W applications;application), (F uh)
+0189 - 07:15:776-07:16:327 I:
+(? appli),
+0190 - 07:18:168-07:18:503 I:
+(W the)
+0191 - 07:19:488-07:23:487 I:
+when they meet (F uh) in adhoc manner, there is (F uh) no application common<SB>
+0192 - 07:23:872-07:24:303 I:
+So,
+0193 - 07:24:928-07:28:079 I:
+there is (F uh) no way to set the application beforehand<SB>
+0194 - 07:28:432-07:29:663 I:
+So, that means
+0195 - 07:29:936-07:30:607 I:
+that (F uh)
+0196 - 07:30:824-07:34:047 I:
+it's impossible to prepare any arbitrary application beforehand<SB>
+0197 - 07:34:296-07:36:271 I:
+So it has to be the distribution
+0198 - 07:36:607-07:37:815 I:
+in a dynamic manner<SB>
+0199 - 07:40:448-07:44:311 I:
+And that (D dwan) dynamic application is a system called mobile agent<SB>
+0200 - 07:45:408-07:50:679 I:
+This mobile agent is (F uh) the program that moves (F uh) autonomously on the network<SB>
+0201 - 07:52:408-07:53:951 I:
+And the last one is the
+0202 - 07:54:208-07:54:471 I:
+(F uh)
+0203 - 07:54:768-07:56:655 I:
+adaptiveness to the circumstance
+0204 - 07:57:192-07:57:863 I:
+without
+0205 - 07:58:544-07:59:863 I:
+indicating the objective<SB>
+0206 - 08:00:328-08:01:439 I:
+We want system to
+0207 - 08:01:656-08:02:679 I:
+make understanding<SB>
+0208 - 08:03:408-08:03:991 I:
+So,
+0209 - 08:04:432-08:04:927 I:
+for that
+0210 - 08:05:552-08:07:711 I:
+we need the intelligent system
+0211 - 08:07:984-08:10:119 I:
+for the understanding of the situation<SB>
+0212 - 08:12:568-08:15:487 I:
+This intelligent agent (F uh) (W make;makes) a judgment
+0213 - 08:15:688-08:16:887 I:
+(F uh) by (noise itself)<SB>
+0214 - 08:16:288-08:16:463 I:<noise>
+0215 - 08:18:080-08:19:944 I:<noise>
+0216 - 08:18:144-08:18:439 I:
+(noise By
+0217 - 08:18:704-08:19:447 I:
+doing so,
+0218 - 08:19:904-08:23:335 I:
+(F uh)) intelligent agent, mobile application, agent network
+0219 - 08:24:400-08:25:087 I:
+are (W use;used),
+0220 - 08:25:792-08:26:495 I:
+we can
+0221 - 08:27:184-08:29:159 I:
+make the adhoc communication system<SB>
+0222 - 08:33:696-08:40:167 I:
+And a concrete example, for instance, is like in this way<SB> In (W a;an) office situation they are just about to have the meeting
+0223 - 08:40:616-08:42:319 I:
+and here this is a intelligent
+0224 - 08:42:575-08:44:543 I:
+(F uh) agent<SB> (D Whe) when he says that
+0225 - 08:44:816-08:45:623 I:
+we are going to the meeting,
+0226 - 08:45:928-08:47:639 I:
+then intelligent (F uh) agent
+0227 - 08:47:968-08:50:095 I:
+moves that information to his (F ah) (D c)
+0228 - 08:50:392-08:52:087 I:
+cellular phones, portable terminals<SB>
+0229 - 08:53:688-08:55:303 I:
+And he goes to the meeting room,
+0230 - 08:55:544-08:57:703 I:
+(noise and then (F uh) to the participants)
+0231 - 08:55:576-08:57:327 I:<noise>
+0232 - 08:58:024-09:01:808 I:
+this (F uh) mobile agent distributes to all the participating members
+0233 - 09:02:288-09:03:591 I:
+(F uh) the documents<SB>
+0234 - 09:06:352-09:07:327 I:
+At the same time,
+0235 - 09:08:664-09:11:143 I:
+if there is a presentation board in the meeting room,
+0236 - 09:11:512-09:14:471 I:
+(F uh) that information is transmitted to that board<SB>
+0237 - 09:15:240-09:15:599 I:
+So,
+0238 - 09:16:152-09:18:551 I:
+this man dose not indicate (F uh)
+0239 - 09:18:768-09:19:919 I:
+to the terminal that
+0240 - 09:20:200-09:21:271 I:
+I am in the
+0241 - 09:21:728-09:22:071 I:
+(F uh)
+0242 - 09:22:408-09:24:095 I:
+boarding room, but mobile agent
+0243 - 09:24:440-09:25:799 I:
+acknowledges, (F uh) (D no)
+0244 - 09:26:272-09:28:791 I:
+(F uh) understands and (W realize;realizes) it by itself<SB>
+0245 - 09:31:272-09:32:103 I:
+So the summary<SB>
+0246 - 09:33:720-09:34:199 I:
+(W The)
+0247 - 09:36:944-09:39:615 I:
+we would like to make a feature of the adhoc communication
+0248 - 09:39:944-09:40:855 I:
+(F uh) which is
+0249 - 09:41:456-09:46:159 I:
+the communication (F uh) made for the portable (W a) terminals on a necessary basis<SB>
+0250 - 09:46:440-09:47:559 I:
+And for that, we
+0251 - 09:47:984-09:51:671 I:
+(F uh) realize the adhoc communication system based upon the mobile agent<SB>
+0252 - 09:52:104-09:52:695 I:
+By this
+0253 - 09:53:064-09:53:399 I:
+(W the)
+0254 - 09:53:808-09:55:039 I:
+adhoc communication
+0255 - 09:55:464-09:56:631 I:
+(F uh) can be
+0256 - 09:56:920-09:59:055 I:
+(F uh) supported intelligent manner
+0257 - 09:59:295-10:00:199 I:
+anytime, anywhere
+0258 - 10:00:415-10:01:719 I:
+in a (D ca) very casual manner<SB>

@@ -1,0 +1,32 @@
+I would like to talk about simultaneous interpreting interpreting system for English monologue .
+When we are to translate spoken language among or between different languages , it is quite helpful to translate a conversational dialogue between , for example , he and she in different languages . When they engage in dialogue , if there is a system to translate , the system which goes between , they are able to converse with each other even in different languages .
+For example , when he speaks , the system translates what he speaks into another language for her to listen .
+When look at the conventional system for the dialogue translation system , there are some kinds of system that have been invented . But when we look at these conventional systems , the system is depending on or is based on the translation sentence by sentence .
+In other words , only after he finished his speaking , the result of that translation of that sentence is output verbally . So as a result , what happens is that the users and systems output alternatively , not at the same time .
+On the other hand , in case of monologue such as lecture , the translation goes as follows because it is unilateral communication .
+The system is to support the one-way communication . On occasions , such as international conferences , it could be used and we have increasing number of those occasions these days .
+And we can think that we have a great demand for this type of system in case of interpreting as you can see on the screen , what he speaks to the audience , the system translates it into another language for the audience to listen . In this case , the speaker continuously speaks , in using some kind of physical message or gesture .
+And in order to realize this kind of system for simultaneous translation , we have to think about various factors . First the objective of the research , we first focus on lectures to develop the simultaneous interpreting system .
+For example , in case of English lecture , just to be translated into Japanese voice , the simultaneous translation has to be conducted and that has been picked up as one of the objective of the system . And the design should be based on incremental spoken language processing , that 's another objective of this research .
+And we try to implement the experimental system called LINAS And through the operation of this system LINAS , we want it to examine the feasibility of simultaneous interpreting system . These are the objectives .
+So let me move on to the brief explanation about the system LINAS .
+First about its features . Between languages , but different word orders , such as English versus Japanese , input and output , such as input in English and output in Japanese could be conducted concurrently or simultaneously .
+The second feature is that , when a lecture is to be translated simultaneously , the linguistic as well as technical knowledge including technical terms can be obtained in advance regarding that particular lecture . And such materials to be obtained in advance could be hard copy of the visual materials .
+And the third feature is that the translation could be produced in a very natural spoken language .
+Next is about the system design . Simultaneous translation system has been already developed , called Sync Trans .
+And that is to be used as the basis to come up with hope of the simple design for this system . And this is the the structure of the system , LINAS .
+Basically , the English voice is analyzed , that 's one set of process . And another process integrated in the system is to output Japanese .
+When English is heard by the system , the system recognizes that voice , in this case , English . And at the same time , analysis is made . And result of the analysis is used as the basis to produce the Japanese translation .
+And the production analysis is used to synthesize voice in Japanese and these steps are conducted concurrently .
+When English is to be translated simultaneously into Japanese , the LINAS is now made available to that end . LINAS is used or applied on the Unix Workstation .
+And this for the features , as far as recognition is concerned , at this , for the time being , human being takes a role of recognizing English voice . And with respect to synthesis , from personal computers with Windows , the Japanese translation could be put out .
+And respect to the material obtaining in advance from scripts of the lecture , for example the linguistic data are produced or prepared manually using dictionaries .
+So English lecture voice is input in order to confirm its operation , through which we could see the feasibility of monologue simultaneous translation , which we put quite high expectation for .
+This is an example of actual results of the interpreting using the system .
+But , of course , the actual result of the system 's operation is verbal for the audience to listen . But for them to help understand what is heard , a such screen is helpful .
+This is the English portion , the input portion , which comes out continuously , in accordance of which Japanese translation also comes out .
+This is the results of the translation of the conference with the topic of Information Technology .
+Let me summarize my talk . The LINAS , the system for simultaneous translation for English monologue and I have explained its design and implementation .
+In terms of design , the system analyzes and synthesizes the data . And in order to implement the system , the data are produced based on the script and this is implemented on the workstation , this is still experimental basis .
+But toward the future , we hope to use this system for a short period of the time , ten to fifteen minuets for simultaneous translation at any actual academic conference .
+Thank you for your attention .

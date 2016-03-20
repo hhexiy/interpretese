@@ -1,0 +1,24 @@
+Today I will talk about how the system decides when to output results during a gradual syntax analysis .
+First , I will quickly explain what I mean by gradual syntax analysis . Gradual syntax analysis captures the sentence structure before the input is complete .
+This is the framework of the system . For example , look at this sentence here. " I saw her aunt in the park " . At " saw " , the gradual syntax analysis system recognizes that the " I " is the noun and " saw " is the verb in this sentence .
+So that 's the framework . So , what is this used for ? Good examples are , real-time dialogue pressing system or a simultaneous interpretation system .
+When thinning about gradual syntax analysis , the output timing is extremely important . This is because it is difficult to determine when the sentence structure is established .
+For example , look at this input. Here , where it says " her " , this can be an object for the verb , " saw " , or it can be a possessive pronoun if a noun follows it. As you can see here , there are many possibilities , and at this point , it 's impossible to determine which way the sentence will go .
+Next , let 's say that the word " aunt " was entered after " her " . This means that the " her " can not be an object of the verb , " saw " anymore. Instead , it is a possessive noun on the word , " aunt " . Now , we can determine the role " her " plays in the sentence .
+So , we now know that deciding the appropriate output timing is important for a gradual syntax analysis. Now , let 's look at a practical method to make this possible .
+Our method will decide the appropriate output timing for the machine .
+So how does it work ? First , it delays the output timing until enough has been said to determine the sentence structure .
+Then , within that time-frame , it outputs information like sentence structure as early as possible . Now I will explain about the overview of this spec .
+The system consists of two modules , the gradual syntax analysis part , and the part that regulates its output .
+The vocabularies are input into the gradual syntax analysis. Then , possible sentence structure relationships of these vocabularies are created here . Then , the analysis results are passed onto the module that regulates the output .
+This module uses the sentence structure information and determines which parts have been confirmed and which parts are still undeterminable. Then , it outputs the confirmed parts .
+Let 's look at an example .
+This is the same example I gave earlier. Let 's assume the user has input everything up to " her " . First , the word " her " is input into the gradual syntax analysis system .
+Then , the gradual syntax analysis system outputs potential sentence structure relationships . In this example , this includes " her " as an object to the verb , " saw " , or " her " as a possessive noun. It outputs these two possibilities .
+The output regulator module receives these information. At this point , they ca n't determine which one is correct , so they hold onto it .
+Then , the word " aunt " enters the system . Once " aunt " is input into the gradual syntax analysis system , the system will recognize " aunt " as a noun , and the information will be passed onto the output regulator module .
+Using this information , it now knows that " her " can not be an object to the verb , " saw " .
+From here , the output regulator module confirms that " her " is a possessive noun and outputs it .
+As you can see here , by regulating the output , the system is able to output the words once its role in the sentence has been confirmed . Today , I talked about the method that decides the output timing after the gradual syntax analysis step .
+This method has been tested. We mounted it on a calculator and conducted an experiment . We confirmed that the method is capable of gradually outputting sentence structures .
+That is all. Thank you .

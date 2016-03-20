@@ -1,0 +1,32 @@
+Today , I 'd like to talk about parsing for natural language using finite state automaton .
+Let me explain the background . There currently there are a lot of increasing the importance of the parsing of the spoken language .
+It should be real time because this is the dialogue . And then the same time , it should utilize syntactic parsing for the natural language processing system .
+Next , I 'd like to talk about outline of the parsing of natural language . The natural language parsing involves morphological parsing , syntactic and then semantic parsing .
+The first one , morphological parsing . First of all , the system has to divide the sentence into part of speech and then analyze it .
+And next one is syntactic parsing . The first parsing , the structure of the input sentence and then output the parse tree .
+In order to parse the natural language , we have to use CFG and then RG .
+In the semantic parsing , the meaning of the words and then semantic relations between words are very important . So , the system parses those relations .
+Here , I 'd like to talk about the syntactic parsing . Let me think about one example .
+The first one is NP noun phrase and then VP verb phrase . When the sentence consits of NP and VP , the system recognizes it one sentence .
+And next one is the determiner plus noun . In this case system recognizes it noun phase phrase .
+And then the third one verb means verb phrase .
+And this is the basic regulation or rule of grammar . And then the system is looking at what kind of part-of-speech this word is .
+For example , the is the determiner and then boy noun and run verb .
+So , using this grammar , the the boy runs could be parsed .
+First of all , the , this is determiner and then boy noun , runs is verb . So , this is immediately recognized those part-of-speech . So , again , the is determiner , boy noun , runs verb .
+And next step the determiner and then noun side by side . So , it means the and boy makes the noun phrase . So , the runs means or should be the verb phrase .
+So , the second step the system recognizes this is the NP plus VP .
+Then finally , because of this result , the input sentence The boy runs means one sentence . So , this is parse tree .
+And next let me compare with the parsing the CFG based one and FSA based .
+The first one is the CFG based analysis . The system has to parse the natural language very correctly , but this system takes long time for processing .
+On the other hand , FSA finite state automaton , the processing is very quick , but this parsing is not always correct or it sometimes lack of accuracy .
+So , we try to achieve this a kind of hybrid type between CFG and FSA . This is our goal of our research .
+So , this shows that flow of parsing using FSA . The first , the system using CFG and then convert it into FSA .
+Using this FSA , the system parses the input sentence .
+The conversion from CFG to FSA , by doing so , FSA should have the same ability as CFG 's ability . And by doing so , the system has a very speedy process . Now you could have the both advantage of two systems .
+And next I 'd like to give you some example using FSA . first of all , let me talk about CF G and then convert it into FSA .
+Using the converted FSA , the system tries to parse the input sentence that is The boy runs . If you divide it into part-of-speech , you will see determiner , noun and verb .
+So , again determiner , noun and verb by following this sequence you will come up with the parse tree .
+To summarize our research , I just explained how to parse the sentences using FS A .
+this system has the , , sorry , two steps . The first one in the conversion from CFG to FSA and the second step is parsing the sentence using FSA .
+By doing so , you will have the system with as accurate as CFG and then also you can achieve high speed processing .

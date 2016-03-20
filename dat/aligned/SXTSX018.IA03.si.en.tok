@@ -1,0 +1,33 @@
+Talk on the topic of simultaneous translation by computers .
+The researches for computer translation have been done for a long time , this is called machine translation .
+There are basic researches for machine translation . The research basis first is the research to do the translation of written language that is called text translation .
+And the other basic research area is spoken language translation , in which the people spoken language is translated by a computer .
+And we are now trying to do the research of simultaneous interpretation .
+And in this area , the spoken language will be translated , but in case of spoken language translation , translation is done one sentence by one sentence .
+That means after person finishes one sentence , then the machine will translate , whereas in simultaneous translation the translation is simultaneously as people speak .
+But there are various difficulties involved in simultaneous translation .
+first , without knowing what the sentence would be in its entirety , translation has to be started . In other words , You have to start translating without knowing exactly what would be the entire sentence or sentence would end .
+And also between Japanese and English , unlike German versus English or French versus English , the word order is significantly different between Japanese and English . In those two languages with different word order , simultaneous translation becomes much harder than the otherwise .
+And far difficulty is the speed . The translator has to catch up with the speaker 's speed .
+so , actually , the simultaneous interpretation is quite tough job , but actually , there are simultaneous translators doing this performance all the time . Then how the human simultaneous translations do translation ?
+First they consider circumstances and context and they do somewhat prediction what speaker would have to say next . And even in the middle of sentence , they will do rather flexible translations so that whatever comes next , the translation would follow what comes next .
+And the thirdly , the people simultaneous translators do not translate everything . when he or she considers the incoming information is not really that necessary , she would n't translate. So there is a selection process of information in the minds of interpreters .
+so , various wide variety of techniques as I mentioned , people simultaneous translators are doing the translation simultaneously . For the computer , we have to teach those techniques for computers to do translation simultaneously .
+In order to teach computers the human translators ' technique , we really have to know definitively what are the techniques of those human translators .
+Under that recognition , we are building up the simultaneous interpreters ' database . In the database , we accumulate the data on actual simultaneous translators ' translations .
+And using those data , we analyze the human simultaneous interpreter 's techniques . And by repetitive excises of those analysis , how to translate or what makes the better simultaneous translations be pursued .
+then , next , how database is being prepared ? That is topic I would like to explain to you .
+First is a recording process . We ask native speakers , for example , Japanese speaking Japanese language or foreign people speaking their own language .
+Or those , native speakers will be employed and simultaneous interpreters will translate simultaneously those voices and that will be followed by transcription .
+And we put the voice translation into alphabets and we added some information as necessary . And the top table shows the original speakers ' speech and the lower table shows the interpreters ' performance .
+First , Hello , hello is this Hilton ? and the speakers ask for Hilton Hotel as shown in red and this shows when the utterance starts and ends .
+The information on time is indicated and you see there are signals with the necessary information and that we create the data after transcribed . And looking at those data , we analyze how human will translate the original speech simultaneously .
+let me show you some examples , what are the techniques utilized by the interpreters . this is the Japanese input , software engineering is the experimental field and the translator actually says English as such written at the bottom .
+But after this Japanese sentence , there is additional phrases called to iu iikata mo dekiru de shou , what original speaker says . And in comparison with the original Japanese , the translator 's output is not perfectly matching .
+In a simple way there is some rephrasing . In other word , the first translated sentence is not perfect , so the human interpreter will retranslate every sentence to make the translation mush closer to the original sentence .
+So interpreters have to add some additional words .
+Then what was it actual interpreters did ? so far I explained about the theoretical things , but let me turn eyes to what actually interpreters did . She or he added you may be able to say that .
+By adding that sentence , that actually corresponds to the original speech . So simultaneous translator do n't have to retranslate or paraphrase she whatever already said in advance .
+That 's what actual translators did , I suppose , what theoretically people might think as I said in the first half .
+This is the summary .
+For computer simultaneous interpreting , we have to teach a computer the technique of human translators and the database has to be prepared and export the techniques of interpreters. And the last we 've shown the example of the techniques used by the human interpreters. We 'd like to continue with the analysis in the future as well .

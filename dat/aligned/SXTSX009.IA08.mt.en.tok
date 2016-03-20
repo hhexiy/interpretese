@@ -1,0 +1,28 @@
+Today I am making a presentation on a support system for multilingual text chats . As globalization continues to progress , there will be increasing opportunities to communicate multilingually .
+In these situations , the differences between languages will be a problem .
+Therefore , a variety of support systems are being developed to eliminate the differences between languages . For example , there are systems for translating websites and emails , as well as systems for translating text chats and actual spoken dialog .
+In this presentation I would like to concentrate on translation systems for text dialogs .
+Text chat programs are generally for any online text chats , but I would like to focus in particular on text chat programs of the same type as the Unix talk program .
+The talk program differs from conventional online chats in that what the user types is immediately displayed on their chat partner 's screen .
+With conventional chat programs , what the user types is not displayed on their chat partner 's screen until the user presses " enter " . Another feature of text chats is that casual , grammatically incorrect text is often entered , in contrast to formal texts .
+Accordingly , text chats allow fluent conversation that resembles spoken speech in its features .
+A number of support systems for multilingual text chats have already been developed to deal with online text chats. However , these single sentence translation programs do not display the translation to the user 's chat partner until the user has finished entering the entire sentence , thereby impeding fluid conversation .
+In that context , I would like to introduce the multilingual text chat program .
+This program introduces real-time translation in place of the single sentence translation system previously mentioned .
+This real-time translation program immediately displays the translation result on the chat partner 's screen , even as the user is still typing their sentence . For example , if the user is in the middle of typing " I love you so much " , and has typed " I love " , the user 's chat partner will immediately see the translation up to that point , " watashi wa aishiteimasu " .
+The user 's chat partner can therefore predict what the chat partner wants to say , and can interrupt if they choose . This facilitates a more fluid progression of the conversation .
+As far as actual implementation goes , we have created a product with an implemented text chat program that performs English-Japanese real-time translation . This is the system 's configuration diagram , which consists of two terminals ; one for English users and one for Japanese users .
+They are connected through the Internet .
+After an English text has been entered by the English user , the text goes to the English-Japanese real-time translation program through the Internet . The text is translated here , and the result is the translation output that is displayed to the Japanese user . The original English text that the English user entered is simultaneously displayed to the Japanese user .
+The Japanese user is thereby also able to make use of the information from their partner 's English text . This time we are only using the English-Japanese translation program , so the Japanese user will also input an English text .
+We used here the gradual translation method of the English-Japanese real-time translation system . I installed the system on a Unix workstation .
+These are the three languages that were used . Also , this is the actual operation screen of the Japanese user .
+There are three screens , and the original English text of the English user is displayed on the top screen .
+While still typing " language " from the sentence " I like soccer and language " , output is produced . Below , the translation result of the input text is displayed .
+As you can see , a result is displayed even as the text is still incomplete .
+At the very bottom is the user 's input screen . It is the line editor which is actually doing the inputting , so the user is able to control the response to this text .
+Just as in the previous example , the English text which the Japanese user inputted is being displayed in the upper frame of the English user 's screen .
+Below this is the screen showing what the English user is actually inputting . It has been verified that the implementation of this program allows for more fluid conversations .
+Let me sum it up . Today I introduced a support system for multilingual online dialogs .
+This system facilitates more fluid conversation by introducing a real-time translation program to text chats . And the prototype is ready .
+We have produced a text chat program that features English-Japanese real-time translation . I hope you found this presentation informative .

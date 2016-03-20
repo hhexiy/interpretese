@@ -1,0 +1,416 @@
+0001 - 00:06:136-00:06:816 I:
+Today,
+0002 - 00:07:272-00:09:311 I:
+I would like to talk about
+0003 - 00:09:704-00:15:176 I:
+the realization of spoken dialogue (A m p three;MP3) player and its evaluation<SB>
+0004 - 00:17:088-00:19:551 I:
+This slide shows the background of us<SB>
+0005 - 00:20:184-00:23:775 I:
+Internet has become more popular in recent years,
+0006 - 00:24:792-00:25:479 I:
+and
+0007 - 00:26:512-00:27:327 I:
+There're
+0008 - 00:27:776-00:30:767 I:
+large capacity (A m p three;MP3) files available<SB>
+0009 - 00:33:024-00:34:839 I:
+(A m p three;MP3) files
+0010 - 00:37:024-00:39:967 I:
+is a kind of file to use CD
+0011 - 00:40:528-00:42:607 I:
+on the computers<SB>
+0012 - 00:43:712-00:45:143 I:
+There're (X thousands),
+0013 - 00:45:431-00:49:159 I:
+tens of thousands of (A m p three;MP3) files available<SB>
+0014 - 00:51:712-00:53:079 I:
+And at the same time,
+0015 - 00:53:616-00:54:623 I:
+the Walkman
+0016 - 00:55:904-00:59:264 I:
+and other devices are made smaller
+0017 - 00:59:928-01:02:231 I:
+with a greater capacity<SB>
+0018 - 01:04:848-01:05:487 I:
+And
+0019 - 01:05:896-01:06:328 I:
+the
+0020 - 01:06:680-01:07:719 I:
+(X large amount of)
+0021 - 01:08:040-01:10:455 I:
+large capacity (A m p three;MP3) files
+0022 - 01:11:944-01:13:231 I:
+can be used
+0023 - 01:13:800-01:15:424 I:
+in those hardwares<SB>
+0024 - 01:15:424-01:15:607 I:<noise>
+0025 - 01:17:864-01:19:407 I:
+The purpose of this study
+0026 - 01:19:848-01:20:423 I:
+is
+0027 - 01:20:840-01:21:535 I:
+to
+0028 - 01:21:920-01:25:591 I:
+retrieve a large amount of (A m p three;MP3) files
+0029 - 01:26:144-01:26:776 I:
+and
+0030 - 01:27:224-01:31:215 I:
+the key operations which are difficult on (X a) the Walkman<SB>
+0031 - 01:32:480-01:33:623 I:
+On the other hand,
+0032 - 01:33:992-01:35:711 I:
+we have to retrieve
+0033 - 01:36:088-01:40:119 I:
+(A m p three;MP3) files, we have to make complicated retrievals,
+0034 - 01:40:592-01:42:287 I:
+and we have to
+0035 - 01:42:664-01:43:375 I:
+find (W a;an)
+0036 - 01:43:591-01:46:847 I:
+easier interface to give instruction, too<SB>
+0037 - 01:47:568-01:48:183 I:
+So,
+0038 - 01:48:504-01:49:703 I:
+the voice input
+0039 - 01:50:344-01:51:679 I:
+can be used
+0040 - 01:52:016-01:54:071 I:
+as a means of
+0041 - 01:54:704-01:56:479 I:
+retrieval of (W informations;information)<SB>
+0042 - 01:57:832-02:00:695 I:
+That's why we (W realize;realized) the (F uh)
+0043 - 02:00:896-02:03:183 I:
+voice dialogue (A m p three;MP3) players<SB>
+0044 - 02:04:744-02:05:296 I:
+(X They use)
+0045 - 02:05:583-02:05:927 I:<cough>
+0046 - 02:06:816-02:06:879 I:<tongue>
+0047 - 02:06:912-02:08:599 I:
+the user (L can operate,
+0048 - 02:08:840-02:13:311 I:
+using the voice dialogue and they can (X retriegue) (F uh) retrieve information
+0049 - 02:13:776-02:15:631 I:
+with voice dialogue)<SB>
+0050 - 02:16:608-02:17:799 I:
+This is (noise how) they
+0051 - 02:17:160-02:17:464 I:<noise>
+0052 - 02:18:200-02:20:063 I:
+realize the system<SB>
+0053 - 02:22:008-02:22:903 I:
+First of all,
+0054 - 02:23:456-02:25:679 I:
+the spoken <FV> dialogue
+0055 - 02:29:416-02:30:799 I:
+is processed,
+0056 - 02:31:392-02:33:832 I:
+taking the (A m p three;MP3)
+0057 - 02:34:680-02:35:848 I:
+device operation
+0058 - 02:36:087-02:37:087 I:
+and user's
+0059 - 02:37:288-02:38:470 I:
+verbal output,
+0060 - 02:39:280-02:41:751 I:
+we analyzed with key words
+0061 - 02:41:999-02:43:711 I:
+and we tried to use
+0062 - 02:44:360-02:45:656 I:
+these words
+0063 - 02:45:871-02:48:791 I:
+to process spoken language<SB>
+0064 - 02:49:840-02:53:871 I:
+We have registered eighty-two words as key words<SB>
+0065 - 02:54:256-02:55:159 I:
+For example,
+0066 - 02:55:423-02:56:463 I:
+the (Q replay),
+0067 - 02:56:860-02:57:907 I:
+(Q fast forward),
+0068 - 02:58:100-02:58:779 I:
+(Q a little),
+0069 - 02:59:144-03:01:827 I:
+they are key words for this analysis<SB>
+0070 - 03:02:480-03:05:424 I:
+And also based upon these key words,
+0071 - 03:05:824-03:06:335 I:
+we
+0072 - 03:06:688-03:07:359 I:
+set
+0073 - 03:07:640-03:09:079 I:
+(A one hundred and eight;108)
+0074 - 03:09:376-03:10:927 I:
+types of patterns
+0075 - 03:11:400-03:11:919 I:
+of
+0076 - 03:12:184-03:13:231 I:
+the dialogue<SB>
+0077 - 03:16:128-03:19:880 I:
+For example, (S the) (D pat) the examples of the patterns are
+0078 - 03:21:176-03:22:647 I:
+(Q Can I listen to
+0079 - 03:23:936-03:24:919 I:
+such and such?),
+0080 - 03:25:752-03:28:271 I:
+(Q will you please fast forward a bit?),
+0081 - 03:29:040-03:31:463 I:
+these are (noise the patterns) of
+0082 - 03:30:192-03:30:392 I:<noise>
+0083 - 03:32:152-03:33:047 I:
+dialogue<SB>
+0084 - 03:38:456-03:39:024 I:
+Then,
+0085 - 03:39:312-03:40:295 I:
+we have to
+0086 - 03:40:608-03:43:879 I:
+process based upon the key word analysis<SB>
+0087 - 03:46:312-03:48:815 I:
+For example, this is an input dialogue
+0088 - 03:49:504-03:50:063 I:
+(Q (F well),
+0089 - 03:50:295-03:52:615 I:
+will you please retrieve Beatles?)
+0090 - 03:54:679-03:57:143 I:
+We have to find keywords<SB>
+0091 - 03:58:576-03:58:815 I:<tongue>
+0092 - 03:59:008-03:59:903 I:
+Keywords
+0093 - 04:00:888-04:01:567 I:
+here
+0094 - 04:02:120-04:02:568 I:
+are
+0095 - 04:02:864-04:03:751 I:
+(Q beatles)
+0096 - 04:04:168-04:05:719 I:
+and (Q to (noise retrieve))<SB>
+0097 - 04:05:152-04:05:624 I:<noise>
+0098 - 04:06:224-04:09:111 I:
+(noise We try to detect those keywords)
+0099 - 04:07:344-04:07:976 I:<noise>
+0100 - 04:10:168-04:13:999 I:
+and those keywords are converted into commands<SB>
+0101 - 04:15:544-04:18:416 I:
+The commands to the (Q beatles) is (Q artist)
+0102 - 04:18:903-04:21:599 I:
+and (D retrie) the command for the retrieve
+0103 - 04:22:144-04:22:479 I:
+is
+0104 - 04:22:759-04:23:751 I:
+(Q search),
+0105 - 04:24:776-04:25:744 I:
+and this is
+0106 - 04:25:944-04:30:416 I:
+the (F uh) line of keywords, or a series of keywords<SB>
+0107 - 04:30:808-04:34:647 I:
+And we have established (A one hundred and eight;108) keywords<SB>
+0108 - 04:39:824-04:42:127 I:
+And after generating this,
+0109 - 04:42:575-04:43:839 I:
+we would
+0110 - 04:45:072-04:45:800 I:
+define
+0111 - 04:45:800-04:45:927 I:<noise>
+0112 - 04:46:280-04:47:135 I:
+actions<SB>
+0113 - 04:48:688-04:49:504 I:
+For example,
+0114 - 04:49:768-04:52:248 I:
+one is the (Q artist search)
+0115 - 04:53:776-04:54:216 I:
+an<C>
+0116 - 04:54:456-04:54:607 I:
+d
+0117 - 04:55:520-04:59:103 I:
+we would generate responses to <noise> the (Q retrieval)<SB>
+0118 - 04:57:880-04:57:920 I:<noise>
+0119 - 05:07:504-05:11:767 I:
+Based upon the analysis, we have realized the system<SB>
+0120 - 05:12:368-05:16:479 I:
+The operation (W systems;system) we used is (A windows ninety-eight;Windows 98)<SB>
+0121 - 05:17:272-05:20:671 I:
+The language we used is Visual C Plus Plus<SB>
+0122 - 05:23:024-05:27:247 I:
+As I mentioned before, the number of keywords are eighty-two
+0123 - 05:29:512-05:30:199 I:
+and
+0124 - 05:31:712-05:32:767 I:
+the (W keyword;keywords)
+0125 - 05:33:320-05:35:296 I:
+are clusters of (A one hundred and eigh<C>
+0126 - 05:35:808-05:36:015 I:
+t;108)<SB>
+0127 - 05:37:064-05:39:992 I:<noise>
+0128 - 05:40:152-05:42:599 I:
+This is the evaluation of experiment<SB>
+0129 - 05:42:904-05:46:039 I:
+The purpose of this evaluation is to evaluate
+0130 - 05:46:528-05:46:951 I:
+the
+0131 - 05:47:231-05:49:439 I:
+user friendliness of this system
+0132 - 05:50:536-05:52:927 I:
+and the experimental methods,
+0133 - 05:53:224-05:56:263 I:
+the subject of twenty university students<SB>
+0134 - 05:59:000-06:01:263 I:
+And we compared
+0135 - 06:02:912-06:03:399 I:
+the
+0136 - 06:04:672-06:07:055 I:
+(D s) spoken dialogue system
+0137 - 06:05:776-06:06:624 I:<noise>
+0138 - 06:08:392-06:11:727 I:
+of this equipment and the conventional system<SB>
+0139 - 06:12:472-06:14:664 I:
+And also we tried to let them
+0140 - 06:15:432-06:16:399 I:
+perform
+0141 - 06:16:679-06:18:359 I:
+the (F uh) tasks
+0142 - 06:18:664-06:20:152 I:
+within a (noise certain
+0143 - 06:19:568-06:20:784 I:<noise>
+0144 - 06:20:655-06:21:799 I:
+limited time)<SB>
+0145 - 06:23:664-06:25:207 I:
+What are the tasks?<SB>
+0146 - 06:28:000-06:28:783 I:
+First of all,
+0147 - 06:30:192-06:31:743 I:
+(Q Will you please replay?)<SB>
+0148 - 06:32:144-06:32:639 I:
+Thus
+0149 - 06:35:808-06:37:496 I:
+For this task,
+0150 - 06:37:848-06:38:983 I:
+we have to
+0151 - 06:39:320-06:40:271 I:
+(F uh) find
+0152 - 06:41:880-06:44:127 I:
+the names of the songs to replay<SB>
+0153 - 06:45:520-06:46:879 I:
+And also
+0154 - 06:47:592-06:52:623 I:
+(Q will you please tell me the name of a title of a song which starts with
+0155 - 06:53:216-06:54:159 I:
+(W a) pure white?)<SB>
+0156 - 06:57:216-06:59:271 I:
+This is the result of this experiment<SB>
+0157 - 06:59:712-07:01:503 I:
+This is the comparison of this
+0158 - 07:01:936-07:03:503 I:
+(W poken;spoken) dialogue system
+0159 - 07:03:840-07:05:423 I:
+and the conventional systems<SB>
+0160 - 07:06:336-07:08:415 I:
+And if we compare
+0161 - 07:09:952-07:11:119 I:
+the diversity,
+0162 - 07:11:423-07:12:575 I:
+we can find
+0163 - 07:13:010-07:13:328 I:
+that
+0164 - 07:13:532-07:14:486 I:
+this system
+0165 - 07:16:180-07:17:003 I:
+allows
+0166 - 07:17:556-07:18:363 I:
+users
+0167 - 07:18:691-07:19:127 I:
+to
+0168 - 07:19:676-07:20:971 I:
+perform the tasks
+0169 - 07:21:384-07:21:987 I:
+more
+0170 - 07:22:280-07:23:824 I:
+than the conventional system<SB>
+0171 - 07:24:708-07:25:059 I:<noise>
+0172 - 07:29:064-07:29:556 I:
+An<C>
+0173 - 07:29:760-07:32:080 I:
+d you can see that this system
+0174 - 07:33:112-07:35:831 I:
+increases the task completion
+0175 - 07:36:872-07:37:598 I:
+and
+0176 - 07:37:804-07:38:623 I:
+by using
+0177 - 07:38:872-07:40:191 I:
+the speech sounds
+0178 - 07:40:972-07:43:600 I:
+in operating and retrieving information,
+0179 - 07:44:092-07:47:804 I:
+we can improve the operability of (noise operation efficiency)<SB>
+0180 - 07:46:632-07:47:080 I:<noise>
+0181 - 07:48:568-07:50:183 I:
+This is the second experiment<SB>
+0182 - 07:50:528-07:52:719 I:
+This is the comparison of the speech
+0183 - 07:53:216-07:56:415 I:
+dialogue (F oh) spoken language system and conventional system<SB>
+0184 - 07:57:336-07:59:095 I:
+This is the questionnaire survey<SB>
+0185 - 08:01:352-08:04:631 I:
+And this is the (F uh) evaluation using the
+0186 - 08:05:640-08:08:128 I:
+scale of zero to five<SB>
+0187 - 08:11:088-08:12:711 I:
+Looking at this (W par;bar) chart,
+0188 - 08:17:776-08:19:295 I:
+(O Six for five,
+0189 - 08:19:816-08:20:471 I:
+(S four),
+0190 - 08:20:832-08:22:320 I:
+(W a), ten for <FV> four,
+0191 - 08:22:712-08:23:743 I:
+three for three,
+0192 - 08:24:112-08:26:312 I:
+and two for one and one for one)<SB>
+0193 - 08:26:800-08:28:303 I:
+This is a conventional system<SB>
+0194 - 08:28:856-08:30:279 I:
+And we have (O one
+0195 - 08:30:560-08:31:239 I:
+five,
+0196 - 08:31:960-08:33:535 I:
+and eight fours,
+0197 - 08:34:096-08:35:984 I:
+a<H>nd eight threes)
+0198 - 08:38:520-08:39:896 I:
+and (O three twos)<SB>
+0199 - 08:39:952-08:40:263 I:<noise>
+0200 - 08:41:472-08:42:256 I:
+And
+0201 - 08:42:455-08:45:215 I:
+you can find the better result for the system<SB>
+0202 - 08:45:784-08:47:695 I:
+The average is listed here
+0203 - 08:48:096-08:51:023 I:
+in terms of the (F uh) voice sounds<SB>
+0204 - 08:51:760-08:52:720 I:
+The<H>
+0205 - 08:52:967-08:54:927 I:
+average is (A four point o five;4.05)
+0206 - 08:55:328-08:56:983 I:
+while the conventional
+0207 - 08:57:792-09:02:231 I:
+(F uh) system has a score of (A three point three five;3.35) in average<SB>
+0208 - 09:03:448-09:04:807 I:
+This is the conclusion<SB>
+0209 - 09:07:008-09:10:895 I:
+Today, I talked about the realization of voice
+0210 - 09:12:624-09:15:095 I:
+responding (A m p three;MP3) players
+0211 - 09:15:744-09:17:095 I:
+and in this player,
+0212 - 09:17:328-09:20:919 I:
+we try to use the keyword analysis for processing
+0213 - 09:21:456-09:23:904 I:
+and in evaluating the experiment
+0214 - 09:24:312-09:27:463 I:
+we confirmed the voice operation
+0215 - 09:27:952-09:29:688 I:
+and voice search
+0216 - 09:29:895-09:31:399 I:
+and their effectiveness<SB>

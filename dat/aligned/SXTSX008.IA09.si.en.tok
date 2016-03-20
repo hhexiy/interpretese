@@ -1,0 +1,31 @@
+I would like to talk about the syntactic parsing of the natural language , using finite state automaton .
+Firstly , I would like to talk about the background . Today , the importance is growing for the parsing of the spoken language .
+This would be parsing of the spoken language . Therefore , as soon as the input is made , in real time , parsing must be done .
+Furthermore , this kind of parsing can be sufficiently utilized in the system of the natural language processing for the speech dialogues and others . Next , I would like to talk about the overview of the parsing of the natural language .
+The natural language parsing consists of morphological parsing , syntactic parsing and semantic parsing . It consists of these three stages .
+For each one of the parsing , I would like to explain more .
+Firstly , starting with the morphological parsing . The input sentence is split into individual words and for each word , the part of speech is assigned .
+Next , the syntactic parsing . In this syntactic parsing , the input sentence is parsed , and then , the parse tree is output .
+the grammar for parsing of the natural language consists of the context free grammar which is CFG or regular grammar , RG and others .
+Lastly , this is the semantic parsing . In this parsing , the parsing is done for the semantic relations between words as follows. The meaning of the words , and the meaning can be analyzed here .
+But here , I 'd like to consider the syntactic parsing .
+This is example of the syntactic parsing . And there 're six units for the grammar that I would like to address .
+Firstly , NP , VP , noun phrase and verbal phrase , in arrangement of the sequence and in that case , it is to be recognized as a sentence , it is expressed like that way . The second is that determinant and N , noun are arranged. In that case , that is recognized as the noun phrase .
+The third , shows that verb , V is representing the verbal phrase .
+Up to this , the rules for the grammar have been shown and then the other three shows the correspondence of the part of the sentence to the specific words and determiner The noun boy and verb runs .
+And using this grammar the input words the boy runs are to be parsed .
+Firstly , the is the determiner , boy is noun , and runs is verb . And based on these three set of rules of the grammar below , we know that and therefore , like this , the is the determiner , boy is noun , and runs is the verb . This kind of structure is firstly made .
+And here , next , the determiner and noun are arranged in the sequential way we know and therefore , the boy , these two represent the noun phrase . And furthermore , runs is V , and therefore , based on the third rule , this runs is representing the verbal phrase we know .
+And based upon that , it becomes like this and ultimately , noun phrase and verbal phrases are arranged . And therefore , The boy runs is recognized as a sentence and this is the overall parsing done .
+Next , the context free grammar and the finite state automaton based parsing will be compared .
+Firstly , in case of the parsing using the context free grammar , the ability is equipped that enables the correct parsing of the natural language sentence. However , the shortfall of that is that it takes time for processing .
+On the other hand , in case of the parsing using the finite state automaton , the advantage is that the processing speed is high . However , the shortfall is that it does not always allow the parsing in the correct way of the natural language sentence .
+And therefore , the correct parsing ability of the natural language sentence and the speedy processing given respectively by the context free grammar and finite state automaton will be combined for parsing . And this shows the flow of the parsing using the finite state automaton .
+And firstly , based on the context free grammar , the finite state automaton is obtained by way of transformation and then the transformed finite state automaton is utilized for the parsing of the input sentence to generate the parse tree and the transformation .
+Context free grammar is transformed to the finite state automaton. As a result , finite state automaton is given the ability which is as good as that of this context free grammar and by doing the parsing of the finite state automaton , we can achieve the very high speed parsing. These two advantages of CFG and FSA are utilized for the parsing .
+And this is the example of the state automaton based parsing . The context free grammar that we gave thought to will be firstly looked at and then it is to be transformed next to the finite state automaton to come up with these .
+And then the transformed finite state automaton is utilized and the input sentence The boy runs is to be parsed .
+And the input sentence is analyzed in terms of the sequence of the input parts of sentence and then be found that determiner noun and verb are there . so from the initial state , the determiner the noun and verb are arranged like this. And we can come up with this kind of output .
+And this is the summary . And today , I explained about the method for the parsing using the finite state automaton .
+And this parsing consists of two stage processing. The first stage is to do the transformation from the context free grammar to finite state automaton. The second is to do the parsing for the input sentence using finite state automaton .
+And by this method , we can achieve the high speed parsing with the ability which is very close to that context free grammar .

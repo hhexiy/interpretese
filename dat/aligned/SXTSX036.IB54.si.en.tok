@@ -1,0 +1,34 @@
+Now , the speech today is implementation and evaluation of a spoken dialogue MP3 player . As a backdrop , with the prevalence of the Internet , there exist MP3 files in large volume .
+Talking about MP3 files , it the file when you need to handle CDs on your computer . These days , MP3 files are now available in thousands or even hundreds of thousands .
+And with downsizing of the hardware , such as a Walkman alone and many songs are input on the hardware . Therefore , we can use MP3 files in large volume .
+Under this situation , a search for a large volume of MP3 files or the operation on a small device such as Walkman , it is difficult to operate . At the same time , a search for MP3 files in large volume or complicated search , it is found that the voice input is very useful .
+In addition , interface which makes it easier to give instruction in voice input is very useful again .
+Therefore , we realize the MP3 player operated by dialogue spoken dialogue . On this MP3 player , a spoken dialogue operation as well as a spoken dialogue operation is realized .
+Now , talk about the realization of the system . First , the spoken dialogue processing .
+This processing is considering the operation of MP3 as well as the speech of the users , we take up key word analysis . Using this key word analysis , we can process spoken languages .
+This time , we picked up eighty-two words as key words and we registered them . For instance , play forward , a little bit are among them .
+And based on those key words , we also registered dialogue patterns , with eight ; 108  patterns .
+for example , Let me hear the title of the songs  or have it a little bit fast forward , these as the patterns among those registered ones . Then how to process based on these key word analyses .
+First , the speech for input goes please give me a search for the Beatles .
+And this time , the key word is the Beatles and search . And when those key words are found , they 're converted into commands .
+The command for the Beatles is artist and a command for a search is search .
+We call it these lines of key words as key word lines and we have 108 patterns so far .
+After ting ; generating  those key word lines , we define those key words . In this example , we make a search for the name of the singers , then we generate our response to the research .
+Based on these analyses , we realized the system . At the operating system we installed in Windows 98 .
+And the language is Visual C Plus Plus .
+As I mentioned earlier , the number of key words is eighty two . As for the key word lines , 108 patterns .
+We also conducted an evaluation test and the object of the test is to evaluate whether the system is user-friendly or not .
+And the test process i s to pick up testees . This time we picked up twenty college students .
+And we also conducted comparison test between the spoken dia logue system and existing system .
+And we gave the task that the testee excise as many as possible task in given time . Now let me give you the details of the task .
+For example , Please play a certain song  is the one of the tasks . At this task , the system plays the given title .
+And another example is Please find out the title of the song , which starts with the Japanese lyrics masshirona , white in English  .
+And the test result one is shown here . It 's the comparison between the existing system and the spoken dialogue system .
+And we take up the accomplished tasks in numbers . And this vertical axis represents the attained tasks and also blue part shows this spoken system and green part shows the existing system .
+And from this dialogue , you can tell that the tasks accomplished has increased . And we also saw the efficiency improved by voice operation and by research .
+Now the test result two . We also run a questionnaire for which testtees is to rank the easiness of the operation of this machine .
+And , or rank five is the highest level of this evaluation test . And this spoken dialogue system gained six people ranking five , ten people marked four , three people marked one , one person marked two .
+As for existing system , one person marked five , eight people four , eight people three , three people one . So , as for the result of the comparison , this spoken dialogue system ranked higher than the existing system .
+And on average , the spoken dialogue system gained 4.05 , the existing system 3.35 . Then the spoken dialogue system got higher marks .
+Now the conclusion . Today my speech was about the implementation of spoken dialogue MP3 player .
+We also conducted an evaluation test , so that we confirm the efficiency of voice operation and voice research . This is the end of my speech .

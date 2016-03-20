@@ -1,0 +1,22 @@
+Today , I would like to talk about how the output timing is determined in the incremental parsing . First of all , I would like to briefly describe incremental parsing .
+Incremental parsing is the framework to capture syntactic relations in the middle of the input of a sentence .
+For example , I saw her aunt in the park is the sentence and after we heard the word of saw , we would capture the syntactic relations that the noun I is the subject of a verb saw .
+This framework is used to realize the real time dialogue processing system such as simultaneous translation systems .
+In the incremental parsing , it is important to determine output timing because it is not clear when the syntactic relations are determined .
+For example , a sentence goes I saw her , we find that word her , her can be an object to the verb saw or her can be a possessive pronoun . So , syntactic relations can not be determined at the time her is input . The possessive pronoun of her can be determined when her is followed by a noun .
+For example , if we hear the sentence , I saw her aunt , where aunt follows her , we can eliminate the possibility that her is an object of a verb saw , and here , her is determined as a possessive noun . So the syntactic relations of her is determined only after aunt is output .
+It is important to determine output timing in the incremental parsing and I would like to make a proposal on the techniques of the output timing determination . We have to determine output timing in a dynamical manner .
+We have to delay the output timing as much as possible . This is one way to determine the output timing .
+And within that delay , we have to output as earliest possible . This is the outline of the technique .
+We have the incremental parsing and output control . These are the two important parameters .
+We can produce syntactical structures based upon the incremental parsing .
+And based upon the result of the analysis , we can determine how far the syntactic structure is determined and we will print out the syntactical structure thus determined . We can tell what part of the syntactic relations are determined or definitive and what parts are not .
+This is an example . I would like to use an example to detail this process .
+There is a sentence I saw her aunt in the park . In this sentence , we see the word her , if we do incremental parsing , her can be an object of the verb saw .
+And incremental parsing tries to pick up as many possible syntactic relations possible . So another possibility is that her is the possessive pronouns .
+And there is an output control here . And here we do n't know the exact answers to this question .
+Then , there is an input of aunt . And when aunt aunt is input in the incremental parsing structures , we can learn that aunt is noun .
+And this message is sent to the output control . Her is determined as the object to the verb or her can be determined as a possessive pronouns and her aunt is the object of the sentence .
+Thus we can control the output and when the incremental parsing is determined to the fullest extent , we can make an output of translation . This time , we 're trying to propose a technique to determine the output timing in a dynamical manner in the incremental parsing analysis .
+And we have mounted the system on the computers and we tested it and we confirmed that the sentence structure can be incrementally output .
+That 's all for myself .

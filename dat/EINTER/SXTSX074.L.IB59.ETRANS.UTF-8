@@ -1,0 +1,439 @@
+0001 - 00:07:552-00:08:276 I:
+Today,
+0002 - 00:08:204-00:08:272 I:<noise>
+0003 - 00:08:576-00:10:315 I:
+I would like to talk about
+0004 - 00:10:796-00:11:891 I:
+the increasing
+0005 - 00:12:384-00:14:888 I:
+the efficiency of incremental parsing
+0006 - 00:15:248-00:15:936 I:
+using sta<C>
+0007 - 00:16:356-00:18:120 I:
+tistical information<SB>
+0008 - 00:22:064-00:22:412 I:
+Now
+0009 - 00:22:696-00:24:795 I:
+(F uh) let's talk about background of my
+0010 - 00:25:356-00:26:191 I:
+presentation<SB>
+0011 - 00:26:488-00:27:359 I:
+The purpose of
+0012 - 00:27:684-00:28:827 I:
+our study
+0013 - 00:29:528-00:29:951 I:
+is
+0014 - 00:30:348-00:34:104 I:
+the realization of real time dialog processing system<SB>
+0015 - 00:41:632-00:42:119 I:
+(F ah) (S this)
+0016 - 00:43:488-00:44:567 I:
+What is this system?<SB>
+0017 - 00:46:376-00:47:135 I:
+That is the
+0018 - 00:47:704-00:50:575 I:
+system instantly (W response;respond) to
+0019 - 00:51:224-00:51:543 I:
+the
+0020 - 00:52:272-00:54:527 I:
+speech of (X use) users<SB>
+0021 - 00:57:496-01:00:648 I:
+(S please) (W let's) (F ah) Please look at this
+0022 - 01:00:976-01:01:575 I:
+example<SB>
+0023 - 01:02:656-01:03:391 I:
+For example,
+0024 - 01:04:592-01:05:607 I:
+when speaker said,
+0025 - 01:06:200-01:08:383 I:
+(Q Ken studied English at school yesterday)
+0026 - 01:14:544-01:14:935 I:
+when
+0027 - 01:15:320-01:16:263 I:
+the speaker said,
+0028 - 01:16:800-01:17:847 I:
+(Q Ken studied),
+0029 - 01:21:568-01:22:055 I:
+and
+0030 - 01:22:488-01:24:111 I:
+this middle of the sentence
+0031 - 01:24:448-01:24:808 I:
+this
+0032 - 01:25:064-01:27:103 I:
+real time dialog processing system
+0033 - 01:27:400-01:28:727 I:
+should (W response;respond) to
+0034 - 01:29:296-01:29:575 I:
+the
+0035 - 01:30:024-01:30:816 I:
+(F aww)
+0036 - 01:31:696-01:32:215 I:
+words<SB>
+0037 - 01:33:808-01:34:711 I:
+In this case,
+0038 - 01:35:072-01:36:359 I:
+when speaker said,
+0039 - 01:36:608-01:37:455 I:
+(Q Ken studied),
+0040 - 01:37:904-01:38:623 I:
+the system
+0041 - 01:45:248-01:45:927 I:
+has to
+0042 - 01:47:456-01:48:303 I:
+recognize
+0043 - 01:48:622-01:48:916 I:
+(Q Ken)
+0044 - 01:49:117-01:50:115 I:
+is subject,
+0045 - 01:50:956-01:51:319 I:
+and
+0046 - 01:51:580-01:52:291 I:
+(S (Q studied)),
+0047 - 01:52:500-01:53:715 I:
+the next word (Q studied)
+0048 - 01:56:340-01:56:731 I:
+is
+0049 - 01:57:804-01:58:015 I:
+the
+0050 - 01:58:648-01:59:247 I:
+verb<SB>
+0051 - 01:59:912-02:00:435 I:
+So
+0052 - 02:00:724-02:01:231 I:
+(W a) this
+0053 - 02:01:503-02:01:931 I:
+is
+0054 - 02:02:512-02:03:079 I:
+(F uh) the
+0055 - 02:03:524-02:06:360 I:
+(F uh) necessary information system has to realize<SB>
+0056 - 02:07:784-02:10:791 I:
+In the middle of the inputting of the
+0057 - 02:11:464-02:12:583 I:
+(F ah) words,
+0058 - 02:15:304-02:15:968 I:
+the system
+0059 - 02:16:176-02:16:847 I:
+(X has to)
+0060 - 02:17:264-02:17:351 I:
+(D i)
+0061 - 02:17:760-02:20:183 I:
+(D i) has to instantly (W response;respond) to
+0062 - 02:20:704-02:21:119 I:
+and
+0063 - 02:21:440-02:23:080 I:
+(X realize) (F uh) recognize
+0064 - 02:23:304-02:23:807 I:
+the word<SB>
+0065 - 02:25:168-02:27:951 I:
+So this is called incremental parsing<SB>
+0066 - 02:31:984-02:33:720 I:
+(noise So please look at)
+0067 - 02:32:592-02:33:672 I:<noise>
+0068 - 02:34:024-02:35:703 I:
+the similar or same
+0069 - 02:36:296-02:36:895 I:
+example<SB>
+0070 - 02:38:336-02:41:735 I:
+The input sentence is (Q Ken studied English at school)<SB>
+0071 - 02:42:720-02:44:575 I:
+When we think about this sentence,
+0072 - 02:49:488-02:52:607 I:
+the speaker said (Q Ken studied English at)<SB>
+0073 - 03:03:576-03:06:024 I:
+(F ah) There are two (W interpretation;interpretations)
+0074 - 03:06:360-03:07:879 I:
+by listening to
+0075 - 03:08:224-03:09:423 I:
+the sentence
+0076 - 03:09:736-03:11:279 I:
+(Q Ken studied English at)<SB>
+0077 - 03:12:704-03:13:087 I:
+(F ah) (W the)
+0078 - 03:13:720-03:14:264 I:
+As for
+0079 - 03:14:543-03:15:159 I:
+upper
+0080 - 03:15:383-03:16:055 I:
+sentence
+0081 - 03:17:784-03:18:583 I:
+the system
+0082 - 03:20:072-03:21:271 I:
+(W interpret;interprets) that
+0083 - 03:21:976-03:23:511 I:
+some place will follow
+0084 - 03:23:896-03:24:287 I:
+(Q at)
+0085 - 03:25:336-03:25:952 I:
+which means
+0086 - 03:26:192-03:27:311 I:
+Ken studied EnglisH
+0087 - 03:27:511-03:28:495 I:
+at somewhere<SB>
+0088 - 03:29:032-03:30:671 I:
+This is one interpretation<SB>
+0089 - 03:31:056-03:31:487 I:
+And
+0090 - 03:31:696-03:34:039 I:
+there is another interpretation
+0091 - 03:34:584-03:35:975 I:
+as shown
+0092 - 03:36:215-03:37:383 I:
+by the bottom line
+0093 - 03:37:840-03:38:664 I:
+(Q Ken studied
+0094 - 03:38:856-03:39:771 I:
+English at)<SB>
+0095 - 03:40:672-03:41:319 I:
+So
+0096 - 03:41:976-03:42:711 I:
+Ken studied
+0097 - 03:42:900-03:43:559 I:
+English,
+0098 - 03:43:860-03:45:263 I:
+placed at somewhere,
+0099 - 03:45:764-03:46:091 I:
+so
+0100 - 03:47:616-03:48:723 I:
+there are two
+0101 - 03:48:980-03:50:207 I:
+interpretations<SB>
+0102 - 03:56:100-03:56:891 I:
+Based on
+0103 - 03:57:068-03:57:979 I:
+the real time
+0104 - 03:58:172-03:59:724 I:
+dialog process system
+0105 - 04:01:796-04:02:343 I:
+such
+0106 - 04:03:532-04:04:159 I:
+words
+0107 - 04:04:404-04:05:735 I:
+made by speaker
+0108 - 04:07:224-04:08:947 I:
+has to be limited
+0109 - 04:09:380-04:09:747 I:
+to
+0110 - 04:10:236-04:11:503 I:
+one interpretation
+0111 - 04:13:296-04:14:983 I:
+out of two interpretations<SB>
+0112 - 04:16:952-04:17:595 I:
+Therefore,
+0113 - 04:18:888-04:20:151 I:
+which interpretation
+0114 - 04:25:096-04:26:351 I:
+is appropriate
+0115 - 04:26:644-04:29:131 I:
+in order to convey the message of speaker?<SB>
+0116 - 04:30:684-04:32:403 I:
+The system has to judge
+0117 - 04:32:580-04:33:935 I:
+which interpretation
+0118 - 04:34:223-04:35:383 I:
+is appropriate<SB>
+0119 - 04:36:040-04:36:151 I:<noise>
+0120 - 04:40:508-04:42:251 I:
+So the purpose of this research
+0121 - 04:44:048-04:44:443 I:
+is
+0122 - 04:47:724-04:50:151 I:
+the improvement of incremental parsing<SB>
+0123 - 04:53:416-04:55:779 I:
+So among several interpretations,
+0124 - 04:56:340-04:57:591 I:
+as I explained,
+0125 - 04:58:456-04:59:671 I:
+we would like to
+0126 - 05:00:848-05:01:647 I:
+(F eh) limit
+0127 - 05:01:960-05:03:563 I:
+only one interpretation<SB>
+0128 - 05:04:852-05:06:647 I:
+So that's our purpose<SB>
+0129 - 05:08:452-05:08:847 I:
+So
+0130 - 05:09:528-05:10:715 I:
+what is approached?<SB>
+0131 - 05:14:084-05:14:519 I:
+We
+0132 - 05:15:332-05:16:031 I:
+introduce
+0133 - 05:16:340-05:18:055 I:
+(W sematic;semantic) information
+0134 - 05:18:520-05:20:640 I:
+into incremental parsing<SB>
+0135 - 05:27:784-05:29:624 I:
+So those two sentences are
+0136 - 05:29:848-05:31:743 I:
+(F ah) exactly the same sentence
+0137 - 05:33:304-05:34:319 I:
+as shown before<SB>
+0138 - 05:36:712-05:39:511 I:
+The input is (Q Ken studied English at)<SB>
+0139 - 05:40:384-05:40:848 I:
+In the
+0140 - 05:41:064-05:42:544 I:
+upper sentence
+0141 - 05:42:976-05:44:327 I:
+(Q at) (W modifers;modifies)
+0142 - 05:44:672-05:45:351 I:
+(Q studied)
+0143 - 05:45:760-05:46:208 I:
+and
+0144 - 05:46:600-05:47:703 I:
+the bottom sentence
+0145 - 05:48:624-05:49:040 I:
+(Q at)
+0146 - 05:49:271-05:50:095 I:
+(W modifers;modifies)
+0147 - 05:50:472-05:51:127 I:
+(Q English)<SB>
+0148 - 05:54:944-05:54:960 I:<noise>
+0149 - 05:55:064-05:56:127 I:
+So there are two
+0150 - 05:56:480-05:57:647 I:
+interpretations
+0151 - 05:58:488-05:59:183 I:
+as shown<SB>
+0152 - 06:00:648-06:00:935 I:<noise>
+0153 - 06:01:552-06:03:976 I:
+So among two interpretations
+0154 - 06:05:096-06:06:119 I:
+we have to
+0155 - 06:06:696-06:07:311 I:
+limit
+0156 - 06:09:112-06:11:056 I:
+the only one interpretation<SB>
+0157 - 06:17:200-06:18:432 I:
+So in order to <FV>
+0158 - 06:18:631-06:23:551 I:
+<FV> <FV> get the limitation, we have to use the (W sematic;semantic) information
+0159 - 06:25:368-06:26:575 I:
+<FV> which is,
+0160 - 06:26:904-06:27:255 I:
+(S one)
+0161 - 06:27:936-06:30:447 I:
+one word should modify one word<SB>
+0162 - 06:31:080-06:32:303 I:
+And the sentence
+0163 - 06:32:912-06:33:672 I:
+the word
+0164 - 06:33:871-06:34:359 I:
+(Q at)
+0165 - 06:36:160-06:37:079 I:
+(W modifers;modifies)
+0166 - 06:38:280-06:38:879 I:
+(Q English)<SB>
+0167 - 06:39:216-06:40:175 I:
+Is it possible?<SB>
+0168 - 06:40:992-06:41:391 I:
+No<SB>
+0169 - 06:41:872-06:45:671 I:
+<FV> We think it is impossible that (Q at) (W modifers;modifies) (Q English)<SB>
+0170 - 06:45:968-06:47:824 I:
+That (W are;is) (W sematic;semantic) information<SB>
+0171 - 06:47:960-06:50:751 I:
+If you have such (D i) (W sematic;semantic) information,
+0172 - 06:51:256-06:52:935 I:
+we can select
+0173 - 06:53:784-06:55:704 I:
+the one interpretation<SB>
+0174 - 06:58:264-06:59:511 I:
+We don't select
+0175 - 07:00:768-07:02:071 I:
+the sentence
+0176 - 07:02:680-07:04:775 I:
+where (Q at) (W modifers;modifies) (Q English)<SB>
+0177 - 07:08:400-07:12:903 I:
+So if system has a (W sematic;semantic) information, system can select one
+0178 - 07:13:208-07:14:065 I:
+appropriate
+0179 - 07:14:279-07:14:855 I:
+sentence<SB>
+0180 - 07:17:872-07:18:591 I:
+Therefore,
+0181 - 07:19:300-07:21:439 I:
+among two interpretations,
+0182 - 07:21:688-07:22:655 I:
+the system can
+0183 - 07:22:856-07:25:844 I:
+appropriately select one interpretation<SB>
+0184 - 07:33:548-07:36:359 I:
+In order to limit interpretation,
+0185 - 07:36:712-07:37:531 I:
+(F ah) we
+0186 - 07:37:828-07:38:459 I:
+use
+0187 - 07:38:940-07:40:823 I:
+the (W sematic;semantic) information<SB>
+0188 - 07:49:172-07:49:940 I:
+Before
+0189 - 07:50:180-07:52:111 I:
+having the incremental parsing,
+0190 - 07:53:132-07:54:960 I:
+we have corpus
+0191 - 07:55:368-07:58:283 I:
+which (W is;has) large-scale (W takes) (W to) data<SB>
+0192 - 08:03:476-08:04:843 I:
+So we use corpus<SB>
+0193 - 08:16:068-08:16:483 I:
+We
+0194 - 08:17:552-08:18:335 I:
+obtain
+0195 - 08:18:712-08:20:403 I:
+the (W sematic;semantic) information
+0196 - 08:20:888-08:22:052 I:
+through learning<SB>
+0197 - 08:24:884-08:26:348 I:
+Already obtained
+0198 - 08:26:828-08:28:199 I:
+(W sematic;semantic) information
+0199 - 08:32:840-08:32:948 I:<tongue>
+0200 - 08:33:048-08:34:500 I:
+is utilized
+0201 - 08:34:984-08:35:396 I:
+in
+0202 - 08:35:676-08:36:875 I:
+incremental parsing<SB>
+0203 - 08:43:280-08:43:880 I:<noise>
+0204 - 08:44:940-08:46:540 I:
+Now I would like to (W summalize;summarize)
+0205 - 08:47:160-08:47:951 I:
+my study<SB>
+0206 - 08:49:720-08:49:975 I:
+(W this)
+0207 - 08:50:904-08:52:863 I:
+In order to realize real time
+0208 - 08:53:176-08:55:023 I:
+(F eh) dialog process system,
+0209 - 08:55:528-08:56:007 I:
+we
+0210 - 08:58:784-08:59:231 I:
+(F eh)
+0211 - 08:59:584-09:03:935 I:
+realize the efficiency of the (D in) (F eh) incremental
+0212 - 09:05:776-09:06:575 I:
+(F ah) parsing<SB>
+0213 - 09:08:976-09:10:031 I:
+In order to
+0214 - 09:10:624-09:11:687 I:
+evaluate
+0215 - 09:12:016-09:13:063 I:
+the effectiveness
+0216 - 09:13:480-09:13:800 I:
+of
+0217 - 09:14:064-09:14:487 I:
+this
+0218 - 09:14:928-09:16:023 I:
+(F ah)
+0219 - 09:16:696-09:17:143 I:
+application,
+0220 - 09:17:440-09:18:415 I:
+we were able to
+0221 - 09:18:808-09:20:399 I:
+(F ah) recognize the
+0222 - 09:20:760-09:21:543 I:
+availability
+0223 - 09:21:751-09:22:704 I:
+of this application<SB>

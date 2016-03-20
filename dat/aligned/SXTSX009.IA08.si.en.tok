@@ -1,0 +1,28 @@
+Today , I would like to explain about the multilingual on-line dialogue support system . Nowadays , with the advanced the globalization , in the future , there will be more and more opportunities to carry out the communication amongst different languages .
+As such a situation as a backdrop , when we carry out the communication amongst the different languages , then the differences amongst the language will always be a problem as I suppose .
+Therefore , in order to eliminate such differences amongst the languages , there are a variety of support systems under development and also has been developed , such as we have the translation system for the web pages or e-mail , or there also exit the translation system for the keyboard dialogue like chatting , or there are other systems , which translate the spoken dialogue .
+In my talk here , I 'd like to specifically focus on to the keyboard dialogue translation system .
+Online keyboard dialogue or the the system to support such a dialogue is now considered . And that is represented by , for example , the UNIX talk system .
+Talk system is different from a so-called chatting over the Internet . The input of the user is instantly reflected upon the display of or the partner user .
+In the normal situation , it wo n't be reflected until the user pushes the enter button , so this is different from the ordinary system . And another point of characteristics of the keyboard dialogue is that it 's different from the literary language , there are sometimes the expressions which are not always correct in grammar , but there are lots of colloquialism happening there .
+So in doing the online keyboard dialogue , the dialogue is more like a spoken form and the smooth conversation is possible .
+And to cope with such an online keyboard dialogue , there already exits the couple of the translation keyboard dialogue support system . However such system always utilizes the translation system with the single sentence at a minimum unit . So user  , the partner user should wait until the speaking or transmitting user finishes to input a sentence . And this hampers the smooth conversation because you always have to wait .
+Therefore , we would like to now propose the multilingual online dialogue support system .
+Such a system has a capability which is quite different from the existing system . This allows you to carry out the simultaneous translation system instead of waiting until the single sentence is completed .
+And with the simultaneous translation system , even though it is half way through of the input of a single sentence , the result of the input at that moment would be instantly translated and output to the screen of the other party . For example , the user , the originating party , or input the sentence like I love you so much even it 's in a half way through the inputs , it is immediately and instantly , reflected upon and translated to the screen of the receiving user .
+Like this , even though the sending party is in the midst of the input , you can make a prediction of what the other party wants to say , and then if necessary , you can also cut in in half way through .
+And in order to implement this in the system , we have devised something called the English-Japanese keyboard dialogue system with a simultaneous translation capability . Here we have two terminals , one is for the English user , the other is for a Japanese user .
+And that is connected through the Internet .
+And after the input via Internet it goes through the English-Japanese simultaneous translation system and with the translation here , it is output with the result of a Japanese translation and at the same time , the original English sentence input by the English user is also displayed on the Japanese user .
+And like this , Japanese user can use the original English information in addition to the translation . And and since this is the Japanese-English the bilingual system , so the Japanese user will also be allowed to input English sentences .
+And in this simultaneous translation system , we incorporated the so-called English and Japanese incremental translation method and that is actually implemented onto the UNIX workstation .
+And we used these three languages . And this is the actual execution screen on the Japanese side .
+We have three parts of the screen or screen segments . On the top segment , we have a display of the input of the sending partner .
+And it 's in the midst of the input of I like succor and lang uage  , and the result of the translation is output in the second segment .
+And even though it 's still in the midst of the input , you can see that the translation is output .
+And on the bottom segment , we see the input and actually the input is carried out in line-editor and the user can edit the sentence in the process of the input .
+Next , let me show you the display of the English user side . And just like the the former screen , on the top segment , you can see the input of the Japanese user in English .
+And on the bottom as I said this is the input segment or input frame for the English user . And with the system implemented , the dialogue is carried out more smoothly .
+This is the summary . I have described and I proposed the multilingual online dialogue support system .
+And by introducing the simultaneous translation functionality to the keyboard dialogue system , the dialogue and a conversation will be carried out more smoothly And this is a pilot project or pilot equipment .
+We have realized the keyboard dialogue system with the English and Japanese simultaneous translation functionality .

@@ -1,0 +1,30 @@
+Today , I would like to talk about the speech dialogue system using the dialogue examples .
+The speech dialogue type interface is what we are studying and our objectives are to achieve the easy to use and in use in the automobiles and others , safe , the most importantly , it can recognize and understand the spontaneous speech. that kind of speech dialogue type interface is researched .
+The spontaneous , speech means the following .
+For instance , Is there a Chinese restaurant nearby ? For that expression , different variations as two , three , four different expressions can be employed to say the same thing .
+And various expressions without limitation should be accommodated by the user . And that means to allow the spontaneous spee ch .
+This is how we look at it . And however , let me think about the conventional speech dialogue type interface. We find that only predetermined speeches were accepted .
+For instance , expression one can be recognized but when it comes to the expressions two , through four , many conventional ones could not recognize .
+And to be able to recognize and understand the aforementioned spontaneous speech , to realize that we gathered many spontaneous dialogues for use .
+The situation in which the speech has been expressed . In in the similar situation , the same kind of dialogues will be uttered .
+And using various examples , we decided to cope with the situation. Here , the user and the operator , between the two people , the information search is conducted . And in that contexts , what is the flow of the information ?
+The user says to the operator that he or she wishes to eat the Chinese dishes. Such a request is placed to the operator and then the operator using the search machine or tools get the information and the result of the search is obtained by the operator in this way .
+This kind of diagram , the operator listens to the request of the user and makes some kind of judgement in his brain and the past knowledge and examples of the past are used . And that portion is to be entirely replaced by the machine. That is the basic concept .
+For that purpose , in the cars , actually two people sat in the cars to be engaged in the dialogue for search of information and in this way , we gathered data .
+And using such data , we sorted out the examples of the dialogues . And from now on , I would like to talk about what we are doing for the processing of the dialogues .
+Firstly , the examples of the dialogues are to be gathered in a large number . This is what I said. And this is how we carry those .
+And the contents of the speech in the dialogue and the information search formula for the contents are described in this way .
+For instance , I wish to eat some spaghetti . That is a user 's speech . For that , this kind of search formula is formulated by the operator and that is recorded together .
+And then , the stored data are utilized and in this way , the processing takes place .
+Firstly , the input speech comes I wish to go to a spaghetti restaurant  . When there is an input of such speech , the important keywords are extracted .
+And then based on those keywords , out of the examples gathered in a large number , which is the one , which is the most similar to the speech will be expressed. And then , I wish to go to a curry restaurant  . And that is the most similar example searched . And then the operator 's search formula as you saw in the example will be extracted .
+And then it is to be replaced by the speech most closely similar to the speech input . And this is the modification of the formula and the evaluation was done for the processing result .
+And eighteen people 's speeches in the car were utilized as the evaluation data .
+And as the examples ' data , twenty -eight people 's transcriptions of the dialogues uttered in the car . And these examples are used to and the following shows the result of the evaluation .
+This graph shows that as we increase the number of the examples how we can correctly come up with the correc t search formula .
+And as a graph shows , as we increase the number of the examples ' data , the better performance of the search formula are making can be achieved. And the graph is increasing further as we go to the right and as we increase this , we expect that we can achieve the better performance . And at the same time , the mistakes were looked at in the formerly cause of the mistakes . And the data inefficiency causing the mistake accounted for seventy percent of the mistakes we found .
+And based upon this , we can further say that by the increase of the data , we will be able to improve the performance .
+And this is the summary of what I have so far stated . the spontaneous speech can be dealt with by the speech dialogue method and that method was proposed .
+And using the dialogue examples , I proposed the speech understanding method and based on the dialogue examples stored to the dialogue control is done and it can cope with the multifarious expressions .
+And we did the evaluation experiments for seventy percent of the speeches. We could make the correct search formula . And by increasing the number of the examples , there is a possibility for the performance improvement .
+This is our finding and thank you for your attention .

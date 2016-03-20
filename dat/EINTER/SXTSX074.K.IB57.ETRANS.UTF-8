@@ -1,0 +1,384 @@
+0001 - 00:06:680-00:07:223 I:
+Today,
+0002 - 00:14:704-00:17:679 I:
+I would (F uh) like to speak under the title of
+0003 - 00:17:984-00:22:431 I:
+increasing the efficiency of incremental parsing using statistical information<SB>
+0004 - 00:22:440-00:22:775 I:<breath>
+0005 - 00:22:816-00:25:567 I:
+And first of all, let me explain about the background of this
+0006 - 00:25:600-00:25:959 I:<breath>
+0007 - 00:26:000-00:27:063 I:
+(F uh) study<SB>
+0008 - 00:27:112-00:27:431 I:<breath>
+0009 - 00:27:504-00:28:935 I:
+Our purpose of
+0010 - 00:29:528-00:30:271 I:
+the study
+0011 - 00:30:544-00:31:775 I:
+is to realize
+0012 - 00:32:072-00:34:399 I:
+the real time dialog processing system<SB>
+0013 - 00:37:920-00:39:615 I:
+And this system
+0014 - 00:41:376-00:41:911 I:
+is
+0015 - 00:44:424-00:45:967 I:
+when user speaks,
+0016 - 00:46:504-00:47:503 I:
+the system
+0017 - 00:47:880-00:49:311 I:
+is supposed to receive
+0018 - 00:49:664-00:50:735 I:
+the speech
+0019 - 00:51:128-00:54:383 I:
+and understand and immediately respond to
+0020 - 00:54:912-00:56:247 I:
+the user speech<SB>
+0021 - 00:59:424-01:02:583 I:
+And I have given you the example to show
+0022 - 01:02:896-01:04:031 I:
+(X a) the such system<SB>
+0023 - 01:04:160-01:04:535 I:<breath>
+0024 - 01:04:640-01:05:455 I:
+For example,
+0025 - 01:08:504-01:08:935 I:
+if
+0026 - 01:09:896-01:11:903 I:
+(F uhh) the user said
+0027 - 01:12:248-01:14:127 I:
+(Q Ken studied English at school
+0028 - 01:14:472-01:15:255 I:
+yesterday)
+0029 - 01:18:608-01:20:591 I:
+and (F uh) when the user
+0030 - 01:20:808-01:22:855 I:
+said (Q Ken studied),
+0031 - 01:23:976-01:25:983 I:
+and in the middle of the speech
+0032 - 01:26:008-01:26:279 I:<breath>
+0033 - 01:26:352-01:28:439 I:
+<FV> this system must respond
+0034 - 01:28:936-01:30:423 I:
+to such user speech<SB>
+0035 - 01:31:392-01:32:223 I:
+And (F uh) for that
+0036 - 01:32:448-01:33:239 I:
+purpose,
+0037 - 01:35:248-01:37:287 I:
+when <FV> the words,
+0038 - 01:37:496-01:38:551 I:
+(Q Ken studied)
+0039 - 01:39:728-01:41:103 I:
+have been input,
+0040 - 01:46:264-01:46:727 I:
+(F uh)
+0041 - 01:47:240-01:47:991 I:
+the system
+0042 - 01:48:200-01:49:591 I:
+(F uh) must understand that
+0043 - 01:49:872-01:50:767 I:
+this word, (Q Ken)
+0044 - 01:51:072-01:52:807 I:
+is the subject of the sentence
+0045 - 01:53:128-01:53:575 I:
+and
+0046 - 01:54:112-01:54:791 I:
+this word,
+0047 - 01:55:040-01:55:743 I:
+(Q studied)
+0048 - 01:56:200-01:57:535 I:
+is the predicate
+0049 - 01:57:736-01:58:935 I:
+of this sentence<SB>
+0050 - 02:00:744-02:04:039 I:
+(F uh) the system must (F uh) judge and understand
+0051 - 02:04:752-02:05:607 I:
+such things
+0052 - 02:05:816-02:06:479 I:
+immediately<SB>
+0053 - 02:07:232-02:08:303 I:
+So (X as you see)
+0054 - 02:08:728-02:09:607 I:
+as you saw here,
+0055 - 02:09:720-02:10:471 I:<breath>
+0056 - 02:10:536-02:11:911 I:
+<FV> this system,
+0057 - 02:14:376-02:15:071 I:
+in the middle
+0058 - 02:15:480-02:18:127 I:
+of the speech must understand
+0059 - 02:18:560-02:20:511 I:
+such things in the sentence<SB>
+0060 - 02:21:256-02:23:135 I:
+(F uh) this is what we call
+0061 - 02:23:504-02:25:167 I:
+(F uh) the incremental parsing<SB>
+0062 - 02:32:288-02:32:663 I:
+And (F uh)
+0063 - 02:32:912-02:35:295 I:
+I would like to use the same example sentence here,
+0064 - 02:39:496-02:41:672 I:
+<FV> <FV> in other words, (F uh) the sentence
+0065 - 02:42:472-02:45:655 I:
+<FV> (F uh) saying (F uh) (Q Ken studied English at school yesterday)<SB>
+0066 - 02:50:416-02:50:911 I:
+And (F uh)
+0067 - 02:53:080-02:54:255 I:
+at the point where
+0068 - 02:54:600-02:57:343 I:
+(F uhhh) the (Q Ken studied English at)
+0069 - 02:58:328-02:58:600 I:
+has
+0070 - 02:58:848-02:59:719 I:
+been input,
+0071 - 03:03:352-03:05:599 I:
+(F uh) there are two ways of (noise understanding)
+0072 - 03:04:624-03:06:407 I:<noise>
+0073 - 03:06:744-03:08:192 I:
+(F uh) this (F uh) sentence<SB>
+0074 - 03:09:208-03:10:807 I:
+So if I use this example,
+0075 - 03:14:056-03:14:519 I:
+and
+0076 - 03:14:888-03:17:167 I:
+(D i) in the (F uh) upper example,
+0077 - 03:17:256-03:17:719 I:<breath>
+0078 - 03:17:856-03:20:519 I:
+(F uh) maybe it could be (W understand;understood) that this
+0079 - 03:20:864-03:21:255 I:
+(Q at)
+0080 - 03:21:744-03:22:639 I:
+wants to
+0081 - 03:22:944-03:24:663 I:
+(F uh) mention the place
+0082 - 03:24:920-03:26:775 I:
+where Ken studied English<SB>
+0083 - 03:28:464-03:30:495 I:
+This is one way of interpretation
+0084 - 03:30:520-03:30:807 I:<breath>
+0085 - 03:30:848-03:32:479 I:
+and the other interpretation
+0086 - 03:32:960-03:33:631 I:
+is
+0087 - 03:33:968-03:34:407 I:
+(X as use)
+0088 - 03:34:608-03:35:759 I:
+as is shown below,
+0089 - 03:38:352-03:39:559 I:
+to say that (F uh)
+0090 - 03:39:568-03:39:815 I:<breath>
+0091 - 03:39:936-03:41:447 I:
+(Q Ken studied English
+0092 - 03:41:744-03:44:271 I:
+where is located at someplace)<SB>
+0093 - 03:44:904-03:45:303 I:
+So,
+0094 - 03:45:336-03:45:695 I:<breath>
+0095 - 03:45:752-03:49:079 I:
+(F uh) (X depending on the) (F uh) depending on
+0096 - 03:49:984-03:54:863 I:
+what (F uh) this (Q at) (noise (F uh) modifies, (F uh)) there are different ways of (F uh)
+0097 - 03:52:088-03:53:488 I:<noise>
+0098 - 03:55:240-03:57:311 I:
+(F uh) modification when understanding<SB>
+0099 - 03:59:792-04:01:423 I:
+But in order to realize
+0100 - 04:01:752-04:04:119 I:
+the system that I have (D al) already mentioned,
+0101 - 04:04:728-04:06:831 I:
+the system must understand
+0102 - 04:08:504-04:10:967 I:
+(D an) the sentence, and choose
+0103 - 04:13:064-04:14:663 I:
+the right interpretation<SB>
+0104 - 04:24:952-04:26:575 I:
+And (F uh) which of the two
+0105 - 04:26:944-04:28:551 I:
+interpretations really
+0106 - 04:28:864-04:31:567 I:
+(F uh) reflects ane understands the (F uh) speaker's
+0107 - 04:31:600-04:31:919 I:<breath>
+0108 - 04:31:976-04:33:039 I:
+(F uh) intention,
+0109 - 04:33:112-04:33:455 I:<breath>
+0110 - 04:33:512-04:36:319 I:
+(F uh) the system must understand correctly<SB>
+0111 - 04:42:240-04:42:711 I:
+So,
+0112 - 04:43:920-04:44:839 I:
+this is why
+0113 - 04:45:368-04:45:703 I:
+we
+0114 - 04:46:000-04:47:159 I:
+intended to
+0115 - 04:47:432-04:51:495 I:
+(F uh) increase the efficiency of (F uh) incremental parsing in our study<SB>
+0116 - 04:52:792-04:54:007 I:
+And as you saw
+0117 - 04:54:224-04:55:591 I:
+in the previous example,
+0118 - 04:55:960-04:58:183 I:
+(F uh) there are several (F uh) choices of (F uh)
+0119 - 04:58:496-05:01:031 I:
+interpretation, but a system must choo<C>
+0120 - 05:01:264-05:01:823 I:
+se one
+0121 - 05:03:296-05:04:191 I:
+correct option<SB>
+0122 - 05:07:392-05:07:895 I:
+And
+0123 - 05:08:736-05:10:279 I:
+as its approach,
+0124 - 05:15:704-05:17:391 I:
+(F uh) we have (F uh) introduced
+0125 - 05:17:832-05:22:087 I:
+(F uh) the (F uh) semantic information in the (F uh) incremental parsing<SB>
+0126 - 05:29:440-05:31:951 I:
+<FV> Let me use the same example again<SB>
+0127 - 05:35:360-05:37:663 I:
+It says (Q Ken studied English)<SB>
+0128 - 05:38:688-05:40:399 I:
+And in the (F uh) upper sentence,
+0129 - 05:40:768-05:43:103 I:
+(Q at) (F uh) modifies the word, (Q studied),
+0130 - 05:44:552-05:46:367 I:
+but in the (F uh) below example,
+0131 - 05:48:440-05:50:159 I:
+(F uh) this word, (Q at)
+0132 - 05:50:680-05:52:047 I:
+(F uh) modifies
+0133 - 05:52:464-05:53:943 I:
+the word, (Q English)<SB>
+0134 - 05:56:352-05:57:407 I:
+(X There are so)
+0135 - 05:57:872-05:59:183 I:
+(F uh) there are such two
+0136 - 05:59:496-06:00:871 I:
+(F uh) interpretations<SB>
+0137 - 06:07:328-06:07:863 I:
+And
+0138 - 06:08:696-06:09:719 I:
+if where we were
+0139 - 06:10:072-06:11:191 I:
+to choose
+0140 - 06:11:648-06:12:095 I:
+the
+0141 - 06:12:400-06:12:863 I:
+right
+0142 - 06:13:264-06:13:831 I:
+(F uh)
+0143 - 06:14:328-06:15:383 I:
+interpretation,
+0144 - 06:19:784-06:20:159 I:
+and
+0145 - 06:20:608-06:21:767 I:
+in this case
+0146 - 06:22:408-06:23:015 I:
+the<H>,
+0147 - 06:25:592-06:27:055 I:
+semantic information
+0148 - 06:27:496-06:28:303 I:
+shall be
+0149 - 06:28:656-06:33:143 I:
+whether it is (F uh) possible for (F uh) this word, (Q at) to modify
+0150 - 06:33:544-06:34:903 I:
+(F uh) the (F uh) certain word<SB>
+0151 - 06:35:208-06:36:335 I:
+So in this case,
+0152 - 06:40:552-06:42:511 I:
+(F uh) the information that (S the)
+0153 - 06:42:792-06:43:503 I:
+the word, (Q at)
+0154 - 06:43:832-06:44:359 I:
+would never
+0155 - 06:44:624-06:47:272 I:
+modify the (D En) word (Q English),
+0156 - 06:47:960-06:51:847 I:
+if that, such information was obtained as the semantic information,
+0157 - 06:52:232-06:52:799 I:
+then
+0158 - 06:55:520-06:56:535 I:
+the<H>
+0159 - 06:57:248-06:57:871 I:
+lower
+0160 - 06:58:528-06:59:863 I:
+(F uh) sentence
+0161 - 07:00:784-07:02:495 I:
+or the lower interpretation
+0162 - 07:03:448-07:04:647 I:
+proves to be wrong<SB>
+0163 - 07:07:576-07:11:719 I:
+So (X with this) with such a semantic information the system can judge
+0164 - 07:11:920-07:12:791 I:
+that lower
+0165 - 07:12:824-07:13:135 I:<breath>
+0166 - 07:13:272-07:15:671 I:
+(F uh) (D s) interpretation is wrong<SB>
+0167 - 07:19:824-07:20:999 I:
+So, this is how
+0168 - 07:21:448-07:22:543 I:
+the system is
+0169 - 07:22:840-07:23:767 I:
+able to
+0170 - 07:24:032-07:26:503 I:
+choose the right interpretation<SB>
+0171 - 07:33:592-07:35:127 I:
+And in order to choose
+0172 - 07:35:432-07:37:991 I:
+the correct (F uh) interpretation,
+0173 - 07:39:016-07:42:151 I:
+(F uh) we considered (? if you're) using the (F uh) semantic information<SB>
+0174 - 07:49:640-07:50:551 I:
+So before
+0175 - 07:50:560-07:50:895 I:<breath>
+0176 - 07:50:960-07:52:567 I:
+(F uhhh)
+0177 - 07:52:616-07:55:567 I:
+performing the (F uh) incremental parsing,
+0178 - 08:03:296-08:04:847 I:
+we should use (F uh) corpus
+0179 - 08:04:880-08:05:191 I:<breath>
+0180 - 08:05:240-08:09:255 I:
+which is the (F uh) (S collection) large collection of example sentences<SB>
+0181 - 08:17:424-08:19:943 I:
+(?) (X we shall obtain) the system shall obtain
+0182 - 08:19:960-08:20:327 I:<breath>
+0183 - 08:20:368-08:23:391 I:
+(F uh) the semantic information through learning<SB>
+0184 - 08:26:000-08:26:839 I:
+And (F uh) using
+0185 - 08:27:120-08:30:895 I:
+such (F uh) semantic (F uh) information that is (F uh) previously obtained,
+0186 - 08:34:248-08:38:775 I:
+(F uhhh) the system (F uh) (X makes the) (D interpret) <FV> chooses the correct interpretation
+0187 - 08:39:248-08:42:855 I:
+(F uh) in order to perform the (F uh) (D incre) incremental (F uh) parsing<SB>
+0188 - 08:44:808-08:48:599 I:<noise>
+0189 - 08:45:583-08:47:255 I:
+(noise So let me summarize and (W go)
+0190 - 08:47:776-08:48:263 I:
+(F uh))
+0191 - 08:49:008-08:50:071 I:
+my presentation<SB>
+0192 - 08:50:984-08:54:695 I:
+So in order to realize the real time dialog (F uh) processing system,
+0193 - 08:58:648-08:59:143 I:
+(F uh)
+0194 - 09:00:008-09:03:791 I:
+we have actually (F uh) (X realized) <FV> (W the) increased the efficiency
+0195 - 09:04:056-09:06:087 I:
+of (F uh) incremental (F uh) parsing<SB>
+0196 - 09:08:376-09:10:695 I:
+And in order to evaluate the effectiveness
+0197 - 09:10:976-09:11:959 I:
+of this method
+0198 - 09:12:240-09:14:671 I:
+we have performed (F uh) several experiments
+0199 - 09:14:768-09:15:063 I:<breath>
+0200 - 09:15:152-09:16:631 I:
+to prove (F uh) (S this)
+0201 - 09:17:008-09:18:407 I:
+(F uh) this effectiveness<SB>
+0202 - 09:18:720-09:20:895 I:
+I would like to conclude my presentation here<SB>

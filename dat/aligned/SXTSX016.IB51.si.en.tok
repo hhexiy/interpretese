@@ -1,0 +1,31 @@
+Now , I 'd like to talk on simultaneous interpreting system for English monologue .
+The first issue is about translation of spoken language . In that case , it is a dialogue between two people who speak different language .
+And the translation system will be useful to translate that dialogue . For example , when this lady and gentleman talk to each other by using dialogue translation system , they can communicate with each other .
+That is what is spoken by gentleman will be translated by the translation system , and the lady can listen to that .
+This type of dialogue translation system has been developed . Regarding the system developed so far , they make a translation based on the sentence .
+That means a gentleman 's finished the sentence , the system will translate the whole sentence and which will be spoken language . As a result , the both speakers and the system will make a speech alternatively .
+Meanwhile , in the case of translation of speech of a monologue , the translation is also possible .
+In this case , this is the the support for unilateral communication . In the case of international conference and the number of these cases has been increasing recently . And the demand for interpreter is increasing .
+And in the case of this kind of interpretation when a speaker speaker make a speech , the system will translate it , and address it to the audience . In this case , the speaker makes a speech continuously with gesture .
+So , to synchronize with the speaker 's gesture is important , too .
+In that case simultaneous translation is needed . So we focused on the translation of speech or monologue .
+Specifically , when the speech is made in English , we are trying to develop a system to translate this English into Japanese . for basis , we 'd like take approach to take incremental processing of spoken language .
+And we have develo ped a system called LINAS already , and through this system simultaneous interpretation will be achieved . And we 'd like to study the feasibility of the system .
+I 'd like to explain about the system LINAS briefly .
+As the feature of the system , for example , several language has a different word order , for example , Japanese and English has a different word order . In this case , input of the language and output of the language should be implemented simultaneously .
+And regarding the speech the linguistic knowledge or other special knowledge including technical terms and should be acquired in advance . For example , the sheet of the presentation or resume , from these materials these information should be acquired in advance .
+And the to generate information in a natural spoken Japanese .
+As a design of the system , we are adopting the technology called Sync Trans . Using this system , we are developing a system for translating monologue in speech .
+I 'd like to explain about the system of LINAS .
+This LINAS , it will process the two procedures , one is analysis of English and the other is generation of Japanese . When the system recognizes the spoken English speech , it will start to analysis , and to the result of the analysis , Japanese Japanese will be generated .
+And through the speech synthesis or spoken Japanese will be implemented . All these system will be implemented at the same time .
+When actually , to translate English into Japanese , we have developed the system called LINAS , and it 'll be implemented on the UNIX workstation .
+Regarding the spoken spoken language , the human being is carrying out recognition of English speech . And regarding the or speech synthesis , the Japanese speech will be produced by Windows PC .
+And the necessary linguistic data will be made in advance from the script or other materials . In a case to actually input the English speech , we we made a confirmation of gesture , too .
+And we 've studied the feasibility of simultaneous interpretation of monologue . And I think it is highly possible .
+This is the example of the actual translation .
+The result of the translation will be delivered to audience in the form of sound . To help the understanding of the audience , we are making this type of print , too .
+When English is input , the information will be accumulated into their upper part , and the Japanese translation will be displayed in the lower part .
+This is a lecture on information technology . In conclusion , we 've been trying to develop a  simultaneous interpretation system named LINAS .
+This is for English speech . And it is consisting of analysis of the spoken language and generation of the the other language . And this result will be implemented over the workstation . And after that the actual gesture will be confirmed .
+All this system is in a experimental level , but in near future , we 'd like to use it in the , for example , academic lecture , such as ten or twenty minutes length lectures . Thank you very much .

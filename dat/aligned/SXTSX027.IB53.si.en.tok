@@ -1,0 +1,22 @@
+I 'd like to give a presentation under the title of a spoken dialogue mailtool based on incremental processing . In recent years , people who have not many opportunities to use computers like elderly and children are using computers .
+Computer users are increasing in number . In this case , interfaces , such as mouse and keyboard are expected to be more familiar with computer users .
+Considering the situation , using a spoken language as an input , we are trying to construct as system .
+A spoken language is very most common communication method for humans . And it is possible to communicate better , manipulate computer more intuitively this case .
+Conventional dialogue spoken dialogue system in this system , the system must wait until the user stops speaking , then , answers back . Therefore , it is a kind of transceiver type dialogue . This has been common .
+However , considering a human conversation , one does not necessarily wait until the other is finished . One interrupts the conversation whether or not to keep the conversation going . It 's quite common .
+Therefore , more user-friendly and more familiar interface , a tool between the computer and humans in order to realize that , while the user is speaking , system must answer back . And we call this system spoken dialogue on incremental processing .
+By realizing these , the user can change the contents of the speech or the time to wait for the system to answer back is reduced . Therefore , this system ensures the smooth dialogue . And that makes users less stressful , less uneasy and efficiency of the work improves .
+Based on this concept , we constructed Sync Mail as a mailtool .
+Sync Mail is based upon the incremental processing spoken dialogue . Retrieval is implemented as soon as necessary information is input .
+For example , the title is wedding ceremony and the sender is looking for Kimura 's e-mail . In this case , the title is wedding . These words are input , then the retrieval is in putted , reduce the number of the e-mail one is looking for .
+Then , the sender , Mr. Kimura 's , then the retrieval is im plemented again .
+In this way , incrementally the retrieval is implemented . While the user is speaking , a lot of e-mail will be reduced and one can find the e-mail they look for or they can do it again on the way . Therefore , I believe that efficiency improves .
+in a concrete manner . Let me explain about how to comprehend the speech . In the case of retrieval , attribute and value consist the retrieval . And as speech continues , if the combination is determined , the retrieval can be implemented on the way .
+For example , the title is wedding ceremony . If the title this group of words is input , then attribute , title , it is determined . Then at the wedding ceremony is input .
+Then , the value , in the item of value wedding ceremony is input . Therefore , the retrieval will be implemented .
+Then the sender , Kimura , in the same way , the same process will be conducted . Then before finishing the sentence , the retrieval will be implemented .
+In the conventional way , inputting one sentence  , only after inputting one sentence , retrieval will be possible . Therefore , this system I believe that makes users less stressful .
+Then now the evaluation . In terms of efficiency work efficiency , in a certain amount of time , when the system answers back before the end of the speech , efficiency improved . And in terms of the user-friendliness , when the system answers back before the end of the speech , three point six out of five , higher score was recorded .
+Now , conclusion .
+We propose the method of the system to answer back before the user finishes the speech . And by evaluation , we confirm the effectiveness of the method .
+And as to the problems to be solved , more complicated dialogue we we have to come up with how to process more complicated dialogue. Thank you very much .

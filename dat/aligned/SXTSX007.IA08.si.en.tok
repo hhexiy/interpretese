@@ -1,0 +1,28 @@
+Today , I 'd like to discuss spoken dialogue system based on examples .
+We are now trying to develop a spoken dialogue system based on speech and what we are trying to attain is that to develop something quite easy to use and also safe enough so that we can use it in the automobile , for example , and above all it is very important that it should recognize and understand the spontaneous speech .
+And what do we mean by spontaneous speech ?
+There is an example that goes like this Is there any Chinese restaurant nearby ? And in addition , we have other possibilities to say the same thing like two , three , and four .
+And the system should be able to handle the variety of expressions without any limitation . That is the system which allows us to use the spontaneous speech .
+But contrary to this , the spoken dialogue system in existence , usually accept only the fixed forms .
+For example , it can recognize expression number one but it can not recognize expression number two through four .
+And speech dialogue system which can recognize the spontaneous speech should be developed and in order to do so , we decided to collect as a a lot of spontaneous speeches as possible . And our hypothesis is that if the situation is similar , then expression should also be similar , so based on the collected examples , the speech will be processed and utilized .
+And here , we have the two people , one is the user and the other is the operator and when the information is searched , how the information close is shown in this chart . The user says to the operator that I want to eat Chinese food .
+And then the operator uses the equipment and he searches the information and get the result .
+And in such a framework , operator hears the demand of the user and the operator makes the decision in his mind and at that time , the past knowledge and the examples are supposed to be used and therefore this portion should be replaced totally with a machine. That is a basic concept .
+And in order  to do so , we asked a couple of persons to communicate in the automobile to collect data and using that data , we try to control the speech or the dialogue .
+And now , I 'd like to discuss what is actually done for the control of the dialogue .
+I said that we collected or we want to collect as many dialogue as possible and this is how it 's done . The content of the speech in the the dialogue in the automobile and the search formula for the information search would be described like this .
+For example , I want some spaghetti  , that is the speech by the user . And towards such an expression , the operator forms the search formula like this . And then , , those are all recorded .
+And using the accumulated data , the process is carried out like this .
+First , input speech comes into the machine , Well , I want to go to a spaghetti restaurant and toward this , only the important words or key words would be extracted .
+And based on those key words amongst the collected examples , the machine searches the closest example . And in this case , I want to go to a curry restaurant and if it is determined that this is the closest expression , then The search formula which is issued by the operator is extracted .
+And that will be corrected to be closer to the actual input of the speech . Using such a scheme , we developed the dialogue system and we carried out the evaluation .
+Here , we have collected the dialogue by eighteen people in the automobile . That is used as the evaluation data .
+And as to the example data , we have transcribed the dialogue in the automobile of the twenty eight people .
+And we carried out the evaluation test and the result is shown in the graph in this screen . And more the number of the examples , or the speakers of the examples , to what extent the correct search is carried out .
+And the conclusion is that more the number of the speakers of the examples the higher the rate of the correct answers or correct searches .
+So if we increase the number of the speakers of the example , then we can further raise the rate of the correct answers or correct searches . And if errors are made , then we carried out the research or the search of the cause of the error . The seventy percent of the errors are actually caused by the lack of the data base . From this it is probable that with the more number of data or larger number of data , we can further improve the performance of the system .
+And this is the summary of my talk . we have sought up and made up the system to handle the speech dialogue which can handle the spontaneous speech .
+And we have proposed the system to understand the speech using the accumulated dialogue examples .
+And with the accumulated dialogue examples , the speech could be controlled or dialogue could be controlled and it can also handle the variety of expressions . And according to the result of the evaluation test , we can handle about seventy percent of the speeches without any speech history .
+And by further increasing the number of the accumulated examples , it is highly probable that the performance could be further enhanced . Thank you very much for your attention .

@@ -1,0 +1,28 @@
+The title of my presentation is parsing for natural language using finite state automaton .
+Let me begin with the background explanation . The parsing of the spoken language is getting more important .
+And since it is a parsing analysis of the spoken words , they should be analyzed or parsed in a real time manner . And moreover , such the parsing should be utilized for the natural language processing system for the spoken dialogue and so forth .
+Let me now start talking about the parsing of the natural language . The parsing of natural language will be formed in three levels , the morphological parsing , syntactic parsing , and semantic parsing. Let me begin with the morphological parsing .
+The input sentence will be segmented into each word and each word would be classified by part of speech .
+And the syntactic parsing will analyze the structure of the input sentence and it will be output in the form of the parse tree , which shows the structure of the input language . And as to the grammar to analyze a parsed natural language , there 're things called like CFG or Context Free Grammar or the RG , and others .
+And as to the semantic parsing , the meaning of the word or the relationship of the meaning amongst the would be analyzed so that the meaning of the sentence would be known through semantic parsing .
+And in my discussion , I 'd like to just consider the , excuse me , syntactic parsing . Let me show you an example of the syntactic parsing .
+Let 's think about these six lines of CFG , S or sentence can be separated into NP and VP . When there is alignment of NP and VP , then that would be regarded as a sentence or that will form a sentence .
+And second of all determinant and noun are in a row , in such a case , then that would be regarded or expressed as NP , noun phrase . And third of all , verb , V forms the VP or verb phrase .
+These are the grammatical rules and following three shows you the part of the speech of each word .
+For example , the is the determinant and this word boy is a noun and runs is a verb as it shows .
+And using these grammatical rules , we are now parsing this input sentence The boy runs .
+The is the determinant , boy is a noun and runs is a verb . And that is known from the three grammatical rules in the bottom . And like this , The is the determinant , boy is a noun , and runs is a verb . And it is structured as such .
+And here , we have a determinant and a noun in a row , so we can know that the boy is a noun phrase or NP and in addition , this runs is a V or verb , so from the third rule , from the top the runs also forms a VP or verb phrase .
+And ultimately , if noun phrase and a verb phrase are in a row , then that will form a sentence so that we can conclude that The boy runs is a sentence and so that we can form a parse tree like this out of the sentence .
+Let me now compare the parsing using the CFG versus the analysis or the parsing using FSA or finite state automaton . The CFG parsing has a capability to accurately parse the natural sentence .
+However , it really takes a very long time for the processing .
+That is the shortcomings . And on the other hand , if we parse , with the FSA , then it processes very quickly , but on the other hand , it can not always accurately parse the natural language sentences .
+So it has the es ; strengths  and also weaknesses . So the strength of the CFG which is the accurate parsing and the strength of the FSA parsing that is the quick processing should be combined so that we can have a way to parse a sentence in a good manner .
+So let me now show you the flow of the parsing using FSA . From CFG , the transformation or the transform is performed to FSA and using the transformed FSA , input sentence is parsed and then it generates the parse tree .
+By transforming CFG into FSA , FSA will have a capability just like CFG and by using FSA , the parsing would be completed in a very short span of time . So in here , we combined the strengths of two techniques .
+And this is the actual example of the analysis or the parsing using FSA . Let 's consider CFG first .
+And then that would be transformed into FSA , then that would be like this in the bottom of this screen .
+Then using the transformed FSA , the input sentence The boy runs is going to be parsed . The boy runs will be converted or changed into the rule of the input parts of speech in a sequence of determinant , noun and verb in its order .
+So like this , we can generate the output sentence like this by making a transition from the CFG or the way down to the FSA .
+I have just described the method of the parsing using the finite state automaton . It has two phases of the process or two stages of the process . First there is a transformation from CFG to FSA .
+And second the stage is the parsing using FSA the input sentence and with this method , it is possible to carry out the parsing in a very high speed and also with a capability of CFG .

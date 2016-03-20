@@ -1,0 +1,383 @@
+0001 - 00:07:080-00:12:639 I:
+The title of my presentation is (Q parsing for natural language using finite state automaton)<SB>
+0002 - 00:14:288-00:16:759 I:
+Let me begin with the background explanation<SB>
+0003 - 00:18:432-00:20:575 I:
+The parsing of the spoken
+0004 - 00:20:807-00:21:535 I:
+language
+0005 - 00:21:960-00:23:479 I:
+is getting more (W importance;important)<SB>
+0006 - 00:23:608-00:27:551 I:
+And since it is a parsing analysis of the spoken words,
+0007 - 00:28:063-00:31:295 I:
+they should be analyzed or parsed in a real time manner<SB>
+0008 - 00:32:064-00:32:847 I:
+And moreover,
+0009 - 00:33:368-00:35:495 I:
+(F uh) such the parsing
+0010 - 00:35:720-00:36:879 I:
+should be utilized
+0011 - 00:37:079-00:39:455 I:
+for the natural language processing system
+0012 - 00:39:688-00:40:695 I:
+for the spoken
+0013 - 00:40:912-00:42:087 I:
+dialogue and so forth<SB>
+0014 - 00:50:968-00:53:119 I:
+Let me now start (F uh)
+0015 - 00:53:760-00:56:983 I:
+talking about the (F uh) parsing of the natural language<SB>
+0016 - 00:58:136-00:59:943 I:
+The parsing of natural language
+0017 - 01:00:408-01:00:743 I:
+will
+0018 - 01:01:936-01:05:455 I:
+be formed in three levels, the morphological parsing,
+0019 - 01:05:816-01:10:727 I:
+(F uh) syntactic parsing, and semantic parsing<SB> Let me begin with the morphological parsing<SB>
+0020 - 01:11:800-01:15:495 I:
+The input sentence will be segmented into each word
+0021 - 01:15:760-01:19:039 I:
+and each word would be classified by part of speech<SB>
+0022 - 01:19:759-01:21:567 I:
+And the syntactic parsing
+0023 - 01:22:656-01:24:287 I:
+will analyze the
+0024 - 01:25:104-01:27:263 I:
+structure of the input sentence
+0025 - 01:27:776-01:28:231 I:
+and
+0026 - 01:29:120-01:29:863 I:
+it will be
+0027 - 01:30:216-01:35:191 I:
+output in the form of the parse tree, which shows the structure of the input language<SB>
+0028 - 01:35:584-01:36:943 I:
+And as to the
+0029 - 01:37:624-01:40:551 I:
+grammar to analyze a parsed natural language,
+0030 - 01:40:880-01:43:471 I:
+there're things called like CFG
+0031 - 01:45:048-01:47:879 I:
+or Context Free Grammar or the RG,
+0032 - 01:48:680-01:49:311 I:
+and others<SB>
+0033 - 01:49:568-01:51:695 I:
+And as to the semantic (D pars) parsing,
+0034 - 01:53:120-01:55:511 I:
+the meaning of the word or the
+0035 - 01:55:912-01:59:319 I:
+relationship of the meaning amongst the would be analyzed
+0036 - 01:59:679-02:01:639 I:
+so that the meaning of the sentence
+0037 - 02:02:040-02:04:463 I:
+would be known through (F uh) semantic parsing<SB>
+0038 - 02:05:016-02:06:215 I:
+And in my discussion,
+0039 - 02:06:632-02:08:127 I:
+I'd like to just consider
+0040 - 02:08:360-02:09:695 I:
+the (X semantic parsing),
+0041 - 02:10:904-02:12:504 I:
+excuse me, syntactic parsing<SB>
+0042 - 02:16:232-02:19:680 I:
+Let me show you an example of the syntactic parsing<SB>
+0043 - 02:22:608-02:23:839 I:
+Let's think about (W the)
+0044 - 02:24:159-02:26:399 I:
+these six lines of (D C) CFG,
+0045 - 02:29:656-02:30:055 I:
+S
+0046 - 02:30:328-02:31:407 I:
+or sentence can be
+0047 - 02:32:056-02:33:519 I:
+separated into
+0048 - 02:34:192-02:35:759 I:
+NP and VP<SB>
+0049 - 02:36:552-02:37:047 I:
+When <FV>
+0050 - 02:37:816-02:42:312 I:
+(W the) there is alignment of NP and VP, then that would be (W the)
+0051 - 02:42:736-02:45:583 I:
+regarded as a sentence or that will form a sentence<SB>
+0052 - 02:45:904-02:46:703 I:
+And second of all
+0053 - 02:48:648-02:49:415 I:
+determinant
+0054 - 02:50:336-02:50:703 I:
+and
+0055 - 02:52:024-02:52:543 I:
+noun
+0056 - 02:52:912-02:53:591 I:
+(W is;are) in a row,
+0057 - 02:54:336-02:55:287 I:
+in (W a) such a case,
+0058 - 02:55:624-02:56:679 I:
+then that would be
+0059 - 02:57:552-02:58:479 I:
+regarded or
+0060 - 02:58:728-03:00:903 I:
+expressed as NP, noun phrase<SB>
+0061 - 03:01:432-03:02:215 I:
+And third of all,
+0062 - 03:04:664-03:05:655 I:
+(D vor) verb,
+0063 - 03:06:792-03:07:167 I:
+V
+0064 - 03:08:680-03:11:735 I:
+forms the VP or verb phrase<SB>
+0065 - 03:12:584-03:14:191 I:
+These are the (W grammatic;grammatical) rules
+0066 - 03:14:704-03:15:063 I:
+and
+0067 - 03:15:328-03:16:199 I:
+following three
+0068 - 03:17:192-03:17:967 I:
+shows you
+0069 - 03:19:808-03:20:239 I:
+the
+0070 - 03:20:664-03:22:535 I:
+part of the speech of each word<SB>
+0071 - 03:22:768-03:23:463 I:
+For example,
+0072 - 03:24:304-03:24:799 I:
+(Q the)
+0073 - 03:25:056-03:25:415 I:
+is
+0074 - 03:25:656-03:26:455 I:
+the determinant
+0075 - 03:27:968-03:28:519 I:
+and this
+0076 - 03:28:824-03:30:567 I:
+word (Q boy) is a noun
+0077 - 03:30:912-03:31:695 I:
+and (Q runs)
+0078 - 03:32:128-03:33:144 I:
+is a verb
+0079 - 03:34:144-03:34:767 I:
+as it shows<SB>
+0080 - 03:38:912-03:39:903 I:
+And using (W this;these)
+0081 - 03:40:280-03:41:839 I:
+(F uh) (W the) grammatical rules,
+0082 - 03:42:320-03:42:967 I:
+(F uh) we
+0083 - 03:44:032-03:47:999 I:
+are now parsing this input sentence (Q The boy runs)<SB>
+0084 - 03:49:576-03:49:959 I:
+(Q The)
+0085 - 03:50:544-03:51:895 I:
+is the determinant,
+0086 - 03:52:336-03:53:599 I:
+(W a) (Q boy) is a noun
+0087 - 03:53:952-03:54:607 I:
+and (Q runs)
+0088 - 03:55:056-03:56:207 I:
+is a verb<SB>
+0089 - 03:58:000-04:00:087 I:
+And that is known from the three
+0090 - 04:01:136-04:03:583 I:
+(F uh) (W grammati c;grammatical) rules in the bottom<SB>
+0091 - 04:03:968-04:04:583 I:
+And like this,
+0092 - 04:04:880-04:07:255 I:
+(Q The) is the determinant, (X and is the (D bo))
+0093 - 04:07:728-04:09:575 I:
+(F uh) (X noun) (F uh) (W bo;boy) is a noun,
+0094 - 04:09:888-04:11:208 I:
+and (Q runs) is a verb<SB>
+0095 - 04:13:616-04:15:263 I:
+And it is structured as such<SB>
+0096 - 04:17:936-04:18:567 I:
+And here,
+0097 - 04:18:800-04:19:551 I:
+we have a
+0098 - 04:20:376-04:22:983 I:
+(F uhh) determinant and a noun in a row,
+0099 - 04:23:880-04:24:359 I:
+so
+0100 - 04:25:520-04:29:223 I:
+we can know that the boy is a noun phrase or NP
+0101 - 04:29:824-04:30:815 I:
+and in addition,
+0102 - 04:31:848-04:34:143 I:
+this (Q runs) is a V or verb,
+0103 - 04:34:352-04:35:335 I:
+so from the third
+0104 - 04:35:567-04:36:343 I:
+(F uh) rule,
+0105 - 04:36:584-04:37:135 I:
+from the top
+0106 - 04:37:760-04:38:343 I:
+(Q the runs)
+0107 - 04:39:088-04:42:128 I:
+also forms a VP or verb phrase<SB>
+0108 - 04:46:048-04:46:951 I:
+And ultimately,
+0109 - 04:49:360-04:49:559 I:
+if
+0110 - 04:49:832-04:50:719 I:
+noun phrase
+0111 - 04:51:008-04:53:207 I:
+and a verb phrase (W is;are) in a row,
+0112 - 04:54:240-04:55:231 I:
+then that will form
+0113 - 04:56:128-04:56:911 I:
+a sentence
+0114 - 04:57:640-05:01:159 I:
+so that we can conclude that (Q The boy runs) is a sentence
+0115 - 05:02:040-05:05:775 I:
+and so that we can form a parse tree like this out of the sentence<SB>
+0116 - 05:11:744-05:13:823 I:
+Let me now (D comperry) compare
+0117 - 05:14:088-05:19:207 I:
+the parsing using the CFG versus the analysis or the (D ol)
+0118 - 05:19:528-05:19:887 I:
+(F uhh)
+0119 - 05:20:280-05:20:871 I:
+parsing
+0120 - 05:21:136-05:22:591 I:
+using FSA
+0121 - 05:22:856-05:24:519 I:
+or finite state automaton<SB>
+0122 - 05:27:520-05:28:447 I:
+The CFG
+0123 - 05:29:432-05:34:183 I:
+parsing has a capability to accurately parse the natural
+0124 - 05:35:448-05:36:103 I:
+sentence<SB>
+0125 - 05:36:664-05:38:336 I:
+However, it really takes
+0126 - 05:38:608-05:40:408 I:
+a very long time for the processing<SB>
+0127 - 05:40:512-05:41:591 I:
+That is the shortcomings<SB>
+0128 - 05:41:904-05:43:847 I:
+And on the other hand, if we
+0129 - 05:44:120-05:44:751 I:
+parse,
+0130 - 05:45:560-05:47:583 I:
+(F uh) with the FSA,
+0131 - 05:47:840-05:50:103 I:
+then it processes very quickly,
+0132 - 05:50:448-05:51:455 I:
+but on the other hand,
+0133 - 05:52:352-05:54:591 I:
+it cannot always accurately
+0134 - 05:55:096-05:58:151 I:
+parse the natural language sentences<SB>
+0135 - 06:00:904-06:02:495 I:
+So it has the (W strength<C>
+0136 - 06:02:760-06:04:575 I:
+es;strengths) and also weaknesses<SB>
+0137 - 06:10:160-06:14:559 I:
+So the strength of the CFG which is the
+0138 - 06:14:992-06:15:672 I:
+accurate
+0139 - 06:15:928-06:16:503 I:
+parsing
+0140 - 06:16:904-06:21:471 I:
+and the strength of the FSA parsing that is the quick
+0141 - 06:22:280-06:23:215 I:
+(F uhh) processing
+0142 - 06:23:512-06:26:191 I:
+should be combined so that we can have a
+0143 - 06:26:544-06:28:663 I:
+(F uh) way to parse a sentence
+0144 - 06:31:184-06:31:927 I:
+in a good manner<SB>
+0145 - 06:32:319-06:36:495 I:
+So let me now show you the flow of the parsing using FSA<SB>
+0146 - 06:37:592-06:38:663 I:
+From CFG,
+0147 - 06:41:544-06:46:919 I:
+the transformation or the transform is (F uhh) performed to FSA
+0148 - 06:47:280-06:50:135 I:
+and using (F uhh) the transformed FSA,
+0149 - 06:50:448-06:50:863 I:
+input
+0150 - 06:51:120-06:54:799 I:
+sentence is parsed and then (F uh) it generates the parse tree<SB>
+0151 - 07:00:408-07:03:303 I:
+By transforming CFG into FSA,
+0152 - 07:10:848-07:14:519 I:
+FSA will have a capability just like CFG
+0153 - 07:16:472-07:16:927 I:
+and
+0154 - 07:17:567-07:19:008 I:
+by using FSA,
+0155 - 07:19:264-07:20:111 I:
+the parsing
+0156 - 07:22:184-07:25:191 I:
+would be completed in a very short span of time<SB>
+0157 - 07:25:912-07:26:399 I:
+So
+0158 - 07:26:680-07:31:495 I:
+(F uh) in here, we combined the (W strengthes;strengths) of two (noise techniques)<SB>
+0159 - 07:30:760-07:33:064 I:<noise>
+0160 - 07:33:728-07:38:704 I:
+And this is the actual example of the analysis or the parsing using FSA<SB>
+0161 - 07:43:584-07:45:135 I:
+Let's consider CFG
+0162 - 07:46:488-07:46:895 I:
+first<SB>
+0163 - 07:47:408-07:48:511 I:
+And then that would be
+0164 - 07:48:928-07:53:912 I:
+transformed into FSA, then that would be like this in the bottom of this
+0165 - 07:54:160-07:54:679 I:
+screen<SB>
+0166 - 07:58:199-07:58:575 I:
+Then
+0167 - 08:04:176-08:06:271 I:
+using the transformed FSA,
+0168 - 08:07:048-08:09:255 I:
+the input sentence (Q The boy runs)
+0169 - 08:10:112-08:10:855 I:
+is going to be
+0170 - 08:11:408-08:11:951 I:
+parsed<SB>
+0171 - 08:15:880-08:21:176 I:
+(Q The boy runs) will be converted or changed into the rule of the input
+0172 - 08:21:440-08:22:415 I:
+parts of speech
+0173 - 08:22:840-08:27:519 I:
+in a sequence of determinant, noun and verb in its order<SB>
+0174 - 08:38:480-08:40:495 I:
+So like this, (F uh) we can
+0175 - 08:40:736-08:42:407 I:
+(F uhh) (W the) generate
+0176 - 08:42:760-08:44:975 I:
+the output sentence like this
+0177 - 08:45:368-08:49:207 I:
+(F uh) by (D tran) making a transition from (F uh) the CFG
+0178 - 08:49:472-08:50:879 I:
+or the way down to the FSA<SB>
+0179 - 08:50:952-08:52:103 I:
+And this is a summary<SB>
+0180 - 08:52:568-08:57:551 I:
+I have just described the method of the parsing using the finite state automaton<SB>
+0181 - 08:58:040-09:02:000 I:
+It has (F uh) two phases of the process or two stages of the process<SB>
+0182 - 09:02:312-09:05:847 I:
+First there is a transformation from CFG to FSA<SB>
+0183 - 09:06:168-09:08:007 I:
+And second the stage is the
+0184 - 09:08:384-09:10:319 I:
+parsing using FSA
+0185 - 09:12:192-09:13:279 I:
+the input sentence
+0186 - 09:13:592-09:14:703 I:
+and with this method,
+0187 - 09:15:960-09:16:855 I:
+it is possible
+0188 - 09:17:360-09:19:103 I:
+to carry out the parsing
+0189 - 09:19:400-09:20:199 I:
+(X with a very)
+0190 - 09:20:632-09:20:951 I:
+(F uhh)
+0191 - 09:21:736-09:21:887 I:
+(D ha)
+0192 - 09:22:128-09:25:959 I:
+in a very high speed and also with a capability of (F uh) CFG<SB>

@@ -1,0 +1,354 @@
+0001 - 00:06:680-00:10:927 I:
+I would like to talk about the syntactic parsing of the natural language,
+0002 - 00:11:312-00:14:143 I:
+(F ehh) using finite state automaton<SB>
+0003 - 00:14:368-00:16:423 I:
+Firstly, I would like to talk about the background<SB>
+0004 - 00:16:784-00:17:311 I:
+Today,
+0005 - 00:17:688-00:23:313 I:
+(F woo) the importance is growing for the parsing of (F woo) the <FV> spoken language<SB>
+0006 - 00:23:364-00:25:660 I:
+This would be parsing of the spoken language<SB>
+0007 - 00:26:072-00:30:807 I:
+Therefore, as soon as the input is made, in real time, parsing must be done<SB>
+0008 - 00:31:480-00:32:127 I:
+Furthermore,
+0009 - 00:32:376-00:36:263 I:
+this kind of (F woo) parsing can be sufficiently utilized
+0010 - 00:36:600-00:37:671 I:
+in the (F uh)
+0011 - 00:38:032-00:44:255 I:
+system (F woo) of the natural language processing for the speech dialogues and others<SB>
+0012 - 00:45:472-00:46:143 I:
+Next,
+0013 - 00:46:824-00:51:479 I:
+I would like to talk about (F woo) the overview of (F woo) the parsing of the
+0014 - 00:51:768-00:53:023 I:
+natural language<SB>
+0015 - 00:53:520-00:55:535 I:
+(F woo) The natural language parsing
+0016 - 00:55:840-01:01:375 I:
+(F woo) consists of morphological parsing, syntactic parsing and semantic parsing<SB>
+0017 - 01:01:720-01:04:295 I:
+It consists of these three stages<SB>
+0018 - 01:04:576-01:07:055 I:
+For each one of the parsing, I would like to (F woo)
+0019 - 01:07:400-01:08:319 I:
+explain more<SB>
+0020 - 01:08:384-01:11:495 I:
+Firstly, starting with the morphological parsing<SB>
+0021 - 01:11:856-01:17:520 I:
+(F woo) The input sentence is split into individual words and for each word,
+0022 - 01:17:904-01:18:599 I:
+(F woo) the
+0023 - 01:19:040-01:20:944 I:
+part of speech is assigned<SB>
+0024 - 01:21:040-01:21:655 I:
+Next,
+0025 - 01:21:856-01:23:119 I:
+the syntactic parsing<SB>
+0026 - 01:23:416-01:25:287 I:
+In this syntactic parsing,
+0027 - 01:25:600-01:27:679 I:
+(F woo) the input sentence is
+0028 - 01:28:032-01:29:951 I:
+(F woo) (D anal) parsed, and
+0029 - 01:30:264-01:31:719 I:
+(F woo) then, (F woo) the
+0030 - 01:32:016-01:33:983 I:
+(F yee) parse tree is output<SB>
+0031 - 01:34:303-01:37:615 I:
+(F woo) the grammar (F uh) for parsing of the natural language
+0032 - 01:37:952-01:39:103 I:
+(F woo) consists of
+0033 - 01:39:400-01:40:007 I:
+(F woo) the
+0034 - 01:40:280-01:42:391 I:
+(F yee) context free (F yee)
+0035 - 01:42:856-01:44:727 I:
+(F uhh) (W the) grammar (F uhh)
+0036 - 01:45:128-01:49:120 I:
+(F woo) which is CFG or regular grammar, RG and others<SB>
+0037 - 01:49:432-01:49:743 I:
+(F woo)
+0038 - 01:50:152-01:50:856 I:
+Lastly,
+0039 - 01:51:568-01:54:327 I:
+(F uh) this is (F woo) the semantic parsing<SB>
+0040 - 01:54:616-01:56:959 I:
+In this parsing, the parsing is done
+0041 - 01:57:312-02:00:896 I:
+(F uh) for the semantic relations between (?) words
+0042 - 02:01:296-02:05:087 I:
+(F uhh) (F uhh) as follows<SB> The meaning of the words,
+0043 - 02:05:384-02:08:775 I:
+and the meaning (F woo) can be (F woo) analyzed here<SB>
+0044 - 02:09:024-02:12:991 I:
+But here, I'd like to (F woo) consider the syntactic parsing<SB>
+0045 - 02:15:968-02:19:207 I:
+This is example of the syntactic parsing<SB>
+0046 - 02:20:271-02:25:340 I:
+And there're six units for the grammar that I would like to address<SB>
+0047 - 02:25:431-02:26:043 I:
+Firstly,
+0048 - 02:27:696-02:28:503 I:
+NP,
+0049 - 02:29:448-02:30:647 I:
+(F woo) VP,
+0050 - 02:30:976-02:33:735 I:
+noun phrase and verbal phrase,
+0051 - 02:34:584-02:35:191 I:
+(F uhh)
+0052 - 02:36:112-02:36:783 I:
+in
+0053 - 02:37:184-02:43:087 I:
+arrangement of the sequence and in that case, it is to be recognized as a sentence,
+0054 - 02:43:600-02:46:447 I:
+it is (W express<FV>ed;expressed) like that way<SB>
+0055 - 02:46:576-02:47:760 I:
+The second is that
+0056 - 02:48:096-02:49:367 I:
+determinant
+0057 - 02:50:824-02:51:575 I:
+and
+0058 - 02:52:008-02:53:127 I:
+N, noun
+0059 - 02:53:528-02:59:160 I:
+are arranged<SB> In that case, that is recognized as the noun phrase<SB>
+0060 - 03:00:008-03:00:935 I:
+The third,
+0061 - 03:03:848-03:05:111 I:
+(F woo) shows that
+0062 - 03:05:392-03:06:847 I:
+<FV> verb, V
+0063 - 03:07:832-03:10:855 I:
+is representing the verbal phrase<SB>
+0064 - 03:11:472-03:12:495 I:
+Up to this,
+0065 - 03:13:088-03:13:703 I:
+(F uhh)
+0066 - 03:14:160-03:19:255 I:
+the rules for the grammar (W has;have) been shown and then the other three (D corre)
+0067 - 03:19:616-03:21:279 I:
+shows the correspondence
+0068 - 03:21:624-03:22:927 I:
+of (F woo) the
+0069 - 03:23:384-03:23:863 I:
+(F yee)
+0070 - 03:24:264-03:24:823 I:
+(F yee)
+0071 - 03:25:336-03:28:360 I:
+part of the sentence to the specific words
+0072 - 03:28:720-03:30:655 I:
+and determiner (Q The)
+0073 - 03:30:944-03:34:391 I:
+noun (Q boy) and verb (Q runs)<SB>
+0074 - 03:38:608-03:41:583 I:
+And using this grammar (F uhh) the
+0075 - 03:41:872-03:43:351 I:
+input words
+0076 - 03:43:608-03:45:967 I:
+(Q the) (Q boy) (Q runs) are to be
+0077 - 03:46:336-03:47:015 I:
+parsed<SB>
+0078 - 03:48:784-03:48:847 I:<tongue>
+0079 - 03:48:976-03:49:831 I:
+(F woo) Firstly,
+0080 - 03:50:152-03:54:848 I:
+(Q the) is (F woo) the determiner, (Q boy) is noun, and (Q runs)
+0081 - 03:55:272-03:56:399 I:
+(F uh) is verb<SB>
+0082 - 03:56:840-04:03:279 I:
+And based on these three set of rules of the grammar below, we know that and therefore,
+0083 - 04:03:704-04:09:535 I:
+(F woo) like this, (Q the) is the determiner, (F uh) (Q boy) is noun, and (Q runs) is the verb<SB>
+0084 - 04:11:544-04:15:455 I:
+This kind of structure is firstly (F yee) made<SB>
+0085 - 04:17:032-04:18:655 I:
+And here, next,
+0086 - 04:18:976-04:24:183 I:
+(F woo) the determiner and noun are arranged in the sequential way we know and therefore,
+0087 - 04:24:520-04:28:463 I:
+(F woo) (Q the) (Q boy), these two represent the noun phrase<SB>
+0088 - 04:28:816-04:30:079 I:
+And furthermore,
+0089 - 04:31:664-04:35:543 I:
+(F woo) (Q runs) is V, and therefore, based on the third rule,
+0090 - 04:35:872-04:37:079 I:
+this (Q runs)
+0091 - 04:37:488-04:40:799 I:
+(F woo) is representing the verbal phrase we know<SB>
+0092 - 04:41:376-04:43:687 I:
+And based upon that,
+0093 - 04:44:088-04:47:175 I:
+(F uh) it becomes like this and ultimately,
+0094 - 04:47:976-04:50:959 I:
+(F uh) noun phrase and verbal (D ph) phrases
+0095 - 04:51:488-04:51:935 I:
+are
+0096 - 04:53:152-04:54:359 I:
+arranged<SB>
+0097 - 04:55:008-04:57:335 I:
+And therefore, (Q The boy runs)
+0098 - 04:57:544-04:59:887 I:
+is recognized as a sentence
+0099 - 05:00:256-05:03:487 I:
+and (F woo) this is the overall
+0100 - 05:03:776-05:04:567 I:
+parsing
+0101 - 05:05:352-05:05:719 I:
+done<SB>
+0102 - 05:08:376-05:09:031 I:
+Next,
+0103 - 05:09:680-05:10:719 I:
+(noise (F woo) the)
+0104 - 05:09:920-05:10:535 I:<noise>
+0105 - 05:10:968-05:15:055 I:
+(F yee) context free grammar and (F woo) the finite
+0106 - 05:15:360-05:17:527 I:
+(F woo) state automaton based
+0107 - 05:17:856-05:18:335 I:
+(F woo)
+0108 - 05:18:800-05:20:904 I:
+parsing will be (F ye) compared<SB>
+0109 - 05:21:000-05:23:184 I:
+Firstly, in case of <FV> (F woo) the
+0110 - 05:23:472-05:25:415 I:
+parsing using (F woo) the
+0111 - 05:25:736-05:27:375 I:
+(F ye) context free grammar,
+0112 - 05:29:352-05:29:799 I:
+(F woo)
+0113 - 05:30:199-05:31:199 I:
+the ability
+0114 - 05:31:448-05:32:783 I:
+(F ye) is
+0115 - 05:32:983-05:33:943 I:
+equipped
+0116 - 05:34:248-05:43:599 I:
+that (W enables s;enables) the correct parsing of (F woo) the natural language sentence<SB> However, the shortfall of that is that it takes time for processing<SB>
+0117 - 05:43:968-05:48:047 I:
+On the other hand, in case of (F woo) the parsing using the finite state automaton,
+0118 - 05:48:456-05:52:223 I:
+(F uh) the advantage is that the processing speed is
+0119 - 05:52:472-05:52:927 I:
+high<SB>
+0120 - 05:53:352-05:56:927 I:
+However, the shortfall is that it does not
+0121 - 05:57:288-05:58:359 I:
+always
+0122 - 05:58:943-05:59:711 I:
+(F woo)
+0123 - 06:00:824-06:06:735 I:
+allow the parsing in the correct way of (F woo) the natural language sentence<SB>
+0124 - 06:07:904-06:08:991 I:
+And therefore,
+0125 - 06:09:472-06:10:479 I:
+(F woo) the
+0126 - 06:11:400-06:12:767 I:
+(F yee) correct
+0127 - 06:13:104-06:17:511 I:
+parsing ability of the natural language sentence
+0128 - 06:17:880-06:20:279 I:
+and the speedy processing
+0129 - 06:20:736-06:23:303 I:
+(F woo) given respectively by
+0130 - 06:23:584-06:27:271 I:
+(F ye) the context free grammar and finite state automaton
+0131 - 06:27:648-06:30:255 I:
+(F woo) will be combined for parsing<SB>
+0132 - 06:30:331-06:34:888 I:
+And this shows the flow of the parsing using the finite state automaton<SB>
+0133 - 06:35:448-06:38:791 I:
+And firstly, (F eh) based on the context free grammar,
+0134 - 06:39:440-06:46:112 I:
+(F woo) the finite state (F woo) automaton is obtained by way of transformation and then the
+0135 - 06:46:432-06:52:079 I:
+(F ye) transformed finite state automaton is utilized for the parsing of the input sentence
+0136 - 06:52:408-06:54:383 I:
+to generate the parse tree
+0137 - 06:54:808-06:55:543 I:
+and
+0138 - 06:56:376-06:57:015 I:
+(F woo) the
+0139 - 06:57:608-06:58:607 I:
+transformation<SB>
+0140 - 06:58:976-07:05:600 I:
+(F woo) Context free grammar is transformed to the finite state automaton<SB> As a result, finite state automaton
+0141 - 07:10:312-07:15:088 I:
+(F uh) is given the ability which is as good as that of this
+0142 - 07:15:400-07:20:823 I:
+(F ehh) context free grammar and by doing the parsing of the finite state automaton,
+0143 - 07:21:104-07:22:743 I:
+we can achieve the very
+0144 - 07:23:104-07:27:391 I:
+(F uh) high speed parsing<SB> These two advantages of
+0145 - 07:27:816-07:30:687 I:
+(F uh) CFG and FSA are
+0146 - 07:31:159-07:33:399 I:
+(F uh) utilized for the parsing<SB>
+0147 - 07:33:688-07:34:263 I:
+And
+0148 - 07:34:960-07:39:527 I:
+(F ye) this is the example of the (noise state automaton) based parsing<SB>
+0149 - 07:37:072-07:38:039 I:<noise>
+0150 - 07:40:072-07:46:783 I:
+(F uh) The context free grammar that we gave thought to will be firstly looked at
+0151 - 07:47:160-07:53:799 I:
+and then it is to be transformed next to the finite state automaton to come up with these<SB>
+0152 - 08:01:792-08:06:175 I:
+And then the transformed finite state automaton is utilized
+0153 - 08:06:560-08:10:735 I:
+and the input sentence (Q The boy runs) is to be parsed<SB>
+0154 - 08:11:896-08:11:959 I:<tongue>
+0155 - 08:12:280-08:14:239 I:
+And the input sentence
+0156 - 08:14:616-08:16:231 I:
+(F ohh) is (F woo)
+0157 - 08:16:528-08:20:927 I:
+(F woo) (D sh) (F woo) analyzed in terms of (F woo) the
+0158 - 08:21:184-08:26:047 I:
+(F ye) sequence of the input parts of sentence and then be found
+0159 - 08:26:424-08:27:943 I:
+(F eh) that determiner
+0160 - 08:28:160-08:30:391 I:
+noun and verb are there<SB>
+0161 - 08:30:792-08:33:695 I:
+(W E) so from the initial (W e) state, the determiner
+0162 - 08:34:024-08:35:679 I:
+(F uh) the noun and verb
+0163 - 08:35:968-08:40:623 I:
+are (F uhh) arranged like this<SB> And we can come up with this kind of output<SB>
+0164 - 08:40:904-08:43:359 I:
+(F woo) This is the syntactic tree<SB>
+0165 - 08:44:104-08:45:591 I:
+And this is the summary<SB>
+0166 - 08:46:176-08:46:551 I:
+And
+0167 - 08:46:832-08:47:407 I:
+today,
+0168 - 08:47:640-08:53:367 I:
+I explained about (F woo) the method for the parsing using the finite state automaton<SB>
+0169 - 08:53:888-08:58:708 I:
+And (F woo) this parsing consists of two stage processing<SB> The first (D s)
+0170 - 08:59:184-09:00:447 I:
+(F woo) (D s) stage
+0171 - 09:00:784-09:07:215 I:
+is to do the transformation from the context free grammar to finite state automaton<SB> The (D ss) second
+0172 - 09:07:608-09:08:479 I:
+(F uh) is
+0173 - 09:08:776-09:10:671 I:
+(F woo) to do the parsing
+0174 - 09:10:992-09:11:583 I:
+(F woo)
+0175 - 09:12:056-09:16:271 I:
+(F woo) for the input sentence using finite state automaton<SB>
+0176 - 09:16:616-09:18:128 I:
+And by this method,
+0177 - 09:18:392-09:21:695 I:
+(F uh) we can achieve the high speed parsing
+0178 - 09:21:976-09:25:943 I:
+with the ability which is very close to that (F woo) context free grammar<SB>
+0179 - 09:27:080-09:27:407 I:
+Thank you<SB>

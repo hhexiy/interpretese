@@ -1,0 +1,30 @@
+Today , I would like to talk about voice interaction systems . We study voice interaction interfaces .
+We do research on the things we hope to improve on , such as ease of use and safety while driving .
+Above all , we do research on the recognition and understanding of natural speech . Let me explain what I mean by " natural speech . "
+For example , there are a lot of ways to ask whether there are Chinese restaurants in the area .
+There are a lot of ways to express one thing .
+We think that being able to permit any kind of way to say something , without restrictions , is natural speech .
+Many voice interaction interfaces only allow certain ways of speaking .
+They might recognize expression one but not expressions two to four . This happens often .
+In order for natural speech to be recognized , we collected many natural speech patterns .
+We collected many examples of ways to say things in different circumstances .
+We thought about how information may be communicated between two people , the user and the operator , when information is sought . The user may ask the operator , " I would like to eat Chinese food . "
+Then , the operator uses a search machine to find the information and produce results .
+This is how the operator listens to the request of the user and makes a judgment call in their mind . A fundamental way of looking at this is that this can be directly replaced by a machine , using past knowledge .
+So we had pairs of people have this kind of information-seeking dialogue in a car , and gathered data . Using that data , we managed the dialogue .
+Now I will talk specifically about how we processed the dialogue .
+I said that we would collect many examples , and this is how we stored it . The content of the dialogue in the car conversation and the search format is left like this .
+For example , in response to the user 's expression , " I want some spaghetti , " the operator makes a search formula like this , and is recorded together .
+The stored data is processed like this . The input speech comes in first .
+When we get a piece of dialogue such as " I want to go to a spaghetti restaurant , " we extract the important keywords like this . Based on those keywords , we find the most similar speech pattern out of the many examples .
+If " I want to go to a curry restaurant " turns out to be the closest , the search formula like the one used by the operator is brought out . We then replace with what is close to the dialogue that came in , and the search formula is created .
+Using this structure , we created the interactive system and evaluated it . We then used the content of what 18 people said in the car for evaluation data .
+And then we add and utilize the examples of what 28 people said in the same way in the car .
+The results of the evaluation are on the following graph .
+This graph shows how well the search formula was able to be written correctly as the number of speakers stored was increased . You can see that the more data was stored , the better the search formula got .
+If you look closer , you can see that the graph is rising on the right , so we can expect to have even better performance with more data , and when we looked into why the mistakes were made , we saw that in 70 percent of cases , it was due to lack of data .
+We believe that by increasing data , performance will increase even more .
+In summary , we have devised a way for voice interaction systems to handle natural speech . We proposed a speech recognition process that makes use of examples of speech .
+We managed the dialogue by using examples of stored dialogue .
+We believe that this is a way to deal with a variety of different expressions . When we conducted an evaluation , we were able to create search formulas for approximately 70 percent of speech .
+We also learned that it would be possible to improve performance by increasing the number of examples . Thank you very much .

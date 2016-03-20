@@ -1,0 +1,25 @@
+I would like to make a presentation under the tile of a spoken dialogue mailtool based on incremental processing .
+In recent years , more and more people have begun to use computers . Even the people who did not have a chance to use computers like elderly people and children and now have many chances to use computers .
+Under these circumstances , the previous equipment  like mouse and keyboards , those input  interfaces should be renovated to an interface which are more friendly to use for users .
+So , and in order to response to this trend , we are going to use the spoken language as an input data for computers .
+Spoken dialogue is the most common tool of communication . If we use this to a computer , it may be easier for the users to send his or her own message more easily .
+Conventional spoken dialogue method should wait the ending of the one person 's speech . Then , the response from the system comes back . And afterwards , the system operates . And after that , the speaker resumes the dialogue of the speech once again .
+However , in the conversation between human beings , it 's not always that the person waits the ending of another person 's speech . Even though the conversation is in the middle , the person interrupts the conversation or makes a speech or makes a nod . Then , the conversation goes on .
+Therefore , my friendly to use communication interface between computers and human beings would be realized . For this purpose , computer should respond even though the person is still making a speech .
+In the middle of speech , the system makes a respond . We call this as an incremental processing system .
+By realizing this , the user can change the contents of speech . And we can reduce the response time from the system . Thanks to these , we can create more smooth conversation or we can reduce the stress or anxiety . It leads to the improvement of the work efficiency of the operation .
+With this , theory , we have developed the mailtool to deal with the mail conversational dialogue mailtool . The name is Sync Mail .
+Sync Mail is based upon the incremental processing of spoken dialogue . When the necessary information is put in place , retrieval of data starts .
+For example , the title is wedding ceremony and the sender is Kimura . Please search this kind of mail . And the title is wedding ceremony . When the data of this part is input , the retrieval starts .
+Then , the computer searches for the mail whose title is wedding ceremony . Afterwards , sender is . When the user input this data , the computer responds and starts retrieving the mail whose sender is Kimura .
+In the middle of the speech of a user , Even though the speaker is making a speech , the results can be found . Sometimes , the results are disappeared . For that case , the computer makes a retrieval once again from the start . And this results in the increased ratio of the work efficiency .
+How to respond the result in the middle of the spoken dialogue is as follows . The retrieval is constructed from two things which which are the attributes and which are values . Along with the progress of s peech , that combination should be decided . If we can do that , the retrieval of data can start .
+The last example is to search the mail whose title is wedding ceremony and sender is Kimura . When the data of title is input , its attribute is decided that its attribute is title .
+And afterwards , the information of at the wedding ceremony is input . The computer knows that the value part responses to the wedding ceremony .
+And if attributes and values are fulfilled , the retrieval starts .
+And for the later part , sender is Kimura , the similar process is carried out for three and four of this chart , and the retrieval is carried out . In the conventional type once , when this the speaker makes the the direction of the number four part , then the computer starts retrieving .
+In this new system , the user can reduce the anxiety because of the shorten time of response .
+We made an evaluation evaluation experiment . For the evaluation of work efficiency , we could have a better result for the achievement number . Then , the result was a better for the case that res ponse was made in between in the middle of the speech . And also for the evaluation of the easiness to use , the higher result was gained , for the case that the user can receive the answer in the middle of the speech .
+Lastly , I would like to move on to the summary of my presentation .
+I have proposed the method to make responses even when the users are speaking . And also , I have made an evaluation experiment and confirm the efficiency of this proposed method .
+The future task would be that we should consider the response to the flexible flexible response to the more complicated speech patterns . Thank you very much .

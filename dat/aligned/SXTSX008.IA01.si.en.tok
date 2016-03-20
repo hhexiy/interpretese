@@ -1,0 +1,31 @@
+My topic today is parsing for natural language using finite state automaton .
+First , speaking of background , there is an increasing importance in parsing spoken language . So , it is important to analyze on time , real time .
+And the results of the parsing of natural spoken language is going to be used in the natural language processing system , such as voice dialog . first , let me talk about how to analyze natural language .
+There 're three stages or phases of parsing . Let me briefly explain one of each .
+First is morphological parsing . Morphological parsing means to separate sentence into words and put a part-of-speech .
+And in syntactic parsing , we make a parsing tree by analyzing , rather structure of the sentence input . And we use CFG or RG to analyze natural language .
+And third stage is semantic parsing . This is to analyze the meaning of words and meaning between words .
+Let me focus today on syntactic parsing .
+This shows an example o f syntactic parsing . Let me talk about six elements of sentence .
+Sentence comprises of noun phrase and verb phrase . So if there is a noun phrase and verb phrase , that will constitute a sentence .
+And secondly , there is a determiner and noun . And if there is a determiner and a noun , it will constitute a noun phrase or NP .
+And thirdly , if there is a verb , it will constitute a VP or verb phrase . And these are grammatical rules .
+And in this example sentence , the boy runs , the is a determiner and boy is a noun and V , in this case runs .
+So , let me cite an example of the analysis of a sentence , the boy runs .
+First , the is a determiner and noun is the boy , and the verb is runs . So following the grammatical rules , the becomes determiner , boy becomes noun and runs becomes a verb .
+And then determiner and the noun , namely the boy , constitute a noun phrase . And this V or runs constitutes a verb phrase .
+So now we see a combination of NP and VP .
+And there is a noun phrase and verb phrase , so this the boy runs constitutes a sentence or S . And this completes the parse tree .
+Let me make a comparison between the analysis , between the ones that use finite state automaton and context free grammar .
+If you use CFG or context free grammar to analyze , it has capacity to accurately analyze natural spoken language , but it takes time .
+But if you use finite state automaton to analyze , it is high-speed processing . It 's a benefit of that . But a bad point is that it 's not always a case that all spoken language will be accurately analyzed , so there 're sometimes mistakes .
+So we need to combine the good points of the two types of analyses , namely the accurate analysis ability to analyze natural spoken language and high-speed processing . And this is a process flow of FSA-based analysis .
+First , from CFG , context free grammar it will be transformed to FSA , finite state automation . And using finite state automaton , input sentence is going to be parsed into a parse tree .
+So by transforming CFG to FSA , this transformed FSA will have the same characteristics as CFG , so it is accurate processing and since it is FSA , it is fast-speed processing . So it has a good point of the both two types of parsing .
+Let me cite a specific case study of parsing using FSA . Let me go back to CFG , context-free grammar .
+And based on the context-free grammatical rules , it will be transformed to FSA . Then the transformed FSA is going to be used for parsing the sentence the boy runs  .
+If you use morphological parsing , you will see the sequence of part-of-speech , determiner forby noun , and noun forby verb . So you will see the sequence DET N V and you will be able to output the parse tree as follows .
+Let me make a summary of my speech  . I have talked abou t parsing using finite state automaton .
+And it consists of two phases . First is a transformation from CFG to FSA .
+Second phase is to parse the sentence using FSA . By using this two-phase method the capacity or accurate analysis is going to be close to CFG and it is high-speed processing and high-speed parsing .
+That concludes my speech , thank you .

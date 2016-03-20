@@ -1,0 +1,23 @@
+Incremental parsing , or determining output-timing in incremental parsing , this is my topic of presentation today .
+First of all , what is incremental parsing ? I like to briefly talk about the definition of incremental parsing .
+Using incremental parsing , we analyze sentence structure . While sentence is being input , we determine the syntactic relation .
+For example , I give you this example sentence I saw her aunt in the park. This is an example sentence . For example , when the word saw is is input , according to incremental parsing , the noun , , is the subject of verb saw .
+This is the result determined by incremental parsing .
+This is the framework . Why this framework is necessary ? We need this framework for real time dialogue processing system , such as simultaneous interpretation system . We need this type of framework to implement , or to realize real time dialogue processing system , such as simultaneous interpretation .
+What 's important for incremental parsing is the output control , or output timing is quite significant for incremental parsing because we do n't know when syntactic relation is determined , or at what stage syntactic relation is determined. For example , I give you this sentence example .
+When I saw her was input , there is a possibility that , her is object of verb saw or there is another possibility that her is a possessive pronoun when is followed  noun follows her . So , excuse me , at this point we ca n't determine the syntactic relation .
+And and next , when aunt the word , aunt is input , the possibility of her being the object of verb saw is cancelled . So her is determined to be possessive pronoun for aunt . So when aunt is input , structure can be determined .
+So very important to determine output timing for incremental parsing . So now allow me to propose methods to determine output timing for incremental parsing .
+Today I 'd like to introduce the method with the characteristic of a dynamic determination of output timing . In order to determine syntactic relation , we delay output timing as necessary .
+output is made at an early stage  within the range , output is made as early as possible . And then I 'd like to move on the outline of this method .
+The method consists of two modules , incremental parsing and output control . for incremental parsing , words are input and syntactic relation can be related .
+A possible syntactic relation can be generated according to incremental parsing and the result will be transferred to the control output control . And syntactic structure transferred to output control , we 'll we 'll de termine which point is determined in terms of syntactic structure .
+And the determining portion will be output and that is the framework .
+Now I 'd like to give you an example . This is an example , the same example as I gave you previously . For example , for this sentence , the her was input .
+Let 's think about the stage when her is entered .
+When her is input into the module of incremental parsing and possible syntactic structure will be determined and output . So there there are two possibilities , her being an object of verb saw and her being possessive pronoun for her .
+These are two possible syntactic structures . And output control receive those two relations , but at this point it can not determine which one is correct . So output control saves these two information .
+And now that  at the next stage , aunt is input into incremental parsing . After analyzing that information , information that aunt is a noun can be entered into output control .
+So according to this information , her being object of verb saw is cancelled . So as a result her turns out to be possessive pronoun .
+So this is how output is controlled and as a result when syntactic structure , or relation is determined , output is made . At this time , I proposed the method to determine output timing dynamically for syntactic analysis .
+And this program is packaged onto the computer and we carried out experiment. As the result , the experiment allowed us to confirm a possibility of incremental output of syntactic structure .

@@ -1,0 +1,383 @@
+0001 - 00:06:392-00:07:032 I:
+Now
+0002 - 00:07:408-00:09:743 I:
+I want to make presentation
+0003 - 00:10:080-00:10:519 I:
+on
+0004 - 00:10:736-00:15:119 I:
+(W a) the aligning of sentences in parallel corpora
+0005 - 00:15:608-00:19:215 I:
+for extraction of translation patterns<SB>
+0006 - 00:21:792-00:23:608 I:
+This is (noise the background)
+0007 - 00:22:296-00:22:903 I:<noise>
+0008 - 00:25:288-00:26:631 I:
+of the development<SB>
+0009 - 00:27:000-00:28:895 I:
+Internet has become
+0010 - 00:29:512-00:30:648 I:
+more popular
+0011 - 00:31:360-00:34:487 I:
+and more people are on the overseas travel,
+0012 - 00:34:936-00:35:679 I:
+so there're
+0013 - 00:35:967-00:41:463 I:
+more opportunities for people to communicate with people speaking different languages<SB>
+0014 - 00:42:032-00:44:640 I:
+And also in the overseas trip,
+0015 - 00:46:408-00:47:671 I:
+They want to have
+0016 - 00:48:080-00:52:056 I:
+the simultaneous interpretation with little time lag<SB>
+0017 - 00:53:320-00:53:850 I:
+And
+0018 - 00:54:052-00:55:461 I:
+in the conversation,
+0019 - 00:55:728-00:59:615 I:
+they want to have a simultaneous translation with little time lag<SB>
+0020 - 00:59:911-01:00:215 I:<noise>
+0021 - 01:03:672-01:03:815 I:<noise>
+0022 - 01:04:520-01:05:152 I:
+Now
+0023 - 01:05:800-01:07:063 I:
+we would like to
+0024 - 01:08:256-01:12:904 I:
+study and analyze simultaneous interpretation system<SB>
+0025 - 01:18:600-01:20:927 I:
+In simultaneous interpretation,
+0026 - 01:21:528-01:23:136 I:
+the translation result
+0027 - 01:23:552-01:24:687 I:
+is not output<SB>
+0028 - 01:25:064-01:26:327 I:
+Only after
+0029 - 01:26:792-01:28:487 I:
+the input is completed,
+0030 - 01:29:040-01:29:719 I:
+output
+0031 - 01:30:040-01:30:480 I:
+is
+0032 - 01:30:728-01:32:247 I:
+made in the middle
+0033 - 01:32:448-01:32:879 I:
+of
+0034 - 01:33:135-01:33:751 I:
+the
+0035 - 01:34:279-01:35:039 I:
+input<SB>
+0036 - 01:35:928-01:37:855 I:
+In order to output
+0037 - 01:38:312-01:39:983 I:
+accurate translation,
+0038 - 01:40:584-01:42:176 I:
+they have to have
+0039 - 01:42:408-01:44:960 I:
+a very complicated processing
+0040 - 01:45:488-01:46:007 I:
+of
+0041 - 01:47:584-01:48:663 I:
+syntactic
+0042 - 01:49:007-01:50:135 I:
+(F uh) analysis<SB>
+0043 - 01:51:360-01:52:232 I:
+We used
+0044 - 01:52:543-01:54:536 I:
+an example of translation
+0045 - 01:54:919-01:57:360 I:
+by the simultaneous interpreters
+0046 - 01:57:816-01:59:263 I:
+and we tried to see
+0047 - 01:59:776-02:00:352 I:
+how
+0048 - 02:00:784-02:01:895 I:
+the interpreters
+0049 - 02:03:688-02:04:464 I:
+translate<SB>
+0050 - 02:04:624-02:07:495 I:
+We tried to use their skills and know-hows
+0051 - 02:08:064-02:08:592 I:
+to
+0052 - 02:08:840-02:11:104 I:
+develop the system ourselves<SB>
+0053 - 02:20:288-02:23:351 I:
+The sentences written in certain language
+0054 - 02:23:944-02:25:575 I:
+and text data
+0055 - 02:25:855-02:27:791 I:
+of the translated sentence
+0056 - 02:29:128-02:31:664 I:
+is called (Q bilingual corpus)
+0057 - 02:32:272-02:34:927 I:
+and there (W has;have) been a lot of (W study;studies) on this<SB>
+0058 - 02:36:672-02:38:975 I:
+We try to extract
+0059 - 02:39:776-02:40:287 I:
+the
+0060 - 02:40:575-02:42:207 I:
+parallel expression
+0061 - 02:42:519-02:45:016 I:
+effective for simultaneous interpretation<SB>
+0062 - 02:55:168-02:58:103 I:
+In order to extract the parallel expressions,
+0063 - 02:58:600-02:59:559 I:
+we have to
+0064 - 02:59:791-03:02:528 I:
+think of the three main stages<SB>
+0065 - 03:03:152-03:06:016 I:
+First is the matching of the (F uh)
+0066 - 03:06:976-03:09:119 I:
+translation corpus sentences<SB>
+0067 - 03:09:448-03:10:215 I:
+For example,
+0068 - 03:12:784-03:15:223 I:
+if I say (O ohayo gozaimasu),
+0069 - 03:16:280-03:17:487 I:
+it would match
+0070 - 03:18:008-03:18:367 I:
+with
+0071 - 03:18:592-03:20:687 I:
+an English sentence of (Q good (noise morning))<SB>
+0072 - 03:20:128-03:20:672 I:<noise>
+0073 - 03:22:688-03:23:488 I:
+The second is
+0074 - 03:23:800-03:27:111 I:
+(O tadaima go shoukai itadaki mashi ta Suzuki de gozai masu)<SB>
+0075 - 03:27:768-03:29:272 I:
+This matches with
+0076 - 03:30:056-03:30:983 I:
+two and three
+0077 - 03:31:568-03:34:807 I:
+(Q thank you for your kind introduction. My name is Suzuki)<SB>
+0078 - 03:38:832-03:39:591 I:
+Then,
+0079 - 03:41:488-03:42:152 I:
+we have
+0080 - 03:42:351-03:42:847 I:
+to
+0081 - 03:43:768-03:44:463 I:
+try
+0082 - 03:45:024-03:45:687 I:
+to
+0083 - 03:46:160-03:47:887 I:
+look at smaller units,
+0084 - 03:49:768-03:51:439 I:
+for (L example, the phrases)<SB>
+0085 - 03:56:624-03:58:384 I:
+And we try to
+0086 - 03:58:591-03:59:623 I:
+(L identify)
+0087 - 04:00:264-04:03:231 I:
+(L the (O tadaima goshoukai itadakimashita Suzuki desu))
+0088 - 04:03:616-04:08:335 I:
+with two English sentences (L of (Q thank you for your kind) introduction, my name is Suzuki)<SB>
+0089 - 04:09:736-04:12:615 I:
+We also have to align phrases
+0090 - 04:12:919-04:14:447 I:
+and (L we have to extract)
+0091 - 04:14:944-04:15:671 I:
+the (W a)
+0092 - 04:16:288-04:18:112 I:
+bilingual (noise expressions)<SB>
+0093 - 04:17:608-04:17:763 I:<noise>
+0094 - 04:18:168-04:18:456 I:<noise>
+0095 - 04:21:160-04:22:295 I:
+This is how
+0096 - 04:22:640-04:24:224 I:
+the sentence (noise is)
+0097 - 04:23:544-04:24:776 I:<noise>
+0098 - 04:28:712-04:29:503 I:
+aligned<SB>
+0099 - 04:30:976-04:32:159 I:
+There are two
+0100 - 04:32:576-04:34:111 I:
+methods of alignment<SB>
+0101 - 04:34:392-04:37:232 I:
+First is the statistical method<SB>
+0102 - 04:38:920-04:40:104 I:
+The second is
+0103 - 04:40:696-04:43:055 I:
+the bilingual dictionary
+0104 - 04:43:480-04:44:184 I:
+is used<SB>
+0105 - 04:44:224-04:44:387 I:<noise>
+0106 - 04:49:448-04:50:959 I:
+An example of an
+0107 - 04:51:216-04:51:383 I:<noise>
+0108 - 04:52:624-04:53:904 I:
+analytical system
+0109 - 04:54:136-04:55:639 I:
+is the system using
+0110 - 04:55:887-04:57:887 I:
+the ratio of sentence length<SB>
+0111 - 04:59:232-05:00:684 I:
+Another example of
+0112 - 05:00:903-05:02:831 I:
+the (F uhh) dictionary,
+0113 - 05:03:460-05:03:960 I:
+we
+0114 - 05:04:175-05:06:168 I:
+can have a system where
+0115 - 05:06:576-05:07:523 I:
+matching is easy<SB>
+0116 - 05:10:160-05:11:135 I:
+We have (noise to)
+0117 - 05:10:680-05:10:820 I:<noise>
+0118 - 05:11:452-05:12:499 I:
+correspond
+0119 - 05:12:936-05:13:755 I:
+the sentence
+0120 - 05:14:204-05:15:635 I:
+and the structures
+0121 - 05:16:032-05:18:544 I:
+depending upon the length of the sentences<SB>
+0122 - 05:18:720-05:18:879 I:<noise>
+0123 - 05:19:000-05:20:439 I:
+Here is one assumption<SB>
+0124 - 05:20:752-05:22:048 I:
+(noise The Japanese) sentences
+0125 - 05:20:856-05:21:088 I:<noise>
+0126 - 05:22:263-05:24:767 I:
+(noise are as long as English sentences)<SB>
+0127 - 05:22:263-05:24:008 I:<noise>
+0128 - 05:26:104-05:29:071 I:
+We have the example of (O ohayo gozaimasu)<SB>
+0129 - 05:29:568-05:32:991 I:
+(O ohayo gozaimasu) can be translated as (Q good morning)<SB>
+0130 - 05:40:576-05:42:943 I:
+So (O ohayo gozaimasu) equals (Q good morning)<SB>
+0131 - 05:45:424-05:48:208 I:
+(O tadaima go shoukai shite itadaki mashi ta Suzuki de gozai masu)
+0132 - 05:51:352-05:52:087 I:
+can be
+0133 - 05:52:672-05:54:535 I:
+(Q thank you for your kind (noise introduction),
+0134 - 05:54:040-05:54:200 I:<noise>
+0135 - 05:55:496-05:56:607 I:
+my name is Suzuki)<SB>
+0136 - 06:00:192-06:00:799 I:
+So,
+0137 - 06:01:440-06:03:400 I:
+we can assume that what
+0138 - 06:03:615-06:05:015 I:
+responds to what<SB>
+0139 - 06:08:240-06:09:616 I:
+Now (noise we have to)
+0140 - 06:08:880-06:09:856 I:<noise>
+0141 - 06:10:552-06:13:999 I:
+align with (W the) (W a) matching of the vocabraries<SB>
+0142 - 06:15:504-06:16:855 I:
+We use a dictionary
+0143 - 06:17:328-06:19:087 I:
+to convert Japanese
+0144 - 06:19:800-06:21:575 I:
+words into English<SB>
+0145 - 06:25:888-06:26:631 I:
+And
+0146 - 06:27:720-06:30:183 I:
+we are trying to use (noise the)
+0147 - 06:29:360-06:29:568 I:<noise>
+0148 - 06:32:304-06:34:344 I:
+parallel relationships (X to
+0149 - 06:34:624-06:35:479 I:
+assume
+0150 - 06:36:032-06:36:343 I:
+the),
+0151 - 06:37:440-06:38:647 I:
+(X cre) (F um), respond
+0152 - 06:38:872-06:41:232 I:
+<FV> (F oh) (F ah) to assume the responds
+0153 - 06:42:144-06:43:175 I:
+from the sentence<SB>
+0154 - 06:45:456-06:48:535 I:
+Here is an example of (O ohayo gozaimasu) or
+0155 - 06:48:967-06:51:847 I:
+(O tadaima go shokai itadaki mashi ta Suzuki de gozai masu)<SB>
+0156 - 06:52:135-06:53:639 I:
+For the second sentence, it is
+0157 - 06:54:392-06:55:087 I:
+as follows<SB>
+0158 - 06:56:440-06:57:503 I:
+(Q thank you very much
+0159 - 06:58:408-07:00:407 I:
+for your kind introduction. I'm Suzuki)<SB>
+0160 - 07:01:272-07:02:455 I:
+So these two
+0161 - 07:02:727-07:03:703 I:
+sentences
+0162 - 07:04:568-07:05:591 I:
+should be matched
+0163 - 07:05:848-07:06:279 I:
+to
+0164 - 07:06:664-07:07:223 I:
+English<SB>
+0165 - 07:11:720-07:12:207 I:
+(L Then)
+0166 - 07:15:728-07:17:320 I:
+you have to consider
+0167 - 07:17:551-07:18:343 I:
+(Q good morning),
+0168 - 07:18:672-07:20:647 I:
+you reply to (O ohayo gozaimasu)<SB>
+0169 - 07:24:416-07:26:328 I:
+So the number one
+0170 - 07:26:568-07:29:327 I:
+of (Q good morning) and the sentence (Q good morning)
+0171 - 07:33:032-07:33:872 I:
+are matching
+0172 - 07:34:079-07:34:431 I:
+or fit<SB>
+0173 - 07:35:824-07:38:039 I:
+And also the second sentence
+0174 - 07:40:832-07:45:127 I:
+we can find such words as (Q presently introduction), (Q Suzuki)
+0175 - 07:45:640-07:50:560 I:
+and (Q (D int) presently introduction) is that (Q thank you very much for your kind introduction now)
+0176 - 07:51:000-07:53:143 I:
+and (Q Suzuki) is (Q my name is Suzuki)<SB>
+0177 - 07:57:400-07:58:191 I:
+And
+0178 - 07:59:000-08:02:784 I:
+therefore we have to extract an effective bilingual expression
+0179 - 08:03:192-08:04:927 I:
+for simultaneous (W interpre<FV>tation;interpretaion)
+0180 - 08:05:440-08:07:520 I:
+and also we have to align
+0181 - 08:07:880-08:10:352 I:
+the parallel corpus to the sentences<SB>
+0182 - 08:13:832-08:14:447 I:
+And
+0183 - 08:16:288-08:17:152 I:
+we have to mount
+0184 - 08:17:351-08:20:159 I:
+this into the simultaneous interpretation kit<SB>
+0185 - 08:22:888-08:26:399 I:
+In order to extract effective (F uhh)
+0186 - 08:29:304-08:30:607 I:
+bilingual corpus
+0187 - 08:31:088-08:32:335 I:
+for the simultane<C>
+0188 - 08:32:824-08:33:991 I:
+ous interpretations,
+0189 - 08:34:328-08:36:263 I:
+we have to identify those (W corpus;corpora)<SB>
+0190 - 08:36:688-08:37:735 I:
+We have to
+0191 - 08:38:128-08:40:351 I:
+place the bilingual corpus
+0192 - 08:41:424-08:42:968 I:
+from the viewpoint of
+0193 - 08:43:328-08:43:808 I:
+the
+0194 - 08:44:088-08:45:264 I:
+(D reish) rate
+0195 - 08:45:463-08:45:775 I:
+of
+0196 - 08:46:204-08:47:228 I:
+sentence length
+0197 - 08:47:528-08:49:239 I:
+and the vocabulary matching<SB>
+0198 - 08:49:680-08:50:272 I:
+And that's all<SB>
+0199 - 08:50:407-08:51:279 I:
+(L Thank you very (noise much))<SB>
+0200 - 08:50:940-08:51:352 I:<noise>

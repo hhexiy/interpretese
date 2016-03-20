@@ -1,0 +1,31 @@
+Today , I would like to talk about a method for incremental dependency analysis for Japanese .
+Recently , we have been seeing spoken language being used . For a real time conversational processing system , there is a big demand for this .
+And because this is spoken language , as much as possible , in response to the input , the output needs to come as quick as possible . So , a real time conversational system is what 's desired .
+Out of this , real time , in order to bring this about the natural language , an incremental interpretation of this , this kind of method is necessary .
+This means that as the words are input , the input parts of the sentence need to be interpreted . For example , in the store , I met his friend  . In response to this kind of sentence , first of all , in the store or at the store , that phrase or unit comes in , then regarding this part , this system does an interpretation . And this is followed by his , this comes in , as in input , and between at the store and his , the input is interpreted .
+Regarding Japanese and interpretation Japanese dependency interpretation is often used . As you can see in this chart , each part , At the store , I met his friend  , regarding each of these phrasal units , the dependency relationship between each phrase is decided. That 's how interpretation is done .
+For example , at the store , his friend , I met if you take the sentence , at the store I met his friend , his modifies friend and friend , modifies met .
+So , there 're two phrasal units here . Each of them modify or are modified by each other . This is the relationship . Regarding this sentence , that is how the structure is determined .
+Why is this sort of analysis being used ? To explain the reason is , a characteristic of Japanese is , regarding the order of words , there are not very strict restrictions .
+For example , this part that says at that store and this part that says his friend , these two parts , can be interchanged . Even if the order changes , the whole sentence still means the same thing .
+And in Japanese , compared to English , what 's different is , the subject is often omitted .
+For example , with this example here , you should really have the subject I , I met his friend at the store , but here , people assume that you understand that you 're talking about yourself . So , I does not really exist , so the Japanese says met his friends at the store .
+So , sorry . Regarding the dependency relationship and the analysis , you look at the dependency relationship between two phrasal units and decide . That is the objective of the analysis .
+However , in this case , with the dependency analysis , regarding the dependent , the unit awaits the input off the head , to give you the former example , oh , sorry , a certain phrasal unit will modify the last phrasal unit in that example .
+So , unit awaits for the input of the last part of the sentence , which means that if this is to be a real time processing system , then , unfortunately , the incrementality , this condition is not satisfied . So , this time , what we are doing is , we 're thinking of an incremental dependency analysis for Japanese. That 's what we are suggesting .
+What this does is , regarding the dependency analysis for an input , even when the head still does not exist , the head , we make an assumption about this and we use the assumed phrasal unit to create a dependency relationship . So , I 'd like to explain about the dependency structure .
+The dependency structure is created from what 's called the dependency grammar .
+And this considers the probability of the dependency between two phrasal units and also there 're limitations to this dependency structure . These are the three limitations . The first is , regarding dependency , there 's no intersection .
+In other words , dependency relationships should not intersect each other .
+The second limitation is the head is unique . In other words , for one phrase , one head , and only one head needs to exist .
+And lastly , the dependency modifies the latter part of the sentence. In the case of the Japanese , you modify from the front to the back . You consider only that relationship in the case of Japanese .
+So these are the three limitations . And we need to fulfill those three limitations in creating dependency structure .
+And here , I would like to look at incremental dependency analysis and give you an outline . And incremental dependency analysis , so this means that regarding an input dependent , the head has still not been input and it still needs to look for a dependency relationship .
+So therefore , the dependency grammar is used to try to make an assumption about the category of the head . And , , the assumed phrasal unit is used to look at the input up to there , and create the dependency structure .
+For example , at the store this phrasal unit , let 's say this is followed by a book , so , both at the store and a book , both of these are probably modify a verb . And they probably modify the same verb . Once that information comes in , then , at the store and a book , these two modify the same verb. You can set up the structure to make it that way .
+This sort of structure , the creation of such a structure , by doing this , these two phrasal units , even before the head is input for these two phrasal units , regarding these two phrasal units , we can create a dependency structure . And because of this , even before everything is input , we can still to a certain extent , create the structure of the sentence .
+So to summarize , this time , we 've looked at the incremental dependency analysis for Japanese , and proposed a method for this . I explained about this method .
+And what we do is we use dependency structures and we use an assumed phrasal unit . We use the grammar to assume a phrasal unit and create a dependency structure .
+And using this assumed phrasal structure to create the dependency structure , by doing this , we can we do n't have to wait for the head to be input . We can create the dependent structure even before the head has been input .
+This method will be on Unix to work stations . We 'll be using GNU common list to implement .
+That 's what we 've been doing .

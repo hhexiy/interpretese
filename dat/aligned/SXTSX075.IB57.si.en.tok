@@ -1,0 +1,39 @@
+Today , I would like to speak about mobile agent system for supporting adhoc communication. And background of the study is for one thing the development and diffusion of the Internet .
+And recently , the wireless LAN , mobile phones , and other wireless devices have been diffused to enable everyone to communicate anywhere .
+And the third thing is the mobile computing by carrying the small computer , which contains the personal information , is being spread .
+And by using such a system we would like to use information freely and easily anytime , anywhere .
+However , communication in mobile environment , we were thinking of the mobile permeation and there were many restraints , such as lack of power source or the network .
+But what we mean by mobile permeation is that even if we are traveling , we can assume ourselves as if we are not moving , that we have the same environment as if we were sitting in front of our desktop at home .
+But what we are intending instead of the mobile permeation is the dependence on the mobility and the communication is significant because we are traveling . This is what we are intending for .
+And and how such communication depending on the mobility is made is that , for example , it can be made regularly or can be communication made accidentally , for example , meeting someone by chance and we define this as the adhoc communication and we intend to support it .
+And I would like to show you the easy example . For example , this person is walking in town and he meets a friend of his in the town .
+And of course , they talk to each other , but they also use their PDA , and exchange some information .
+And other than just speaking , this we can use this information contained in the mobile phone , the PDA for example , the schedule or the photographs . So , by using such devices , we would like to enrich the dialog or the confirmation with more information .
+So , in such this is why we want to reali ze the mobile information system supporting adhoc communication . And the communication can be at dialog between the humans .
+For example , someone meets someone for the first time , but they might have the common friends , and or we might want to match their personal information , for example , the high school that they have graduated from .
+And they , two people might have graduated from the same high school , but they might have find out that they had common friends and by then using such a computer , they can find out such information .
+And the second is the supporting the the dialog between human and the information system .
+So , for example , if someone went to the train station and if there was an information kiosk in the station , the person can use such a kiosk .
+And if that person had the the PDA , through the communication with the information kiosk he can obtain more information , so he , that person can freely use many information at terminal anywhere . And usually people use this , the fixed network at home , but we want to make it so that people can use such network and system anywhere .
+And what we mean by the adhoc communication is the dialog between humans , but our intention is to enrich it , make it even richer .
+And usually , the participants of the conversation changes , it might be three or four people if it is the normal conversation , but if it is the speech , the audience might be more than two hundred or three hundred , and can be a panel discussion or the conference .
+And in many cases there is no prior preparation , people have n't pre pared previously what you talk . And they exchange information at that instance .
+And now , we are presuming that information  this is the communication the computer  using a computer and if it is a conference , people usually hand out the materials , but we can do this with the system .
+And it is also necessary to have the communication matching the circumstances . And depending on the place of the communication , the purpose of the communication is different .
+For example , if it is taking place in the conference room , it is the conference . But if someone meets someone in the town , it is just the personal talk .
+So , this system must have the application that is applicable to each circumstances .
+Okay , then let us discuss about each element one by one .
+The first thing is , that this is a mobile network technology . And what we mean by adhoc network is the network constructed depending on the necessity and usually it is created through wireless devices .
+And the characteristic of such adhoc network is that it has no no no server to control the network .
+And we already have several implementation . And we also are studying the infrared adhoc network .
+And , and the second topic is the the sharing of the application . If someone meets someone by chance , it is not always the case that they have the same application .
+So , it is impossible to prepare the application beforehand . It is impossible to prepare the common the common communication software , so it it is necessary to have a system to distribute the application and we use mobile agent for this purpose .
+And this mobile agent means the program that moves around the network .
+And third thing is the application method for each circumstances . And we want to system to understand without any instructions .
+And for this purpose , we would use the intelligent agent .
+And this agent is the program to understand each circumstances . So , using this intelligent agent and the application and the agent network , we would like to realize the adhoc communication .
+And let me show you the concrete example . For example , if someone is going to have the conference at the office , and if there is the the intelligent mobile agent , this , intelligent mobile agent will transfer all the materials to the PDA .
+And if that person goes to the conference room , this mobile intelligent mobile agent will distribute these materials to all the participants of the conference , and at the same time , if there was a presentation board , this agent will transfer the material to the board .
+But the person needs not give instruction to the mobile agent , but the mobile agent itself would judge the circumstance . And this is where the the system supports such communication .
+So , we are thinking about the the characteristic of the adhoc communication .
+And we have also realized adhoc communication system based on the mobile agent system which enables the intelligent support to the adhoc communication easily anywhere anytime , anywhere .

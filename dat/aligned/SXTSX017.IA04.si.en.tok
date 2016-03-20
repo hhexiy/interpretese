@@ -1,0 +1,33 @@
+Today I would like to talk about derivational grammar approach to Japanese processing aid and its application , which is our research theme .
+First about the Japanese processing using computers . Generally speaking , when the computer processes human spoken language , first the input sentences enter into morphological analysis and then move onto syntactical analysis , move onto semantic and then context analysis. These are the processes that input sentences go through .
+The first process is morphological analysis . What morphological analysis is or what it does is it analyzes a sentences and as this is the first step of entire process , it will has to be correct otherwise it will be affecting the rest of the flow .
+This order more therefore important to make sure that this is done correctly .
+When we look at a Japanese sentence , it is not written in this way with all these words set aparts , which is actually in the case of English .
+So it is quite easy in the case of English to see all the the nouns and verbs . But in the case of Japanese , computer find it very difficult to identify each word in a Japanese sentence , so we need to put them into this form of writing .
+Addition , for example , for this sentence , this hanseibun , this part is a noun and following one wo is a post-position particle , which is followed by a verb and then three auxiliary verbs .
+So each word needs to be tagged to show what part of the speech it represents . So two types of work involved in morphological analysis in Japanese spoken language , first divides one sentence into words and put a tag to each part .
+So the real sentences are not as simple as this is , such as this . I 'm sure you are familiar , when you remember back in your primary or junior high school days , this is a typical school grammar .
+For example , for the verb kaku , which means writing , it conjugates kaka , kaki , kaku , kaku , kake , kake  . That is the conjugation of verbs .
+So different forms are evolved , imperfect , continuative , conclusive , attributive , provisional , imperative . So , the five steps and different types of conjugation , I remember that we all had to learn and study .
+And in the case of auxiliary verb , seru , it also inflects . However , this se only can be connected to the imperfect form of a verb .
+This rareru , which means a passive tense , this can only go with the imperfect form of a verb . And this is the set of no , inflection , which means the perfection , so this can not get along with the the two forms , continuative and imperative .
+It can only connect to the provisional collection , continuative form .
+So these are the very complex way of connections of each words as well as conjugation . So in order to analyze , for example kakase rare ta , the computer has to all these complex data rules build in .
+So that is the one challenge in processing Japanese language . It is necessary to be able to process such complicated conjugations .
+But we can also come up with another unique assumption for a different grammar . In other words , Japanese language does not conjugate .
+You may think that there is only the one school grammar of the Japanese but just not true .
+There is another type of grammar that is called derivational grammar . Derivational grammar is that , what it means is that we first focus on the ness ; agglutination  of Japanese or some other languages .
+And this derivational grammar pre-supposes no conjugation .
+And with respect to paradigm of a conjugation of a verb , I will show you some examples , it can divide into the stem and suffix . For example , in the case of the verb kaku , writing it conjugates as follows , kakanai kakimasu .
+And this portion does conjugate , that is why this is called conjugation , but this is based on the school grammar .
+But when we on the derivational grammar , each part of the word is divided into consonant and vowel . And you can see that part which remains unchanged always ends up with the consonant called k in this case . And this portion does not change at all .
+And it is followed by suffix , such as these and that part represents the conjugation .
+So , compared with the school grammar , this derivational grammar is quite simple and systematic . And it is a lot more appropriate to use this type of grammar for the purpose of developing the system that we are talking about .
+So , we decided to develop the morphological analysis system based on this derivational grammar , which has a very simple design .
+And as a result of our study , the accuracy of analysis of Japanese sentences is ninety eight percent . Like in the case of kakase rare ta , this can be analyzed in this way .
+when it is translated into Uighur , and as one of the application , we are also studying machine translation between Japanese and Uighur . Uighur , this may not be familiar to all of you , but Uighur is language spoken in the the Uighur district , that is the the part of China .
+It is quite similar to Japanese in terms of the sequence or word order . So , when a sentence is analyzed by morpheme , it becomes rather easy to translate using the machine between these two languages because of that reason .
+This is one example . This is the input sentence , kakase rare ta , it is to be translated into Uighur , this slide shows how it is processed to get to the translation .
+So , we are doing Japanese analysis based on derivational grammar , which is different from school grammar , which enables us to analyze in simple way .
+And as a result , one of the applications we are now working on is machine translation between Japanese and Uighur . And the reason behind that application is the similarity between the two languages and word for word translation of the verbs and some other phrases as well .
+Thank you .

@@ -1,0 +1,368 @@
+0001 - 00:08:888-00:11:631 I:
+Today, I'd like to talk about parsing for (D na)
+0002 - 00:11:936-00:15:103 I:
+natural language using finite state automaton<SB>
+0003 - 00:15:544-00:17:287 I:
+Let me explain the background<SB>
+0004 - 00:18:768-00:24:663 I:
+(S There) currently there are a lot of increasing the importance of the (F ye) parsing of the
+0005 - 00:25:184-00:26:287 I:
+spoken
+0006 - 00:26:552-00:27:535 I:
+(F oh) language<SB>
+0007 - 00:28:232-00:33:383 I:
+It should be (F yee) real time because this is the dialogue<SB>
+0008 - 00:34:120-00:35:623 I:
+And then the same time,
+0009 - 00:37:032-00:39:015 I:
+it should utilize (W us)
+0010 - 00:39:400-00:43:839 I:
+syntactic parsing for the natural language processing system<SB>
+0011 - 00:47:464-00:47:959 I:
+Next,
+0012 - 00:49:255-00:54:111 I:
+I'd like to talk about outline of the parsing of natural language<SB>
+0013 - 00:56:984-00:57:695 I:
+The<H>
+0014 - 00:57:920-00:59:471 I:
+natural language
+0015 - 00:59:880-01:00:799 I:
+parsing (D in)
+0016 - 01:01:256-01:05:056 I:
+(W involve;involves) morphological parsing, syntactic
+0017 - 01:05:344-01:06:919 I:
+and then semantic parsing<SB>
+0018 - 01:07:616-01:10:287 I:
+The first one, morphological parsing<SB>
+0019 - 01:12:400-01:15:327 I:
+First of all, the system (W have;has) to divide
+0020 - 01:15:680-01:17:616 I:
+the sentence into part of (D s)
+0021 - 01:18:248-01:18:983 I:
+speech
+0022 - 01:19:256-01:21:167 I:
+and then (W the) analyze it<SB>
+0023 - 01:22:824-01:23:207 I:
+And
+0024 - 01:23:600-01:25:823 I:
+next one is syntactic parsing<SB>
+0025 - 01:26:728-01:28:743 I:
+The first parsing, the
+0026 - 01:29:056-01:31:671 I:
+(F uhh) structure of the input sentence
+0027 - 01:32:232-01:33:560 I:
+and then output
+0028 - 01:33:808-01:34:599 I:
+the parse
+0029 - 01:35:256-01:35:783 I:
+tree<SB>
+0030 - 01:39:280-01:44:167 I:
+In order to parse the natural language, we have to use CFG
+0031 - 01:44:576-01:46:039 I:
+and then RG<SB>
+0032 - 01:48:416-01:50:471 I:
+In the semantic parsing,
+0033 - 01:51:816-01:57:959 I:
+the meaning of the words and then semantic relations between words are very important<SB>
+0034 - 01:58:600-02:00:639 I:
+So, the system (W parse;parses)
+0035 - 02:00:904-02:02:551 I:
+those relations<SB>
+0036 - 02:05:120-02:05:583 I:
+Here,
+0037 - 02:05:840-02:07:863 I:
+I'd like to talk about the
+0038 - 02:08:320-02:09:815 I:
+syntactic parsing<SB>
+0039 - 02:17:328-02:19:383 I:
+Let me think about one example<SB>
+0040 - 02:22:760-02:23:167 I:
+The
+0041 - 02:23:936-02:24:735 I:
+first one
+0042 - 02:26:472-02:26:991 I:
+is
+0043 - 02:29:184-02:30:575 I:
+NP (F uh)
+0044 - 02:31:048-02:32:968 I:
+noun phrase and then
+0045 - 02:33:752-02:34:447 I:
+VP
+0046 - 02:34:768-02:35:183 I:
+verb
+0047 - 02:36:344-02:36:839 I:
+phrase<SB>
+0048 - 02:38:032-02:43:647 I:
+When the (F eh) sentence (W consist;consits) of NP and VP, the system (W recognize;recognizes) it
+0049 - 02:44:360-02:45:399 I:
+one sentence<SB>
+0050 - 02:46:384-02:47:335 I:
+And next one
+0051 - 02:48:296-02:48:719 I:
+is
+0052 - 02:48:984-02:49:463 I:
+the
+0053 - 02:49:840-02:50:711 I:
+determiner
+0054 - 02:51:552-02:52:535 I:
+plus noun<SB>
+0055 - 02:53:176-02:53:975 I:
+In this case
+0056 - 02:54:296-02:56:015 I:
+system (W recognize;recognizes) it
+0057 - 02:56:328-02:56:855 I:
+noun
+0058 - 02:57:352-02:57:959 I:
+(S phase)
+0059 - 02:59:488-02:59:975 I:
+phrase<SB>
+0060 - 03:00:448-03:01:623 I:
+And then the third one
+0061 - 03:04:976-03:05:415 I:
+verb
+0062 - 03:06:688-03:08:455 I:
+means (F uhh) verb
+0063 - 03:09:504-03:10:143 I:
+phrase<SB>
+0064 - 03:12:176-03:16:575 I:
+And this is the basic <FV> regulation or rule of grammar<SB>
+0065 - 03:18:664-03:20:583 I:
+And then the system (W looking;is looking) at
+0066 - 03:21:008-03:22:975 I:
+what kind of part-of-speech
+0067 - 03:23:600-03:25:616 I:
+(F uh) this (F uhh) word is<SB>
+0068 - 03:25:768-03:26:919 I:
+For example, (Q the)
+0069 - 03:27:392-03:27:823 I:
+is
+0070 - 03:28:296-03:29:527 I:
+the determiner
+0071 - 03:30:528-03:31:559 I:
+and then (Q boy)
+0072 - 03:31:776-03:33:055 I:
+noun and (Q run)
+0073 - 03:33:344-03:33:840 I:
+verb<SB>
+0074 - 03:38:847-03:39:639 I:
+So, using
+0075 - 03:39:984-03:40:559 I:
+this
+0076 - 03:40:960-03:41:439 I:
+grammar,
+0077 - 03:42:336-03:45:751 I:
+(S the) (D bo) (Q the boy runs) could be parsed<SB>
+0078 - 03:47:935-03:48:711 I:
+First of all,
+0079 - 03:49:848-03:51:543 I:
+(Q the), this is determiner
+0080 - 03:52:608-03:53:583 I:
+and then (Q boy)
+0081 - 03:53:944-03:54:439 I:
+noun,
+0082 - 03:55:344-03:56:727 I:
+(Q runs) is verb<SB>
+0083 - 03:58:416-04:03:311 I:
+So<H>, this is (W them) immediately recognized those part-of-speech<SB>
+0084 - 04:04:816-04:05:295 I:
+So,
+0085 - 04:06:392-04:07:111 I:
+again,
+0086 - 04:07:720-04:11:143 I:
+(Q the) is determiner, (Q boy) noun, (Q runs) verb<SB>
+0087 - 04:16:000-04:17:007 I:
+And next step
+0088 - 04:19:480-04:20:015 I:
+the
+0089 - 04:21:712-04:23:359 I:
+determiner and then noun
+0090 - 04:24:776-04:26:055 I:
+side by side<SB>
+0091 - 04:26:320-04:27:255 I:
+So, (W its;it) (W mean;means)
+0092 - 04:28:727-04:29:871 I:
+(Q the) and (Q boy)
+0093 - 04:30:872-04:31:543 I:
+makes
+0094 - 04:31:776-04:32:383 I:
+the noun
+0095 - 04:32:584-04:33:151 I:
+phrase<SB>
+0096 - 04:35:184-04:35:823 I:
+So, the
+0097 - 04:36:320-04:36:839 I:
+(Q runs)
+0098 - 04:37:456-04:38:095 I:
+(W mean;means)
+0099 - 04:38:912-04:39:919 I:
+or should be
+0100 - 04:40:152-04:41:471 I:
+the verb phrase<SB>
+0101 - 04:42:663-04:43:343 I:
+So,
+0102 - 04:43:968-04:44:991 I:
+the second step
+0103 - 04:46:040-04:50:407 I:
+the system (W recognize;recognizes) this is the NP plus VP<SB>
+0104 - 04:51:488-04:52:423 I:
+Then finally,
+0105 - 04:53:680-04:55:471 I:
+because of this result,
+0106 - 04:57:040-05:00:599 I:
+the input sentence (Q The boy runs) means
+0107 - 05:00:992-05:01:943 I:
+one sentence<SB>
+0108 - 05:02:608-05:04:431 I:
+So, this is parse tree<SB>
+0109 - 05:11:128-05:11:479 I:
+And
+0110 - 05:11:936-05:13:759 I:
+next let me (F uhh)
+0111 - 05:14:488-05:15:311 I:
+compare
+0112 - 05:15:672-05:20:855 I:
+(F uhh) with the parsing the (F ye) CFG based one and FSA based<SB>
+0113 - 05:21:720-05:23:383 I:
+The first one is the
+0114 - 05:23:599-05:25:135 I:
+CFG based
+0115 - 05:25:992-05:27:199 I:
+analysis<SB>
+0116 - 05:30:928-05:35:519 I:
+The system (W have;has) to (F ww) parse the natural language
+0117 - 05:36:128-05:37:159 I:
+very correctly,
+0118 - 05:37:416-05:37:575 I:
+but
+0119 - 05:38:279-05:41:799 I:
+this system takes (F uh) long time for processing<SB>
+0120 - 05:42:392-05:43:543 I:
+On the other hand,
+0121 - 05:43:928-05:46:535 I:
+FSA finite state automaton,
+0122 - 05:47:248-05:49:903 I:
+the processing is very quick, but
+0123 - 05:51:576-05:53:383 I:
+(X the<H>) this parsing
+0124 - 05:54:008-05:55:223 I:
+is not always
+0125 - 05:55:536-05:56:535 I:
+correct or
+0126 - 05:57:272-05:59:423 I:
+it sometimes lack of accuracy<SB>
+0127 - 06:05:760-06:06:391 I:
+So,
+0128 - 06:08:104-06:09:911 I:
+we try to achieve
+0129 - 06:10:296-06:10:791 I:
+this
+0130 - 06:11:056-06:12:927 I:
+a kind of hybrid type
+0131 - 06:13:912-06:15:583 I:
+between CFG
+0132 - 06:15:824-06:17:047 I:
+and FSA<SB>
+0133 - 06:20:176-06:23:047 I:
+This is (S our) (F uh) goal of our research<SB>
+0134 - 06:28:903-06:29:703 I:
+So,
+0135 - 06:31:520-06:36:119 I:
+this (F uh) (W show;shows) that (F uh) flow of parsing using FSA<SB>
+0136 - 06:37:032-06:37:623 I:
+The first,
+0137 - 06:38:000-06:40:159 I:
+the system using CFG
+0138 - 06:40:896-06:43:575 I:
+and then convert it into FSA<SB>
+0139 - 06:46:792-06:48:895 I:
+Using this FSA,
+0140 - 06:51:440-06:52:247 I:
+the system
+0141 - 06:52:672-06:55:439 I:
+(F uhh) (W parse;parses) the input sentence<SB>
+0142 - 06:58:256-07:01:479 I:
+The conversion from CFG to FSA,
+0143 - 07:02:440-07:03:703 I:
+by doing so,
+0144 - 07:10:472-07:13:575 I:
+FSA should have the same ability
+0145 - 07:13:824-07:15:791 I:
+as CFG's ability<SB>
+0146 - 07:17:008-07:18:543 I:
+And by doing so,
+0147 - 07:18:952-07:19:783 I:
+(F ohh)
+0148 - 07:20:184-07:20:463 I:
+(X their)
+0149 - 07:20:904-07:21:895 I:
+the system has
+0150 - 07:22:256-07:24:079 I:
+a very speedy process<SB>
+0151 - 07:24:864-07:27:095 I:
+Now you could have the both
+0152 - 07:27:352-07:27:943 I:
+(F ohh)
+0153 - 07:28:880-07:30:799 I:
+(F uhh) advantage
+0154 - 07:31:256-07:32:479 I:
+of two systems<SB>
+0155 - 07:34:424-07:34:960 I:
+And next
+0156 - 07:35:176-07:38:599 I:
+I'd like to give you some example using FSA<SB>
+0157 - 07:42:744-07:47:080 I:
+(W The) first of all, (F ohh) let me (F ye) talk about <FV> CF<C>
+0158 - 07:47:416-07:47:831 I:
+G
+0159 - 07:48:728-07:52:151 I:
+and then (D in) convert it into FSA<SB>
+0160 - 08:04:256-08:07:095 I:
+Using the converted FSA,
+0161 - 08:08:480-08:11:207 I:
+the system (W try;tries) to (F uu) parse
+0162 - 08:11:864-08:13:103 I:
+the input sentence
+0163 - 08:13:688-08:15:375 I:
+that is (Q The boy runs)<SB>
+0164 - 08:16:264-08:17:791 I:
+If you (F uu)
+0165 - 08:18:288-08:21:215 I:
+divide it into part-of-speech, you will see
+0166 - 08:21:560-08:23:847 I:
+(W determinant;determiner), noun and verb<SB>
+0167 - 08:25:792-08:26:479 I:
+So,
+0168 - 08:30:480-08:32:215 I:
+again (W determinant;determiner),
+0169 - 08:32:600-08:34:143 I:
+noun and verb
+0170 - 08:34:832-08:35:527 I:
+by
+0171 - 08:35:816-08:38:463 I:
+(F ye) following this (F uhh) sequence
+0172 - 08:39:088-08:41:656 I:
+(D vu) you will come up with the (F uh)
+0173 - 08:41:904-08:42:759 I:
+parse tree<SB>
+0174 - 08:44:056-08:45:095 I:
+To summarize
+0175 - 08:45:504-08:46:503 I:
+our research,
+0176 - 08:51:176-08:56:231 I:
+I just explained (W the) how to parse the sentences using FS<C>
+0177 - 08:56:712-08:57:087 I:
+A<SB>
+0178 - 08:57:744-09:01:551 I:
+(X The) (D FS) this system (W have;has) the (X two (W system;systems)), (F uhh) (X steps),
+0179 - 09:02:120-09:03:191 I:
+sorry, two steps<SB>
+0180 - 09:03:704-09:08:783 I:
+The first one in the conversion from CFG to FSA and the second step is
+0181 - 09:09:152-09:11:903 I:
+parsing the sentence using FSA<SB>
+0182 - 09:13:632-09:16:959 I:
+By doing so, you will have the system with (F uh)
+0183 - 09:17:416-09:20:671 I:
+as accurate as CFG and then also you can (W achieves;achieve)
+0184 - 09:21:000-09:22:471 I:
+high speed processing<SB>

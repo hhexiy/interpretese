@@ -1,0 +1,23 @@
+Today , I would like to talk about generation of Japanese polite expressions in English-Japanese spoken language translation .
+These days in Japan as well the opportunity to listen to English has been increasing . For that the English-Japanese spoken language translation has been expected increasingly .
+For example , the English-speaking person Japanese and Japanese-speaking person communicate each other and English lecture targeting Japanese has been held . In these circumstances English-Japanese spoken language translation has been very useful .
+It is most desirable case . For example , the already spoken language should be changed to pronoun and unnecessary subject must be omitted which is the omission of redundant words . It is often seen in Japanese sentences . And the person in the spoken sentences and speakers , so that this kind of personal relations must be taken account into .
+Then what is the characteristic of Japanese polite expression ? Direct translation can not convey messages . That is the characteristic of Japanese polite expression .
+For example , when I say I prepare this room for you , the direct translation is watashi wa anata ni kono heya wo youi suru  . However , in the spoken language if speaker is a receptionist , the translation would be watashi wa anata ni kono heya wo go youi itashi masu . This is the better translation .
+And also in the polite expression , there are various kinds of expression . In Japanese go youi itashi masu youi shi masu youi itashi masu . Those are various kinds of translation .
+Therefore , among these various kinds of polite expression we have to create the selection rules which expression must be used in a particular situation . If we try to create this in the translation system , we have to have the the selection rules . In a conventional research these selection rules of polite expression was made by human .
+For example , in travel language the English word prepare is translated into Japanese in standard way as youi suru , but if a spea ker is the receptionist that translation changes to go youi itasu . So this is the rule of selection .
+And this is made by human beings . However , the polite expression is very complicated , so how to use the polite expression is analyzed by human beings based on that analysis . Various kinds of selection rules of polite expression is very difficult by human beings .
+Therefore , this research is tried to create automatically the selection rules of polite expression .
+Let 's point out the method . There is the bilingual corpus so from bilingual corpus , cases with polite expression are taken out and rules are to be made .
+What is bilingual corpus ? That is , corpus consists of spoken English sentences and translation just like this .
+And this sentence , the English speaker says I can prepare this room for you . Then translator says kono heya wo go youi deki masu .
+Then after listening to the translation , Japanese speaker says , mou sukoshi yasui heya wa ari masen ka ? And then translator says Do you have cheaper rooms ? So those are the bilingual corpus .
+From this bilingual corpus we learn the selection rules of polite expression . Now let 's talk about how to learn the selection rules .
+Please look at this example . go youi dekimasu , o shirabe itashi masu , those are Japanese polite expressions . Then what is the characteristic of those polite expressions ?
+We have to find out what is verb , who is the speaker , what is the sentence pattern ? So those are three targets we have to find out .
+After analyzing those those , we understand that go and masu are used in this first sentence . If we select this polite expression , we have to think about the prepare is the verb , and the speaker is the receptionist and sentence pattern is declarative sentence .
+Therefore go and masu are used . So in other cases , we have to think about verb , speaker and sentence patterns , then find out the polite expression . So this is the rule of the polite expression .
+Now I would like to summarize .
+Today , I propose the method to automatically create decision rules , or selection rules , of polite expression in English-Japanese spoken language translation . And the basis is the corpus .
+So I explained the method of of the the automatically create discussion based on corpus .

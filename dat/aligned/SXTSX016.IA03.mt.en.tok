@@ -1,0 +1,30 @@
+I 'll explain about simultaneous interpretation systems for English lectures .
+There 's a difference , you see , when translating conversational language , which is useful when people both or all with different languages are conversing .
+For example , let 's say a woman and a man are having a conversation , and they 're able to have it by means of this system between them that 's translating their dialogue .
+That is , it 's a construct where what he says is translated by the system and heard by her .
+Before , this is what it 's been like : in a phrase , the systems developed up until now are these dialogue translation systems . The fundamental unit for translation has been the sentence .
+That is , the basic framework is , after he speaks , the system takes the results of the translation and vocalizes it as sound data : resultantly , the system , with him and her as users , produces alternating voice data .
+On the other hand , having talked about dialogues , I come back to lectures , and we can think of their interpretation as being that of monologues .
+In this case , it 's one-sided , a sort of supporting of communication , and in actuality it has come to be used quite a lot at places like the UN , so it 's quite thinkable that this sort of interpretation has a huge demand .
+In the case of this kind of interpretation , like we have here , for the interpreter 's spoken words , the system takes them and outputs the results of the interpretation as voice data to the audience , while the lecturer continues to speak . Accordingly , with this sort of speaker , gestures are being used , and there 's a need to synchronize with those , as well .
+So , to actualize that sort of thing , a simultaneous interpretation system is desired .
+Focusing on the lectures that I 've talking about , what I 'd like us to aim for is the actualization of a simultaneous interpretation system for lectures .
+Concretely , what I will consider is simultaneous interpretation that is the conversion of English lectures into Japanese voice data . For this purpose , in establishing a fundamental technique , I 've made the base the gradual advancement of spoken language processing , and I want to take a design approach .
+Actually , we 've developed an experimental system called Linus .
+Through the operation of this kind of system , I 'd like to ascertain the viability of automatic simultaneous interpretation . I 'll explain simply about this system , Linus .
+The first notable characteristic of this system is that it can handle the concurrent input and output of two different languages , let us say English input and Japanese output .
+Regarding its second characteristic , first of all , in connection to lectures , linguistic knowledge is employed , yes , but in addition to that there 's also specialist , or technical , knowledge included as well , and this is to be acquired beforehand , in this way for example : a published presentation sheet , a resume , or similar .
+Its third characteristic is that its output is , as much as possible , in the natural language of spoken Japanese . The actual design used is this , Synchtrance , a simultaneous interpretation system for dialogue , which is what we 've been making up until now .
+Based on that , we 've employed a simple design in the creation of a lecture-use system . I 'll explain about the construction of Linus , which is what we aim to realize .
+Fundamentally , Linus is formed of two processing modules : one that analyses English and one that produces Japanese . Firstly , it receives the English voice data , going through recognition while listening to it , with the recognition results being in English , but at the same time it is also going through an analysis of the English data and creating Japanese in terms of the analysis results .
+With that , in terms of the creation results , it will output Japanese voice data by means of compound voice data . Various processes like these , through simultaneous progression , bring about a simultaneous interpretation mechanism .
+Actually , Linus , which is a system , as I 've been saying , for interpreting English into Japan , has been made a reality . It 's executed on a computer called a Unix Workstation .
+As a notable characteristic , concretely about the knowledge information , at current the framework has humans as proxies . In actuality , for the next time , it wo n't be information ; for the speaking , the composition will have the form of Japanese voice data output from a Windows computer .
+Furthermore , it 'll use a dictionary or a grammar employing the necessary linguistic data , which will be drawn by people from things like lecture drafts beforehand .
+Actually , for English lectures , we went through with validation operations by means of the system 's voice data input . I feel that perhaps there 's hope here , a forecast for the possibility of realizing the simultaneous interpretation of lectures .
+Here 's a display of the actual interpretation results . Actually , the results of the interpretation will be presented to the audience as sound ; for the audience 's understanding , this window has been constructed .
+At a given point in time , the English input sentences will increase rapidly as the English input comes in . Along with that , the Japanese translation , too , will rapidly come out .
+These are the output results of a lecture about information technology . As a last point , I 've talked about the design of our system for the simultaneous interpretation of English lectures , Linus , and its further realization .
+Using a Workstation , in reality we 've validated the actual operations of the system , which , constructed of an analytical part and a creative part , executes interpretation with its data being based on this , the actual lecture draft .
+It 's currently at an experimental level , but in the future , I 'd like to aim for the realization of a system that can do simultaneous interpretation for relatively short or fifteen minute lectures , such as at an academic conference .
+I 'll end here .

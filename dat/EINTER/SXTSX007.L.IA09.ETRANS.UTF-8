@@ -1,0 +1,343 @@
+0001 - 00:06:528-00:13:007 I:
+Today, I would like to talk about the speech dialogue system using the dialogue examples<SB>
+0002 - 00:19:632-00:29:696 I:
+(F uuh) The speech dialogue type interface is what we are studying and our objectives are to achieve the easy to use
+0003 - 00:32:064-00:32:959 I:
+and
+0004 - 00:33:760-00:40:479 I:
+in use in the automobiles and others, safe, the most importantly,
+0005 - 00:41:120-00:49:264 I:
+it can recognize and understand the spontaneous speech<SB> (X Such) that kind of speech dialogue type interface is researched<SB>
+0006 - 00:49:624-00:50:752 I:
+The spontaneous
+0007 - 00:51:007-00:51:919 I:
+(X dialogue means the),
+0008 - 00:52:271-00:53:832 I:
+speech means the following<SB>
+0009 - 00:53:912-00:54:663 I:
+For instance,
+0010 - 00:55:024-00:57:582 I:
+(Q Is there a Chinese restaurant nearby?)<SB>
+0011 - 00:57:632-00:59:064 I:
+For that expression,
+0012 - 00:59:448-01:01:231 I:
+(W the) (F uh) different variations
+0013 - 01:01:655-01:02:311 I:
+as
+0014 - 01:02:656-01:07:160 I:
+(F woo) two, three, four different expressions can be employed
+0015 - 01:07:504-01:10:071 I:
+(F woo) to say the same thing<SB>
+0016 - 01:12:784-01:15:024 I:
+And various expressions
+0017 - 01:15:296-01:18:496 I:
+(F woo) without limitation (F woo) should be
+0018 - 01:18:696-01:21:023 I:
+accommodated <FV> by the user<SB>
+0019 - 01:21:632-01:25:400 I:
+And (F woo) that means to allow (F woo) the
+0020 - 01:25:720-01:28:103 I:
+(W the) spontaneous (W the) spee<C>
+0021 - 01:28:303-01:28:839 I:
+ch<SB>
+0022 - 01:31:208-01:33:248 I:
+This is how we look at it (W a)<SB>
+0023 - 01:33:552-01:34:983 I:
+And however, let me
+0024 - 01:37:312-01:44:576 I:
+think about the conventional speech dialogue type interface<SB> We find that only predetermined speeches were accepted<SB>
+0025 - 01:44:800-01:50:936 I:
+For instance, expression one can be recognized but when it comes to the expressions two, through four,
+0026 - 01:51:495-01:52:352 I:
+(F ohh) many
+0027 - 01:52:768-01:55:519 I:
+conventional ones could not recognize<SB>
+0028 - 01:56:200-01:56:311 I:<tongue>
+0029 - 01:56:632-01:57:775 I:
+And (F woo)
+0030 - 01:58:176-01:59:256 I:
+to be able to
+0031 - 01:59:457-02:04:079 I:
+recognize and understand the aforementioned spontaneous speech,
+0032 - 02:04:776-02:06:456 I:
+to realize that
+0033 - 02:07:576-02:13:255 I:
+(F uh) we gathered many (F yee) spontaneous dialogues for use<SB>
+0034 - 02:13:768-02:16:295 I:
+(F uh) The situation in which (F woo) the
+0035 - 02:16:599-02:19:279 I:
+speech has been
+0036 - 02:19:840-02:20:431 I:
+(F yee) (D ec)
+0037 - 02:20:663-02:21:735 I:
+expressed<SB>
+0038 - 02:21:967-02:23:623 I:
+In (X the same <FV> situation)
+0039 - 02:24:064-02:27:103 I:
+in the similar situation, the same kind of
+0040 - 02:27:456-02:29:943 I:
+(F woo) dialogues will be
+0041 - 02:30:311-02:31:032 I:
+uttered<SB>
+0042 - 02:31:143-02:35:191 I:
+And using various examples, we decided to
+0043 - 02:35:688-02:37:804 I:
+(F woo) cope with the situation<SB> Here,
+0044 - 02:38:188-02:38:531 I:
+the
+0045 - 02:38:776-02:41:768 I:
+user and the operator, between the two people,
+0046 - 02:42:104-02:45:180 I:
+(F woo) the information search is conducted<SB>
+0047 - 02:45:231-02:48:759 I:
+And in that contexts, what is the flow of the information?<SB>
+0048 - 02:49:384-02:49:535 I:<tongue>
+0049 - 02:49:616-02:51:287 I:
+This is what we are looking at<SB>
+0050 - 02:51:680-02:52:639 I:
+(F uh) The user
+0051 - 02:53:168-02:55:832 I:
+(F uh) says to the operator that
+0052 - 02:56:207-02:58:215 I:
+<FV> he or she wishes to
+0053 - 02:58:559-03:03:936 I:
+eat the Chinese dishes<SB> Such a request is placed to the operator and then the operator
+0054 - 03:04:328-03:05:679 I:
+using the search
+0055 - 03:06:039-03:09:111 I:
+(F yee) machine or tools get the information
+0056 - 03:10:304-03:12:784 I:
+and the result of the search
+0057 - 03:13:015-03:14:415 I:
+is obtained by the
+0058 - 03:14:583-03:15:744 I:
+operator in this way<SB>
+0059 - 03:16:088-03:17:407 I:
+This kind of diagram,
+0060 - 03:17:808-03:23:383 I:
+(F woo) the operator listens to the request of the user and makes some kind of judgement in
+0061 - 03:23:656-03:27:224 I:
+his brain and the past knowledge and examples
+0062 - 03:27:728-03:29:479 I:
+of the past are used<SB>
+0063 - 03:29:816-03:36:199 I:
+And that portion is to be entirely replaced by the machine<SB> That is the basic concept<SB>
+0064 - 03:37:208-03:40:063 I:
+(F uh) For that purpose, in the cars,
+0065 - 03:40:536-03:44:159 I:
+(F woo) actually two people sat in the cars
+0066 - 03:44:512-03:50:151 I:
+(F woo) to be engaged in the dialogue for search of information and in this way, we gathered data<SB>
+0067 - 03:51:096-03:53:015 I:
+And using such data,
+0068 - 03:53:319-03:54:191 I:
+(F uhh) we
+0069 - 03:54:495-03:55:415 I:
+(F ehh)
+0070 - 03:55:679-03:59:007 I:
+sorted out (F woo) the examples of
+0071 - 03:59:383-04:00:735 I:
+(F woo) the dialogues<SB>
+0072 - 04:01:224-04:06:655 I:
+And from now on, I would like to talk about (F woo) what (X are doing)
+0073 - 04:06:895-04:10:008 I:
+we are doing for the processing of the dialogues<SB>
+0074 - 04:10:536-04:11:535 I:
+(F uh) Firstly,
+0075 - 04:11:960-04:16:808 I:
+the examples of the dialogues are to be gathered in a large number<SB>
+0076 - 04:17:992-04:20:711 I:
+This is what I said<SB> And this is how we
+0077 - 04:21:104-04:22:311 I:
+(F yee) carry
+0078 - 04:22:519-04:23:167 I:
+those<SB>
+0079 - 04:23:648-04:27:103 I:
+And the contents of the speech in the dialogue
+0080 - 04:27:448-04:28:639 I:
+and the
+0081 - 04:28:888-04:30:072 I:
+<FV> (X search)
+0082 - 04:30:287-04:32:311 I:
+information search formula
+0083 - 04:32:591-04:34:599 I:
+for the contents
+0084 - 04:35:072-04:36:784 I:
+are described in this way<SB>
+0085 - 04:36:871-04:37:927 I:
+For instance,
+0086 - 04:38:368-04:40:575 I:
+(F woo) (Q I wish to eat some spaghetti)<SB>
+0087 - 04:40:920-04:42:799 I:
+That is a user's speech<SB>
+0088 - 04:43:176-04:47:791 I:
+For that, this kind of search formula is formulated by the operator
+0089 - 04:48:103-04:49:359 I:
+and that is
+0090 - 04:49:744-04:52:183 I:
+(F woo) recorded together<SB>
+0091 - 04:54:888-05:00:512 I:
+And then, the stored data are utilized and in this way, the processing takes place<SB>
+0092 - 05:00:960-05:01:647 I:
+Firstly,
+0093 - 05:02:440-05:05:423 I:
+(F woo) the input speech comes
+0094 - 05:06:208-05:07:480 I:
+(Q I wish to go to
+0095 - 05:07:696-05:09:391 I:
+a spaghetti restaurant)<SB>
+0096 - 05:09:720-05:12:335 I:
+When there is an input of such speech,
+0097 - 05:12:680-05:15:511 I:
+(F woo) the important keywords are extracted<SB>
+0098 - 05:16:392-05:17:288 I:
+And then
+0099 - 05:17:520-05:19:407 I:
+based on those keywords,
+0100 - 05:20:024-05:23:015 I:
+(F uhh) out of the examples
+0101 - 05:23:312-05:25:559 I:
+(F woo) gathered in a large number,
+0102 - 05:25:904-05:32:720 I:
+(F uhh) which is the one, which is the most similar to the speech will be expressed<SB> And then,
+0103 - 05:33:104-05:34:503 I:
+(Q I wish to go to
+0104 - 05:34:936-05:39:935 I:
+a curry restaurant)<SB> And that is the most similar example searched<SB>
+0105 - 05:40:144-05:41:919 I:
+And then the operator's
+0106 - 05:42:335-05:44:087 I:
+(F woo) (W the) search formula
+0107 - 05:44:584-05:45:239 I:
+as
+0108 - 05:45:463-05:48:303 I:
+you saw in the example will be extracted<SB>
+0109 - 05:48:624-05:49:103 I:
+And then
+0110 - 05:49:496-05:50:855 I:
+(F uh) it is
+0111 - 05:51:192-05:52:591 I:
+to be replaced
+0112 - 05:52:896-05:54:536 I:
+(F woo) by (F ye) the
+0113 - 05:54:816-05:57:631 I:
+<FV> speech (F ye) most closely
+0114 - 05:58:024-05:58:695 I:
+(F yee)
+0115 - 05:59:040-06:02:328 I:
+(F yee) similar (F uh) to the speech input<SB>
+0116 - 06:02:388-06:03:431 I:
+And this is
+0117 - 06:03:744-06:05:751 I:
+the modification of the formula
+0118 - 06:06:128-06:10:399 I:
+and the evaluation was done for (F woo) the processing result<SB>
+0119 - 06:11:472-06:13:439 I:
+And eighteen people's
+0120 - 06:13:664-06:15:815 I:
+<FV> speeches in the car were
+0121 - 06:16:240-06:19:191 I:
+(F uuh) utilized as the evaluation data<SB>
+0122 - 06:19:760-06:20:463 I:
+And
+0123 - 06:20:800-06:22:791 I:
+as the examples' data,
+0124 - 06:23:104-06:23:815 I:
+(F uh) twenty
+0125 - 06:24:064-06:26:887 I:
+-eight people's transcriptions
+0126 - 06:27:288-06:30:607 I:
+of the dialogues uttered in the car<SB>
+0127 - 06:31:032-06:33:743 I:
+And these examples are
+0128 - 06:34:112-06:35:071 I:
+used to
+0129 - 06:35:560-06:35:631 I:<noise>
+0130 - 06:35:848-06:36:463 I:
+(F uhh)
+0131 - 06:36:671-06:40:040 I:
+and the following shows the result of the evaluation<SB>
+0132 - 06:40:424-06:41:863 I:
+This graph shows
+0133 - 06:42:592-06:42:663 I:<tongue>
+0134 - 06:44:024-06:49:096 I:
+(F uuh) that as we increase the number of the (F yee) examples
+0135 - 06:49:464-06:50:807 I:
+how (F woo)
+0136 - 06:51:143-06:52:311 I:
+we can
+0137 - 06:52:800-06:53:727 I:
+correctly
+0138 - 06:54:040-06:55:463 I:
+(F ehh) come up with the
+0139 - 06:55:832-06:56:327 I:
+correc<C>
+0140 - 06:56:544-06:56:895 I:
+t
+0141 - 06:57:184-06:58:992 I:
+(F woo) (W the) search formula<SB>
+0142 - 06:59:128-07:00:711 I:
+And as a graph shows,
+0143 - 07:01:024-07:03:687 I:
+as we increase the number of the examples' data,
+0144 - 07:04:032-07:06:751 I:
+(F uh) the better performance of (F woo) the
+0145 - 07:07:152-07:09:303 I:
+(F ehh) search formula
+0146 - 07:09:608-07:14:072 I:
+are making can be achieved<SB> And the graph is increasing
+0147 - 07:14:464-07:21:679 I:
+<FV> further as we go to the right and as we increase this, we expect that we can achieve the better
+0148 - 07:22:008-07:22:871 I:
+performance<SB>
+0149 - 07:23:336-07:24:919 I:
+And at the same time,
+0150 - 07:25:280-07:26:791 I:
+(F woo) the mistakes
+0151 - 07:27:096-07:27:815 I:
+(F uhh)
+0152 - 07:28:112-07:28:751 I:
+were
+0153 - 07:29:112-07:33:407 I:
+<FV> looked at in the formerly cause of the (F yee) mistakes<SB>
+0154 - 07:33:936-07:34:592 I:
+And
+0155 - 07:34:824-07:39:920 I:
+(F woo) the data (D efficien) inefficiency causing the mistake
+0156 - 07:40:384-07:45:215 I:
+(F uh) accounted for seventy percent of the mistakes we found<SB>
+0157 - 07:45:672-07:47:159 I:
+And based upon this,
+0158 - 07:47:488-07:51:015 I:
+we can further say that by the increase of the data,
+0159 - 07:51:311-07:54:479 I:
+we will be able to improve the performance<SB>
+0160 - 07:54:816-07:54:911 I:<noise>
+0161 - 07:55:392-07:59:359 I:
+And this is the summary of what I have so far stated<SB>
+0162 - 07:59:800-08:03:776 I:
+(F woo) the spontaneous speech can be dealt with
+0163 - 08:04:071-08:08:624 I:
+(F woo) by the speech dialogue method and that method was proposed<SB>
+0164 - 08:08:992-08:11:767 I:
+And using the dialogue examples,
+0165 - 08:12:112-08:13:735 I:
+I proposed (F woo) the
+0166 - 08:14:039-08:15:135 I:
+(F yee) speech
+0167 - 08:15:432-08:21:087 I:
+understanding (F woo) method and based on the dialogue examples stored to the
+0168 - 08:21:456-08:26:008 I:
+(F yee) dialogue control is done and it can cope with the
+0169 - 08:26:336-08:28:175 I:
+(F ye) multifarious expressions<SB>
+0170 - 08:28:592-08:30:263 I:
+And we did the
+0171 - 08:30:640-08:37:216 I:
+(F yee) evaluation experiments for seventy percent of the speeches<SB> We could make
+0172 - 08:37:640-08:39:854 I:
+(F woo) the correct search formula<SB>
+0173 - 08:40:051-08:45:568 I:
+And by increasing the number of the examples, there is a possibility for the performance improvement<SB>
+0174 - 08:45:968-08:48:512 I:
+This is our finding and thank you for your attention<SB>

@@ -1,0 +1,33 @@
+Today , I would like to make a presentation of a framework for multi-domain conversational systems .
+First of all , I would like to talk about the background of this development . In these years , various kinds of development for conversational systems have been carried out .
+And thanks to the result , for the specific task domain practical system has been realized . The example of this is Jupiter .
+The Jupiter system is the conversational system by telephone . And this system gives the  metrological information .
+And other example is TOSBURG-2 . In this system , instead of the employee staff of the fast-food restaurants , this system received a order from the customer of the order of the hamburgers .
+The last example is Sync Mail . And this Sync Mail has been developed in a laboratory . This system understands the speech of Japanese and controls the e-mails .
+So , this is one of the examples of the conversational systems . These conversational systems can respond to one task domain .
+For example , Jupiter can only deal with the metrological information , and the TOSBURG-2 can deal with the taking order of hamburger , and Sync Mail deals with the e-mail control .
+And they can not deal with the multiple numbers of task domains . There are some problems in dealing with several numbers of task domains . Those systems mentioned before have several problems . One example is the conversational system in a vehicle .
+In a vehicle , there are several conversational systems like car navigation system , car audio system and air conditioner system . Those are dealt with speech at the same time .
+Under the current conversational system and when the car navigation , car air conditioner and car audio are installed , microphone is needed for car navigation system and another microphone is needed for car air conditioner and another one is needed for car audio . So , the number of microphone responses to the number of task domains . It means that it is cumbersome to the users .
+Therefore , in order to solve these situations , we developed the system to deal with multiple domains with one single conversational system .
+We call this system as multi-domain conversational systems . We first thought that the idea of characteristics of this multi-domain systems .
+These are the results of our thinking as for the idea of characteristics of these multi-domain systems . First , these three characteristics should be held by multi-domain systems .
+First is the expandability . The meaning of expandability is as follows . This system should be expanded to several numbers of domains .
+And also , the new domain should be added with quite ease . Next characteristics is scalability .
+With expandability , several domains can be added . However , if we put too much domains , the processing speed of a system , as a whole , will fall . That will create another problem .
+Therefore , in dealing with multi -domains , it 's better for us to process at an appropriate speed .
+After expandability and scalability are fulfilled , the most important feature for user is that the system is quite friendly to use . So , in dealing with a specific domain , the user should fill that they are just dealing with a single domain .
+These characteristics should be fulfilled . And in order to do this , how should we make a framework of multi-domain system . These are the frameworks of developing this system .
+Multi-domain conversational systems are a collection of conversational systems to deal with independent single domain . On this premise , we try to combine the several conversational system to deal with single domain and construct multi-domain conversational systems .
+If we can do that , adding and deletion of conversational system can be easily done . That leads to the increased expandability and we can fulfill the expandability .
+And voice data can be  if we can divide input data in an appropriate way , we can have a better usability . And if we can construct the system in a multi layer type , the scalability is expected to be increased .
+And next I would like talk about the architecture which we are proposing in this time . How to construct the multi-domain conversational systems .
+First , manager and work module should formulate this system in a multi layer type . And the data which are running in the system should be divided into input fragment and output fragment .
+And these two fragments operate the system . And there is a manager and work module and I 'd like to evaluate these systems . Manager is to allocate the input fragment into work module and also to tegrate ; integrate  the output fragment from work module .
+And for work module , this deals with each domain . I mentioned example of a vehicle. For example , there is a work module to deal with car navigation system and another work module to deal with car air conditioning .
+This chart is based upon the architecture which I have mentioned before .
+I would like to explain about the system . Manager is in the middle of this chart .
+And manager controls to work modules Simply put , manager receives the data from speech recognition engine and sends to speech synthesizer . And work modules are independent and they analyze the data independently and the analyzed data are sent back to managers .
+And managers receive data from work modules and decide are  what module should operate . Then , the system , as a whole , works .
+This time , I have proposed the architecture for the multi-domain conversational systems . I have proposed the architecture , and based upon this architecture we would like to implement .
+And also we would like to evaluate the system . That 's the end of my presentation .

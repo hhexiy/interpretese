@@ -1,0 +1,517 @@
+0001 - 00:05:772-00:06:295 I:
+Today,
+0002 - 00:07:000-00:11:432 I:
+I would like to talk about the design of a multi domain (W conversation;conversational) system<SB>
+0003 - 00:15:304-00:16:711 I:
+First, the background<SB>
+0004 - 00:18:576-00:19:247 I:
+Recently,
+0005 - 00:19:928-00:24:567 I:
+we're seeing studies of conversational systems being done very actively<SB>
+0006 - 00:25:416-00:26:680 I:
+And thanks to these,
+0007 - 00:27:396-00:28:188 I:
+regarding
+0008 - 00:28:512-00:32:119 I:
+practical systems that respond to specific task domains,
+0009 - 00:32:464-00:35:264 I:
+we are starting to see some practical systems<SB>
+0010 - 00:35:608-00:36:943 I:
+Examples of these are,
+0011 - 00:37:264-00:37:903 I:
+first of all,
+0012 - 00:38:112-00:38:823 I:
+Jupiter<SB>
+0013 - 00:40:680-00:41:719 I:
+This is a system
+0014 - 00:42:708-00:44:035 I:
+that uses the telephone,
+0015 - 00:44:292-00:45:907 I:
+it's a conversational system
+0016 - 00:46:364-00:48:272 I:
+and gives you weather information<SB>
+0017 - 00:52:736-00:53:371 I:
+Others are
+0018 - 00:53:644-00:54:479 I:
+(A TOSBURG-two;TOSBURG-2)<SB>
+0019 - 00:55:512-00:56:876 I:
+This is another system<SB>
+0020 - 00:57:468-00:58:468 I:
+And this system
+0021 - 00:59:880-01:01:852 I:
+is used at first food stores
+0022 - 01:02:260-01:02:683 I:
+and
+0023 - 01:03:119-01:05:067 I:
+in place of employees<SB>
+0024 - 01:05:584-01:06:671 I:
+It takes (S orders),
+0025 - 01:07:148-01:08:272 I:
+(W for) hamburger orders<SB>
+0026 - 01:09:080-01:09:771 I:
+And lastly,
+0027 - 01:10:436-01:12:475 I:
+there is the Sync Mail system<SB>
+0028 - 01:13:704-01:14:075 I:
+And
+0029 - 01:14:484-01:15:335 I:
+this is being done
+0030 - 01:15:548-01:17:083 I:
+at our research lab<SB>
+0031 - 01:18:180-01:19:215 I:
+And this mail
+0032 - 01:20:204-01:22:483 I:
+takes Japanese spoken language,
+0033 - 01:22:752-01:23:727 I:
+understands it,
+0034 - 01:24:288-01:24:659 I:
+and
+0035 - 01:24:992-01:25:800 I:
+it helps you do
+0036 - 01:26:004-01:27:275 I:
+e-mail management<SB>
+0037 - 01:28:068-01:29:499 I:
+It's a conversation system<SB>
+0038 - 01:31:692-01:32:091 I:
+So,
+0039 - 01:32:780-01:34:719 I:
+(X these conversational systems),
+0040 - 01:35:428-01:36:607 I:
+(X these systems),
+0041 - 01:38:068-01:39:136 I:
+no, each system
+0042 - 01:39:976-01:41:067 I:
+can only handle
+0043 - 01:41:304-01:42:963 I:
+one task domain each<SB>
+0044 - 01:43:236-01:44:783 I:
+For example, with Jupiter,
+0045 - 01:45:144-01:47:055 I:
+it can only handle weather information,
+0046 - 01:47:304-01:48:019 I:
+with TOSBURG,
+0047 - 01:48:296-01:50:020 I:
+it can only take hamburger orders<SB>
+0048 - 01:50:376-01:51:219 I:
+And Sync Mail
+0049 - 01:51:864-01:52:831 I:
+can only do
+0050 - 01:53:144-01:54:259 I:
+e-mail management<SB>
+0051 - 01:55:188-01:55:647 I:
+So,
+0052 - 01:56:696-01:57:459 I:
+one system
+0053 - 01:58:348-01:59:391 I:
+is unable
+0054 - 01:59:656-02:02:591 I:
+to handle a multiple number of task domains<SB>
+0055 - 02:05:592-02:06:011 I:
+And
+0056 - 02:06:572-02:07:200 I:
+regarding
+0057 - 02:07:864-02:10:456 I:
+the handling of a multiple number of task domains,
+0058 - 02:10:932-02:11:355 I:
+with
+0059 - 02:11:728-02:14:536 I:
+the type of systems that I just explained, there're problems<SB>
+0060 - 02:14:848-02:15:675 I:
+For example,
+0061 - 02:16:820-02:19:416 I:
+with conversational systems within a car,
+0062 - 02:19:668-02:21:212 I:
+I'd like to take that as an example,
+0063 - 02:21:756-02:22:647 I:
+inside of the car,
+0064 - 02:22:946-02:24:359 I:
+the conversational systems
+0065 - 02:24:582-02:24:999 I:
+would be like
+0066 - 02:25:216-02:27:335 I:
+car navigation systems, car audios,
+0067 - 02:27:704-02:28:800 I:
+the air conditioner
+0068 - 02:29:024-02:31:868 I:
+being used at the same time using voice<SB>
+0069 - 02:32:984-02:34:023 I:
+So, if you take
+0070 - 02:34:280-02:35:043 I:
+the current
+0071 - 02:35:236-02:36:843 I:
+conversational systems
+0072 - 02:37:520-02:41:608 I:
+and you want to operate the car navigation, car air condition, car audio,
+0073 - 02:42:160-02:42:459 I:
+then
+0074 - 02:42:944-02:45:023 I:
+you need one microphone for the car navigation,
+0075 - 02:45:252-02:47:307 I:
+one microphone for the air conditioner,
+0076 - 02:47:564-02:49:875 I:
+and one microphone for the car audio<SB>
+0077 - 02:50:860-02:52:223 I:
+That's going to be the situation<SB>
+0078 - 02:52:828-02:53:228 I:
+So,
+0079 - 02:53:772-02:55:323 I:
+the number of task domains
+0080 - 02:55:536-02:56:203 I:
+decides
+0081 - 02:56:456-02:59:104 I:
+the number of microphones or the audio input<SB>
+0082 - 02:59:380-03:00:192 I:
+That's the problem<SB>
+0083 - 03:00:680-03:01:623 I:
+And for users,
+0084 - 03:01:896-03:03:143 I:
+this is quite tedious<SB>
+0085 - 03:08:460-03:08:995 I:
+So,
+0086 - 03:09:920-03:12:639 I:
+in order to try to do something about the situation,
+0087 - 03:14:480-03:15:175 I:
+we have been
+0088 - 03:15:380-03:16:595 I:
+trying to study
+0089 - 03:16:964-03:18:659 I:
+one audio input
+0090 - 03:18:844-03:20:504 I:
+to handle various domains<SB>
+0091 - 03:20:840-03:23:348 I:
+Can we not come up with the conversational system that can handle
+0092 - 03:23:572-03:24:695 I:
+multiple domains?<SB>
+0093 - 03:25:452-03:29:100 I:
+This kind of system (W by) as is called a multi domain
+0094 - 03:29:304-03:31:472 I:
+conversational system, that's what we call this<SB>
+0095 - 03:35:376-03:35:811 I:
+So,
+0096 - 03:36:232-03:36:823 I:
+first of all,
+0097 - 03:38:432-03:42:424 I:
+a multi domain system, what's sort of characteristics does it has to have?<SB>
+0098 - 03:42:840-03:44:511 I:
+That's all we've given thought to<SB>
+0099 - 03:45:600-03:45:939 I:
+And
+0100 - 03:46:380-03:47:191 I:
+the results,
+0101 - 03:47:412-03:49:191 I:
+or the conclusion that we've reached,
+0102 - 03:49:720-03:51:687 I:
+the characteristics that are necessary<SB>
+0103 - 03:54:184-03:55:291 I:
+We came up with the following
+0104 - 03:55:560-03:56:327 I:
+conclusions,
+0105 - 03:56:936-03:57:947 I:
+the following three
+0106 - 03:58:148-03:58:981 I:
+conditions,
+0107 - 03:59:810-04:01:888 I:
+or characteristics are necessary<SB>
+0108 - 04:03:276-04:05:879 I:
+And regarding each, I would like to give you an explanation<SB>
+0109 - 04:06:180-04:07:627 I:
+First of all, expandability<SB>
+0110 - 04:10:412-04:12:095 I:
+To explain what expandability means,
+0111 - 04:12:308-04:13:867 I:
+a multi domains system
+0112 - 04:14:472-04:15:727 I:
+needs to be able to
+0113 - 04:16:256-04:17:279 I:
+be expandable
+0114 - 04:17:584-04:19:884 I:
+into a multiple number of domains
+0115 - 04:20:196-04:22:219 I:
+And also new task domains
+0116 - 04:23:112-04:24:467 I:
+need to be easily added<SB>
+0117 - 04:24:728-04:25:799 I:
+This needs to be possible<SB>
+0118 - 04:26:212-04:27:267 I:
+We think that will be better<SB>
+0119 - 04:28:172-04:28:643 I:
+Next,
+0120 - 04:28:844-04:29:691 I:
+scalability<SB>
+0121 - 04:32:040-04:32:346 I:
+So,
+0122 - 04:32:550-04:33:415 I:
+expandability,
+0123 - 04:34:474-04:35:037 I:
+which means
+0124 - 04:35:336-04:37:518 I:
+several domains need to be able to (W added;be added)<SB>
+0125 - 04:38:288-04:38:799 I:
+That's good<SB>
+0126 - 04:39:472-04:41:399 I:
+But if you add too many domains,
+0127 - 04:41:624-04:44:892 I:
+the system itself, its processing speed may drop
+0128 - 04:45:112-04:46:199 I:
+and that will be a problem<SB>
+0129 - 04:46:460-04:46:963 I:
+So,
+0130 - 04:48:552-04:51:328 I:
+even if it handles (X a (D lar)) a large number of domains,
+0131 - 04:51:536-04:55:020 I:
+it's still needs to be able (W to;to do) its processing at an appropriate speed<SB>
+0132 - 04:55:296-04:56:475 I:
+That is scalability<SB>
+0133 - 04:57:452-04:58:535 I:
+Next, lastly,
+0134 - 04:58:864-04:59:591 I:
+usability<SB>
+0135 - 05:00:820-05:02:855 I:
+There's (W a;an) expandability, there's a scalability,
+0136 - 05:03:372-05:06:224 I:
+even if the system fulfils the above two conditions,
+0137 - 05:06:524-05:07:183 I:
+for the user,
+0138 - 05:07:388-05:09:055 I:
+it needs to be easy to use<SB>
+0139 - 05:09:456-05:09:975 I:
+So,
+0140 - 05:11:540-05:13:723 I:
+even when handling a specific domain,
+0141 - 05:15:484-05:19:516 I:
+it needs to be able to be used as it is handling only one domain<SB>
+0142 - 05:22:688-05:24:480 I:
+That is the conclusion that we've reached<SB>
+0143 - 05:26:732-05:27:051 I:
+And
+0144 - 05:27:288-05:29:095 I:
+we talked about the these three characteristics,
+0145 - 05:29:392-05:30:683 I:
+in order to fulfill these,
+0146 - 05:30:944-05:32:959 I:
+how should the multi domain system
+0147 - 05:33:204-05:34:147 I:
+be designed<SB>
+0148 - 05:35:084-05:36:723 I:
+That's what we next gave thought to<SB>
+0149 - 05:37:544-05:37:791 I:
+And
+0150 - 05:38:000-05:38:855 I:
+<FV> this is the
+0151 - 05:39:051-05:41:883 I:
+(F uh) structure or design policy that we came up with<SB>
+0152 - 05:42:788-05:43:743 I:
+So, first of all,
+0153 - 05:44:720-05:47:068 I:
+a multi domain conversational system,
+0154 - 05:47:652-05:49:255 I:
+this should be an independent
+0155 - 05:49:476-05:50:771 I:
+single domain,
+0156 - 05:51:576-05:51:663 I:
+or
+0157 - 05:51:900-05:55:596 I:
+this should be a collection of conversational system that can process
+0158 - 05:55:803-05:57:728 I:
+independent single domains<SB>
+0159 - 05:58:896-05:59:241 I:
+And
+0160 - 06:00:070-06:01:295 I:
+under this way of thinking,
+0161 - 06:03:400-06:04:865 I:
+we need to be able to combine
+0162 - 06:05:730-06:08:626 I:
+conversational system that process single domains
+0163 - 06:08:870-06:11:536 I:
+to build a multi domain conversational system<SB>
+0164 - 06:13:210-06:13:857 I:
+Under this
+0165 - 06:14:168-06:14:695 I:
+policy,
+0166 - 06:16:226-06:18:016 I:
+the addition or removal
+0167 - 06:18:314-06:20:586 I:
+of conversational systems becomes easy,
+0168 - 06:21:042-06:21:595 I:
+which means
+0169 - 06:21:796-06:23:475 I:
+this leads to expandability<SB>
+0170 - 06:23:588-06:24:914 I:
+That's the first condition
+0171 - 06:25:366-06:26:579 I:
+that we talked about earlier on<SB>
+0172 - 06:27:748-06:28:491 I:
+And also,
+0173 - 06:29:806-06:30:005 I:
+if
+0174 - 06:30:242-06:31:831 I:
+the system is able to
+0175 - 06:32:040-06:32:229 I:
+(F uh)
+0176 - 06:32:454-06:33:579 I:
+separate out
+0177 - 06:34:468-06:34:817 I:
+the
+0178 - 06:35:068-06:36:445 I:
+input conversation
+0179 - 06:36:654-06:39:320 I:
+into the appropriate systems, this leads to usability<SB>
+0180 - 06:40:244-06:40:603 I:
+And
+0181 - 06:42:792-06:45:616 I:
+if we can build the system in a hierarchical way,
+0182 - 06:46:130-06:48:276 I:
+then this is going to provide scalability<SB>
+0183 - 06:52:146-06:52:593 I:
+So,
+0184 - 06:53:580-06:54:889 I:
+this is the architecture
+0185 - 06:55:088-06:56:254 I:
+that we wish to propose<SB>
+0186 - 06:58:108-07:00:928 I:
+A multi domain conversational system, how should we
+0187 - 07:01:196-07:02:568 I:
+build this, design this?<SB>
+0188 - 07:04:008-07:04:555 I:
+First of all,
+0189 - 07:04:757-07:05:385 I:
+the manager,
+0190 - 07:05:600-07:06:681 I:
+and work module<SB>
+0191 - 07:08:404-07:09:845 I:
+This is how it needs to be
+0192 - 07:10:128-07:11:968 I:
+at (?) system needs to be built
+0193 - 07:12:698-07:13:471 I:
+hierarchically<SB>
+0194 - 07:14:138-07:15:525 I:
+And the data that goes into here,
+0195 - 07:15:958-07:17:067 I:
+it's called fragments<SB>
+0196 - 07:17:548-07:20:379 I:
+The input fragments and out put fragments,
+0197 - 07:20:816-07:21:999 I:
+these are going to flow
+0198 - 07:22:288-07:24:000 I:
+with in the interior of the system
+0199 - 07:24:348-07:25:287 I:
+and make it function<SB>
+0200 - 07:25:952-07:27:015 I:
+And the work module
+0201 - 07:27:312-07:28:107 I:
+and the manager,
+0202 - 07:29:084-07:29:859 I:
+regarding these,
+0203 - 07:30:140-07:31:647 I:
+I'd like to give you more explanations<SB>
+0204 - 07:31:936-07:32:659 I:
+The manager
+0205 - 07:34:816-07:37:420 I:
+takes the input fragment, I'll explain about this later,
+0206 - 07:38:104-07:40:188 I:
+and it allocates this to work modules<SB>
+0207 - 07:40:676-07:42:319 I:
+And the output fragments
+0208 - 07:42:512-07:44:636 I:
+from the work modules are integrated
+0209 - 07:44:832-07:46:515 I:
+and controlled by the manager<SB>
+0210 - 07:48:848-07:50:027 I:
+And a work module
+0211 - 07:51:032-07:52:639 I:
+is something that processes
+0212 - 07:53:416-07:55:135 I:
+that's the processing for each domain<SB>
+0213 - 07:55:540-07:57:599 I:
+So, I'd give you the example of car earlier on,
+0214 - 07:58:316-08:00:816 I:
+it will handle the car navigation, this one module for that<SB>
+0215 - 08:02:012-08:05:136 I:
+And there will be one work module (W that;that is) handling the air conditioner
+0216 - 08:07:160-08:07:827 I:
+and so on<SB>
+0217 - 08:13:652-08:14:831 I:
+At this chart
+0218 - 08:15:896-08:17:676 I:
+shows the architecture
+0219 - 08:17:908-08:20:860 I:
+that I proposed earlier on and it's a simple system example<SB>
+0220 - 08:21:548-08:22:811 I:
+To give you a brief (X example)
+0221 - 08:23:240-08:24:015 I:
+explanation,
+0222 - 08:24:376-08:25:215 I:
+there's the manager
+0223 - 08:25:456-08:26:343 I:
+in the center here,
+0224 - 08:26:680-08:27:703 I:
+and this manager
+0225 - 08:28:872-08:29:247 I:
+will
+0226 - 08:29:896-08:30:967 I:
+control to
+0227 - 08:31:171-08:32:955 I:
+work modules (W that;that are) its function<SB>
+0228 - 08:34:152-08:35:751 I:
+So, to explain the movements briefly,
+0229 - 08:36:144-08:37:999 I:
+there is the voice recognition engine<SB>
+0230 - 08:38:744-08:40:528 I:
+The manager will get the data there
+0231 - 08:41:104-08:41:776 I:
+in the form of
+0232 - 08:42:084-08:43:083 I:
+input fragments
+0233 - 08:43:279-08:44:979 I:
+and it will give this out of work modules<SB>
+0234 - 08:45:920-08:47:476 I:
+And each of the work modules
+0235 - 08:47:868-08:48:823 I:
+are independent<SB>
+0236 - 08:50:372-08:50:763 I:
+And will
+0237 - 08:50:959-08:53:212 I:
+independently analyze the inputs
+0238 - 08:54:192-08:56:155 I:
+and results of the (D ana) (D nana) analysis
+0239 - 08:56:680-08:58:275 I:
+will be sent back to the manager<SB>
+0240 - 08:58:860-08:59:648 I:
+And the manager,
+0241 - 09:00:940-09:02:688 I:
+regarding these two work modules,
+0242 - 09:04:016-09:08:823 I:
+will take the output fragments and the results through gets from the work modules and decide
+0243 - 09:09:119-09:12:079 I:
+which work module is going to allocate the task to
+0244 - 09:12:736-09:13:871 I:
+and give the commands<SB>
+0245 - 09:14:416-09:16:023 I:
+And that's how the system functions<SB>
+0246 - 09:18:568-09:18:719 I:<noise>
+0247 - 09:18:736-09:19:992 I:
+So to summarize,
+0248 - 09:21:432-09:22:384 I:
+a multi domain
+0249 - 09:22:624-09:24:695 I:
+conversational system's architecture,
+0250 - 09:24:976-09:26:776 I:
+we have made a proposal regarding this<SB>
+0251 - 09:27:128-09:27:495 I:
+And
+0252 - 09:27:800-09:29:143 I:
+issues to the future are
+0253 - 09:30:048-09:31:568 I:
+we've just proposed the architecture,
+0254 - 09:31:872-09:32:351 I:
+so,
+0255 - 09:32:567-09:35:368 I:
+we need to implement a system based on this architecture<SB>
+0256 - 09:35:948-09:37:542 I:
+And we also need to evaluate
+0257 - 09:37:752-09:38:361 I:
+this system<SB>
+0258 - 09:38:688-09:39:575 I:
+That's all we hope to do<SB>
+0259 - 09:40:272-09:41:679 I:
+That's end of my presentation<SB>

@@ -1,0 +1,33 @@
+Today 's presentation is entitled , " Designing a multi-domain speech dialog system " .
+In recent years , many researchers are conducting studies on speech dialog systems .
+As a result , we now have practical systems that can be used for specific task domains . For example , there is a system called Jupiter .
+This speech dialog system is used to provide weather information on the telephones .
+Another example is the Tossberg 2. This system can take your orders at fast food restaurants .
+And lastly , we have the Thinkmail system. It is being developed at our lab. This system understands Japanese conversations and organizes your e-mails accordingly .
+What do all these speech dialog systems have in common ? Each system can only process one task domain .
+In Jupiter 's case , it can only process weather information , and Tossberg can only take your hamburger orders . Similarly , Thinkmail can only manage emails . In these examples , a single system can not process multiple task domains .
+If we want to handle multiple task domains , it is difficult to do so using these systems. For instance , think about a speech dialog system used inside a car .
+The system must be able to control navigation systems , audio , and air conditioning simultaneously based on the user 's voice .
+If we use the current systems , we will need one microphone for navigation , one for air conditioning , and one for audio. In other words , the number of task domains equals the number of microphones , which is a problem in terms of usability .
+So we started to think about how we can solve this problem and contemplated the possibility of a system that can process multiple domains with one audio input .
+We call it , the multi-domain speech dialog system . First , we thought about essential features that the multi-domain system should possess .
+At the end of the day , we came up with three features that such a system should have . First , I 'll explain about expandability .
+What do we mean by expandability ? We think that a multi-domain system must be able to expand itself to multiple domains .
+Furthermore , it should be able to add new task domains with ease . The next feature is scalability .
+Expandability allows the system to access multiple domains with ease. Great. But if it adds too much domains and the system slows down , that can be a problem .
+Therefore , even when processing multiple domains , the system should be able to maintain a reasonable speed. This is what we refer to as scalability .
+The last feature is usability. Even if we fulfill requirements for expandability and scalability , the system must be easy to use for the user . So , no matter which domain the user is trying to control , they should be able to do so with ease , as if they 're using a single domain system .
+Next , we thought about a multi-domain system design that fulfills all three requirements and came up with a design policy .
+First , we defined multi-domain speech dialog system as a collection of speech dialog systems that process independent single-domains . With this definition , we can combine multiple singe-domain systems to build our multi-domain system .
+By doing so , we can add/remove speech dialogs systems easily . This fulfills our first requirement mentioned earlier , expandability .
+Moreover , if we can sort the incoming audio to the appropriate system , it will fulfill another requirement , usability . And lastly , if we can establish a hierarchical system , it will fulfill the last requirement , scalability .
+Next , I 'll explain about the architecture of our system . How do we establish a multi-domain speech dialog system anyways ?
+First , we create the manager and work module. From there , we start building a hierarchical system . The data that goes through the system is called a " fragment " . Two types of fragments , input and output , flow through the system during operation .
+Now let me talk more about work module and manager. The manager sorts the input fragments , which I 'll explain in detail alter , to the work modules. Then , it consolidates the output fragments coming out of the work module and manages them .
+The work module is found in each domains. In the car example I gave earlier , there is a work module for navigation , another for air conditioning , and so on .
+This diagram shows an example of a simple system based on the architecture mentioned earlier .
+First , there is one manager in the middle. This manager connects the two work modules .
+The brief flow goes like this. The results from the speech recognition system goes to the manager. It then sorts the results to the two work modules in input fragment format . Each work module analyzes the results independently and sends it back to the manager .
+Then the manager uses these output fragments to determine which work module is suited for the job. This is a brief outline of how the system works . OK , I will wrap it up .
+Today , I presented a suggestion for a multi-domain speech dialog system architecture . Our next task is to mount a system based on this architecture .
+We also plan to evaluate this mounted system . That is all for today , thank you .

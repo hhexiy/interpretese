@@ -1,0 +1,28 @@
+Today , I would like to talk about a method of incremental dependency analysis for Japanese . In recent years , by using this spoken language of Japanese , dialogue process system is expected to be created .
+And this demand is increasing . It 's a spoken language , so the in put should be dealt with spontaneously .
+And that 's the idea or situation that users are looking for . In order to achieve this spontaneous reaction , analysis of natural language is needed .
+For example , at the shop , his , I met his friend . First , the phrase at the shop comes . And after that , responding to this phrase analysis is done . And next , the phrase his comes .
+For the analysis of Japanese , there is a dependency analysis of Japanese is widely used .
+As this chart shows , each  phrase , for example at the shop his friend met for each phrase , dependency relations are decided For example , at the shop his friends met at the shop is depended upon the phrase met and the phrase his responds to the phrase the friends , and the phrase friend relates to the phrase the met .
+So , each phrase is in a relation like modifier and modified . And the structure for each phrase and dependency relations are decided .
+This kind of analysis is used because of the characteristics of Japanese . In Japanese , restriction for word order is relatively loose .
+For example , if exchange the phrase of at the shop and his , the meaning of the whole sentences is same . And also , for Japanese , sometimes , subject is omitted .
+For example , by using this example , in the sentence I should be included .
+However , I is omitted because I is understood by the speaker and the receiver of the speech for Japanese . Dependency analysis is to decide the dependency relations between two phrases .
+And this is the purpose of this analysis method . In this case , in this dependency relation , the head phrase input should be waited .
+For example , one phrase is dependent upon the last phrase . In this case , we had to wait for the input of the last phrase of the sentence . Under this these circumstances incrementality of speech or dialogue can not be fulfilled .
+Therefore , this time , we have proposed the incremental dependency analysis method for Japanese . This is is to assume the head phrase , even though there is no head phrase appears , and to make the dependency structure .
+First of all , I would like to talk about dependency structure .
+Dependency structure is formed by dependency grammar . That means the possibility of dependency relations between two phrases .
+There are three restrictions . First is the unclosing nature of dependency. This means that dependent should not be closed .
+The second is that head part should be only one . This means that one dependent needs one head phrase .
+The last one is the later modification of the dependent . In case of Japanese , dependency relations from the former phrase to the last phrase should be considered .
+And dependency structure should be in structure to fulfill . So , these restrictions should be constructed .
+And I would like to talk about now about incremental dependency analysis . For input dependent analysis should be carried out even though the head phrase does not appear .
+For this purpose , dependency grammar should be utilized in order to assume the head phrase and the category of the head phrase . And by using the assumed phrase , the previously input data should be analyzed .
+For example , this phrase at the shop and this one is book . And both of these are dependent upon the verb , the same verb . If we can get this kind of information as the right picture shows , at the shop and book these two phrases are dependent upon the same verb .
+And we can formulate this structure . By making this kind of formulation , we can construct the dependency relations even though the head phrase appears . Before the whole data is input , we can assume the whole structure of a whole sentence .
+Lastly , I would like to make a summary of my presentation .
+This time , I have talked about the proposal of incremental dependency analysis for Japanese . This method is to use the assumed phrase and to formulate the dependency structure .
+By using this assumed phrase , the dependency structure should be formed . By doing this analysis , even before the head phrase appears , we can create the dependency structure .
+We are now using the Unix workstation , GNU Common Lips , to implement . And thank you very much .

@@ -1,0 +1,493 @@
+0001 - 00:07:652-00:09:040 I:
+Now I'd like (W talk;to talk)
+0002 - 00:10:076-00:13:016 I:
+about the simultaneous machine interpretation<SB>
+0003 - 00:17:848-00:18:863 I:
+The effort
+0004 - 00:19:100-00:20:572 I:
+to make computer
+0005 - 00:21:316-00:23:232 I:
+translate languages
+0006 - 00:23:692-00:27:160 I:
+has a long history and which is called machine translation<SB>
+0007 - 00:27:524-00:30:132 I:
+The basis of this machine translation is a
+0008 - 00:30:672-00:32:044 I:
+text translation<SB>
+0009 - 00:33:616-00:36:356 I:
+<FV> This is (F ah) (X study to translate
+0010 - 00:36:916-00:40:464 I:
+spoken language) (F ah) to study the written language<SB>
+0011 - 00:41:928-00:45:552 I:
+On the other hand, (F ah) spoken language translation has been studied<SB>
+0012 - 00:46:916-00:48:296 I:
+This is a study
+0013 - 00:48:828-00:49:776 I:
+to translate
+0014 - 00:50:112-00:51:371 I:
+spoken language<SB>
+0015 - 00:55:668-00:55:992 I:
+And
+0016 - 00:57:196-01:00:328 I:
+we are trying to do (F ah) simultaneous interpretation
+0017 - 01:00:760-01:01:176 I:
+by
+0018 - 01:01:576-01:02:352 I:
+a computer<SB>
+0019 - 01:04:932-01:05:820 I:
+In this case
+0020 - 01:06:540-01:07:736 I:
+and this is (F ah)
+0021 - 01:08:304-01:10:836 I:
+(S translation) spoken language translation<SB>
+0022 - 01:13:128-01:15:920 I:
+In the case of spoken language translation,
+0023 - 01:16:356-01:18:692 I:
+the spoken language will be translated
+0024 - 01:19:572-01:20:864 I:
+sentence by sentence<SB>
+0025 - 01:21:160-01:21:747 I:
+That means,
+0026 - 01:21:960-01:24:680 I:
+(X what) if a person speaks and the sentence
+0027 - 01:25:424-01:26:443 I:
+is concluded
+0028 - 01:26:672-01:26:912 I:
+(S the)
+0029 - 01:27:668-01:28:300 I:
+(D interpre)
+0030 - 01:29:136-01:30:292 I:
+the sentence will be
+0031 - 01:31:260-01:33:096 I:
+started to be translated<SB>
+0032 - 01:33:812-01:33:924 I:
+<FV>
+0033 - 01:34:432-01:35:503 I:
+To this (F ah)
+0034 - 01:36:888-01:38:835 I:
+simultaneous translation
+0035 - 01:39:256-01:41:163 I:
+has a (W characteristics;characteristic) that (F ah)
+0036 - 01:41:504-01:45:400 I:
+input and the translation will be implemented at the same time<SB>
+0037 - 01:45:720-01:46:071 I:
+But
+0038 - 01:46:620-01:48:384 I:
+simultaneous translation (W have;has)
+0039 - 01:48:632-01:50:024 I:
+some difficulties<SB>
+0040 - 01:50:516-01:51:852 I:
+One of them is (F ah) the
+0041 - 01:52:368-01:55:200 I:
+interpreter have to start (W a) translation
+0042 - 01:55:260-01:55:663 I:<breath>
+0043 - 01:55:756-01:56:195 I:
+(F umm)
+0044 - 01:56:396-01:57:184 I:
+before they
+0045 - 01:57:928-01:59:672 I:
+(F uh) understand a whole sentence<SB>
+0046 - 02:00:508-02:01:135 I:
+That means
+0047 - 02:01:676-02:03:191 I:
+before a speaker
+0048 - 02:04:040-02:05:140 I:
+conclude the sentence,
+0049 - 02:05:516-02:08:088 I:
+the interpreter have to start (F ah) translation<SB>
+0050 - 02:09:036-02:09:852 I:
+And the second
+0051 - 02:10:488-02:11:104 I:
+point is
+0052 - 02:12:288-02:13:132 I:
+that (F ah)
+0053 - 02:13:856-02:15:255 I:
+some (W language;languages) (W has a;which are)
+0054 - 02:16:192-02:22:244 I:
+<FV> very different in word order<SB> For example between Japanese and French or Japanese and English<SB>
+0055 - 02:23:920-02:26:836 I:
+The translation between the lanuage which (W has;is) (F ah)
+0056 - 02:27:240-02:27:480 I:
+(D wo)
+0057 - 02:27:796-02:27:867 I:
+<FV>
+0058 - 02:28:344-02:28:932 I:
+(X different)
+0059 - 02:29:220-02:31:436 I:
+widely different in word order
+0060 - 02:32:320-02:33:496 I:
+is really hard<SB>
+0061 - 02:34:112-02:37:960 I:
+And the interpreter have to keep up with the speed of the
+0062 - 02:38:532-02:39:280 I:
+speaker<SB>
+0063 - 02:40:188-02:41:199 I:
+All these are <FV>
+0064 - 02:41:784-02:43:304 I:
+difficult point in
+0065 - 02:43:792-02:46:392 I:
+implementing simultaneous translation<SB>
+0066 - 02:47:672-02:50:807 I:
+But actually simultaneous interpreters
+0067 - 02:52:032-02:52:960 I:
+are doing
+0068 - 02:53:464-02:53:916 I:
+<FV> this
+0069 - 02:54:328-02:56:344 I:
+interpretation actually<SB>
+0070 - 02:57:324-02:57:547 I:
+(D im)
+0071 - 02:58:300-02:58:755 I:
+Then
+0072 - 03:00:328-03:00:395 I:
+(D h)
+0073 - 03:00:624-03:01:135 I:
+how
+0074 - 03:01:436-03:03:240 I:
+these translators are
+0075 - 03:03:948-03:04:904 I:
+realizing
+0076 - 03:05:628-03:06:043 I:
+(W the)
+0077 - 03:06:976-03:07:351 I:
+this
+0078 - 03:07:656-03:08:696 I:
+interpretation<SB>
+0079 - 03:10:356-03:10:775 I:
+First,
+0080 - 03:11:112-03:12:008 I:
+interpreter
+0081 - 03:13:280-03:15:060 I:
+is making a guess
+0082 - 03:15:616-03:17:608 I:
+according to a situation in a context
+0083 - 03:19:476-03:20:352 I:
+about the
+0084 - 03:21:312-03:22:808 I:
+direction of the speech<SB>
+0085 - 03:25:524-03:25:871 I:
+And
+0086 - 03:26:096-03:27:251 I:
+they are doing (F ah)
+0087 - 03:27:748-03:29:315 I:
+flexible translation
+0088 - 03:29:604-03:31:031 I:
+so that they can (X handle
+0089 - 03:31:560-03:35:984 I:
+the new information) (F ah) handle the situation in which a new information
+0090 - 03:36:672-03:37:695 I:
+will be added
+0091 - 03:38:007-03:40:419 I:
+<FV> to at the end of the sentence<SB>
+0092 - 03:41:760-03:43:312 I:
+And at the same time,
+0093 - 03:43:568-03:46:087 I:
+they are sorting out information<SB>
+0094 - 03:46:664-03:49:279 I:
+If there is (F ah) unnecessary information,
+0095 - 03:49:624-03:52:584 I:
+the interpreter wouldn't translate it<SB>
+0096 - 03:54:548-03:55:311 I:
+In this way,
+0097 - 03:56:612-04:00:480 I:
+simultaneous interpreters are using a variety of techniques
+0098 - 04:00:772-04:01:079 I:
+to (D a)
+0099 - 04:01:604-04:02:359 I:
+implement
+0100 - 04:03:160-04:05:815 I:
+simultaneous (X inpr) (F ah) interpretation<SB>
+0101 - 04:06:780-04:08:002 I:
+<FV> Considering this,
+0102 - 04:08:592-04:10:812 I:
+it's necessary to teach these techniques
+0103 - 04:11:220-04:12:062 I:
+to computer,
+0104 - 04:12:408-04:13:064 I:
+if we
+0105 - 04:14:044-04:15:100 I:
+try to achieve (W a)
+0106 - 04:15:328-04:15:508 I:
+<FV>
+0107 - 04:15:760-04:17:387 I:
+simultaneous translation
+0108 - 04:17:678-04:18:616 I:
+by computer<SB>
+0109 - 04:19:818-04:22:162 I:
+To teach these techniques to computer,
+0110 - 04:23:820-04:25:472 I:
+we have to analyze the technique
+0111 - 04:25:888-04:29:098 I:
+and study the technique of (F ah) simultaneous interpreters<SB>
+0112 - 04:29:750-04:30:384 I:
+So,
+0113 - 04:32:160-04:32:744 I:
+we are
+0114 - 04:34:000-04:35:979 I:
+developing or accumulating the
+0115 - 04:36:200-04:38:088 I:
+simultaneous database<SB>
+0116 - 04:39:956-04:42:151 I:
+<FV> This is accumulation of
+0117 - 04:42:824-04:45:680 I:
+translation example by simultaneous (D tran)
+0118 - 04:45:879-04:46:795 I:
+interpreters<SB>
+0119 - 04:47:076-04:47:631 I:
+And by
+0120 - 04:47:839-04:48:947 I:
+analyzing these
+0121 - 04:49:200-04:50:343 I:
+<FV> (W database;databases)
+0122 - 04:51:208-04:51:367 I:
+<FV>
+0123 - 04:52:628-04:55:227 I:
+we are (D ad) analyzing (X the technique)
+0124 - 04:55:656-04:56:743 I:
+their techniques<SB>
+0125 - 04:59:412-04:59:787 I:
+And
+0126 - 05:00:784-05:01:747 I:
+by repeating
+0127 - 05:02:212-05:03:183 I:
+this process,
+0128 - 05:05:028-05:05:715 I:
+we are (F um)
+0129 - 05:08:764-05:08:904 I:<noise>
+0130 - 05:09:288-05:10:223 I:
+(F ah) studying
+0131 - 05:10:668-05:11:379 I:
+(F ah) how
+0132 - 05:11:600-05:13:623 I:
+a good translation will be achieved
+0133 - 05:13:960-05:16:492 I:
+and what technique is necessary to achieve (noise that)<SB>
+0134 - 05:16:376-05:16:431 I:<noise>
+0135 - 05:18:404-05:20:211 I:
+Now I'd like (W explain;to explain) about the
+0136 - 05:20:504-05:22:376 I:
+process of making database<SB>
+0137 - 05:22:952-05:24:979 I:
+The first (F ah) stage is the
+0138 - 05:25:244-05:26:075 I:
+recording<SB>
+0139 - 05:26:380-05:27:339 I:
+In this stage,
+0140 - 05:27:564-05:30:996 I:
+we record the spoken language by native speaker
+0141 - 05:33:096-05:33:608 I:
+or
+0142 - 05:34:492-05:34:823 I:
+<FV>
+0143 - 05:35:856-05:36:915 I:
+(F uhh) <FV> (F ahh)
+0144 - 05:37:608-05:39:144 I:
+like (F ah) Japanese speaks
+0145 - 05:39:392-05:41:064 I:
+(D Ja) <FV> Japanese or
+0146 - 05:41:668-05:43:980 I:
+(F ah) American speaks English<SB>
+0147 - 05:44:892-05:45:383 I:
+And
+0148 - 05:45:592-05:47:480 I:
+in the stage, we record the
+0149 - 05:48:808-05:50:740 I:
+simultaneous translation, too<SB>
+0150 - 05:51:388-05:54:076 I:
+And at the next stage, we'll <FV> dictate
+0151 - 05:54:456-05:56:076 I:
+the recorded speech
+0152 - 05:57:192-05:57:375 I:
+(F mm)
+0153 - 05:57:684-05:58:784 I:
+to analyze (X the)
+0154 - 05:59:284-06:00:503 I:
+this information<SB>
+0155 - 06:02:704-06:03:504 I:
+We (F um)
+0156 - 06:04:004-06:04:423 I:
+(X to ana)
+0157 - 06:04:692-06:07:356 I:
+in the process of (D ana) analysis we add
+0158 - 06:07:748-06:09:336 I:
+(F ah) necessary information<SB>
+0159 - 06:10:008-06:11:703 I:
+This is the example of the
+0160 - 06:12:036-06:13:503 I:
+(D exa) (F ah) dictated
+0161 - 06:14:356-06:14:923 I:
+data<SB>
+0162 - 06:15:492-06:17:476 I:
+The (F ah) top <FV>
+0163 - 06:18:480-06:19:304 I:
+square
+0164 - 06:20:020-06:21:095 I:
+contains (F ah)
+0165 - 06:21:648-06:22:820 I:
+(W a) speaker's
+0166 - 06:23:172-06:23:883 I:
+speech<SB>
+0167 - 06:24:968-06:28:096 I:
+(F ah) The speaker is trying to make a reservation at a hotel<SB>
+0168 - 06:29:216-06:29:820 I:
+He is
+0169 - 06:30:468-06:32:748 I:
+<FV> telling (O  moshimoshi Hilton san desuka)<SB>
+0170 - 06:33:144-06:33:588 I:
+And the
+0171 - 06:34:208-06:35:691 I:
+(W a) bottom square
+0172 - 06:36:596-06:38:427 I:
+(F ah) (D sho) displays the
+0173 - 06:39:276-06:39:979 I:
+speech
+0174 - 06:40:928-06:42:699 I:
+translated by interpreter<SB>
+0175 - 06:43:904-06:44:623 I:
+And (F ah)
+0176 - 06:44:908-06:45:483 I:
+there are <FV>
+0177 - 06:45:808-06:48:792 I:
+another (W informations;information) including the time
+0178 - 06:49:492-06:50:263 I:
+(F ah) added
+0179 - 06:50:524-06:51:131 I:
+to
+0180 - 06:52:096-06:52:515 I:
+this
+0181 - 06:54:056-06:54:947 I:
+examples<SB>
+0182 - 06:55:808-06:57:931 I:
+And by analyzing these data,
+0183 - 06:58:504-06:59:736 I:
+we try to find out
+0184 - 07:00:224-07:00:368 I:
+the
+0185 - 07:01:496-07:02:379 I:
+<FV> technique
+0186 - 07:02:844-07:05:127 I:
+(F ah) translator is using in
+0187 - 07:05:319-07:06:119 I:
+translation<SB>
+0188 - 07:08:176-07:08:335 I:<noise>
+0189 - 07:08:452-07:10:708 I:
+Now I'd like (W explain;to explain) about a
+0190 - 07:11:368-07:13:236 I:
+(F ah) actual technique
+0191 - 07:14:612-07:16:376 I:
+used by the interpreters<SB>
+0192 - 07:17:716-07:23:920 I:
+(F ah) This is a Japanese sentence and it means (Q the software engineering is the experimental field)<SB>
+0193 - 07:25:044-07:25:952 I:
+But actually,
+0194 - 07:27:780-07:29:748 I:
+the Japanese speaker added a new
+0195 - 07:30:220-07:31:028 I:
+information
+0196 - 07:31:420-07:31:551 I:
+<FV>
+0197 - 07:33:176-07:38:644 I:
+(O to iu iikata mo dekiru deshou) which means (Q you may be able to say that way)<SB>
+0198 - 07:40:584-07:41:168 I:
+So,
+0199 - 07:43:428-07:46:752 I:
+the original translation is not appropriate<SB>
+0200 - 07:48:724-07:49:368 I:
+In this case,
+0201 - 07:49:708-07:53:368 I:
+what technique will be adopted to handle this situation?<SB>
+0202 - 07:54:880-07:56:820 I:
+One simple answer might be
+0203 - 07:57:392-08:00:092 I:
+to rephrase the whole sentence from the beginning<SB>
+0204 - 08:04:876-08:06:595 I:
+Because the original sentence
+0205 - 08:06:791-08:07:648 I:
+is not (F ah)
+0206 - 08:08:204-08:09:740 I:
+adequate one, so
+0207 - 08:10:092-08:12:212 I:
+interpreter might rephrase
+0208 - 08:12:572-08:13:464 I:
+whole the sentence
+0209 - 08:13:756-08:14:840 I:
+from the beginning<SB>
+0210 - 08:15:524-08:16:083 I:
+(X This is)
+0211 - 08:16:348-08:17:196 I:
+this might be
+0212 - 08:18:128-08:18:571 I:
+one
+0213 - 08:18:984-08:19:667 I:
+approach<SB>
+0214 - 08:20:872-08:22:251 I:
+But (F ah) in this case
+0215 - 08:22:507-08:25:076 I:
+(X the tran) (F ah) interpreter have to repeat (F ah)
+0216 - 08:25:344-08:26:316 I:
+unnecessary
+0217 - 08:27:380-08:28:108 I:
+phrases
+0218 - 08:28:592-08:28:731 I:<noise>
+0219 - 08:28:760-08:29:312 I:
+again<SB>
+0220 - 08:30:540-08:33:596 I:
+(F ah) In the actual case the interpreter
+0221 - 08:33:896-08:35:044 I:
+just added a
+0222 - 08:35:336-08:36:140 I:
+sentence
+0223 - 08:36:480-08:38:500 I:
+(Q you may be able to say that way)<SB>
+0224 - 08:42:020-08:43:243 I:
+And combine the
+0225 - 08:43:736-08:47:472 I:
+(D o) (X original) initial sentence and this added sentence,
+0226 - 08:48:504-08:48:708 I:
+<FV>
+0227 - 08:49:256-08:52:436 I:
+the (F ah) translation of the Japanese sentence <FV>
+0228 - 08:53:052-08:53:951 I:
+was achieved<SB>
+0229 - 08:54:500-08:55:848 I:
+And this avoid the
+0230 - 08:56:060-08:56:931 I:
+rephrasing
+0231 - 08:57:520-08:58:972 I:
+the sentence from the beginning<SB>
+0232 - 08:59:436-09:01:468 I:
+So in (D clu) conclusion,
+0233 - 09:02:440-09:03:503 I:
+to achieve the
+0234 - 09:03:716-09:06:444 I:
+simultaneous interpretation by computer,
+0235 - 09:06:988-09:08:508 I:
+it is necessary to teach
+0236 - 09:09:052-09:09:912 I:
+(W a) techniques
+0237 - 09:10:144-09:12:764 I:
+used by (W simultesneous;simultaneous) interpreters
+0238 - 09:13:132-09:13:571 I:
+(S to)
+0239 - 09:13:880-09:14:712 I:
+to computer<SB>
+0240 - 09:15:420-09:16:695 I:
+To study this technique,
+0241 - 09:16:919-09:17:475 I:
+we are
+0242 - 09:17:692-09:18:936 I:
+making a database<SB>
+0243 - 09:22:004-09:22:683 I:
+And (F ah)
+0244 - 09:23:460-09:25:984 I:
+we are studying the actual example
+0245 - 09:26:292-09:28:144 I:
+and I showed one of them to you<SB>
+0246 - 09:30:828-09:31:148 I:
+Now,
+0247 - 09:32:856-09:33:335 I:
+and (X in)
+0248 - 09:33:684-09:36:076 I:
+we'd like continue this analysis<SB>
+0249 - 09:37:604-09:38:487 I:
+Thank you very much<SB>

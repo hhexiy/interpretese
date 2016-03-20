@@ -1,0 +1,42 @@
+Today , I will make a presentation on the mobile agent system for supporting adhoc communication . first , the background of the study , the internet has been used very widely these days .
+And these days the radio infrastructure has shown an improvement to the satisfactory level that anybody can make the communication anywhere , anytime .
+And the mobile computing that 's a small scale of the computer has been broad in a portable state , and in which that personal information is is kept .
+Such portable terminals are carried around so that people can get information anytime , anywhere very freely and casually . But the communication under this mobile circumstance had been so far placed importance on the mobile permeability .
+What it means is that in the mobile situation there is no power and there is some restrictions . But the mobile permeability means that just like to show that as if that in a sitting situation that even if you are in a mobile situation .
+So that 's why that the cellular phones or the radio have been used . But what we 'd like to do here is that mobile dependence .
+That means , there is a meaning in mobility , that there is a meaning because I 'm here in front of this TV or in front of the refrigerator or in the meeting room . That kind of communication is what we are talking about .
+So this is the communication depending upon the mobility . This is the communication that made in regular meetings or in accidental meetings .
+So , in this kind of accidental communication we will like to define this as adhoc communication and I 'd like to support this adhoc communication . Here is an example of the adhoc communication .
+For instance , a man is walking in the street and he meets eyes friends and they just happen to meet , and then they talk , and in addition to that , they have this portable computer and they directly communicate and then exchange information in this terminal , and in this terminal they have their schedule or picture information and those information can be exchanged .
+And by exchanging those information you can make the normal dialog richer or more information can be exchanged .
+So in this sense this is the mobile information system to support the adhoc communication . And we what we 're trying to support is the dialog between the man and man .
+For instance , supporting the encounter they meet the first time , but maybe they have some common friends .
+So , by using the matching of the individual information like , for instance , my high school and and then his high school can be matched , and then just happens to be that we went to the same high school or something .
+So , in a normal conversation you do n't know those things , but by exchanging the information through the terminal they find out about it .
+And the other way of the support is that men and information systems dialog , that for instance , if you go to the station there is a information Kiosk for the use by pressing the button , if this person has this portable terminal with this personal information , by exhanging information with the Kiosk terminal you can use this Kiosk terminal more easily .
+You can use all of those terminals freely and easily . And then , this terminal is connected to the office and home or a mobile location .
+So , the meaning of the adhoc communication is as follows .
+As in the case of the dialog between man and man , when man meets another man , and we 'd like to support such a dialog . That means that the feature is that the number of the participants to this dialog changes dynamically .
+There 're sometimes two people , sometimes three people . In the lecture case there 're one hundred audiences . In the panel discussions case or in some meetings there 're specific number of the people .
+And in many cases there is no prior preparation .
+They do n't prepare something to talk about . They do n't know what kind of information to exchange .
+It just happens that information necessary to exchange . And so that 's why that the should be shared .
+For instance , in the meeting room you distribute a paper and take a note . And this is one way of the information sharing and so how we can support this in a portable terminal 's case .
+And the last case is that necessary , the dialog should be circumstantial dependence . That means that it depends upon the circumstance or the places , their objective differs .
+If it 's the meeting room , the the paper should be distributed . If it 's the meeting in a street corner , it 's not a meeting , it 's personal information you need to exchange .
+So , how a portable terminal should support ?
+And the understanding of that situation is necessary to provide than necessary information . First , the dynamic network technology , as for that adhoc network system is recently researched .
+Adhoc network system means that network that is being constructed on a necessary basis , network that is being instantly established . Many cases it 's a radio network system .
+And the feature here is that there is no server existing to control the network , because there is no prior preparation , we can not set particular server for control .
+And for this there are multiple number of the mounting or proposals existing . We have introduced and researched infra red adhoc network .
+And next , talking about this application , , when they meet in adhoc manner , there is no application common .
+So , there is no way to set the application beforehand . So , that means that it 's impossible to prepare any arbitrary application beforehand . So it has to be the distribution in a dynamic manner .
+And that dynamic application is a system called mobile agent . This mobile agent is the program that moves autonomously on the network .
+And the last one is the adaptiveness to the circumstance without indicating the objective . We want system to make understanding .
+So , for that we need the intelligent system for the understanding of the situation . This intelligent agent makes a judgment by itself .
+By doing so ,  intelligent agent , mobile application , agent network are used , we can make the adhoc communication system . And a concrete example , for instance , is like in this way. In an office situation they are just about to have the meeting and here this is a intelligent agent. when he says that we are going to the meeting , then intelligent agent moves that information to his cellular phones , portable terminals .
+And he goes to the meeting room , and then to the participants this mobile agent distributes to all the participating members the documents .
+At the same time , if there is a presentation board in the meeting room , that information is transmitted to that board . So , this man dose not indicate to the terminal that I am in the boarding room , but mobile agent acknowledges , understands and realizes it by itself .
+So the summary .
+we would like to make a feature of the adhoc communication which is the communication made for the portable terminals on a necessary basis . And for that , we realize the adhoc communication system based upon the mobile agent .
+By this adhoc communication can be supported intelligent manner anytime , anywhere in a very casual manner .

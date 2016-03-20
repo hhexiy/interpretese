@@ -1,0 +1,31 @@
+Now I 'd like to talk about the simultaneous machine interpretation .
+The effort to make computer translate languages has a long history and which is called machine translation .
+The basis of this machine translation is a text translation . This is spoken language  to study the written language .
+On the other hand , spoken language translation has been studied . This is a study to translate spoken language .
+And we are trying to do simultaneous interpretation by a computer . In this case and this is translation spoken language translation .
+In the case of spoken language translation , the spoken language will be translated sentence by sentence . That means , if a person speaks and the sentence is concluded the the sentence will be started to be translated .
+To this simultaneous translation has a characteristic that input and the translation will be implemented at the same time . But simultaneous translation has some difficulties .
+One of them is the interpreter have to start translation before they understand a whole sentence . That means before a speaker conclude the sentence , the interpreter have to start translation .
+And the second point is that some languages which are very different in word order. For example between Japanese and French or Japanese and English . The translation between the lanuage which is widely different in word order is really hard .
+And the interpreter have to keep up with the speed of the speaker .
+All these are difficult point in implementing simultaneous translation . But actually simultaneous interpreters are doing this interpretation actually .
+First , interpreter is making a guess according to a situation in a context about the direction of the speech . And they are doing flexible translation so that they can the new information  handle the situation in which a new information will be added to at the end of the sentence .
+If there is unnecessary information , the interpreter would n't translate it . In this way , simultaneous interpreters are using a variety of techniques to implement simultaneous interpretation .
+Considering this , it 's necessary to teach these techniques to computer , if we try to achieve simultaneous translation by computer . To teach these techniques to computer , we have to analyze the technique and study the technique of simultaneous interpreters .
+So , we are developing or accumulating the simultaneous database . This is accumulation of translation example by simultaneous interpreters .
+And by analyzing these databases we are analyzing their techniques . And by repeating this process , we are studying how a good translation will be achieved and what technique is necessary to achieve that .
+Now I 'd like to explain about the process of making database .
+The first stage is the recording . In this stage , we record the spoken language by native speaker or like Japanese speaks Japanese or American speaks English .
+And in the stage , we record the simultaneous translation , too . And at the next stage , we 'll dictate the recorded speech to analyze this information .
+We in the process of analysis we add necessary information . This is the example of the dictated data .
+The top square contains speaker 's speech . The speaker is trying to make a reservation at a hotel .
+He is telling moshimoshi Hilton san desuka . And the bottom square displays the speech translated by interpreter .
+And there are another information including the time added to this examples . And by analyzing these data , we try to find out the technique translator is using in translation .
+Now I 'd like to explain about a actual technique used by the interpreters . This is a Japanese sentence and it means the software engineering is the experimental field .
+But actually , the Japanese speaker added a new information to iu iikata mo dekiru deshou which means you may be able to say that way . So , the original translation is not appropriate .
+One simple answer might be to rephrase the whole sentence from the beginning . Because the original sentence is not adequate one , so interpreter might rephrase whole the sentence from the beginning .
+But in this case interpreter have to repeat unnecessary phrases again . In the actual case the interpreter just added a sentence you may be able to say that way .
+And combine the initial sentence and this added sentence , the translation of the Japanese sentence was achieved . And this avoid the rephrasing the sentence from the beginning .
+So in conclusion , to achieve the simultaneous interpretation by computer , it is necessary to teach techniques used by simultaneous interpreters to to computer . To study this technique , we are making a database .
+And we are studying the actual example and I showed one of them to you . Now , and we 'd like continue this analysis .
+Thank you very much .

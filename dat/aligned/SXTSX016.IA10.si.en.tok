@@ -1,0 +1,30 @@
+I 'd like to talk about simultaneous translation system for English lecture .
+When spoken language is being translated different languages spoken by different parties , and this is good for that purpose . For instance , she and he are talking with each other , and that dialogue translation system can be put between them so that they can talk with each other .
+In other words , he speaks something under this system will translate that so that she would listen to that . That is the structure of the system .
+Traditionally , this kind of dialogue translation system has been developed before . But the previous systems have been based upon the , the translation of one sentence as a unit .
+So when he speaks , the system will put out the the result of the translation and the express of the translation with the voice . So he or she or users and the system will alternate in speaking .
+On the other hand , the previous one was dialogue but we are able to think about monologue translation which is one way communication to be supported by this kind of translation system . For instance , at the time of the international conference , we see the increasing of this kind of international conference and this type of translation is in great demands .
+In a case of translation or interpretation and the translator will express the generated the translation in the form of voice after going through the system . And in this case , the speaker will continuously speak and they say gesture by the speaker and we need to synchronize with the speaker 's gestures .
+In order to realize this , we need to have a simultaneous translation system desirably and therefore we focused upon monologue type lecture . And we try to realize the simultaneous translation system for monologue type lectures .
+To be more specific for English language lecture it is to be converted to Japanese language as simultaneous translation methods .
+And the basic technology for this purpose is the incremental spoken language processing . And the design is based upon this approach of incremental spoken language processes .
+This is the experimental system called LINAS . And we realize that this is the system .
+Operation of the system will allow us to confirm the feasibility of the simultaneous translation system . So this system is the LINAS and I 'd like to explain the system very briefly .
+First of all , the features of the system are as follows . First of all , between different languages with different word orders like between Japanese and English . The English input and the Japanese output can be done simultaneously .
+And the secondly regarding the contents of the lecture , the language knowledge , and other expertise related to the lectures contained in the lecture and the before the translation those knowledge will be acquired . For instance , the the resume or sheet and material for the lecture will be given .
+And the thirdly , as much as possible natural Japanese spoken language will be generated . The actual design of the system is based upon the Sync Trance that is the dialogue simultaneous translation system .
+And based upon this Sync Trance we we 'd like to make a simple design for the translation of one way lectures . And this is the system configuration of LINAS .
+Basically this is for the analysis of English and the generation of Japanese . There are two modules for the analysis of English and the generation of Japanese .
+Once English is input the voices are recognized and the result is in English . And simultaneously with the recognition of English it has been analyzed . And for their result of the analysis of English , Japanese will be generated .
+And the result of the generation will go through the voices synthesis and output will be the Japanese voice . So each different component of the processing will be done simultaneously to realize a mechanism of simultaneous translation .
+Now when English is translated into Japanese , we develop LINAS for the translation from English to Japanese .
+This is the on the UNIX workstation computer which features includes the following points . First of all , the recognition of English voice is done by human beings .
+When it comes to speaking , or voice generation synthesis Japanese voice will be output from computer .
+And apply it to the translation on the text , for lecture will be given , and language data is generated manually before the lecture , and the manual will be useful for the actual translation . Operation , and , through the input of the voice of English lecture , we confirm whether the system can be operated , and whether it works well or not .
+By doing so , we woul d see the feasibility of the simultaneous translation of one way lecture . And I see this is the promising technology .
+Let me show you the actual result of the translation on the display .
+The result of the translation operation is in the form of sound as output form . But for the understanding of the listeners and audience , these are the printouts .
+This is the input in English and the input will increase on the English sides . And if you look at the Japanese side , you 'll see the output of the Japanese translation .
+This lecture is on the topic of information technology . Finally , We and realize  I talked about the design and realization of the simultaneous translation system of English lecture .
+It is based upon the two components namely analysis and the synthesis and based upon the text of lecture language related data is already prepared . And the translation system is implemented on the workstation , and operation was confirmed .
+And this moment , this is at the experimental level , but in a future we 'd like to expand application to ten minutes or fifteen minutes lecture at academic conferences and we 'd like to realize a simultaneous translation system for the lecture at academic conferences .

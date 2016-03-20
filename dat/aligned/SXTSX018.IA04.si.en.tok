@@ -1,0 +1,35 @@
+I would like talk about or make a presentation on simultaneous machine interpretation . The studies regarding machine interpretation have long been carried out .
+We called kikai honyaku which means machine translation .
+The basic type is text translation . Text translation is the basis of machine translation or interpretation. The text translation is a study on the written translation .
+And another study is about spoken language .
+In other words , study to translate human spoken language . And we are currently trying to let machine interpret simultaneously .
+This is also again human spoken language translation . But in the case of spoken language translation , the translation goes sentence by sentence .
+In other words , only after one sentence is spoken completely , translation starts . While in the case of simultaneous interpretation , translation starts almost concurrently or simultaneously .
+But the input of spoken language and there are a lot of challenges or difficulties involved simultaneous interpretation . First , you have to start interpreting without fully understanding the meaning of the entire sentence .
+Before you understand the enter sentence meaning , you have to very start translating that sentence . Another challenge is related to the different word orders as compare to a combination of two languages , such as English and French , Japanese and English do have such remarkably different word orders and that gives another difficulty to simultaneous interpretation .
+Also simultaneous interpretation forces you to follow or keep up with the speed of a speaker . That 's another difficulty .
+So now you see how difficult it is . But actually the human simultaneous interpreters are actually doing this task .
+So , how they are getting around ?
+They anticipates the situations , they anticipate what a speaker is going to talk about based on the surroundings , situation and contexts . And with respect to the requirement of interpreting without fully understanding the entire sentence , they are quite flexible in accommodating various types of sentences .
+And if you are to translate every word a speaker says , it will be very difficult . If not necessary , they select or sort out the information from speakers ' sentences .
+So these are some of the techniques that human simultaneous interpreters are using .
+So if we want the machine to do the same job , we need to teach these techniques to the computer . In order to teach computer these human interpreters ' techniques , first we need to know in detail about those techniques .
+To that aim , we are building the simultaneous interpretation database . The database is the compilation of actual cases of the interpreters .
+And from the database , we learn or study the actual techniques that are used by the interpreters and how to interpret simultaneously , how better you can interpret simultaneously could be analyzed .
+So let us look at the procedures how those database are built .
+We first , of course , do recording , native speaker , the Japanese speaking Japanese or English native speaking English , is involved . That voice is recorded and that is simultaneously interpretedby human simultaneous interpreter from English to Japanese or vise versa .
+And after the recording , it is put into writing and for further analysis , necessary information is added to that writing. I will show you one example of such written-up data .
+This is what 's speaker says and and this is the script what interpreter said . moshi moshi Hilton san desuka is the sentence that is spoken by the speaker .
+And this portion indicates English translation by the interpreter together with the time and second when that is recorded . So this is one of the example of the written-up data and added necessary information .
+So using these data we are analyzing what kind of techniques are actually used by the interpreters . I will show you an example of the technique that is actually used .
+This is the Japanese sentence input , sofutouea kougaku to iu mono ha jikkentekina bunya da . When an interpreter listened to this sentence , he or she translates it into English such as this .
+However , actually , after this sentence , toiu iikata mo dekirudehsou followed .
+However , the English translation is already completed , which is not actually appropriate translation for the entire Japanese sentence . So , in such a situation , how they come around ?
+The simple way or measure to come around in the situation is simply just restating , starts all over again .
+Figuring out it is not appropriate translation , then he or she can just restate the entire translation from the very beginning of the sentence . However when you use this technique , it become redundant. And when you have to say unnecessary words or say the words twice .
+So here is the actual technique used by the interpreter . After this sentence , you may be able to say that way . He or she said this .
+So together with this and that , that could perfectly corresponded to the rational Japanese sentence .
+So this is how he or she got around without restating once again . Summary for simultaneous machine interpretation , we need to teach the machine the human interpreters ' techniques .
+And we are producing database to study or analyze the techniques .
+And I 'll show some examples of the actual techniques used by the interpreters during this presentation and we are going to continue this study or analysis .
+Thank you for your attention  .

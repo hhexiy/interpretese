@@ -1,0 +1,22 @@
+Now I want to make presentation on the aligning of sentences in parallel corpora for extraction of translation patterns .
+This is the background of the development . Internet has become more popular and more people are on the overseas travel , so there 're more opportunities for people to communicate with people speaking different languages .
+And also in the overseas trip , They want to have the simultaneous interpretation with little time lag . And in the conversation , they want to have a simultaneous translation with little time lag .
+Now we would like to study and analyze simultaneous interpretation system . In simultaneous interpretation , the translation result is not output .
+Only after the input is completed , output is made in the middle of the input . In order to output accurate translation , they have to have a very complicated processing of syntactic analysis .
+We used an example of translation by the simultaneous interpreters and we tried to see how the interpreters translate . We tried to use their skills and know-hows to develop the system ourselves .
+The sentences written in certain language and text data of the translated sentence is called bilingual corpus and there have been a lot of studies on this . We try to extract the parallel expression effective for simultaneous interpretation .
+In order to extract the parallel expressions , we have to think of the three main stages . First is the matching of the translation corpus sentences .
+For example , if I say ohayo gozaimasu , it would match with an English sentence of good morning . The second is tadaima go shoukai itadaki mashi ta Suzuki de gozai masu . This matches with two and three thank you for your kind introduction. My name is Suzuki .
+Then , we have to try to look at smaller units , for example , the phrases . And we try to identify the tadaima goshoukai itadakimashita Suzuki desu with two English sentences of thank you for your kind introduction , my name is Suzuki .
+We also have to align phrases and we have to extract the bilingual expressions . This is how the sentence is aligned .
+There are two methods of alignment . First is the statistical method . The second is the bilingual dictionary is used .
+An example of an analytical system is the system using the ratio of sentence length . Another example of the dictionary , we can have a system where matching is easy .
+We have to correspond the sentence and the structures depending upon the length of the sentences . Here is one assumption . The Japanese sentences are as long as English sentences .
+We have the example of ohayo gozaimasu . ohayo gozaimasu can be translated as good morning . So ohayo gozaimasu equals good morning . tadaima go shoukai shite itadaki mashi ta Suzuki de gozai masu can be thank you for your kind introduction , my name is Suzuki  .
+Now we have to align with matching of the vocabraries . We use a dictionary to convert Japanese words into English .
+And we are trying to use the parallel relationships assume the  , , respond to assume the responds from the sentence . Here is an example of ohayo gozaimasu or tadaima go shokai itadaki mashi ta Suzuki de gozai masu .
+thank you very much for your kind introduction. I 'm Suzuki  . So these two sentences should be matched to English .
+Then you have to consider good morning , you reply to ohayo gozaimasu . So the number one of good morning and the sentence good morning are matching or fit .
+And also the second sentence we can find such words as presently introduction , Suzuki and presently introduction is that thank you very much for your kind introduction now and Suzuki is my name is Suzuki .
+And therefore we have to extract an effective bilingual expression for simultaneous interpretaion and also we have to align the parallel corpus to the sentences . And we have to mount this into the simultaneous interpretation kit . In order to extract effective bilingual corpus for the simultane ous interpretations , we have to identify those corpora . We have to place the bilingual corpus from the viewpoint of the rate of sentence length and the vocabulary matching .
+And that 's all .

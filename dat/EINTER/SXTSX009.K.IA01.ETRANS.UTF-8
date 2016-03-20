@@ -1,0 +1,460 @@
+0001 - 00:10:656-00:15:279 I:
+My topic today is multi-lingual on-line dialog environment<SB>
+0002 - 00:17:296-00:18:975 I:
+And I'm going talk about
+0003 - 00:20:528-00:21:759 I:
+the multi-<C>
+0004 - 00:22:448-00:24:024 I:
+lingual on-line dialog
+0005 - 00:24:448-00:26:527 I:
+(X development) <FV> rather support system<SB>
+0006 - 00:27:112-00:27:511 I:
+And
+0007 - 00:28:272-00:31:471 I:
+as (W a) globalization proceeds it is expected that (F uh)
+0008 - 00:32:152-00:36:799 I:
+close linguistic communication or communication between different (W language;languages) is going increase<SB>
+0009 - 00:37:792-00:38:183 I:
+And
+0010 - 00:38:520-00:40:287 I:
+in such (W a) communication
+0011 - 00:41:640-00:43:759 I:
+the language difference is going to be a big
+0012 - 00:44:664-00:45:471 I:
+challenge<SB>
+0013 - 00:50:128-00:50:903 I:
+So therefore,
+0014 - 00:54:184-00:57:615 I:
+in order to overcome this (F uh) language differences,
+0015 - 00:58:360-01:01:423 I:
+various support systems are under development<SB>
+0016 - 01:03:536-01:05:047 I:
+Some of the examples are
+0017 - 01:06:424-01:07:111 I:
+the (F uh)
+0018 - 01:08:496-01:11:135 I:
+web page or e-mail translation system
+0019 - 01:11:984-01:12:335 I:
+or
+0020 - 01:17:440-01:19:871 I:
+keyboard conversation like Internet chats
+0021 - 01:20:824-01:22:424 I:
+will be translated by a system<SB>
+0022 - 01:25:064-01:25:359 I:
+And
+0023 - 01:25:728-01:26:695 I:
+there's also
+0024 - 01:27:224-01:27:631 I:
+a
+0025 - 01:30:000-01:30:375 I:
+(F uh)
+0026 - 01:31:312-01:33:111 I:
+dialog translation system
+0027 - 01:34:080-01:35:567 I:
+using natural language processing<SB>
+0028 - 01:40:688-01:41:751 I:
+My presentation (S is)
+0029 - 01:42:072-01:45:607 I:
+today is going to focus on the on-line keyboard
+0030 - 01:46:280-01:47:711 I:
+conversation or dialog<SB>
+0031 - 01:54:216-01:55:799 I:
+The on-line keyboard
+0032 - 01:57:376-01:57:935 I:
+dialog,
+0033 - 02:00:920-02:01:399 I:
+today
+0034 - 02:02:072-02:02:887 I:
+I'm going to
+0035 - 02:04:912-02:05:719 I:
+pickup
+0036 - 02:07:504-02:09:415 I:
+the keyboard conversation
+0037 - 02:11:296-02:11:943 I:
+type
+0038 - 02:13:072-02:14:871 I:
+that one often see
+0039 - 02:15:504-02:16:399 I:
+in (D s)
+0040 - 02:17:136-02:18:055 I:
+system, such as
+0041 - 02:18:536-02:20:263 I:
+UNIX's talk system<SB>
+0042 - 02:22:960-02:23:615 I:
+Unlike
+0043 - 02:24:832-02:26:599 I:
+Internet chats,
+0044 - 02:29:688-02:31:683 I:
+what (W an;a) user input
+0045 - 02:31:956-02:32:915 I:
+is going to be
+0046 - 02:33:564-02:34:391 I:
+projected
+0047 - 02:34:732-02:37:375 I:
+onto the screen of the other user<SB>
+0048 - 02:40:120-02:40:955 I:
+In (W a) case of
+0049 - 02:41:224-02:41:711 I:
+Internet
+0050 - 02:42:220-02:42:719 I:
+chats,
+0051 - 02:45:348-02:47:815 I:
+(W un;until) (W an;a) user pushes the button
+0052 - 02:48:320-02:49:403 I:
+it's not going to be
+0053 - 02:49:680-02:51:607 I:
+projected onto the screen
+0054 - 02:51:812-02:52:699 I:
+of the other<SB>
+0055 - 02:53:344-02:54:155 I:
+So (X it's)
+0056 - 02:54:804-02:56:383 I:
+that's a difference between
+0057 - 02:56:580-02:59:399 I:
+Internet chatting and on-line keyboard
+0058 - 03:00:112-03:01:051 I:
+conversation<SB>
+0059 - 03:03:508-03:03:887 I:
+And
+0060 - 03:05:860-03:06:295 I:
+since
+0061 - 03:06:516-03:08:531 I:
+it's an on-line keyboard
+0062 - 03:09:240-03:10:111 I:
+conversation,
+0063 - 03:11:796-03:13:595 I:
+it's not (W a) written language<SB>
+0064 - 03:14:468-03:14:731 I:
+It is
+0065 - 03:15:024-03:15:487 I:
+sort of (W a)
+0066 - 03:15:696-03:17:311 I:
+broken language sometimes<SB>
+0067 - 03:17:636-03:18:071 I:
+Sometimes
+0068 - 03:19:184-03:21:399 I:
+there're sentences (W are;which are) not grammatically correct<SB>
+0069 - 03:23:372-03:24:495 I:
+So it's like
+0070 - 03:25:368-03:27:291 I:
+(F eh) (F uh) spoken language,
+0071 - 03:27:888-03:28:763 I:
+and it is
+0072 - 03:30:208-03:30:843 I:
+possible
+0073 - 03:31:068-03:33:407 I:
+to proceed pretty smooth conversation<SB>
+0074 - 03:40:796-03:41:207 I:
+To
+0075 - 03:42:164-03:43:003 I:
+cope with
+0076 - 03:44:088-03:44:379 I:
+the
+0077 - 03:44:732-03:48:184 I:
+on-line keyboard conversation between different languages,
+0078 - 03:49:356-03:50:611 I:
+(W there were) several
+0079 - 03:52:120-03:55:723 I:
+(F uh) keyboard conversation translation (W system;systems)
+0080 - 03:57:080-03:58:007 I:
+(W was;were) developed,
+0081 - 04:00:196-04:00:783 I:
+but
+0082 - 04:02:060-04:03:219 I:
+these systems
+0083 - 04:06:092-04:07:995 I:
+(W utilizes;utilize) a system where
+0084 - 04:09:424-04:10:247 I:
+translation
+0085 - 04:10:996-04:11:639 I:
+is done
+0086 - 04:12:172-04:13:879 I:
+sentence by sentence,
+0087 - 04:14:420-04:15:871 I:
+so the other user
+0088 - 04:16:680-04:18:979 I:
+has to wait until (D as)
+0089 - 04:20:224-04:20:787 I:
+user
+0090 - 04:22:820-04:24:407 I:
+inputs one sentence and
+0091 - 04:25:212-04:28:463 I:
+the sentence (W been;has been) translated into another language<SB>
+0092 - 04:29:280-04:29:739 I:
+(noise So)
+0093 - 04:29:336-04:29:467 I:<noise>
+0094 - 04:30:104-04:31:619 I:
+today, I'd like to propose
+0095 - 04:32:288-04:32:607 I:
+(F uh)
+0096 - 04:32:812-04:33:547 I:
+on-line
+0097 - 04:33:776-04:34:891 I:
+dialog system
+0098 - 04:35:688-04:37:223 I:
+between different languages<SB>
+0099 - 04:40:188-04:40:615 I:
+Unlike
+0100 - 04:41:148-04:42:935 I:
+the examples that I mentioned
+0101 - 04:46:436-04:48:455 I:
+(X this sentence) (F uh) this
+0102 - 04:48:804-04:50:503 I:
+translation system is called
+0103 - 04:50:712-04:52:491 I:
+simultaneous translation system<SB>
+0104 - 04:56:576-04:59:687 I:
+With the use of simultaneous translation system,
+0105 - 05:02:040-05:04:275 I:
+even in the middle of the sentence,
+0106 - 05:07:696-05:08:859 I:
+the translation
+0107 - 05:09:492-05:09:600 I:
+up
+0108 - 05:09:856-05:12:359 I:
+until the middle of the sentence
+0109 - 05:12:788-05:15:915 I:
+is going to be projected to the screen of the other user<SB>
+0110 - 05:17:028-05:17:431 I:
+So,
+0111 - 05:19:016-05:19:255 I:
+if
+0112 - 05:19:488-05:20:159 I:
+(W an;a) user
+0113 - 05:21:308-05:24:227 I:
+puts on a sentence, (Q I love you so much),
+0114 - 05:26:604-05:28:343 I:
+in the middle of the inputting
+0115 - 05:28:688-05:29:767 I:
+(Q I love),
+0116 - 05:34:396-05:37:875 I:
+the corresponding Japanese is going to be projected
+0117 - 05:38:260-05:41:011 I:
+words by words not sentence by sentence<SB>
+0118 - 05:45:460-05:45:579 I:<noise>
+0119 - 05:45:576-05:46:179 I:
+Therefore,
+0120 - 05:46:812-05:46:939 I:<noise>
+0121 - 05:46:936-05:48:183 I:
+it makes it possible
+0122 - 05:48:716-05:49:639 I:
+for you
+0123 - 05:50:220-05:50:631 I:
+to
+0124 - 05:53:712-05:54:187 I:
+see
+0125 - 05:54:548-05:54:983 I:
+what
+0126 - 05:55:860-05:57:799 I:
+the other part wants to say
+0127 - 05:58:424-05:59:695 I:
+and you can sort of
+0128 - 06:00:392-06:02:947 I:
+(D int) interrupt the conversation sometimes<SB>
+0129 - 06:04:940-06:07:151 I:
+In order to implement the system,
+0130 - 06:12:232-06:12:611 I:
+I
+0131 - 06:13:084-06:14:215 I:
+implemented a
+0132 - 06:15:024-06:16:075 I:
+system called
+0133 - 06:16:480-06:16:727 I:<noise>
+0134 - 06:16:856-06:18:543 I:
+(noise keyboard) dialog system
+0135 - 06:17:084-06:17:575 I:<noise>
+0136 - 06:19:004-06:19:683 I:
+with the (D f)
+0137 - 06:19:884-06:24:615 I:
+(X translating function) simultaneous translating function between English and Japanese<SB>
+0138 - 06:25:268-06:25:695 I:
+And there're
+0139 - 06:25:984-06:26:727 I:
+two terminals,
+0140 - 06:27:568-06:28:255 I:
+English
+0141 - 06:29:088-06:30:011 I:
+and Japanese<SB>
+0142 - 06:30:572-06:30:951 I:
+And
+0143 - 06:31:164-06:33:203 I:
+these two terminals are connected
+0144 - 06:33:656-06:34:671 I:
+by (W a;the) Internet<SB>
+0145 - 06:35:760-06:35:947 I:
+If
+0146 - 06:36:244-06:37:227 I:
+an English-
+0147 - 06:37:596-06:38:715 I:
+speaking user
+0148 - 06:39:204-06:40:615 I:
+types in English,
+0149 - 06:42:432-06:43:747 I:
+through the (noise Internet)
+0150 - 06:43:620-06:43:643 I:<noise>
+0151 - 06:43:796-06:43:831 I:<noise>
+0152 - 06:45:844-06:46:851 I:
+the sentence
+0153 - 06:47:408-06:48:735 I:
+will reach to the
+0154 - 06:48:956-06:51:631 I:
+English-Japanese simultaneous translation system<SB>
+0155 - 06:52:156-06:55:631 I:
+And it's translated into Japanese and translated
+0156 - 06:56:328-07:00:540 I:
+sentence is going to be projected onto the screen of the Japanese user<SB>
+0157 - 07:02:000-07:03:031 I:
+At the same time
+0158 - 07:04:100-07:04:371 I:
+the
+0159 - 07:04:756-07:05:999 I:
+(noise English sentence)
+0160 - 07:05:188-07:05:396 I:<noise>
+0161 - 07:06:256-07:08:159 I:
+that (F uh) English user typed in
+0162 - 07:08:408-07:09:819 I:
+will also be projected
+0163 - 07:10:012-07:10:699 I:
+onto the
+0164 - 07:11:040-07:13:035 I:
+screen of the Japanese user,
+0165 - 07:13:648-07:14:235 I:
+so that
+0166 - 07:15:112-07:16:579 I:
+the Japanese user can
+0167 - 07:17:232-07:17:619 I:
+see
+0168 - 07:18:112-07:20:167 I:
+English and Japanese both<SB>
+0169 - 07:26:408-07:26:675 I:
+And
+0170 - 07:26:864-07:29:047 I:
+in this case the translation goes
+0171 - 07:31:428-07:32:763 I:
+from English
+0172 - 07:33:016-07:34:395 I:
+to Japanese only,
+0173 - 07:34:724-07:36:315 I:
+so Japanese user
+0174 - 07:36:736-07:37:315 I:
+also
+0175 - 07:37:880-07:39:031 I:
+(W typed;types) in
+0176 - 07:39:688-07:40:223 I:
+English<SB>
+0177 - 07:43:472-07:43:755 I:
+And
+0178 - 07:44:036-07:45:759 I:
+in this implementation,
+0179 - 07:47:324-07:50:963 I:
+I have implemented the system into UNIX workstation
+0180 - 07:51:420-07:51:659 I:
+and
+0181 - 07:51:952-07:53:939 I:
+I have used the following three languages,
+0182 - 07:54:320-07:54:735 I:
+C,
+0183 - 07:55:028-07:55:543 I:
+GT
+0184 - 07:55:824-07:57:427 I:
+K plus, and LISP<SB>
+0185 - 07:58:592-07:58:875 I:
+And
+0186 - 07:59:344-08:03:479 I:
+I have used a incremental translation method between English and Japanese<SB>
+0187 - 08:04:004-08:06:031 I:
+And this shows the actual screen<SB>
+0188 - 08:06:572-08:07:323 I:
+There're three
+0189 - 08:07:848-08:08:475 I:
+screens<SB>
+0190 - 08:09:632-08:10:271 I:
+First,
+0191 - 08:10:688-08:10:875 I:
+on
+0192 - 08:11:176-08:11:467 I:
+top of
+0193 - 08:11:828-08:12:699 I:
+the screen
+0194 - 08:12:992-08:15:587 I:
+it shows what's input (S by)
+0195 - 08:16:948-08:17:335 I:
+(F uh)
+0196 - 08:17:640-08:18:103 I:
+by
+0197 - 08:18:620-08:19:595 I:
+(W a;an) English user<SB>
+0198 - 08:21:024-08:21:343 I:
+And
+0199 - 08:22:052-08:25:639 I:
+at the bottom you can see the sentence (Q I like soccer and language)<SB>
+0200 - 08:27:928-08:28:947 I:
+And translation
+0201 - 08:29:984-08:30:303 I:
+is
+0202 - 08:30:976-08:32:975 I:
+projected on the second screen<SB>
+0203 - 08:34:688-08:36:287 I:
+And you can see that
+0204 - 08:36:928-08:39:919 I:
+even in the middle of the sentence translation is being done<SB>
+0205 - 08:41:792-08:44:271 I:
+And at the bottom the fourth screen,
+0206 - 08:46:000-08:46:479 I:
+you
+0207 - 08:47:080-08:47:759 I:
+input
+0208 - 08:47:952-08:49:023 I:
+your sentence<SB>
+0209 - 08:53:648-08:54:848 I:
+So user can interrup<C>
+0210 - 08:55:104-08:55:367 I:
+t (F uh)
+0211 - 08:56:136-08:56:751 I:
+(F uh) while (S the)
+0212 - 08:57:696-08:58:999 I:
+the other user is (D in)
+0213 - 08:59:312-09:00:471 I:
+inputting the sentence<SB>
+0214 - 09:01:008-09:01:359 I:
+And
+0215 - 09:01:656-09:04:103 I:
+this shows the English user's screen<SB>
+0216 - 09:06:760-09:07:895 I:
+On the top frame
+0217 - 09:09:784-09:11:415 I:
+it shows the sentence
+0218 - 09:12:024-09:13:039 I:
+(X input by)
+0219 - 09:13:992-09:16:551 I:
+input by the English user<SB>
+0220 - 09:20:208-09:21:655 I:
+And second screen
+0221 - 09:23:472-09:25:351 I:
+shows what's input
+0222 - 09:27:176-09:29:167 I:
+by the English user, so the first screen is
+0223 - 09:30:120-09:30:687 I:
+the (F uh) (W what)
+0224 - 09:30:944-09:32:359 I:
+translation of the (F uh)
+0225 - 09:32:968-09:33:783 I:
+Japanese user<SB>
+0226 - 09:38:912-09:39:399 I:
+Today,
+0227 - 09:39:832-09:40:295 I:
+I have
+0228 - 09:40:520-09:43:239 I:
+proposed a multi-lingual on-line dialog system<SB>
+0229 - 09:44:776-09:45:439 I:
+And also
+0230 - 09:45:760-09:48:151 I:
+I have talked about a implementation
+0231 - 09:48:776-09:51:303 I:
+of the (F uh) (D k) keyboard dialog
+0232 - 09:51:640-09:51:967 I:
+with a (D s)
+0233 - 09:52:192-09:55:407 I:
+simultaneous translation function between English and Japanese<SB>
+0234 - 10:03:032-10:04:783 I:
+This concludes my speech, thank you<SB>

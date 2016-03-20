@@ -1,0 +1,35 @@
+Today , I would like to talk about the realization of spoken dialogue MP3 player and its evaluation .
+This slide shows the background of us . Internet has become more popular in recent years , and There 're large capacity MP3 files available .
+MP3 files is a kind of file to use CD on the computers . There 're , tens of thousands of MP3 files available .
+And at the same time , the Walkman and other devices are made smaller with a greater capacity .
+And the large capacity MP3 files can be used in those hardwares . The purpose of this study is to retrieve a large amount of MP3 files and the key operations which are difficult on the Walkman .
+On the other hand , we have to retrieve MP3 files , we have to make complicated retrievals , and we have to find an easier interface to give instruction , too . So , the voice input can be used as a means of retrieval of information .
+That 's why we realized the voice dialogue MP3 players . the user can operate , using the voice dialogue and they can retrieve information with voice dialogue  .
+This is how they realize the system .
+First of all , the spoken dialogue is processed , taking the MP3 device operation and user 's verbal output , we analyzed with key words and we tried to use these words to process spoken language .
+We have registered eighty-two words as key words . For example , the replay , fast forward , a little , they are key words for this analysis .
+And also based upon these key words , we set 108 types of patterns of the dialogue .
+For example , the the examples of the patterns are Can I listen to such and such ?  , will you please fast forward a bit ? , these are the patterns of dialogue . Then , we have to process based upon the key word analysis .
+For example , this is an input dialogue , will you please retrieve Beatles ?  We have to find keywords .
+Keywords here are beatles and to retrieve . We try to detect those keywords and those keywords are converted into commands .
+The commands to the beatles is artist and the command for the retrieve is search , and this is the line of keywords , or a series of keywords .
+And we have established 108 keywords .
+And after generating this , we would define actions . For example , one is the artist search an d we would generate responses to the retrieval .
+Based upon the analysis , we have realized the system . The operation system we used is Windows 98 .
+The language we used is Visual C Plus Plus .
+As I mentioned before , the number of keywords are eighty-two and the keywords are clusters of t ; 108  .
+This is the evaluation of experiment .
+The purpose of this evaluation is to evaluate the user friendliness of this system and the experimental methods , the subject of twenty university students .
+And we compared the spoken dialogue system of this equipment and the conventional system . And also we tried to let them perform the tasks within a certain limited time  .
+What are the tasks ?
+First of all , Will you please replay ? Thus For this task , we have to find the names of the songs to replay .
+And also will you please tell me the name of a title of a song which starts with pure white ?  . This is the result of this experiment .
+This is the comparison of this spoken dialogue system and the conventional systems .
+And if we compare the diversity , we can find that this system allows users to perform the tasks more than the conventional system .
+An d you can see that this system increases the task completion and by using the speech sounds in operating and retrieving information , we can improve the operability of operation efficiency .
+This is the second experiment . This is the comparison of the speech dialogue spoken language system and conventional system .
+This is the questionnaire survey . And this is the evaluation using the scale of zero to five .
+Looking at this bar chart , Six for five , four , , ten for four , three for three , and two for one and one for one  . This is a conventional system .
+And we have one five , and eight fours , and eight threes  and three twos . And you can find the better result for the system .
+The average is listed here in terms of the voice sounds . The average is 4.05 while the conventional system has a score of 3.35 in average .
+Today , I talked about the realization of voice responding MP3 players and in this player , we try to use the keyword analysis for processing and in evaluating the experiment we confirmed the voice operation and voice search and their effectiveness .

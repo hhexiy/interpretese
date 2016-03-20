@@ -1,0 +1,477 @@
+0001 - 00:06:412-00:06:903 I:
+Today
+0002 - 00:07:147-00:12:976 I:
+we would like to make a report on a method of incremental dependency analysis for Japanese<SB>
+0003 - 00:13:892-00:15:087 I:
+In recent years,
+0004 - 00:17:152-00:20:308 I:
+using the spoken language of the Japanese is (? requested, required) to
+0005 - 00:21:092-00:22:239 I:
+be used for
+0006 - 00:22:728-00:23:179 I:
+the
+0007 - 00:23:516-00:25:523 I:
+real-time dialogue system<SB>
+0008 - 00:26:380-00:27:055 I:
+Especially,
+0009 - 00:27:412-00:30:912 I:
+since this is the spoken language of natural way of speaking,
+0010 - 00:31:236-00:33:743 I:
+therefore, as <FV> words (W input;are inputted),
+0011 - 00:34:047-00:41:040 I:
+then the output should be immediately made, so (L therefore real-time) is the very important requirement<SB>
+0012 - 00:41:968-00:44:612 I:
+So this factor of real-time process,
+0013 - 00:45:088-00:47:272 I:
+this is request to be realized,
+0014 - 00:47:512-00:53:040 I:
+then what is required is the incremental interpretation of the natural spoken language<SB>
+0015 - 00:54:016-00:54:647 I:
+That means,
+0016 - 00:55:136-00:58:288 I:
+whenever each word appeared,
+0017 - 00:58:740-01:02:416 I:
+then that (W input;inputted) phrase should be interpreted incrementally<SB>
+0018 - 01:02:491-01:04:035 I:
+For example, (Q at store,
+0019 - 01:04:960-01:05:535 I:
+I met
+0020 - 01:05:880-01:06:139 I:
+with
+0021 - 01:06:424-01:06:619 I:<noise>
+0022 - 01:06:828-01:08:071 I:
+his friend)<SB>
+0023 - 01:08:724-01:11:120 I:
+If there's this kind of Japanese sentence, then
+0024 - 01:11:396-01:15:288 I:
+(Q at store) comes first in Japanese<SB> That's the phrasal unit<SB>
+0025 - 01:15:896-01:16:287 I:
+(X Then,
+0026 - 01:16:740-01:17:419 I:
+(Q at store))
+0027 - 01:18:056-01:18:431 I:
+then,
+0028 - 01:18:824-01:20:864 I:
+analysis should be done first
+0029 - 01:21:132-01:21:596 I:
+and then
+0030 - 01:22:020-01:22:587 I:
+(Q his)
+0031 - 01:22:988-01:23:523 I:
+comes
+0032 - 01:24:344-01:25:047 I:
+(X second)
+0033 - 01:25:528-01:26:607 I:
+as a second input<SB>
+0034 - 01:26:944-01:27:339 I:
+Then,
+0035 - 01:28:088-01:28:819 I:
+(Q at store)
+0036 - 01:29:740-01:30:651 I:
+and also
+0037 - 01:30:988-01:31:591 I:
+(Q his)
+0038 - 01:32:584-01:34:939 I:
+those (W input;inputs) should be interpreted
+0039 - 01:36:444-01:37:799 I:
+by the system<SB>
+0040 - 01:39:020-01:39:415 I:
+Now
+0041 - 01:44:184-01:46:099 I:
+For Japanese analysis,
+0042 - 01:46:572-01:48:440 I:
+we have to have the specific (noise factor<SB>
+0043 - 01:47:876-01:49:192 I:<noise>
+0044 - 01:48:876-01:49:603 I:
+That) is
+0045 - 01:49:860-01:52:011 I:
+the Japanese dependency
+0046 - 01:52:712-01:53:531 I:
+analysis<SB>
+0047 - 01:54:532-01:55:767 I:
+As you can see here
+0048 - 01:56:023-01:58:391 I:
+in Japanese a grammatical structure,
+0049 - 01:58:655-01:59:327 I:
+(Q at store),
+0050 - 01:59:540-01:59:911 I:
+(Q his
+0051 - 02:00:140-02:00:659 I:
+friend),
+0052 - 02:01:592-02:02:163 I:
+(Q met)
+0053 - 02:02:952-02:06:024 I:
+so these are the each phrasal units of Japanese<SB>
+0054 - 02:06:544-02:16:096 I:
+But in Japanese language interpretation, we have to determine the dependency relationship between the prologue numbers of the phrasal units<SB> For example, (Q at store),
+0055 - 02:16:424-02:17:023 I:
+(Q his friends),
+0056 - 02:17:444-02:17:999 I:
+(Q I met)
+0057 - 02:18:768-02:20:984 I:
+<FV> That means I met his friend at store,
+0058 - 02:21:360-02:22:643 I:
+and it means that (Q at store),
+0059 - 02:22:892-02:25:811 I:
+that should have the head of the (Q I met)
+0060 - 02:26:220-02:28:972 I:
+(X or) and the (Q his) should (W goes;go) towards (Q friend),
+0061 - 02:29:632-02:33:060 I:
+and then (F uh) (D fff) (Q friend), that is the (W objec<FV>tive;object)
+0062 - 02:33:368-02:33:772 I:
+of
+0063 - 02:33:976-02:34:611 I:
+(Q I met)<SB>
+0064 - 02:34:988-02:36:731 I:
+So these phrasal units
+0065 - 02:36:975-02:39:472 I:
+have the relationship of the modification,
+0066 - 02:39:756-02:43:308 I:
+or being modified so there is a dependency relationship<SB>
+0067 - 02:43:640-02:44:864 I:
+And (X determine the)
+0068 - 02:45:127-02:49:352 I:
+determining the relationship of the phrasal units dependency,
+0069 - 02:49:656-02:53:636 I:
+then, we can have the correct interpretation<SB> Why is it
+0070 - 02:54:260-02:55:079 I:
+really necessary?<SB>
+0071 - 02:55:656-02:56:191 I:
+Because
+0072 - 02:56:836-02:59:416 I:
+in the Japanese language, we have very loose
+0073 - 02:59:684-03:01:996 I:
+(W constrained;constraint) for the order of
+0074 - 03:02:276-03:02:459 I:
+the
+0075 - 03:02:772-03:03:207 I:
+words<SB>
+0076 - 03:03:724-03:05:447 I:
+(Q At store) or (Q his friends)
+0077 - 03:06:024-03:06:659 I:
+actually
+0078 - 03:08:532-03:09:067 I:
+There are
+0079 - 03:09:528-03:09:895 I:
+two
+0080 - 03:10:260-03:11:239 I:
+modifying
+0081 - 03:11:444-03:12:301 I:
+phrasal units,
+0082 - 03:12:511-03:15:144 I:
+but we can reverse these orders (W but;and) still
+0083 - 03:15:436-03:17:567 I:
+we have the same interpretation<SB>
+0084 - 03:18:036-03:18:791 I:
+Different from
+0085 - 03:19:752-03:20:823 I:
+English language,
+0086 - 03:21:035-03:23:524 I:
+quite often in Japanese we can
+0087 - 03:23:892-03:24:411 I:
+have
+0088 - 03:24:723-03:26:247 I:
+the missing subject<SB>
+0089 - 03:26:700-03:29:936 I:
+For example, in the <FV> truly strict manner,
+0090 - 03:30:456-03:31:527 I:
+(Q I met)
+0091 - 03:31:903-03:33:128 I:
+should be the case<SB>
+0092 - 03:33:448-03:34:611 I:
+But in this sentence,
+0093 - 03:35:164-03:35:711 I:
+already
+0094 - 03:35:972-03:39:144 I:
+the subject of (Q I) is obvious to everybody<SB>
+0095 - 03:39:231-03:40:291 I:
+Therefore (Q I)
+0096 - 03:40:764-03:43:640 I:
+is now eliminated in the sentence<SB>
+0097 - 03:45:248-03:45:671 I:
+Therefore,
+0098 - 03:48:604-03:49:215 I:
+excuse me
+0099 - 03:50:236-03:52:587 I:
+(L So dependency) analysis is required
+0100 - 03:52:920-03:57:912 I:
+as I mentioned before if there are two phrasal units, what are the dependency
+0101 - 03:58:155-04:03:260 I:
+relationship should be determined in the analysis<SB> That's the main objective of this analysis<SB>
+0102 - 04:03:640-04:04:399 I:
+But in this case,
+0103 - 04:05:372-04:07:207 I:
+(L in this) dependency analysis
+0104 - 04:08:080-04:10:095 I:
+for the phrasal units,
+0105 - 04:11:064-04:14:392 I:
+the head which (W receive;receives) the dependency phrase
+0106 - 04:14:704-04:15:639 I:
+should be
+0107 - 04:15:875-04:17:704 I:
+waited for the units
+0108 - 04:18:400-04:19:187 I:
+of the input<SB>
+0109 - 04:19:828-04:22:795 I:
+That (W mean;means) that (X the) there is one particular phrasal unit,
+0110 - 04:23:276-04:23:667 I:
+but
+0111 - 04:23:895-04:25:243 I:
+that is actually
+0112 - 04:25:792-04:26:616 I:
+modifying
+0113 - 04:26:887-04:27:871 I:
+the last
+0114 - 04:28:081-04:29:088 I:
+phrasal (W units;unit),
+0115 - 04:29:496-04:29:947 I:
+then
+0116 - 04:30:332-04:35:392 I:
+the interpretation should wait for the last (D u) phrasal unit which is ahead<SB>
+0117 - 04:35:912-04:36:323 I:
+Then,
+0118 - 04:37:300-04:40:020 I:
+in order to realize a real-time dialogue system,
+0119 - 04:40:368-04:44:476 I:
+the feature of the incremental interpretation cannot be achieved<SB>
+0120 - 04:45:100-04:45:651 I:
+Therefore,
+0121 - 04:46:040-04:48:000 I:
+what we are proposing today
+0122 - 04:48:364-04:48:811 I:
+is
+0123 - 04:49:172-04:54:840 I:
+the Japanese language dependency analysis method in incremental manner<SB>
+0124 - 04:55:632-04:56:291 I:
+That means
+0125 - 04:56:992-04:58:511 I:
+that (F ah) there are certain
+0126 - 04:58:828-05:01:936 I:
+input of the phrasal units (L of the dependency),
+0127 - 05:02:420-05:05:204 I:
+and then even though there is no head appeared,
+0128 - 05:05:664-05:07:243 I:
+there is a presumption
+0129 - 05:08:248-05:08:667 I:
+of
+0130 - 05:08:876-05:11:132 I:
+the head of the phrasal units<SB> So therefore,
+0131 - 05:11:496-05:14:884 I:
+in advance, the dependence relationship will be
+0132 - 05:15:104-05:15:163 I:<noise>
+0133 - 05:15:364-05:16:076 I:
+(W build;built) (noise up)<SB>
+0134 - 05:15:908-05:16:092 I:<noise>
+0135 - 05:16:752-05:20:092 I:
+Now let me explain about the dependency structure<SB>
+0136 - 05:20:500-05:22:151 I:
+There is a (L dependency) grammar,
+0137 - 05:22:451-05:23:335 I:
+that's the basis,
+0138 - 05:23:687-05:29:080 I:
+so if there are two phrasal units, the possibility of the dependency
+0139 - 05:30:012-05:33:264 I:
+between depending words and heads will be
+0140 - 05:33:507-05:34:228 I:
+interpreted<SB>
+0141 - 05:34:307-05:35:692 I:
+And there are some constraints<SB>
+0142 - 05:35:744-05:36:300 I:
+There are three<SB>
+0143 - 05:36:468-05:39:088 I:
+One is (S the) the non-crossability of the
+0144 - 05:39:656-05:40:783 I:
+dependency relationship<SB>
+0145 - 05:41:360-05:42:251 I:
+That (W mean;means) that (X the)
+0146 - 05:43:072-05:43:867 I:
+these (W head;heads)
+0147 - 05:44:119-05:48:044 I:
+and (W dependen<FV>ging;depending) phrase should not be crossed over<SB>
+0148 - 05:48:564-05:50:699 I:
+And always the head is the single,
+0149 - 05:51:040-05:52:483 I:
+therefore always there are
+0150 - 05:54:312-05:56:952 I:
+requirement of having one single head
+0151 - 05:57:183-05:58:679 I:
+to receive the depending
+0152 - 05:59:256-06:00:235 I:
+phrasal units<SB>
+0153 - 06:00:796-06:01:295 I:
+And
+0154 - 06:01:528-06:05:056 I:
+the last one is the head can be appearing
+0155 - 06:05:412-06:07:684 I:
+much after the dependent phrase<SB>
+0156 - 06:08:188-06:10:780 I:
+That (W mean;means) that if we look at the dependency relationship,
+0157 - 06:11:023-06:11:763 I:
+the head
+0158 - 06:12:096-06:13:780 I:
+might appear much later<SB>
+0159 - 06:15:164-06:20:448 I:
+So these are the constraints or the conditions specific (noise for Japanese) language<SB>
+0160 - 06:19:008-06:19:695 I:<noise>
+0161 - 06:20:507-06:24:056 I:
+(L Therefore, based on) these conditions, we have to build the system
+0162 - 06:24:456-06:29:712 I:
+of the incremental dependency analysis for Japanese<SB> Let me explain with this schematic picture<SB>
+0163 - 06:30:704-06:33:316 I:
+Incremental dependency analysis
+0164 - 06:33:584-06:34:103 I:
+is
+0165 - 06:38:320-06:39:603 I:
+(F ahh) (X working
+0166 - 06:41:156-06:41:551 I:
+on)
+0167 - 06:43:788-06:44:307 I:
+still
+0168 - 06:44:972-06:45:759 I:
+waiting for
+0169 - 06:46:128-06:49:144 I:
+the actual category which should be the head<SB>
+0170 - 06:49:459-06:51:908 I:
+So therefore, dependency grammar will be used<SB>
+0171 - 06:52:204-06:55:292 I:
+So there is a presumption or assumption of the category
+0172 - 06:55:494-06:56:856 I:
+of the possible head<SB>
+0173 - 06:57:320-07:00:168 I:
+So the structure should be presumed first<SB>
+0174 - 07:00:984-07:03:287 I:
+Based on this assumed structure,
+0175 - 07:04:320-07:09:284 I:
+up to the input made so far, dependency relationship should be simulated<SB>
+0176 - 07:09:347-07:10:551 I:
+For example, (Q at store)
+0177 - 07:11:452-07:12:188 I:
+comes first,
+0178 - 07:12:492-07:12:983 I:
+and then
+0179 - 07:13:232-07:13:707 I:
+(Q book)
+0180 - 07:13:908-07:14:700 I:
+comes second,
+0181 - 07:15:076-07:15:755 I:
+and then
+0182 - 07:16:204-07:20:220 I:
+the (Q at store) should be the dependent phrasal (W units;unit)
+0183 - 07:20:539-07:21:312 I:
+to the verb,
+0184 - 07:21:776-07:22:692 I:
+and the (Q book)
+0185 - 07:22:893-07:24:820 I:
+will have the verb
+0186 - 07:25:055-07:25:543 I:
+later<SB>
+0187 - 07:25:888-07:26:312 I:
+Then,
+0188 - 07:26:519-07:27:739 I:
+as shown on the right,
+0189 - 07:28:048-07:29:675 I:
+(Q at store) and (W a) (Q book),
+0190 - 07:30:172-07:32:948 I:
+those are the dependent phrases
+0191 - 07:33:196-07:34:484 I:
+or phrasal units
+0192 - 07:34:740-07:36:128 I:
+(F ah) (noise which) (W has;have) the head
+0193 - 07:34:856-07:34:963 I:<noise>
+0194 - 07:36:672-07:38:163 I:
+as a verb in the end<SB>
+0195 - 07:40:360-07:40:871 I:
+Therefore,
+0196 - 07:41:960-07:43:635 I:
+for these two phrasal
+0197 - 07:43:864-07:44:347 I:
+units,
+0198 - 07:44:724-07:45:355 I:
+the head
+0199 - 07:46:048-07:47:107 I:
+comes later<SB>
+0200 - 07:47:160-07:49:103 I:
+But before having that input,
+0201 - 07:49:492-07:50:059 I:
+already
+0202 - 07:50:496-07:52:704 I:
+the dependency relationship for
+0203 - 07:53:123-07:55:256 I:
+(Q at (W stores;store)) and (Q book) will be
+0204 - 07:55:868-07:58:084 I:
+simulated or assumed<SB> Therefore,
+0205 - 07:58:744-08:00:216 I:
+before waiting for
+0206 - 08:00:468-08:01:544 I:
+the final
+0207 - 08:01:788-08:02:231 I:
+head
+0208 - 08:02:503-08:03:968 I:
+appearing as input,
+0209 - 08:04:280-08:04:887 I:
+we can
+0210 - 08:05:140-08:05:739 I:
+assume
+0211 - 08:05:979-08:07:788 I:
+the structure of the dependency<SB>
+0212 - 08:07:983-08:08:712 I:
+Now, summary<SB>
+0213 - 08:08:732-08:16:956 I:<noise>
+0214 - 08:09:540-08:10:091 I:
+(noise This time
+0215 - 08:10:460-08:11:399 I:
+we proposed
+0216 - 08:11:780-08:14:788 I:
+the method of <FV> incremental dependency analysis
+0217 - 08:15:040-08:16:067 I:
+for Japanese)<SB>
+0218 - 08:19:076-08:20:339 I:
+That means that (F ah) we
+0219 - 08:20:604-08:21:020 I:
+will
+0220 - 08:21:240-08:21:791 I:
+use
+0221 - 08:22:232-08:22:507 I:
+the
+0222 - 08:23:240-08:24:091 I:
+(W assumptioned;assumption)
+0223 - 08:24:480-08:24:776 I:
+of
+0224 - 08:24:987-08:25:419 I:
+the
+0225 - 08:26:212-08:26:807 I:
+phrasal
+0226 - 08:27:252-08:28:000 I:
+units
+0227 - 08:28:224-08:29:036 I:
+relationship
+0228 - 08:29:828-08:32:436 I:
+to analyze the dependency structure<SB>
+0229 - 08:34:440-08:34:919 I:
+Therefore,
+0230 - 08:36:376-08:37:031 I:
+this
+0231 - 08:37:376-08:39:019 I:
+method will lead us to
+0232 - 08:41:900-08:42:359 I:
+the
+0233 - 08:43:888-08:44:507 I:
+earlier
+0234 - 08:44:844-08:45:859 I:
+interpretation
+0235 - 08:46:176-08:48:428 I:
+of the dependency structure before
+0236 - 08:48:656-08:49:504 I:
+determining
+0237 - 08:50:264-08:51:036 I:
+what head
+0238 - 08:51:331-08:52:655 I:
+comes at last<SB>
+0239 - 08:53:220-08:54:479 I:
+Therefore this method
+0240 - 08:55:572-09:00:692 I:
+will be used in a GNU common list on the work stations, so implementation was
+0241 - 09:01:528-09:02:199 I:
+realized<SB>
+0242 - 09:02:816-09:03:287 I:
+Thank you<SB>

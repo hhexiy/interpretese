@@ -1,0 +1,30 @@
+Today , I 'd like to talk about the Japanese language processing based upon derivational grammar and its application. I 'd like to talk about the result of our research .
+First of all Japanese language processing by computer . Generally speaking , when a computer processes human languages first of all , the input of the sentences will be divided with a morphological analysis followed by parsing , followed by semantic analysis and context analysis .
+And the finally through these processes human spoken words will be analyzed. First one is the morphological analysis that is first process to be done . If there should be any mistakes at this step , the later analysis and the process will be wrong .
+And therefore , this process is critical . In addition , language of Japanese They are not divided in writing .
+In a case of English , there are space between words , and therefore , you can identify which one is one word . But in a case of Japanese language it is a continuous , therefore the the computer can not see the separation of different words .
+And therefore , it 's necessary to divide into pieces of words . And the each word should be identified .
+For instance this one the self examination report is a noun , this is the postpositional particle , this is verb , ka is a verb and then followed by auxiliary verb .
+And therefore , each one should be with a part of speech tag . So it has to be divided into different parts of the speech and we need to put the part of speech tag to each component of the words . That is a morphological analysis .
+this is a simplified expression of the structure of the Japanese sentence , but this is not that simple . Actually , this is a little bit more complex. I think that 's a elementary school or junior high school I think you have learned a school grammar .
+And this is the kaku . There is inflection of verbs kaku kaku kaku toki kake ba and so forth , imperfect continuative , conclusive , attributive , provisional imperative are the names for each different types of inflection .
+For instance , five stages and also the upper one stage the inflection , there are different types of conjugation of Japanese verbs .
+And the seru is an auxiliary verb , that is to make somebody do something . And in addition to these conjugations seru is the connected only to imperfects form of a verb .
+This is rareru. This is a passive form , and this is connected only to imperfect form of a verb . And this is ta which means perfects , but it has a irregular inflections , and there is no imperative nor continuative form and the only connected to continuative form of the previous word .
+Therefore , this is a highly complex inflexion and also the rules for the connection between words . Therefore , when kakase rare ta is analyzed , you have to go through the processes which require this very complex inflections .
+Therefore , for the analysis of Japanese language , the process of very complex conjugations is needed .
+As far as the Japanese language has a conjugation , you need to have the processing of conjugation for Japanese language , but you can assume that Japanese language does not have any inflexion , and that is one of the theories in addition to school grammar actually there another type of grammar to describe Japanese language , which is the derivational of grammar .
+Derivational grammar focus upon the agglutinative character of Japanese language .
+Japanese and the Korean and Turkish languages are similar with each other . And agglutinative character is common to these .
+And derivational grammar focused upon this feature and the conjugation of verbs that is inflection that I talked about , is made up of a stem of the verb and the suffix .
+Let me give you an example . Earlier , I talked about the kaku which means write , in a case of school grammar , this is the type of a conjugation for the particular verb , this parts kaka nai , kaki masu do n't write , write and there are the different forms depending upon the conjugation .
+But , if you look at a phonemes , for instance , this is written in Roman characters for hiragana expression . this part kaku to write is with the consonant k , it does n't change which means a this part constitute a stem of the word , and then this is connected with a suffix to show the different types of the conjugation forms .
+Compared with the derivational grammar is simplified and more systematic . So if you want to use computer for the processing of Japanese language derivational grammar is much more suitable in comparison with the school grammar .
+And therefore we decided to make a morphological analysis system based upon derivational and  grammar and analysis are much more simplified and analyses are procession is as high as ninety eight percent .
+putting into different components of the word of Japanese and the analysis is as precise as ninety eight percent , this is the result of the analysis of the phrase .
+kakase rare ta and based upon this kind of theory we perform the study of the translation between Japanese and Uighur . Uighur is a language spoken at the Shangjan Uighur and people living in a Shangjan Uighur area of China .
+Although you may not aware of that , but these two language is very similar and word orders are similar between Japanese and Uighur . Therefore after morphological analysis by just replacing by respective words , it is possible to make a translation .
+Let me give you the previous example of kakase rare ta I was made write  . And after morphological analysis you can replace by Uighur words , and you can get a translation in Uighur .
+In summary , we used derivational grammar rather than traditional school grammar for Japanese language analysis which enabled us simpler analysis .
+And for the application of this technology , we are conducting translation between Japanese and Uigjur .
+We make a full use of the similarity between Japanese and Uighur . And translation of the verbal phrases as well as the translation of a sentences from Japanese to Uighur .

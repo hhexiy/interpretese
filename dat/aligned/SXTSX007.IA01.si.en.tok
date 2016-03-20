@@ -1,0 +1,26 @@
+Today , I 'd like to talk about example-based spoken dialog system . This is my title o f the speech .
+We are researching the spoken dialog interface . What we are trying to achieve is an interface that is easy to use , at the same time it is safe to use , for example , in a car .
+And what is most important is to be able to recognize natural dialog or conversation and to be able to understand it . Then what dose spontaneous , natural dialog means ?
+For example , in order to express is there a Chinese restaurant nearby ? you can have four or more different ways of speaking the same content .
+So there are various ways to express the same things .
+So without any constraints or restrictions if you can say anything in whatever way you want to , that is spontaneous conversation or natural dialog . It used to be the case that in those spoken dialog interface only a certain form of dialog or utterance is accepted .
+For example , the phrase number one only is accepted and phrases two , three , four were not accepted .
+So , we are trying to realize the spoken dialog interface that can understand spontaneous speech . In order to achieve the above-mentioned objective , we try to collect as many examples as possible and we try to use examples based on the assumption that people will say almost the same thing in the same situation .
+This chart shows how information is searched between user and database and how the information is flowing between the user and information database . User says , I want to eat a Chinese cuisine  .
+Then operator uses a search tool and creates an argument or query and searches information from the data base . So , this diagram shows that the operator makes some sort of decision in the mind .
+And this decision is based on the past experience or knowledge and this knowledge part will be replaced by machine that we are trying to achieve . In order to do that , we have asked two subjects in a car to have a spontaneous speech or dialog .
+And based on that data we have formed a tool .
+And from now on , I 'll talk about specific example , how a conversation or dialog is processed . I said that we try to collect as many examples as possible and this is how the spontaneous speech examples are accumulated .
+So , the content of the speech , and an argument or query is added to the utterance itself . For example , when a user says , I want to eat a spaghetti or something , then the argument is put by the operator to make it easier for the operator to search .
+And based on that data the dialog or speech is processed in the following way .
+For example , when a person says , I want to go to a spaghetti shop , then the key words will be extracted from the speech . And based on the key words , among the examples we have accumulated we search the closest example .
+And in this case , the first one , I want to go to a curry shop was the closest one chosen among the examples . And that goes on to the argument or query and this argument is modified to replace , in this case curry with spaghetti .
+And we have made an assessment of that speech processing .
+In this experiment we have used the data of eighteen people having conversation in a car and also we have used the data of transcripts of twenty-eight people having a conversation in a car .
+And the next chart or graph shows the following facts . as the number of subjects increases the number or the percentage of correct answer goes up .
+So , what we can say is that the more data we have , the more accurate the database is going to be .
+You can see the increase as the graph shows , so if we add a number of data , it is ex pected that performance of this database is going to increase . And also we made an error error analysis . And seventy percent of the mistake were coming from the fact that data is lacking. There 's no match enough data . So based on the fact as well , there 's a further possibility of increasing performance by increasing the number of data , or example database .
+So , to sum up , we have come up with a spoken dialog processing to cope with spontaneous speech .
+And we are using examples based on the examples of spontaneous speech so that we can cope with a various ways of saying the same thing .
+And I 'd say result of the assessment . Seventy percent of the conversations were successfully coped by the this database and there 's further possibility of increasing performance by increasing the data base itself .
+Thank you .

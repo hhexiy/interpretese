@@ -1,0 +1,463 @@
+0001 - 00:08:616-00:10:228 I:
+Today, I'd like to talk about
+0002 - 00:10:532-00:12:859 I:
+example-based spoken dialog system<SB>
+0003 - 00:13:680-00:15:019 I:
+This is my title <noise> o<C>
+0004 - 00:14:680-00:14:763 I:<noise>
+0005 - 00:15:251-00:16:251 I:
+f the speech<SB>
+0006 - 00:20:860-00:21:615 I:
+We are
+0007 - 00:21:903-00:22:627 I:
+researching
+0008 - 00:22:980-00:23:915 I:
+the spoken
+0009 - 00:24:135-00:25:183 I:
+dialog interface<SB>
+0010 - 00:26:256-00:27:471 I:
+What we are trying to achieve
+0011 - 00:28:108-00:30:471 I:
+is an interface that is easy to use,
+0012 - 00:31:536-00:31:787 I:<noise>
+0013 - 00:33:160-00:35:131 I:
+at the same time it is safe to use,
+0014 - 00:35:332-00:36:425 I:
+for example, in a car<SB>
+0015 - 00:38:980-00:40:348 I:
+And (X what is more important)
+0016 - 00:40:592-00:41:835 I:
+what is most important is
+0017 - 00:42:232-00:43:983 I:
+to be able to recognize natural
+0018 - 00:44:592-00:47:596 I:
+dialog or conversation and to be able to understand it<SB>
+0019 - 00:48:496-00:48:752 I:
+Then
+0020 - 00:49:000-00:51:919 I:
+what dose spontaneous, natural dialog means?<SB>
+0021 - 00:53:432-00:54:055 I:
+For example,
+0022 - 00:54:432-00:55:503 I:
+in order to express
+0023 - 00:57:448-00:59:319 I:
+(Q is there a Chinese restaurant nearby?)
+0024 - 01:00:400-01:00:956 I:
+you can
+0025 - 01:02:080-01:02:440 I:
+have
+0026 - 01:03:712-01:06:191 I:
+four or more different ways of speaking
+0027 - 01:06:415-01:07:607 I:
+the same content<SB>
+0028 - 01:09:040-01:11:431 I:
+So there are various ways to express the same things<SB>
+0029 - 01:14:872-01:17:223 I:
+So without any constraints or restrictions
+0030 - 01:18:376-01:19:679 I:
+if you can say anything
+0031 - 01:20:592-01:22:639 I:
+in whatever (D ye) way you want to,
+0032 - 01:23:280-01:26:144 I:
+that is spontaneous conversation or natural dialog<SB>
+0033 - 01:32:872-01:33:712 I:
+It used to be the case
+0034 - 01:33:952-01:34:447 I:
+that
+0035 - 01:35:232-01:37:151 I:
+in those spoken dialog interface
+0036 - 01:37:792-01:38:320 I:
+only
+0037 - 01:38:575-01:39:839 I:
+a certain form of
+0038 - 01:40:775-01:41:288 I:
+dialog
+0039 - 01:41:856-01:42:639 I:
+or utterance
+0040 - 01:42:944-01:43:719 I:
+is accepted<SB>
+0041 - 01:43:976-01:44:071 I:<noise>
+0042 - 01:44:464-01:45:175 I:
+For example,
+0043 - 01:46:704-01:49:176 I:
+the phrase number one only is accepted
+0044 - 01:49:608-01:52:887 I:
+and phrases two, three, four were not accepted<SB>
+0045 - 02:00:288-02:00:871 I:
+So,
+0046 - 02:01:312-02:01:880 I:
+we are
+0047 - 02:02:087-02:02:768 I:
+trying to
+0048 - 02:04:584-02:07:719 I:
+realize the spoken dialog interface that can understand
+0049 - 02:08:736-02:10:095 I:
+spontaneous speech<SB>
+0050 - 02:12:104-02:13:503 I:
+In order to achieve the
+0051 - 02:13:928-02:15:184 I:
+above-mentioned objective,
+0052 - 02:16:472-02:16:823 I:
+we
+0053 - 02:17:263-02:18:316 I:
+try to collect
+0054 - 02:18:608-02:20:815 I:
+as many examples as possible
+0055 - 02:22:440-02:22:791 I:
+and
+0056 - 02:23:192-02:23:535 I:
+we
+0057 - 02:23:832-02:24:455 I:
+try to
+0058 - 02:25:576-02:26:016 I:
+use
+0059 - 02:26:968-02:27:743 I:
+examples
+0060 - 02:28:992-02:32:623 I:
+based on the assumption that (F uh) people will say almost the same thing
+0061 - 02:33:208-02:33:495 I:
+in
+0062 - 02:33:832-02:34:943 I:
+the same situation<SB>
+0063 - 02:35:952-02:36:352 I:<noise>
+0064 - 02:39:256-02:40:015 I:
+This chart
+0065 - 02:40:632-02:41:151 I:
+shows
+0066 - 02:41:600-02:41:712 I:
+<FV>
+0067 - 02:42:656-02:46:232 I:
+how information is searched between user and database
+0068 - 02:46:632-02:50:644 I:
+and how the information is flowing between the user and information database<SB>
+0069 - 02:54:096-02:54:655 I:
+User
+0070 - 02:55:376-02:55:895 I:
+says,
+0071 - 02:56:336-02:58:112 I:
+(Q I want to eat a Chinese
+0072 - 02:58:327-02:58:919 I:
+cuisine)<SB>
+0073 - 03:00:248-03:01:255 I:
+Then operator
+0074 - 03:03:664-03:05:176 I:
+uses a search
+0075 - 03:06:000-03:06:384 I:
+tool
+0076 - 03:07:064-03:07:407 I:
+and
+0077 - 03:08:816-03:10:543 I:
+(W create;creates) an argument or query
+0078 - 03:10:920-03:11:240 I:
+and
+0079 - 03:11:487-03:13:223 I:
+(W search;searches) information from the data base<SB>
+0080 - 03:15:984-03:16:375 I:
+So,
+0081 - 03:17:112-03:18:007 I:
+this diagram
+0082 - 03:18:688-03:19:263 I:
+shows
+0083 - 03:19:543-03:23:840 I:
+that the operator makes some sort of decision in the mind<SB>
+0084 - 03:25:464-03:26:156 I:
+And this
+0085 - 03:26:480-03:29:511 I:
+decision is based on the past experience
+0086 - 03:30:080-03:30:791 I:
+or knowledge
+0087 - 03:31:592-03:31:864 I:
+and
+0088 - 03:32:079-03:32:400 I:
+this
+0089 - 03:32:615-03:36:648 I:
+knowledge part will be replaced by machine that we are trying to achieve<SB>
+0090 - 03:37:872-03:39:143 I:
+In order to do that,
+0091 - 03:42:152-03:42:623 I:
+we
+0092 - 03:43:504-03:43:855 I:
+have
+0093 - 03:44:232-03:45:992 I:
+(W astle;asked) two subjects
+0094 - 03:46:608-03:47:160 I:
+in a car
+0095 - 03:47:359-03:47:775 I:
+to
+0096 - 03:48:184-03:50:264 I:
+have a spontaneous speech or dialog<SB>
+0097 - 03:52:504-03:53:911 I:
+And based on that data
+0098 - 03:54:760-03:55:239 I:
+we
+0099 - 03:58:448-03:59:527 I:
+have (noise formed a)
+0100 - 03:59:072-03:59:400 I:<noise>
+0101 - 04:00:920-04:01:336 I:
+(noise tool)<SB>
+0102 - 04:01:199-04:01:543 I:<noise>
+0103 - 04:05:144-04:10:991 I:
+And from now on, I'll (W let you) talk about specific example, how a conversation or dialog is
+0104 - 04:11:792-04:12:663 I:
+(F uh) processed<SB>
+0105 - 04:15:424-04:15:992 I:
+I said
+0106 - 04:16:216-04:17:991 I:
+that we try to collect as many
+0107 - 04:18:552-04:20:279 I:
+examples as possible
+0108 - 04:20:904-04:21:207 I:
+and
+0109 - 04:21:632-04:22:335 I:
+this is how
+0110 - 04:22:576-04:22:919 I:
+the
+0111 - 04:23:280-04:25:023 I:
+spontaneous speech examples
+0112 - 04:25:824-04:27:039 I:
+are accumulated<SB>
+0113 - 04:28:840-04:30:871 I:
+So, the content of the speech,
+0114 - 04:31:520-04:31:919 I:
+and
+0115 - 04:32:215-04:33:911 I:
+an argument or query
+0116 - 04:34:392-04:34:751 I:
+is
+0117 - 04:35:384-04:35:791 I:
+added
+0118 - 04:36:348-04:37:376 I:
+to the (F uh)
+0119 - 04:37:575-04:38:479 I:
+utterance itself<SB>
+0120 - 04:39:224-04:40:608 I:
+For example, when a user says,
+0121 - 04:40:983-04:43:319 I:
+(Q I want to eat a spaghetti or something),
+0122 - 04:44:752-04:45:111 I:
+then
+0123 - 04:45:828-04:46:083 I:
+the
+0124 - 04:46:392-04:47:042 I:
+argument
+0125 - 04:48:394-04:48:501 I:
+(D d)
+0126 - 04:49:966-04:51:472 I:
+is put by the operator
+0127 - 04:54:224-04:54:567 I:
+to
+0128 - 04:55:872-04:58:367 I:
+make it easier for the operator to search<SB>
+0129 - 05:00:128-05:01:487 I:
+And based on that data
+0130 - 05:01:984-05:04:103 I:
+the dialog or speech is processed
+0131 - 05:04:936-05:06:191 I:
+in the following way<SB>
+0132 - 05:06:992-05:07:855 I:
+For example,
+0133 - 05:08:352-05:08:719 I:
+when
+0134 - 05:09:024-05:10:028 I:
+a person says,
+0135 - 05:10:228-05:12:680 I:
+(Q (F well) I want to go to a spaghetti shop),
+0136 - 05:13:600-05:15:688 I:
+then the key words will be extracted
+0137 - 05:15:904-05:17:023 I:
+from the speech<SB>
+0138 - 05:18:840-05:20:343 I:
+And based on the key words,
+0139 - 05:21:824-05:23:151 I:
+among the examples
+0140 - 05:23:936-05:25:231 I:
+we have accumulated
+0141 - 05:25:656-05:27:695 I:
+we search the closest example<SB>
+0142 - 05:30:616-05:30:968 I:
+And
+0143 - 05:32:784-05:33:703 I:
+in this case,
+0144 - 05:34:768-05:37:488 I:
+the first one, (Q I want to go to a curry shop)
+0145 - 05:38:456-05:41:311 I:
+was the closest one chosen among the examples<SB>
+0146 - 05:44:664-05:46:672 I:
+And that goes on to
+0147 - 05:47:160-05:47:568 I:
+the
+0148 - 05:49:096-05:50:532 I:
+argument or query
+0149 - 05:51:272-05:51:776 I:
+and
+0150 - 05:52:712-05:53:143 I:
+this
+0151 - 05:53:480-05:54:207 I:
+argument
+0152 - 05:54:888-05:55:319 I:
+is
+0153 - 05:55:952-05:56:655 I:
+modified
+0154 - 05:58:056-05:58:375 I:
+to
+0155 - 05:58:728-06:00:199 I:
+replace, in this case
+0156 - 06:00:728-06:02:095 I:
+(Q curry) with (Q spaghetti)<SB>
+0157 - 06:04:496-06:04:600 I:<noise>
+0158 - 06:04:792-06:07:479 I:
+And we have made an assessment of that
+0159 - 06:08:384-06:08:639 I:
+(F uh)
+0160 - 06:09:800-06:10:871 I:
+speech processing<SB>
+0161 - 06:14:624-06:15:183 I:
+In this
+0162 - 06:15:816-06:16:815 I:
+experiment
+0163 - 06:17:560-06:20:055 I:
+we have used the data of eighteen people
+0164 - 06:20:600-06:22:415 I:
+having conversation in a car
+0165 - 06:24:552-06:25:175 I:
+and also
+0166 - 06:25:640-06:26:063 I:
+we have
+0167 - 06:26:271-06:26:903 I:
+used
+0168 - 06:28:160-06:29:599 I:
+(F uh) the data of
+0169 - 06:30:640-06:34:488 I:
+transcripts of twenty-eight people having a conversation in a car<SB>
+0170 - 06:37:992-06:38:431 I:
+And
+0171 - 06:38:496-06:38:584 I:<noise>
+0172 - 06:39:120-06:39:311 I:
+the
+0173 - 06:39:952-06:40:519 I:
+next
+0174 - 06:40:920-06:41:487 I:
+chart
+0175 - 06:41:759-06:42:455 I:
+or graph
+0176 - 06:42:992-06:43:679 I:
+shows
+0177 - 06:44:096-06:44:223 I:<noise>
+0178 - 06:45:568-06:46:712 I:
+the following facts<SB>
+0179 - 06:46:128-06:46:224 I:<noise>
+0180 - 06:48:264-06:48:607 I:<noise>
+0181 - 06:48:736-06:49:448 I:
+(X The number of)
+0182 - 06:49:688-06:51:999 I:
+as the number of subjects (W increase;increases)
+0183 - 06:54:104-06:54:863 I:
+the number
+0184 - 06:55:160-06:56:452 I:
+or the percentage of
+0185 - 06:56:776-06:58:600 I:
+correct answer goes up<SB>
+0186 - 06:59:896-07:00:279 I:
+So,
+0187 - 07:00:535-07:03:368 I:
+what we can say is that the more data we have,
+0188 - 07:03:736-07:04:367 I:
+the more
+0189 - 07:05:144-07:05:807 I:
+accurate
+0190 - 07:06:240-07:06:631 I:
+the
+0191 - 07:07:640-07:08:735 I:
+database is going to be<SB>
+0192 - 07:11:992-07:13:271 I:
+You can see the increase
+0193 - 07:13:896-07:14:903 I:
+as the graph shows,
+0194 - 07:15:424-07:15:832 I:
+so
+0195 - 07:16:248-07:17:175 I:
+if we add
+0196 - 07:17:416-07:18:679 I:
+a number of data,
+0197 - 07:19:248-07:19:832 I:
+it is (X except)
+0198 - 07:20:143-07:20:368 I:
+ex<C>
+0199 - 07:20:572-07:22:072 I:
+pected that performance
+0200 - 07:22:424-07:24:495 I:
+of this database is going to increase<SB>
+0201 - 07:27:024-07:27:607 I:
+And also
+0202 - 07:28:744-07:29:687 I:
+we made (W a;an)
+0203 - 07:30:328-07:30:656 I:
+(S error)
+0204 - 07:30:988-07:32:179 I:
+error analysis<SB>
+0205 - 07:36:520-07:36:891 I:
+And
+0206 - 07:37:520-07:39:499 I:
+seventy percent of the mistake
+0207 - 07:40:144-07:41:744 I:
+were coming from the fact
+0208 - 07:41:984-07:45:048 I:
+that (F uh) data is lacking<SB> There's no match enough data<SB>
+0209 - 07:46:776-07:48:599 I:
+So based on the fact as well,
+0210 - 07:49:864-07:51:824 I:
+there's a further possibility of
+0211 - 07:52:032-07:54:928 I:
+increasing performance by increasing the number of data,
+0212 - 07:55:544-07:56:335 I:
+or example
+0213 - 07:56:696-07:57:287 I:
+database<SB>
+0214 - 07:59:080-08:00:135 I:
+So, to sum up,
+0215 - 08:04:648-08:04:911 I:
+we
+0216 - 08:05:912-08:06:308 I:
+have
+0217 - 08:07:296-08:08:135 I:
+come up with
+0218 - 08:08:448-08:08:855 I:
+a
+0219 - 08:11:056-08:12:807 I:
+(F uh) spoken dialog (W a) processing
+0220 - 08:13:280-08:14:159 I:
+to cope with
+0221 - 08:14:376-08:15:487 I:
+spontaneous speech<SB>
+0222 - 08:18:176-08:19:183 I:
+And we are
+0223 - 08:20:208-08:21:663 I:
+using examples
+0224 - 08:22:031-08:22:671 I:
+based on
+0225 - 08:23:007-08:23:567 I:
+the (F uh)
+0226 - 08:24:448-08:27:407 I:
+examples of (F uh) spontaneous speech so that we can (F uh)
+0227 - 08:28:272-08:31:232 I:
+(F uh) cope with a various ways of (W the) saying the same thing<SB>
+0228 - 08:31:792-08:32:247 I:
+And I'd
+0229 - 08:32:479-08:34:575 I:
+say (F uh) result of the (F uh)
+0230 - 08:35:352-08:36:295 I:
+assessment<SB>
+0231 - 08:38:376-08:38:759 I:
+(F uh)
+0232 - 08:39:032-08:41:319 I:
+Seventy percent of the conversations
+0233 - 08:42:120-08:45:807 I:
+were successfully coped by the (F uh) this <FV> database
+0234 - 08:46:296-08:50:087 I:
+and there's further possibility of increasing performance by increasing
+0235 - 08:50:287-08:50:743 I:
+the data<C>
+0236 - 08:51:208-08:51:719 I:
+base itself<SB>
+0237 - 08:52:344-08:52:831 I:
+(L Thank you)<SB>

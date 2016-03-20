@@ -1,0 +1,554 @@
+0001 - 00:06:656-00:07:727 I:
+On this occasion,
+0002 - 00:08:848-00:09:792 I:
+I'd like (W talk;to talk)
+0003 - 00:10:095-00:14:895 I:
+about derivational grammar approach to Japanese processing and its application,
+0004 - 00:15:272-00:16:327 I:
+which is (F sss)
+0005 - 00:16:696-00:18:503 I:
+the theme of our study<SB>
+0006 - 00:19:320-00:19:951 I:
+(X The first) (F oh)
+0007 - 00:20:272-00:20:880 I:
+the first
+0008 - 00:21:152-00:23:151 I:
+of all, I'd like (W explain;to explain) about the
+0009 - 00:24:016-00:25:935 I:
+(F ah) Japanese processing by
+0010 - 00:26:576-00:27:431 I:
+(W a) computer<SB>
+0011 - 00:29:624-00:32:951 I:
+When you try to translate Japanese by computer,
+0012 - 00:33:720-00:37:447 I:
+first (D in) you input the sentence and analyze
+0013 - 00:38:040-00:41:215 I:
+(W a) it in a morphological approach
+0014 - 00:42:672-00:43:143 I:
+and
+0015 - 00:44:672-00:47:687 I:
+other process of parsing, semantic analysis,
+0016 - 00:48:200-00:50:199 I:
+and context (D anala) analysis<SB>
+0017 - 00:51:632-00:53:231 I:
+The first process is the
+0018 - 00:53:608-00:55:167 I:
+morphological analysis<SB>
+0019 - 00:59:096-00:59:927 I:
+This is the
+0020 - 01:00:200-01:01:775 I:
+first processing
+0021 - 01:02:352-01:03:151 I:
+(W n) (X to the)
+0022 - 01:03:576-01:04:231 I:
+to the speech,
+0023 - 01:04:440-01:05:287 I:
+so (S if) <FV>
+0024 - 01:05:984-01:07:343 I:
+if a mistake will (W made;be made)
+0025 - 01:07:776-01:08:847 I:
+at this stage
+0026 - 01:09:280-01:11:784 I:
+(W the) (F ah) a lot of processing
+0027 - 01:13:504-01:14:344 I:
+will not be
+0028 - 01:14:552-01:15:200 I:
+accurate<SB>
+0029 - 01:15:504-01:18:784 I:
+So the processing at this stage is really important<SB>
+0030 - 01:21:616-01:26:175 I:
+And (F ah) in addition to this, Japanese language is not a divided into
+0031 - 01:26:680-01:27:831 I:
+several words<SB>
+0032 - 01:29:456-01:30:807 I:
+In case of English
+0033 - 01:31:272-01:34:832 I:
+(X the) (F ah) the words (W is;are) written in a divided form,
+0034 - 01:36:696-01:37:855 I:
+while Japanese
+0035 - 01:38:432-01:39:519 I:
+is written (X in a)
+0036 - 01:40:144-01:41:495 I:
+as a whole sentence,
+0037 - 01:41:791-01:42:487 I:
+so
+0038 - 01:42:864-01:44:279 I:
+we have to
+0039 - 01:44:552-01:45:215 I:
+divide
+0040 - 01:45:592-01:47:151 I:
+the sentence into several
+0041 - 01:47:488-01:50:167 I:
+parts so that the computer recognize
+0042 - 01:50:688-01:51:688 I:
+each parts<SB>
+0043 - 01:52:680-01:52:991 I:
+And
+0044 - 01:53:672-01:55:015 I:
+we have to add (F ah)
+0045 - 01:56:584-01:58:272 I:
+function of the
+0046 - 01:58:484-01:59:023 I:
+words
+0047 - 01:59:992-02:00:715 I:
+to each
+0048 - 02:01:260-02:01:707 I:
+parts<SB>
+0049 - 02:02:032-02:03:475 I:
+For example, (Q hanseibun)
+0050 - 02:03:668-02:04:879 I:
+this part is a noun,
+0051 - 02:05:156-02:05:307 I:
+this
+0052 - 02:05:560-02:06:415 I:
+part is a
+0053 - 02:07:040-02:08:587 I:
+(F ah) auxiliary verbs<SB>
+0054 - 02:09:060-02:11:164 I:
+And the sentence will be (X divided like)
+0055 - 02:11:668-02:13:063 I:
+divided into
+0056 - 02:13:656-02:14:328 I:
+like this,
+0057 - 02:14:720-02:15:295 I:
+nouns,
+0058 - 02:15:952-02:19:479 I:
+postpositional particle, verb, auxiliary verbs<SB>
+0059 - 02:20:896-02:21:359 I:
+And
+0060 - 02:22:544-02:23:247 I:
+like this
+0061 - 02:24:256-02:24:959 I:
+(F ah) we
+0062 - 02:26:200-02:26:904 I:
+put a tag
+0063 - 02:27:104-02:28:055 I:
+to each
+0064 - 02:28:464-02:28:911 I:
+words<SB>
+0065 - 02:29:240-02:32:607 I:
+This is the process of morphological analysis<SB>
+0066 - 02:35:808-02:35:888 I:
+<FV>
+0067 - 02:36:552-02:38:032 I:
+It looks very simple,
+0068 - 02:38:232-02:39:871 I:
+but (F ah) actually it is very
+0069 - 02:40:232-02:41:703 I:
+complicated process<SB>
+0070 - 02:43:816-02:45:831 I:
+Will you please see the next slide?<SB>
+0071 - 02:46:472-02:47:880 I:
+This is
+0072 - 02:48:720-02:49:191 I:
+the
+0073 - 02:49:792-02:50:856 I:
+school grammar
+0074 - 02:51:144-02:53:511 I:
+you might learn this at school<SB>
+0075 - 02:55:776-02:57:688 I:
+(X For example) (X based on) (W the) (F ah)
+0076 - 02:58:240-02:58:920 I:
+for example,
+0077 - 02:59:624-03:01:103 I:
+in the school grammar,
+0078 - 03:01:920-03:02:503 I:
+the word
+0079 - 03:03:008-03:03:519 I:
+(Q write)
+0080 - 03:03:784-03:04:343 I:
+(O kaku)
+0081 - 03:06:272-03:07:031 I:
+will be
+0082 - 03:09:736-03:10:840 I:
+explained like this<SB>
+0083 - 03:11:048-03:12:688 I:
+It has a several forms
+0084 - 03:13:132-03:14:820 I:
+including imperfect form,
+0085 - 03:15:232-03:15:579 I:
+(W con<C>
+0086 - 03:16:232-03:20:496 I:
+tintinuative;continuative) form, conclusive form, attributive form
+0087 - 03:21:552-03:23:551 I:
+like this from the top to bottom<SB>
+0088 - 03:24:144-03:25:335 I:
+And there are many
+0089 - 03:25:664-03:27:879 I:
+complex (S form) (F ah)
+0090 - 03:28:264-03:28:999 I:
+form of
+0091 - 03:29:463-03:30:391 I:
+conjugation<SB>
+0092 - 03:31:784-03:32:352 I:
+And
+0093 - 03:32:575-03:34:415 I:
+along with the conjugation
+0094 - 03:35:408-03:36:520 I:
+this cell
+0095 - 03:36:744-03:37:864 I:
+(D mea) is a
+0096 - 03:39:392-03:40:999 I:
+auxiliary verb which
+0097 - 03:41:504-03:42:455 I:
+means the
+0098 - 03:43:160-03:44:151 I:
+stimulation<SB>
+0099 - 03:44:928-03:45:592 I:
+And this
+0100 - 03:45:792-03:47:007 I:
+auxiliary verb
+0101 - 03:47:472-03:48:272 I:
+conjugate (X like)
+0102 - 03:48:800-03:50:487 I:
+not only conjugate like this
+0103 - 03:50:863-03:52:398 I:
+but it has a rule
+0104 - 03:52:640-03:54:072 I:
+it will be (D a) attached
+0105 - 03:54:279-03:54:831 I:
+to
+0106 - 03:55:200-03:56:887 I:
+imperfect form alone<SB>
+0107 - 03:57:232-03:57:512 I:
+And
+0108 - 03:57:735-03:59:504 I:
+if you see this part (O rareru)
+0109 - 04:00:352-04:01:071 I:
+it will be
+0110 - 04:01:304-04:02:247 I:
+attached to
+0111 - 04:02:504-04:04:423 I:
+continuative form alone<SB>
+0112 - 04:05:840-04:08:520 I:
+(L And) (Q ta) this part means (F ah)
+0113 - 04:08:960-04:10:767 I:
+conclusion of the action
+0114 - 04:11:200-04:13:512 I:
+but (F ah) conjugation (X isn't perfect)
+0115 - 04:15:256-04:16:344 I:
+(D per) imperfect
+0116 - 04:16:551-04:19:855 I:
+(X it does) because it doesn't have a continuative form and a
+0117 - 04:20:176-04:21:840 I:
+imperative form<SB>
+0118 - 04:22:818-04:23:480 I:
+And (X this
+0119 - 04:23:685-04:24:011 I:
+will not
+0120 - 04:24:240-04:24:565 I:
+be)
+0121 - 04:25:292-04:26:904 I:
+it will be attached to
+0122 - 04:27:284-04:28:903 I:
+continuative form alone<SB>
+0123 - 04:29:940-04:30:776 I:
+(W a) Like this,
+0124 - 04:31:196-04:31:671 I:
+(F umm)
+0125 - 04:33:388-04:35:395 I:
+<FV> it has such a complex
+0126 - 04:35:772-04:37:203 I:
+conjugation rule
+0127 - 04:38:324-04:39:459 I:
+and the forms<SB>
+0128 - 04:40:464-04:41:975 I:
+So in order to
+0129 - 04:42:359-04:43:879 I:
+analyze a verb
+0130 - 04:44:896-04:47:119 I:
+or sentence (Q I was forced to
+0131 - 04:47:552-04:47:959 I:
+write)<SB>
+0132 - 04:48:688-04:50:551 I:
+You need (F ah) this kind of complex
+0133 - 04:51:104-04:52:439 I:
+(F ah) processing<SB>
+0134 - 04:52:735-04:56:823 I:
+So first problem of (F ah) morphological analysis of Japanese
+0135 - 04:57:144-04:58:727 I:
+is the processing of
+0136 - 04:59:272-04:59:543 I:
+(F ah)
+0137 - 05:00:288-05:01:679 I:
+conjugation of a verb<SB>
+0138 - 05:03:544-05:04:367 I:
+But (F ah)
+0139 - 05:04:888-05:07:159 I:
+Japanese has a conjugation form<SB>
+0140 - 05:07:992-05:09:063 I:
+Everybody might think
+0141 - 05:09:536-05:10:599 I:
+like this way<SB>
+0142 - 05:11:088-05:11:496 I:
+But,
+0143 - 05:13:272-05:13:815 I:
+we
+0144 - 05:15:840-05:17:287 I:
+made assumption that (F ah)
+0145 - 05:18:048-05:18:951 I:
+(W processing)
+0146 - 05:20:384-05:20:768 I:
+(F ah)
+0147 - 05:21:072-05:21:639 I:
+(W an) the
+0148 - 05:22:048-05:23:783 I:
+Japanese doesn't conjugate<SB>
+0149 - 05:25:784-05:27:407 I:
+This approach is now
+0150 - 05:28:008-05:28:775 I:
+proposed<SB>
+0151 - 05:30:960-05:32:071 I:
+I'd like (S explain)
+0152 - 05:32:392-05:34:063 I:
+(W explain;to explain) about this approach<SB>
+0153 - 05:34:456-05:35:311 I:
+It is called
+0154 - 05:35:607-05:37:263 I:
+derivational grammar<SB>
+0155 - 05:38:808-05:38:911 I:
+It
+0156 - 05:39:832-05:41:727 I:
+(W take;takes) advantage of agglutina<C>
+0157 - 05:42:096-05:44:087 I:
+tive feature of Japanese<SB>
+0158 - 05:45:208-05:46:280 I:
+Japanese or
+0159 - 05:46:544-05:47:920 I:
+Korean language or
+0160 - 05:48:144-05:49:279 I:
+Turkish (X has
+0161 - 05:50:416-05:50:743 I:
+a)
+0162 - 05:51:848-05:53:751 I:
+has a similar characteristic
+0163 - 05:54:192-05:55:055 I:
+with each other<SB>
+0164 - 05:56:728-05:58:032 I:
+We paid attention
+0165 - 05:58:272-05:59:159 I:
+to this point<SB>
+0166 - 06:00:496-06:04:279 I:
+And the derivational (D pro) grammar is based on this point<SB>
+0167 - 06:06:272-06:08:839 I:
+And regarding the conjugation of the verb,
+0168 - 06:11:328-06:13:415 I:
+(F ah) It has a stem
+0169 - 06:13:784-06:15:311 I:
+attached with the suffix<SB>
+0170 - 06:15:760-06:17:879 I:
+It will be explained in this manner<SB>
+0171 - 06:18:912-06:19:783 I:
+For example,
+0172 - 06:20:136-06:22:815 I:
+we will (S look) take a look at the conjugation of the
+0173 - 06:23:648-06:25:119 I:
+(F ah) verb
+0174 - 06:25:448-06:25:743 I:
+(Q write),
+0175 - 06:26:080-06:26:616 I:
+(Q to write)<SB>
+0176 - 06:27:472-06:29:367 I:
+In the school grammar,
+0177 - 06:31:072-06:33:407 I:
+(F ah) in the imperial form and (D in)
+0178 - 06:33:840-06:34:112 I:
+con<C>
+0179 - 06:34:311-06:36:344 I:
+tinuative form (X they'll make a)
+0180 - 06:36:712-06:38:231 I:
+(W an) they'll make a conjugation<SB>
+0181 - 06:38:520-06:42:231 I:
+That's a reason why this school grammar is (X call) <FV> called
+0182 - 06:42:824-06:43:487 I:
+(F ah) (D con)
+0183 - 06:44:256-06:45:415 I:
+conjugation<SB>
+0184 - 06:46:376-06:47:647 I:
+But in a (W deriver
+0185 - 06:47:959-06:49:135 I:
+rational;derivational) grammar,
+0186 - 06:52:952-06:54:863 I:
+the word will be explained
+0187 - 06:55:216-06:55:983 I:
+as follows<SB>
+0188 - 06:57:800-06:59:136 I:
+It consists of the
+0189 - 07:01:824-07:03:304 I:
+(Q kaku) or this part,
+0190 - 07:04:376-07:05:504 I:
+(W the left)
+0191 - 07:06:144-07:08:031 I:
+and part will not make any
+0192 - 07:09:144-07:09:776 I:
+change
+0193 - 07:10:184-07:11:007 I:
+and to this
+0194 - 07:11:528-07:11:895 I:
+part
+0195 - 07:12:480-07:12:983 I:
+other
+0196 - 07:14:048-07:15:967 I:
+grammatical (F ah) forms <FV>
+0197 - 07:16:976-07:18:455 I:
+(F yee) (F ah) being attached<SB>
+0198 - 07:18:808-07:19:503 I:
+So
+0199 - 07:21:520-07:24:258 I:
+this (W deriverrational;derivational) grammar is much
+0200 - 07:24:504-07:26:991 I:
+easier and simpler compared with the
+0201 - 07:27:552-07:28:439 I:
+traditional
+0202 - 07:29:672-07:30:655 I:
+school grammar<SB>
+0203 - 07:31:144-07:33:343 I:
+So in processing by
+0204 - 07:33:871-07:34:615 I:
+computer
+0205 - 07:34:864-07:38:791 I:
+this (W deriver rational;derivational) grammar approach will be more adequate<SB>
+0206 - 07:41:712-07:42:279 I:
+So
+0207 - 07:43:056-07:43:879 I:
+we have
+0208 - 07:44:600-07:47:231 I:
+(F eh) developed a morpheme analysis system
+0209 - 07:47:736-07:48:751 I:
+Majo<SB>
+0210 - 07:49:808-07:51:327 I:
+It has a more simple
+0211 - 07:51:880-07:53:482 I:
+grammar and more
+0212 - 07:53:720-07:54:384 I:
+(D simp)
+0213 - 07:54:728-07:55:975 I:
+<FV> simpler analysis<SB>
+0214 - 07:56:440-07:58:255 I:
+Its analysis accuracy
+0215 - 07:59:848-08:00:199 I:
+was
+0216 - 08:00:744-08:02:135 I:
+ninety-eight percent<SB>
+0217 - 08:04:832-08:04:960 I:
+I<C>
+0218 - 08:05:216-08:05:367 I:
+t
+0219 - 08:05:592-08:06:336 I:
+(F ah)
+0220 - 08:06:864-08:08:519 I:
+analyzed Japanese
+0221 - 08:09:384-08:10:407 I:
+correctly
+0222 - 08:13:480-08:13:967 I:
+and
+0223 - 08:14:424-08:16:455 I:
+if you use this Majo system
+0224 - 08:16:800-08:17:615 I:
+to analyze
+0225 - 08:18:656-08:19:375 I:
+the <FV>
+0226 - 08:19:904-08:21:463 I:
+word (O kakase rareta),
+0227 - 08:21:864-08:23:751 I:
+(X were you) (Q I was forced to write)
+0228 - 08:25:088-08:28:583 I:
+will be explained (X in) (X on this like) on this chart<SB>
+0229 - 08:29:032-08:30:944 I:
+And we made application
+0230 - 08:31:480-08:31:719 I:
+<FV>
+0231 - 08:31:976-08:35:047 I:
+to the translation between Japanese and Uighur<SB>
+0232 - 08:35:608-08:38:656 I:
+You might not have (F ah) knowledge about (F ah) Uighur<SB>
+0233 - 08:39:376-08:40:000 I:
+But (F ah)
+0234 - 08:40:288-08:41:535 I:
+it is a language
+0235 - 08:42:056-08:43:135 I:
+people of the
+0236 - 08:43:760-08:45:927 I:
+(X Uighur regional Shinkyo)
+0237 - 08:46:672-08:48:911 I:
+(W a) Shinkyo Uighur (F ah) region
+0238 - 08:49:960-08:51:231 I:
+among Mongolia<SB>
+0239 - 08:51:576-08:53:047 I:
+And it has (F ah)
+0240 - 08:53:608-08:56:127 I:
+similar characteristics with Japanese<SB>
+0241 - 08:56:536-09:00:079 I:
+<FV> Because the both of them have a similar word order<SB>
+0242 - 09:00:912-09:01:407 I:
+So
+0243 - 09:01:672-09:02:800 I:
+the (F ah) (D syn)
+0244 - 09:03:352-09:03:468 I:
+(W a)
+0245 - 09:03:952-09:05:676 I:
+syntactical similarity
+0246 - 09:05:916-09:07:139 I:
+is a very high<SB>
+0247 - 09:08:388-09:10:959 I:
+So by (F ah) replacing each word
+0248 - 09:11:640-09:13:171 I:
+from Japanese into
+0249 - 09:13:424-09:14:063 I:
+Uighur,
+0250 - 09:14:880-09:15:991 I:
+the translation
+0251 - 09:16:224-09:19:119 I:
+to certain extent is possible<SB>
+0252 - 09:20:496-09:21:735 I:
+And on this chart,
+0253 - 09:23:472-09:27:103 I:
+you can see the translation between Japanese and Uighur<SB>
+0254 - 09:28:296-09:28:687 I:
+(F ah)
+0255 - 09:30:928-09:31:183 I:
+In
+0256 - 09:32:256-09:33:132 I:
+conclusion,
+0257 - 09:33:636-09:34:945 I:
+instead of
+0258 - 09:35:692-09:36:821 I:
+(F ah) traditional
+0259 - 09:37:612-09:39:105 I:
+(X grammar) school grammar's
+0260 - 09:39:468-09:41:668 I:
+analysis, we are adopting
+0261 - 09:42:176-09:43:239 I:
+(W deriva rational;derivational)
+0262 - 09:43:804-09:45:059 I:
+analysis system
+0263 - 09:45:636-09:46:235 I:
+which
+0264 - 09:46:800-09:48:371 I:
+enables the translation
+0265 - 09:48:612-09:49:507 I:
+more simpler<SB>
+0266 - 09:50:056-09:51:844 I:
+And as application,
+0267 - 09:52:088-09:53:479 I:
+we are developing the
+0268 - 09:53:840-09:56:319 I:
+translation between Japanese and Uighur
+0269 - 09:56:904-10:00:631 I:
+based on the similarity of these two languages<SB>
+0270 - 10:01:015-10:02:232 I:
+(X The (D na) verb)
+0271 - 10:02:456-10:04:287 I:
+the translation of verb
+0272 - 10:04:800-10:07:911 I:
+phrase (X is) has been developed already<SB>
+0273 - 10:09:216-10:09:991 I:
+And other
+0274 - 10:10:328-10:11:335 I:
+translation (F m)
+0275 - 10:11:632-10:12:272 I:
+will be
+0276 - 10:13:088-10:13:728 I:
+possible
+0277 - 10:13:936-10:14:719 I:
+in near future<SB>

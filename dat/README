@@ -1,0 +1,23 @@
+This directory contains raw transcripts from the original CIAIR dataset[1], human translations collected from Gengo and the three-way parallel data after alignment.
+
+JSRC:
+  Source Japanese monologue with time stamps.
+  Filename format: <monologue ID>.<speaker ID>.JTRANS.UTF-8
+
+EINTER:
+  English interpretation with time stamps.
+  Each monologue in JSRC has 4 interpretations.
+  Filename format: <monologue ID>.<recorder ID>.<interpreter ID>.ETRANS.UTF-8
+  
+ETRANS:
+  English translation from Gengo.
+  Each line is a sentence, corresponding to aligned source and target interpretation sentences in ./aligned.
+  Filename format: <monologue ID>.<translator ID>.ETRANS.UTF-8.sent
+
+aligned:
+  Aligned sentences for each monologue.
+  *.si.ja.tok and *.mt.ja.tok contain the (same) source Japanese sentences.
+  *.si.en.tok and *.mt.en.tok contain the interpreted and translated sentences. 
+
+
+[1] Shigeki Matsubara, Akira Takagi, Nobuo Kawaguchi, and Yasuyoshi Inagaki. 2002. Bilingual spoken monologue corpus for simultaneous machine interpretation research. In Proceedings of the Language Resources and Evaluation Conference (LREC).

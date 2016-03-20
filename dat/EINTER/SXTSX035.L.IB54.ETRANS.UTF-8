@@ -1,0 +1,386 @@
+0001 - 00:06:640-00:07:120 I:
+Now,
+0002 - 00:10:031-00:18:079 I:
+I would like to talk about the subject of aligning sentences in parallel corpora for extraction on translation patterns<SB>
+0003 - 00:22:400-00:23:504 I:
+As a backdrop,
+0004 - 00:26:895-00:27:263 I:
+with
+0005 - 00:27:888-00:28:447 I:
+the
+0006 - 00:30:192-00:31:599 I:
+prevalence of the Internet
+0007 - 00:32:000-00:33:568 I:
+and increase of the
+0008 - 00:33:840-00:36:399 I:
+opportunities of traveling abroad,
+0009 - 00:36:816-00:40:831 I:
+thus the communication among different languages has increased<SB>
+0010 - 00:41:664-00:42:048 I:
+And,
+0011 - 00:42:864-00:43:311 I:
+in (F ah)
+0012 - 00:43:871-00:45:151 I:
+traveling abroad,
+0013 - 00:47:472-00:50:480 I:
+it is expected that the system to translate
+0014 - 00:50:736-00:53:368 I:
+a spoken language should be designed<SB>
+0015 - 00:54:303-00:57:247 I:
+As for a communication or a dialogue,
+0016 - 00:58:543-01:00:399 I:
+the simultaneous interpretation
+0017 - 01:01:391-01:02:351 I:
+is also
+0018 - 01:02:911-01:05:695 I:
+desirable because of the less time lag<SB>
+0019 - 01:06:304-01:06:975 I:
+So,
+0020 - 01:08:176-01:11:424 I:
+now take a look at the simultaneous (W interpration;interpretation) system<SB>
+0021 - 01:12:352-01:14:943 I:
+At (F uh) simultaneous (W interpreta<FV>pretation;interpretation),
+0022 - 01:17:984-01:19:407 I:
+(X it is not output)
+0023 - 01:19:696-01:21:087 I:
+it is not to output
+0024 - 01:21:616-01:22:127 I:
+the (D in)
+0025 - 01:24:048-01:25:759 I:
+interpretation results
+0026 - 01:26:736-01:29:152 I:
+before (X the word) the sentence is ended<SB>
+0027 - 01:29:296-01:32:799 I:
+But it outputs (W to) translation results in the course of the
+0028 - 01:33:087-01:34:079 I:
+sentence input<SB>
+0029 - 01:34:976-01:38:015 I:
+In order to output the correct interpretation
+0030 - 01:38:768-01:39:487 I:
+result,
+0031 - 01:40:047-01:40:735 I:
+(X its needs
+0032 - 01:41:376-01:41:951 I:
+to)
+0033 - 01:42:416-01:43:855 I:
+structure analysis
+0034 - 01:44:608-01:44:943 I:
+(W of)
+0035 - 01:45:424-01:46:495 I:
+(F ah) is needed<SB>
+0036 - 01:49:967-01:50:687 I:
+Therefore,
+0037 - 01:52:976-01:57:760 I:
+using the translation samples processed by simultaneous interpreters,
+0038 - 01:58:400-01:59:503 I:
+we would like to know
+0039 - 02:01:184-02:02:047 I:
+know-how
+0040 - 02:02:752-02:05:696 I:
+or the knowledge, how the simultaneous interpreters
+0041 - 02:05:920-02:07:952 I:
+are translating those sentences<SB>
+0042 - 02:08:304-02:08:736 I:
+Thus
+0043 - 02:08:959-02:11:631 I:
+we can incorporate it into our system<SB>
+0044 - 02:19:056-02:22:287 I:
+A sentence written in a certain language
+0045 - 02:23:552-02:27:615 I:
+and the text data of that corresponding translation
+0046 - 02:29:184-02:32:319 I:
+(W is;are) the theme of the many researches nowadays<SB>
+0047 - 02:33:632-02:34:512 I:
+That is called
+0048 - 02:34:751-02:35:871 I:
+parallel corpora<SB>
+0049 - 02:36:544-02:39:920 I:
+And from that parallel corpora, we would like to extract
+0050 - 02:40:159-02:41:711 I:
+the translation patterns,
+0051 - 02:41:967-02:43:119 I:
+so that we can
+0052 - 02:44:832-02:45:648 I:
+introduce it
+0053 - 02:45:887-02:49:535 I:
+to the (X simultation interpretation) simultaneous interpretation system<SB>
+0054 - 02:53:808-02:54:495 I:
+And when
+0055 - 02:54:720-02:57:216 I:
+we extract translation pattern,
+0056 - 02:57:888-02:59:488 I:
+we need three stages
+0057 - 02:59:711-03:00:399 I:
+to follow<SB>
+0058 - 03:02:208-03:03:039 I:
+First,
+0059 - 03:05:488-03:07:519 I:
+alignment of sentences
+0060 - 03:08:208-03:10:031 I:
+using bilingual corpus<SB>
+0061 - 03:10:927-03:11:695 I:
+For example,
+0062 - 03:12:448-03:15:103 I:
+the first sentence, (O ohayou gozaimasu)
+0063 - 03:16:528-03:16:863 I:
+is
+0064 - 03:17:280-03:19:904 I:
+translated or responds to the (D wor)
+0065 - 03:20:144-03:21:439 I:
+phrase, (Q Good morning)<SB>
+0066 - 03:21:840-03:25:632 I:
+And the second phrase, (O tadaima go shoukai itadaki mashi ta Suzuki de gozai masu),
+0067 - 03:26:047-03:32:015 I:
+responds to the second line, (Q Thank you for your kind introduction), then the next third line, (Q My name is Suzuki)<SB>
+0068 - 03:36:280-03:36:920 I:
+This is the
+0069 - 03:37:136-03:39:740 I:
+sample of alignment of sentences<SB>
+0070 - 03:41:172-03:41:931 I:
+Secondary,
+0071 - 03:44:452-03:44:948 I:
+among
+0072 - 03:45:440-03:50:143 I:
+those sentences aligned, we pick up (D s) smaller part, (W of) such as phrase<SB>
+0073 - 03:50:576-03:53:360 I:
+For instance, (O tadaima go shoukai itadaki mashi ta) part
+0074 - 03:53:764-03:54:527 I:
+can be
+0075 - 03:55:692-03:55:960 I:
+res<C>
+0076 - 03:56:784-03:57:600 I:
+ponded to
+0077 - 03:58:528-04:00:224 I:
+(Q Thank you for your kind introduction)<SB>
+0078 - 04:00:348-04:02:536 I:
+This is a sample of alignment of phrases<SB>
+0079 - 04:03:732-04:04:351 I:
+Thirdly,
+0080 - 04:05:256-04:06:019 I:
+from the
+0081 - 04:06:984-04:08:347 I:
+phrases aligned,
+0082 - 04:09:168-04:11:948 I:
+we extract all translation patterns
+0083 - 04:12:748-04:14:275 I:
+which is useful for
+0084 - 04:14:600-04:16:007 I:
+simultaneous interpretation<SB>
+0085 - 04:17:844-04:18:787 I:
+And now
+0086 - 04:22:516-04:23:188 I:
+we take up
+0087 - 04:23:984-04:25:675 I:
+sentence's alignment<SB>
+0088 - 04:28:896-04:31:147 I:
+As for alignment of sentences,
+0089 - 04:32:668-04:34:324 I:
+basically there are two
+0090 - 04:34:803-04:35:391 I:
+methods<SB>
+0091 - 04:35:964-04:36:819 I:
+One of them is
+0092 - 04:37:256-04:39:292 I:
+statistical (X measures) methods<SB>
+0093 - 04:39:932-04:40:603 I:
+The second
+0094 - 04:40:844-04:41:127 I:
+is
+0095 - 04:41:656-04:42:319 I:
+(W lexicam;lexical)
+0096 - 04:42:928-04:43:471 I:
+measures<SB>
+0097 - 04:46:376-04:48:695 I:
+As for statistical measures,
+0098 - 04:50:496-04:50:799 I:
+we
+0099 - 04:52:056-04:53:727 I:
+compare the length of
+0100 - 04:53:928-04:54:791 I:
+sentences<SB>
+0101 - 04:56:796-04:58:471 I:
+And the second measure,
+0102 - 04:58:880-05:00:215 I:
+as for (W lexican;lexical) measures,
+0103 - 05:01:948-05:02:543 I:
+we use
+0104 - 05:02:743-05:03:875 I:
+lexical matching<SB>
+0105 - 05:04:716-05:07:744 I:
+And (X I) we would like to touch on these in details<SB>
+0106 - 05:10:180-05:10:563 I:
+Now,
+0107 - 05:11:456-05:15:007 I:
+(W the sentence's alignment;in the sentence's alignment) using the length of sentences,
+0108 - 05:17:016-05:19:143 I:
+the length of the Japanese sentences
+0109 - 05:21:376-05:21:944 I:
+and
+0110 - 05:22:192-05:22:552 I:
+the
+0111 - 05:22:752-05:24:999 I:
+English sentences (W has;have) (W a;the) same
+0112 - 05:25:672-05:26:999 I:
+<FV> ratio,
+0113 - 05:27:328-05:28:880 I:
+that is the assumption we make<SB>
+0114 - 05:29:232-05:30:031 I:
+For instance,
+0115 - 05:30:319-05:32:303 I:
+the first sentence (O ohayou gozaimasu)
+0116 - 05:34:048-05:34:423 I:
+(W way;where)
+0117 - 05:35:088-05:35:719 I:
+can it be
+0118 - 05:36:584-05:37:263 I:
+(W respond;responded) to<SB>
+0119 - 05:39:552-05:39:615 I:
+(D I)
+0120 - 05:41:880-05:42:976 I:
+we think of the case,
+0121 - 05:43:176-05:44:599 I:
+it responds to (Q good morning),
+0122 - 05:45:040-05:46:335 I:
+or another case,
+0123 - 05:46:927-05:50:399 I:
+it responds to (Q good morning, thank you for your kind introduction)<SB>
+0124 - 05:52:464-05:52:560 I:
+At
+0125 - 05:53:080-05:55:831 I:
+this point, we think of the length of the sentences,
+0126 - 05:56:415-05:56:959 I:
+and
+0127 - 05:57:375-05:57:999 I:
+so
+0128 - 05:58:520-05:58:752 I:
+the
+0129 - 05:59:047-06:00:743 I:
+sentence, (O ohayou gozaimasu)
+0130 - 06:01:424-06:04:384 I:
+responds to (Q Good morning) that is the assumption we make<SB>
+0131 - 06:06:688-06:07:175 I:
+Next,
+0132 - 06:07:791-06:09:583 I:
+about lexical matching
+0133 - 06:11:063-06:12:991 I:
+for alignment of sentences,
+0134 - 06:15:256-06:16:936 I:
+in this method, we use
+0135 - 06:17:136-06:18:383 I:
+parallel corpora,
+0136 - 06:20:544-06:21:143 I:
+so that
+0137 - 06:21:352-06:24:383 I:
+we can convert Japanese words into English ones<SB>
+0138 - 06:26:968-06:27:391 I:
+(X Those
+0139 - 06:28:624-06:30:672 I:
+and) (X using those converted)
+0140 - 06:31:400-06:33:352 I:
+(F ah) using those (W relationship;relationships)
+0141 - 06:33:767-06:34:999 I:
+of converted words,
+0142 - 06:35:303-06:36:687 I:
+we can assume the <FV>
+0143 - 06:37:479-06:38:743 I:
+sentence's response<SB>
+0144 - 06:39:360-06:40:079 I:
+For instance,
+0145 - 06:42:152-06:43:303 I:
+(O ohayou gozaimasu)
+0146 - 06:43:960-06:44:600 I:
+can (W be) <FV>
+0147 - 06:46:343-06:47:951 I:
+(W responds;respond) to (Q Good morning)<SB>
+0148 - 06:49:272-06:49:719 I:
+And
+0149 - 06:50:696-06:51:487 I:
+the word,
+0150 - 06:51:960-06:54:912 I:
+(O go shoukai) or (O Suzuki) can respond to
+0151 - 06:55:240-06:55:983 I:
+(Q introduction)
+0152 - 06:56:648-06:57:911 I:
+and (Q Suzuki) as well<SB>
+0153 - 06:58:960-07:00:799 I:
+These are the assumption we make<SB>
+0154 - 07:01:952-07:02:304 I:
+And
+0155 - 07:02:559-07:04:327 I:
+these two sentences
+0156 - 07:07:128-07:07:951 I:
+should be
+0157 - 07:11:392-07:12:136 I:
+aligned
+0158 - 07:12:432-07:13:687 I:
+in the way that
+0159 - 07:14:720-07:16:696 I:
+Japanese sentence (O ohayou gozaimasu)
+0160 - 07:18:336-07:18:672 I:
+is
+0161 - 07:18:880-07:19:399 I:
+to
+0162 - 07:19:600-07:20:271 I:
+(Q Good morning)<SB>
+0163 - 07:23:504-07:26:511 I:
+And in the first English sentence, it includes
+0164 - 07:26:719-07:27:240 I:
+the word
+0165 - 07:27:496-07:28:408 I:
+(D du) (Q Good morning)<SB>
+0166 - 07:28:512-07:28:927 I:
+So
+0167 - 07:29:168-07:32:007 I:
+we assume that (O ohayou gozaimasu) responds to this
+0168 - 07:32:496-07:33:135 I:
+(Q Good morning)<SB>
+0169 - 07:34:032-07:39:832 I:
+And the second sentence of Japanese includes the words, (Q introduction) and (Q Suzuki)<SB>
+0170 - 07:40:488-07:44:576 I:
+And those two words are included in the second line,
+0171 - 07:45:792-07:47:863 I:
+also in the third line as well<SB>
+0172 - 07:48:888-07:49:407 I:
+Thus
+0173 - 07:52:024-07:53:008 I:
+we assume that
+0174 - 07:53:208-07:55:024 I:
+the second Japanese sentence
+0175 - 07:55:352-07:56:399 I:
+responds to
+0176 - 07:56:600-07:59:848 I:
+the second and third sentences of English version<SB>
+0177 - 08:03:935-08:05:015 I:
+In conclusion,
+0178 - 08:10:720-08:13:128 I:
+extraction of translation patterns
+0179 - 08:14:336-08:15:463 I:
+which is effective
+0180 - 08:19:624-08:20:496 I:
+as well as the
+0181 - 08:21:120-08:25:751 I:
+alignment of sentences using bilingual corpus can be incorporated into the system<SB>
+0182 - 08:27:127-08:27:919 I:
+In that case,
+0183 - 08:28:935-08:29:824 I:
+we take up
+0184 - 08:30:848-08:32:279 I:
+alignment of sentences
+0185 - 08:32:488-08:33:088 I:
+using
+0186 - 08:33:631-08:35:287 I:
+(W statictical;statistical) method
+0187 - 08:36:464-08:38:775 I:
+that is the ratio of the (X sentence's)
+0188 - 08:39:007-08:39:879 I:
+sentence length
+0189 - 08:40:512-08:41:240 I:
+as well as
+0190 - 08:41:488-08:42:807 I:
+lexical measures
+0191 - 08:43:272-08:45:215 I:
+which uses lexical matching<SB>
+0192 - 08:45:864-08:47:288 I:
+This is the end of (S my) my speech<SB>
+0193 - 08:47:392-08:48:527 I:
+Thank you for your (W kind;kindness)<SB>

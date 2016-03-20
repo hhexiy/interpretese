@@ -1,0 +1,25 @@
+And I 'm going talk about the multi- lingual on-line dialog rather support system . And as globalization proceeds it is expected that close linguistic communication or communication between different languages is going increase .
+And in such communication the language difference is going to be a big challenge . So therefore , in order to overcome this language differences , various support systems are under development .
+Some of the examples are the web page or e-mail translation system or keyboard conversation like Internet chats will be translated by a system . And there 's also a dialog translation system using natural language processing .
+My presentation is today is going to focus on the on-line keyboard conversation or dialog .
+The on-line keyboard dialog , today I 'm going to pickup the keyboard conversation type that one often see in system , such as UNIX 's talk system . Unlike Internet chats , what a user input is going to be projected onto the screen of the other user .
+In case of Internet chats , until a user pushes the button it 's not going to be projected onto the screen of the other . So that 's a difference between Internet chatting and on-line keyboard conversation .
+And since it 's an on-line keyboard conversation , it 's not written language . It is sort of broken language sometimes . Sometimes there 're sentences which are not grammatically correct .
+So it 's like spoken language , and it is possible to proceed pretty smooth conversation . To cope with the on-line keyboard conversation between different languages , several keyboard conversation translation systems were developed , but these systems utilize a system where translation is done sentence by sentence , so the other user has to wait until user inputs one sentence and the sentence has been translated into another language .
+So today , I 'd like to propose on-line dialog system between different languages . Unlike the examples that I mentioned this translation system is called simultaneous translation system .
+With the use of simultaneous translation system , even in the middle of the sentence , the translation up until the middle of the sentence is going to be projected to the screen of the other user . So , if a user puts on a sentence , I love you so much , in the middle of the inputting I love , the corresponding Japanese is going to be projected words by words not sentence by sentence .
+Therefore , it makes it possible for you to see what the other part wants to say and you can sort of interrupt the conversation sometimes .
+In order to implement the system , I implemented a system called keyboard dialog system with the simultaneous translating function between English and Japanese . And there 're two terminals , English and Japanese .
+And these two terminals are connected by the Internet . If an English- speaking user types in English , through the Internet the sentence will reach to the English-Japanese simultaneous translation system .
+And it 's translated into Japanese and translated sentence is going to be projected onto the screen of the Japanese user .
+At the same time the English sentence that English user typed in will also be projected onto the screen of the Japanese user , so that the Japanese user can see English and Japanese both .
+And in this case the translation goes from English to Japanese only , so Japanese user also types in English .
+And in this implementation , I have implemented the system into UNIX workstation and I have used the following three languages , C , GT K plus , and LISP .
+And I have used a incremental translation method between English and Japanese . And this shows the actual screen . There 're three screens .
+First , on top of the screen it shows what 's input by by an English user . And at the bottom you can see the sentence I like soccer and language .
+And translation is projected on the second screen . And you can see that even in the middle of the sentence translation is being done .
+And at the bottom the fourth screen , you input your sentence . So user can interrup t while the the other user is inputting the sentence .
+And this shows the English user 's screen . On the top frame it shows the sentence input by the English user .
+And second screen shows what 's input by the English user , so the first screen is the translation of the Japanese user .
+Today , I have proposed a multi-lingual on-line dialog system . And also I have talked about a implementation of the keyboard dialog with a simultaneous translation function between English and Japanese .
+This concludes my speech , thank you .

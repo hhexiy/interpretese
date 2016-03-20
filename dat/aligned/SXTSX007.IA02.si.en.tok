@@ -1,0 +1,30 @@
+Today , I 'd like to talk about the example-based dialogue research system . We are now studying on the interface for spoken dialogue .
+What we are trying to achieve is that the very easy to use system . For example , when you are in the car , the system should be very safe .
+And then the most importantly the system has to recognize spontaneous speech . Then what is the spontaneous speech ?
+For example , is there any Chinese restaurant nearby ? To this sentence , there are other expressions expressions two to four .
+There are four ways of the expressing the same contents .
+So , system has to understand all ways of expressing . So , this is most important future that the system should have . Then we call this the spontaneous speech .
+If you think about conventional system , they just recognize certain patterns of speeches .
+for example , maybe expression one , Is there any Chinese restaurant nearby ? could be understood but , expression two to four the system can not recognize .
+The system has to understand this kind of spontaneous speech to realize that . We gather the spontaneous speech as much as possible .
+And , if the situation is the same , the people may use similar expressions . Based upon this premise we gather the examples , and then come up with some pattern of speech .
+So , two people speak each other , the user and operator , how the information needs searched . The user input dialogue such as I want to have some Chinese dish .
+Then operator search information using system , and then get the result of this search .
+In this diagram operator listen to the user 's request and operator make some judgment based upon the history of the examples . And then this operator could be replaced by system itself .
+So , to achieve this system we ask two people to have some conversation and then gather this data . And then based upon this data we try to come up with some system .
+Now I 'd like to talk about details of our research . What kind of process the data should but data base should have ?
+The first of all , we try to collect as much as possible dialogue examples . If that in the car , someone said to the other party , and then we come up with some argument or variables .
+Then this could be described. For example , if the user said that I 'd like to have some spaghetti  and then operator comes up with argument or variables .
+And this is also input into the system . And then using the collection of data , the system processes these data .
+The first input speech , I want to go to spaghetti shop then the system extracts the key words . And then based upon extracted key words , the system search for the similar expression .
+For example , curry shop I want to go to curry shop. This is a most likely expression . Then the system use the argument or variables to pick up this sentence , and then replace the input speech with this similar expression .
+And using this process , we come up with the system and then evaluate it . We gather the dialogue which were conducted in the car .
+So , using this kind of data , we evaluate them . And another data have the twenty-eight people 's conversation .
+After the result of evaluation , we got something .
+The conclusion is when you increase the number of data , you will come up with more accurate performance . The more the data number increase , the search works very well .
+So , as you see the linear line increase , you will see , so if you increase the data number more than tewnty-eight , you will expect more better performance . At the same time , We elaborate why the system fails . Sometime the because of the insufficient volume of data , the system does n't work . So , this is the seventy percent , cause of failure .
+So , it means that if you have the more volume data , you will have better accuracy .
+So , as the summary , the system has to handle the spontaneous speech and try to achieve that we use actual example of dialogue .
+And based upon the accumulated dialogue , we try to control the dialogue .
+So that system could work every kind of ways of expressions . Here is the validation result .
+Seventy percent the system come up with accurate our result . And if you increase the volume data , you 'll have more accurate performance .

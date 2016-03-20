@@ -1,0 +1,26 @@
+Today , I 'd like to give a presentation under the title of a method of incremental dependency analysis for Japanese . In recent years , there is a growing demand for the dialogue system using a spoken language .
+Among them , quickest response to the user 's input is expected , which means real-time dialogue system .
+To realize real-time , incremental interpretation of a natural language is needed , in which the system interprets input sentences when a group of words appears . For example , at the store , his , his friend , I met . First , the system interprets the group of at the store and his .
+Then , explain about dependency analysis for Japanese .
+the dependency analysis is widely used for this purpose as shown in this chart . At the store , I met , his friend . And the system determines the dependency relationship to phrasal units .
+For example , at the store modifies met .
+And his modifies friend . And friend modifies met .
+Therefore , each two phrasal unit serves as a modifier and modified .
+Why is this kind of analysis helpful ? Because in Japanese , word order is very loose .
+For example , exchange at the store and his in Japanese the sentence means the same thing . And in Japanese , subject words are often submitted unlike English .
+For example , I is actually omitted in this sentence . However , everyone , Japanese speakers assumed that I is omitted .
+Therefore , it is omitted . The next purpose as I said earlier about the dependency relationship , it it determines the relationship between the two phrasal verbs .
+However , in this case , in this system , the system has to wait until head phrasal unit is input .
+Modified Modified words are input . Therefore , real-time dialogue system or the incrementality is needed .
+Therefore , we propose incremental dependency analysis in which , if there is some modified in a Japanese sentence , the system in first dependency relationships , in first relationships . Then , let 's me explain about dependency structure .
+It is based on the dependency grammar . It expose the possibility of dependency of the two phrasal units .
+However , there are some conditions on dependency . First , dependency relationship is one only one , not more than one .
+Last , dependent modifies the head appearing afterwards . this is unique characteristic of the Japanese language .
+To satisfy the conditions , we can infer the dependency relationship . Then , their let 's me explain their outline of the relation and dependency analysis .
+First , we must use the grammar to infer the modified category , group of us . Then , we construct the dependency relationship. For example , at the store  then book .
+at the store modifies the verb . book modifies verbs . Therefore , the the two groups of words modify verb then verb . Therefore , at the store and book modify the same verb. We assume this this relationship .
+Therefore , modified group of words before modified words input , we can assume assume that . We can construct relationship .
+Conclusion .
+We propose the method of incremental dependency analysis for Japanese . This system way uses grammar based on the presumed , the modified words .
+Before the modified words are input , we can the determine the dependency relationship on the Unix workstation . We implemented GNU GNU Common Lisp .
+Thank you very much .

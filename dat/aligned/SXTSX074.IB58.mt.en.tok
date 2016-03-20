@@ -1,0 +1,16 @@
+Today 's presentation is entitled , An efficient gradual syntax analysis using statistics .
+The background of this presentation , and the goal of our research , is to create a real-time dialogue processing system . A real-time dialogue processing system is a system that can take what the user says , understand it , and respond to it immediately .
+In the example below , the user says , " Ken studied English at school yesterday " . Then , by the time the user said " Ken studied " , the real-time dialogue processing system should already be responding to it , even though the user has n't finished the sentence .
+To do so , the system must understand that " Ken " is the subject , and " studied " is the predicate of the sentence by the time the user finished saying these two words .
+Even before the user finishes the sentence , the system must understand what has been said so far .
+This method is called gradual syntax analysis . This is the same example. The input sentence is , " Ken studied English at school " . When the input sentence reaches its second to last word , " Ken studied English at " , there are two ways to perceive this sentence , even though the wording is exactly the same .
+In this example , the top shows the pattern where the " at " will be followed by a name of a place. So the context is , Ken studied English at a certain location. On the other hand , the context of the bottom example is , Ken studied English that is located somewhere. So , depending on which word the modifier is on , the context becomes different .
+To make the system respond in real-time , the system must choose one of the two . This means that the system must determine which context is more accurate on its own .
+And so , the goal of our research topic , making gradual syntax analysis more efficient , is to help the system filter out the correct context .
+So this was our goal. Our approach was to install semantic information into the gradual syntax analysis mentioned earlier .
+This is the same example. " Ken studied English at " is the input. The top example shows the " at " modifying the " studied " .
+The bottom example shows the " at " modifying the " English " . So these are the two contexts. We thought that the system will have a better chance of doing so if it had semantic information beforehand. For example , if the system knew that some words do not modify certain words , in this case , the " at " and the " English " , the system can determine that the bottom example is wrong .
+Now , the system can filter out the wrong context out of the two . So , that is why we thought about utilizing semantic information to filter out context .
+To install semantic information , we use a corpus , a large and structured set of texts containing multiple example sentences , and make the system learn the information before performing a syntax analysis .
+So , I will summarize . In order to create a real-time dialogue system , we came up with a way to make gradual syntax analysis more efficient .
+We also conducted an experiment to evaluate the effectiveness of our method . That is all for today , thank you .

@@ -1,0 +1,76 @@
+Today I will talk to you about a mobile agent that supports ad hoc communication.
+First, let me talk about the background of this research.  Internet has developed significantly over the years and almost everyone uses it today.
+Recently, wireless infrastructure like wireless LAN and cellphones has made significant developments as well.
+Today, we can communicate almost anywhere.
+And so, most of us today carry these tiny "calculators", also known as mobile computing.
+These "calculators" we carry around are filled with our personal information.
+And we use these devices to manage information anywhere and anytime with ease.
+However, when it came to the use of such telecommunication devices on-the-go, we used to think about migration transparency.
+What I mean by that is, normally, when you are on the move, sometimes you don't have power or access to a network.  There are certain restrictions.
+But migration transparency refers to the idea of making it seem like it's not moving at all, when it actually is.  For instance, if I want to use my computer in front of my desk while I'm on the move, that's migration transparency.
+So that is why we have been using wireless cellphones.  But we thought we would think about our dependency on mobility.
+What I mean is, the thing holds meaning because it moved.  I moved myself into this meeting room and that means something.  The thing has meaning because it's in front of the TV, or it's in front of the fridge, and so on.  
+That's how I want to think about information and telecommunication.
+So when does communication dependent on movement occur?  There is the periodical meeting at a specific location for one.  Or you can run into someone by coincidence.
+We defined this kind of communication, or telecommunication, based on coincidence as ad hoc communication.  And we would like to support it.
+Here is a simple example of an ad hoc communication.  So these people are walking around, and a friend sits here.
+You meet your friend by coincidence and start talking normally, but on top of that, you both have this tiny mobile device.
+Then, the two devices exchange information directly.
+So, aside from what you say verbally, you can exchange other information stored in the device, such as schedule or pictures.
+By making such an interaction possible, we want to make a normal conversation more fruitful.  In other words, we want to make it possible to exchange more information.
+In that sense, we want to develop a mobile information system that supports ad hoc communication.
+So what exactly are we going to help with?  Like in the previous picture, we would like to provide support when people are talking.
+For instance, creating opportunities for people to meet.
+Let's say you meet someone for the first time, but you both had a mutual friend.
+In such cases, if you match personal information stored on the device, you can find out things like which high school you went to.
+You may find out that you also went to that school, or that you had a mutual friend.
+With a normal conversation, you won't be able to realize such information.  But with the help of our devices, we can.
+So this is an example of what I was talking about.
+Now, aside from such person-to-person interactions, we would also like to support interactions between a human and information systems.  
+What do I mean by interactions between a human and information?  For instance, at a station, there is an information kiosk that you can use.
+You press buttons like this.
+But what if the Kiosk device could read the information on your mobile device before you even touch the machine?  This will make your Kiosk experience much easier.  You can use these kinds of devices around the city freely.
+This isn't limited to Kiosk devices.  There are multiple devices we use everywhere from the office or at home.  We want to make it so that you can use these devices freely.
+So now, let us think about what ad hoc communication means.
+Think of ad hoc communication as the interaction a person has when he or she meets another person.
+Our idea is to make this communication more fruitful, and generally, the number of participants vary.
+There are no rules as to how many people we interact with.  It can be two, three, four, or even hundreds of people in seminars.  There are also panel discussions or business meetings.
+Sometimes, we prepare for our interactions, but most of the time, we are not prepared.
+When you run into someone by coincidence, you don't have a speech prepared or know what kind of information you will exchange beforehand.
+You do it on the spot.
+Our focus is on sharing information on a technical basis.  So, how do we share information about "sharing information"?  
+If you are in a meeting, you might pass out papers to everyone and they will take notes on it.
+That is one way to share information, but we want to think about how to help do the same thing with mobile devices.
+We must also remember to choose the appropriate communication methods.  The goal of ad hoc communication will vary depending on the scene.
+For instance, if you're in a meeting room, you want to hold a business meeting.  That is why you want to distribute hand-outs.
+But when you run into someone in the city, your goal is not to hold a meeting.  You want to exchange personal information.
+So that's what I mean.
+So, how can mobile devices help?
+It must be able to adapt to the situation.
+It must understand the surrounding situation and share the appropriate information.
+Let's take a look one by one.  First, for the network with lots of movements, an ad hoc network might work well.  Ad hoc network technology has been a hot research topic these days.
+Ad hoc network refers to a network that is established on demand.  It appears only when necessary.  Most of the time, it is created wirelessly.
+The significance of this is, the fact that it doesn't have a server that manages the network.
+There is no preparation to establish the network, so it can't be a server to begin with.
+So there is no server to manage the network.
+Regarding this topic, there are already some mounting ideas.
+We have been researching infrared ad hoc network.  
+Next comes the question, how do we share applications?  For instance, if you run into a friend, the friend may not have the same application you have to share information.
+And you can't exactly talk to one another beforehand and decide to install the same app.
+What I mean is, it's impossible to prepare all telecommunication software beforehand.  So we need a system where the necessary app is distributed on demand.
+To do so, we will be using something called a mobile agent.
+Mobile agent is a program that lets you move around the network.
+Lastly I want to talk about how to adapt to the environment.  Because ultimately, we want to make it so that the device figures out what we want to do, so we don't have to control it every time.
+To do so, we need a system that recognizes the surrounding environment.  We plan to use an intelligent agent to make this possible.
+Intelligent agent is a program that can read the surrounding environment on its own and figure out the current situation the user is in.
+In such cases, the intelligent agent uses the mobile app and the ad hoc agent network to establish an ad hoc communication system we want to create.
+Let's look at an example.  Let's say there is a meeting coming up in the office.  Here is the intelligent agent.  When you say that you're going to the meeting, the intelligent agent moves the necessary information onto your mobile device.
+When you get to the meeting room, the intelligent agent distributes the necessary information to the participants.
+And let's say there was a presentation board here.  The agent will send the appropriate information there as well.
+So, this user doesn't have to tell the device he or she is in a meeting.  The agent recognizes the situation and does what's necessary, like hand out information for the meeting.
+Ok, I will summarize.
+Our study on ad hoc communication has been focused on supporting communication with people and with machines.
+To support this, we nave created an ad hoc communication system based on a mobile agent system.
+By using this, we believe we can create a system that allows us to enjoy ad hoc communication with ease at anytime, anywhere.
+That is all.
+Thank you for listening.

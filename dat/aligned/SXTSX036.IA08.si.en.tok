@@ -1,0 +1,32 @@
+Today , I 'd like to discuss under the title of implementation and evaluation of a spoken dialogue MP3 player .
+This is the background of my talk with the advancement and penetration of the Internet resently . The huge amount of MP3 files are quite available universally .
+And MP3 file is something like a file which enables us to utilize CD on a PC .
+And currently , there 're tens of thousands of MP3 files quite readily available . And in addition , such an equipment like Walkman and the equipments are miniaturized in size , but on the other hand , , they are maximizing in terms of the capacity .
+Therefore , the huge amount of MP3 files are usable with such an equipment .
+And in order to search the huge amount of MP3 file or the operation with a key board is very difficult to carry out especially with the equipment like Walkman , and on the other hand to carry out search for the huge amount of information or complicated search , the voice input is quite suitable and also the voice input is gathering attention because it is an interface which is quite easy to handle .
+And therefore , we would like to realize the spoken dialogue MP3 player . And we have realized the operation with the spoken dialogue and operation search , excuse me , with the spoken dialogue .
+And let me begin with the process of the spoken language .
+First , in considering MP3 equipment operation and utterance of the user , we determined key words . And utilizing such key words , the spoken language would be processed .
+And our attempt , we registered eighty-two languages , excuse me , eighty-two words as the key word . They include the replay , fast forward , a little , and so forth .
+And based on such a key word , we have generated the patterns of the utterances or uttered sentences . We have analyzed such patterns and finally we have come up with 108 patterns .
+And for example , let me show you an example of a pattern . play the title of the the song  , or little fast forward  , meaning fast forward with a certain degree .
+Then how do we carry out the process based on the key word analysis ?
+For example , this is the input utterance , , please search Beetles  , and then it searches a key word out of the utterance and here the , Keywords are Beetles and search .
+And these found key words were converted into commands . And here the command for the Beetles is artist and , command for the search is a search .
+And if we align these key words , then we can extract the role of the key words and we have 108 key word role patterns found out .
+And after the key word role is generated , then , the motion or action will be defined for the key word . And towards the key word role like artist and search , the required motion is that to search the name of the artist , and then secondly , the response to the search should be generated .
+And based on that analysis , we have realized the system .
+The operating system is Windows 98 . And the language is Visual C Plus Plus .
+And as I said , the number of the key word is eighty-two at this moment , and as to the roles of the key words , we have 108 patterns registered and defined .
+And this is the test for the evaluation . The goal of this test is the evaluation of the user friendliness of this system .
+We had twenty university student subjects . And this is the comparative test between the voice the the spoken dialogue system versus the conventional system .
+And as many tasks as possible could be or should be repeated at the given time . And what is the task given ?
+This is the example of the task . For example , replay the title of the song  and in this case , this song will be searched and played .
+Or another example is that what is the title of the song that starts with pure white by artist such and such ?  . And this is the result of the test .
+This is the comparison between the spoken language system versus the conventional system . And this is average number of the tasks completed on the ordinate we have the number of the tasks pleted ; completed  and on the we have the average .
+And purple or blue is the the system and green is the conventional system and as you can see the number of the tasks completed increased with the implementation of the system and as a result we concluded that the spoken language system improved the efficiency of the operation and search .
+And this is the questionnaire survey in terms of the user friendliness comparison between the system and the conventional system . And the questionnaire asks the subjects to rate the user friendliness in five rank scales , five is the best and one is the worst .
+And according to this scale , six rated five , and ten rated four , three rated three and one rated it as two , and as to the conventional system , eight rated five , eight rated four , three rated it three and one rated as one .
+So , with this the the spoken language system , it is rated higher than the conventional system and the average is point is 4.05 for the spoken language system versus 3.35 for the conventional system .
+Today , I talked about the realization of the MP3 player with the spoken language system and with the key word analysis process . And we have also confirmed that the effectiveness of the voice operation and search in our evaluational test .
+Thank you .

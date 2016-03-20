@@ -1,0 +1,35 @@
+Today , I would like to talk about the design of a multi domain conversational system .
+First , the background . Recently , we 're seeing studies of conversational systems being done very actively .
+And thanks to these , regarding practical systems that respond to specific task domains , we are starting to see some practical systems .
+Examples of these are , first of all , Jupiter . This is a system that uses the telephone , it 's a conversational system and gives you weather information .
+Others are TOSBURG-2 . This is another system . And this system is used at first food stores and in place of employees . It takes orders , hamburger orders .
+And lastly , there is the Sync Mail system . And this is being done at our research lab . And this mail takes Japanese spoken language , understands it , and it helps you do e-mail management .
+So , , , no , each system can only handle one task domain each . For example , with Jupiter , it can only handle weather information , with TOSBURG , it can only take hamburger orders .
+And Sync Mail can only do e-mail management . So , one system is unable to handle a multiple number of task domains .
+And regarding the handling of a multiple number of task domains , with the type of systems that I just explained , there 're problems . For example , with conversational systems within a car , I 'd like to take that as an example , inside of the car , the conversational systems would be like car navigation systems , car audios , the air conditioner being used at the same time using voice .
+So , if you take the current conversational systems and you want to operate the car navigation , car air condition , car audio , then you need one microphone for the car navigation , one microphone for the air conditioner , and one microphone for the car audio . That 's going to be the situation . So , the number of task domains decides the number of microphones or the audio input . That 's the problem .
+So , in order to try to do something about the situation , we have been trying to study one audio input to handle various domains . Can we not come up with the conversational system that can handle multiple domains ?
+This kind of system as is called a multi domain conversational system , that 's what we call this . So , first of all , a multi domain system , what 's sort of characteristics does it has to have ?
+That 's all we 've given thought to . And the results , or the conclusion that we 've reached , the characteristics that are necessary . We came up with the following conclusions , the following three conditions , or characteristics are necessary .
+And regarding each , I would like to give you an explanation . First of all , expandability .
+To explain what expandability means , a multi domains system needs to be able to be expandable into a multiple number of domains And also new task domains need to be easily added . This needs to be possible .
+Next , scalability .
+So , expandability , which means several domains need to be able to be added . That 's good . But if you add too many domains , the system itself , its processing speed may drop and that will be a problem .
+So , even if it handles a large number of domains , it 's still needs to be able to do its processing at an appropriate speed . That is scalability .
+There 's an expandability , there 's a scalability , even if the system fulfils the above two conditions , for the user , it needs to be easy to use . So , even when handling a specific domain , it needs to be able to be used as it is handling only one domain .
+And we talked about the these three characteristics , in order to fulfill these , how should the multi domain system be designed . That 's what we next gave thought to . And this is the structure or design policy that we came up with .
+So , first of all , a multi domain conversational system , this should be an independent single domain , or this should be a collection of conversational system that can process independent single domains . And under this way of thinking , we need to be able to combine conversational system that process single domains to build a multi domain conversational system .
+Under this policy , the addition or removal of conversational systems becomes easy , which means this leads to expandability . That 's the first condition that we talked about earlier on .
+And also , if the system is able to separate out the input conversation into the appropriate systems , this leads to usability . And if we can build the system in a hierarchical way , then this is going to provide scalability .
+So , this is the architecture that we wish to propose . A multi domain conversational system , how should we build this , design this ?
+First of all , the manager , and work module . This is how it needs to be at system needs to be built hierarchically .
+And the data that goes into here , it 's called fragments . The input fragments and out put fragments , these are going to flow with in the interior of the system and make it function .
+And the work module and the manager , regarding these , I 'd like to give you more explanations . The manager takes the input fragment , I 'll explain about this later , and it allocates this to work modules . And the output fragments from the work modules are integrated and controlled by the manager .
+And a work module is something that processes that 's the processing for each domain . So , I 'd give you the example of car earlier on , it will handle the car navigation , this one module for that . And there will be one work module that is handling the air conditioner and so on .
+At this chart shows the architecture that I proposed earlier on and it 's a simple system example . To give you a brief explanation , there 's the manager in the center here , and this manager will control to work modules that are its function .
+So , to explain the movements briefly , there is the voice recognition engine . The manager will get the data there in the form of input fragments and it will give this out of work modules .
+And each of the work modules are independent . And will independently analyze the inputs and results of the analysis will be sent back to the manager .
+And the manager , regarding these two work modules , will take the output fragments and the results through gets from the work modules and decide which work module is going to allocate the task to and give the commands . And that 's how the system functions .
+So to summarize , a multi domain conversational system 's architecture , we have made a proposal regarding this .
+And issues to the future are we 've just proposed the architecture , so , we need to implement a system based on this architecture . And we also need to evaluate this system .
+That 's end of my presentation .

@@ -1,0 +1,37 @@
+Today , I 'd like to give a presentation under the title of a framework for multi-domain conversation systems .
+First of all , background . In recent years , conversation systems have been widely studied .
+As the result , for particular task domains , practical system has been developed .
+Among the examples , the first , Jupiter . This system is a telephone conversation system which gives information about weather .
+Among others , TOSBURG-2 . This system replaces the clerk at the fast -food store and receives orders of hamburgers .
+Finally , Sync Mail . We are making study of it . This system e-mail management by comprehending the Japanese language .
+These are conversation systems . And this case , one system can not process more than one task domain .
+Jupiter only deals with weather information. TOSBURG-2 only deals with receive receive orders of hamburgers. And Sync Mail only deals with electric mail .
+Then , if one wants to processor more than one task domains , there would be a problem . For example , please think of a conversation system in a car .
+For example , global positioning system , audio system , air conditioning systems will be processed in a car simultaneously .
+However , if the conversational system is used in this case , global positioning system must have one microphone , car  audio system has one microphone , and air conditioning system has one microphone . Therefore , if there are three task domains , there must be three inputs . Therefore , it is very cumbersome for the users .
+Therefore , we propose solutions to this . For example , one input domain various domains .
+And we call this system , multi-domain conversation systems . Let me explain about the characteristics the multi-domain system should possess .
+Our conclusions are . First of all , this system has three conditions .
+First , expandability . Multi-domain system can be expanded to several domains .
+And it can add new domain easily . Next , scalability .
+Expandability to ensure adding several domains . But , with many domains , system works very slow . That will be a problem .
+Therefore , when processing main domains , it must process them at appropriate speed .
+It 's called scalability . Finally , usability . If the expandability , scalability are available , it must be user friendly .
+Therefore , when using a particular domain , it must use it as if it were single domain .
+It 's desirable . three conditions , we came up the policies of the designing system .
+First , multi-domain conversation system must be in an assembly of independent , single domain systems , order conversation system to deal with independent , single domain . And we came up with the way to construct to do that .
+As the result , it will be easy to add and delete conversation system . The expandability will be satisfied in this case .
+Then , input will be distributed into appropriate system . Then , usability will be satisfied .
+Then , the system will be constructed with multiple layers . Then , the scalability will be realized .
+Then , let 's me explain about the architecture we propose . How to construct designing system .
+Manager and work module to construct .
+We construct them with multi layer . And in put fragment and output fragment flow inside the system .
+Then , let 's me explain about manager and work module in more details . Manager , I 'll talk about it later . Distribute input fragment into work module .
+Work module processes each domain . Let 's me take an example of a car . Car navigation has a work module . Car air conditioning has a work module .
+That 's the example . This is a chart based on the architecture we proposed .
+Let 's me explain about that. First , this is manager that is located in the center . This manager manages each work module controls .
+Speech recognition engines send the results to the manager . And the manager distributes the work modules , two of them .
+And each work module individually analyzes the results and sends back the results to the manager .
+And the manager based on the results from the two work modules and determines which work module should work on it . Then , the system itself works  , as a whole , works .
+We proposed architecture of the multi-domain conversation systems and there are problems to be solved . We propose architecture .
+Therefore , we construct the system based on that . And we will implement evaluation of it as well .

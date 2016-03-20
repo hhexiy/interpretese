@@ -1,0 +1,35 @@
+This presentation is about simultaneous interpretation performed by computers . Research into automatic translation using computers has been carried out for a long time .
+This field of research is known as " machine translation . "
+The most basic form of machine translation research is called " text translation . " This research deals with the translation of text written by humans .
+There is also another subfield of machine translation known as " speech translation . "
+This is research into the automatic translation of human speech . In contrast to these two approaches , we are thinking of making computers perform simultaneous interpretation .
+A system to perform simultaneous translation is also a system for the automatic translation of human speech ; however , the usual methodology in speech translation has been to translate individual utterances .
+In other words , the system would start translation after a human finishes speaking . However , in simultaneous translation , speech is translated continuously , at the same time as the speech input .
+There are a number of difficulties involved in performing simultaneous translation . When we think about what kind of difficulties we may encounter , the first thing that becomes apparent is that when we begin translating we do not know the meaning of the whole sentence .
+That is , a difficulty of beginning translation at the stage of not knowing the meaning of the entire sentence . Also , for a language pairing such as Japanese and English , the word order is vastly different from language pairings such as English and German , or English and French ; it is said that doing simultaneous translation for language pairings with large differences in word order is extremely difficult .
+In addition , there is also the difficulty of having to keep up with the speed of the speaker .
+However , despite the difficulties involved in performing simultaneous interpretation , professional interpreters do it as a matter of course .
+So , how do these interpreters do it ?
+First , they use the situation and the context as they translate , to predict what the speaker might say . They also maintain flexibility in the middle of sentences by using a style of translation that can cope with a wide variety of subsequent language .
+Furthermore , they do not translate everything that the speaker says , but rather choose what things need to be translated .
+Interpreters use a variety of such techniques when performing simultaneous translation .
+In light of this , we thought that to make computers perform simultaneous interpretation there is a need to teach computers the same kinds of techniques . To do this , first we need to find out , in detail , what these translation techniques are .
+To satisfy this need , we created a simultaneous interpretation database . This database contains a large number of samples of actual translations made by professional interpreters .
+We are learning about the kinds of techniques used by simultaneous interpreters through analysing this data . By repeating this process we hope to find how best to perform translation , and how we can improve our methods .
+I will now show you how this database is constructed .
+First the sound is recorded by a native speaker ; in other words , a Japanese person will speak Japanese . Alternatively , a native English speaker will record English speech. Then , we record an interpreter translating it from English to Japanese or from Japanese to English using simultaneous interpretation .
+After that , we listen to the recordings and make transcriptions . We then think of what additional information might be necessary to analyse the transcriptions , and add that information to the database .
+We will now show you some example transcriptions ; this is a transcription of an original speech sample , and this is a transcription of that speech sample as translated by an interpreter . The context is a phone call to make a hotel reservation. When you make an utterance like this ...
+This red part shows when the utterance started and when it stopped . You can see a number of other figures like this ; we are using a variety of such information to make the transcription data .
+We are using this data to analyse how interpreters are performing simultaneous interpretation . Now , I will show you an example of the kind of technique that we found through our analysis .
+An interpreter heard the sentence " Japanese is an experimental field , " and translated it as follows :
+However , this sentence continued with the words " or that is one way of looking at it . "
+I have already told you the English sentence , but it is not really a suitable translation of the whole Japanese sentence. In situations like this , how should we go about the process of translation ?
+One simple answer to this question is to correct the speech that is output .
+This is the method of monitoring the translation as it is made to decide whether it is suitable , and if not , making a correction to produce the correct meaning . However , by using this method we must output unnecessary words .
+In contrast , the interpreter said the following after the end of the sentence :
+This is a form that leads on from this sentence to this sentence ; it is a perfect fit for the Japanese sentence .
+In other words , by using this kind of form , we can perform simultaneous interpretation without making corrections . To sum up , for computers to perform simultaneous interpretation , we need to program them to use the same kinds of techniques that professional interpreters use .
+To investigate these techniques , we made a database .
+Finally , I showed you an example of a technique used by an interpreter . I would like to continue doing this kind of analysis as part of my further research .
+Thank you very much for listening .

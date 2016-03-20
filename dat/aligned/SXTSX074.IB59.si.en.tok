@@ -1,0 +1,18 @@
+Today , I would like to talk about the increasing the efficiency of incremental parsing using sta tistical information .
+Now let 's talk about background of my presentation . The purpose of our study is the realization of real time dialog processing system .
+this What is this system ? That is the system instantly respond to the speech of users .
+please Please look at this example . For example , when speaker said , Ken studied English at school yesterday when the speaker said , Ken studied , and this middle of the sentence this real time dialog processing system should respond to the words .
+In this case , when speaker said , Ken studied , the system has to recognize Ken is subject , and studied , the next word studied is the verb . So this is the necessary information system has to realize .
+In the middle of the inputting of the words , the system has to instantly respond to and recognize the word . So this is called incremental parsing .
+So please look at the similar or same example . The input sentence is Ken studied English at school . When we think about this sentence , the speaker said Ken studied English at . There are two interpretations by listening to the sentence Ken studied English at .
+As for upper sentence the system interprets that some place will follow at which means Ken studied EnglisH at somewhere . This is one interpretation . And there is another interpretation as shown by the bottom line Ken studied English at  . So Ken studied English , placed at somewhere , so there are two interpretations .
+Based on the real time dialog process system such words made by speaker has to be limited to one interpretation out of two interpretations .
+Therefore , which interpretation is appropriate in order to convey the message of speaker ? The system has to judge which interpretation is appropriate .
+So the purpose of this research is the improvement of incremental parsing . So among several interpretations , as I explained , we would like to limit only one interpretation .
+So that 's our purpose . So what is approached ? We introduce semantic information into incremental parsing .
+So those two sentences are exactly the same sentence as shown before . The input is Ken studied English at . In the upper sentence at modifies studied and the bottom sentence at modifies English .
+So there are two interpretations as shown . So among two interpretations we have to limit the only one interpretation . So in order to get the limitation , we have to use the semantic information which is , one one word should modify one word . And the sentence the word at modifies English .
+Therefore , among two interpretations , the system can appropriately select one interpretation . In order to limit interpretation , we use the semantic information .
+Before having the incremental parsing , we have corpus which has large-scale data . So we use corpus . We obtain the semantic information through learning . Already obtained semantic information is utilized in incremental parsing .
+Now I would like to summarize my study . In order to realize real time dialog process system , we realize the efficiency of the incremental parsing .
+In order to evaluate the effectiveness of this application , we were able to recognize the availability of this application .

@@ -1,0 +1,38 @@
+Ladies and Gentleman , today I 'd like to talk about the mobile agent system for supporting adhoc communication . The background of the study is the Internet has developed and has spread .
+And the wireless LAN or the mobile phones and other other wireless infrastructure has been improved , so you can do the telecommunication anywhere .
+And mobile computing has also spread , you can carry the personal small personal computers which retains personal information .
+And you can carry the portable such portable terminals and you can always have access to anywhere , anytime , to information , freely , casually . However , for these the mobile environmental telecommunication has been based on mobility .
+You can not find a source for electricity or however , in this system you want to feel that you have never moved although you are not in front of the desk you want have the same environment as in your desktop and portable phones and a wireless system is used for the purpose .
+For example , if you 're in front of a refrigerator or , in TV or in a conference room , and this kind of telecommunication is done basically like periodically as in the meeting or accidentally or meeting somebody .
+And we define it as adhoc communication and we want to support this communication .
+A person comes here , and here sit his friends and they accidentally meet and talk but in addition to the usual dialog they can make communication with the terminal .
+And in addition to , there 're exchange towards , they can exchange data . For example , the schedule or the photos in their portable terminal , so the personal communication can be enriched by the system .
+So , the adhoc communication should be supported through the portable information system and we want to realize this and we want support first a dialog between people .
+And we 'd like to support encounter among people even if they meet for the first time , they might have the same friend or they might have graduated from the same high school .
+And if that information is in the terminal , they can find this kind of information which is not realized in the usual dialog sometimes .
+So , we can match individual info . And also we 'd like to support dialog between a person and a information system .
+For example , if a person moves around , if person goes to the station and there 'll be something like information kiosk .
+If the person has a portable terminal with his personal information , he can use the information kiosk easily .
+And not just this kind of portable terminal , but you can use various terminals , at office , at home , or somewhere else you go . And it should be used freely .
+The adhoc communication is basically dialog between people when they meet and we 'd like to enrich this . And basically , the number of participants dynamically changes .
+Sometimes you speak with one person , sometimes you need to speak to hundreds of people at a lecture , or sometimes you have a panel discussion with several people and sometimes you can get the advance preparation for that , but it 's usually impossible .
+So , you have to change information on the spot . And it should the information should be shared , by such application .
+Then how you can share this application ? For example , if meeting you distribute paper , but you can utilize the terminal for that purpose .
+And this also depends on the the condition and depending on the type of the communication or the place , the objectives will be different .
+if in the meeting room or on the streets when you meet some people , the the terminal has to support this kind of different condition .
+So , it has to be understood and then the information can be shred .
+the dynamic aspect is the changing the number of the participants . The studied  adhoc network is studied recently studied these years .
+And it should be constructed according to needs even if they 're not prepared .
+The network is wireless network is used and there is no server to run network .
+And since there 's no advance preparation the server can not exist and there 're several propositions and implementations of this we also have the infrared ray adhoc network , we 've been studying that .
+And next , how we can share the application ? When you meet someone casually , it is impossible to prepare the share the application .
+You can not decide which one to use beforehand . You can not prepare all the software beforehand . So we have to dynamically distribute it . We have to distribute application .
+And for that we want to use mobile agent this is system or program that can autonomically moves on the network .
+And the method to adopt to the condition is we we do n't want to order the objective each time , so we 'd like to use the the intelligent agent to perceive the situation which autonomically decides or judges the situation .
+So we intelligent agent , mobile application and the agent network to construct the adhoc network and this will lead to the realization of the adhoc communication .
+This is a specific example . This person is in the office and he 's going to their meeting room and if he says , I 'm going to the meeting , this mobile agent moves to the his portable terminal .
+And if he goes to the meeting room , he will say that I 'm going to distribute it to you and the intelligent agent reacts to it and distribute it to all the participants or if there 's a presentation , the information is transferred to the terminals .
+And so it acknowledges the situation and distribute it . this is realized through the system .
+So , we would like to do the adhoc communication the system to support communication between people and people or people and computer .
+And to support it the adhoc communication system is realized based on mobile agent and by using this adhoc communication can be possible anywhere anytime casually . And it is supported intelligently .
+Thank you very much .

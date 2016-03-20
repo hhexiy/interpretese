@@ -1,0 +1,34 @@
+Today 's topic is implementation and evaluation of a spoken dialogue MP3 player .
+I 'd like to talk about background first . Popularization of the Internet , now we can obtain large quantities of MP3 file .
+Here MP3 file means the file required to handle compact disc on computer and thousands of MP3 file can be obtained these days .
+In addition , equipment , such as Walkman , this hardware compact hardware is now available with large capacity , meaning large number of songs . So we can use large quantities of MP3 file .
+So under these circumstances , we search large quantities of MP3 file , or as was previously introduced like with Walkman , it 's very hard to operate with keys . On the other hand , retrieve large quantities of information and complicated retrieval for these purpose , voice input is very effective .
+And voice input is attracting attention for interface with easy instruction . Therefore , we implemented spoken dialogue MP3 player .
+And in the system , we implemented spoken dialogue operation and spoken dialogue retrieval . How did we achieve or implement this ? Now I 'd like to talk about processing spoken language , or spoken language processing .
+And considering MP3 equipment control and user 's speech , and we determined keywords. And using these keywords , are  we are trying to process spoken dialogue .
+And for keyword , this time , we actually entered eighty-two words . examples of those keywords are example , replay or forward .
+In addition , we divide keywords by speech patterns . And as a result , we got 108 speech patterns .
+Examples of patterns are like , let me listen something  or forward , a little . Those are the examples of speech patterns .
+Now I 'd like to talk about how we can analyze based on keyword .
+First of all , input speech , for the the search Beatles we use keyword analysis .
+So Beatles and search are keywords in this case . And these keywords will be converted into commands .
+The command for Beatles is artist and the command for kensaku is search .
+And the words aligned are called keyword sequence and currently we have eighty ; 180   108 patterns .
+And after these have been generated and we defined operation for each command . For the keyword sequence of artist search , we retrieve artist 's name and , excuse me , respond  , excuse me , we generate response for retrieval .
+So based on the analysis , we implemented this system we use Windows 98 for operation system and we use the language , excuse me , we use Visual C Plus Plus as language .
+And keyword number , currently we defined eighty-two words .
+And for keyword sequence , we defined 108 systems or patterns . And we carried out evaluation system .
+The purpose of which is to evaluate operability of the system . The method for evaluation , we employed twenty collage students as subjects .
+And we compare this spoken dialogue system with conventional system . At same time , and we have our subjects execute tasks as much as possible within the given time .
+And I 'd like to talk about the the task that we gave .
+The examples of tasks are as follows , like replay , a certain song and this is exactly to replay a certain song . what is the title of the song , which starts with a very white ?  .
+And this is the result of experiment .
+Number one , we compared the task achieved on average between that system and conventional system . The task achieved is shown on a white axis .
+And and , excuse me , blue is showing this system and green is showing conventional system . And this system shows the higher number of tasks achieved compared with the conventional system .
+So voice operation and search improved work efficiency .
+And this is the second result of our experiment . And we carried out survey to find out to compare operability between the system and the convention system .
+We conducted survey and asked them to score the operability. Five is the best score and one is the lowest score .
+According to describe the system has six with five point , four with ten and three with three , three people and two points with one. And the conventional system , one person with five people , and eight people with four points , eight people with three points and three people with two points .
+So as a result , we see the distribution of high score with this system . On average , this system scored four , and the conventional , 4.05 and conventional system scored 3.35. As a result , we can see the better result for this system .
+Conclusion , we we implemented a spoken dialogue MP3 player based on the keyword analysis processing and we carried out evaluation experiment and we confirmed the effectiveness of voice operation and retrieval .
+Thank you very much .

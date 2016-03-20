@@ -1,0 +1,370 @@
+0001 - 00:06:816-00:14:480 I:
+Today, I'd like to discuss under the title of implementation and evaluation of a spoken dialogue (A m p three;MP3) player<SB>
+0002 - 00:18:496-00:21:919 I:
+This is the background of my talk with the advancement
+0003 - 00:22:528-00:25:071 I:
+and penetration of the Internet resently<SB>
+0004 - 00:25:184-00:25:648 I:<breath>
+0005 - 00:25:712-00:29:231 I:
+The huge amount of (A m p three;MP3) files are quite available
+0006 - 00:29:712-00:30:703 I:
+(F uh) universally<SB>
+0007 - 00:33:480-00:33:712 I:
+And
+0008 - 00:34:224-00:35:431 I:
+(A m p three;MP3) file
+0009 - 00:36:776-00:41:143 I:
+is something like a file which enables us to utilize CD on a PC<SB>
+0010 - 00:41:720-00:42:487 I:
+And currently,
+0011 - 00:44:240-00:50:079 I:
+(F uh) there're (X thousands and) tens of thousands of (A m p three;MP3) files (D availa) quite readily available<SB>
+0012 - 00:51:392-00:52:191 I:
+And in addition,
+0013 - 00:53:544-00:56:191 I:
+(X the) such an equipment like (F uhh) Walkman
+0014 - 00:56:928-01:00:007 I:
+and the equipments are miniaturized in size,
+0015 - 01:00:440-01:04:343 I:
+but on the other hand, (F uh), they are maximizing in terms of the capacity<SB>
+0016 - 01:05:304-01:08:560 I:
+(F ah) Therefore, the huge amount of (A m p three;MP3) files are
+0017 - 01:09:104-01:12:103 I:
+usable with such an (F uhh) (D sys)
+0018 - 01:12:368-01:13:255 I:
+(F uhh) <FV> equipment<SB>
+0019 - 01:17:344-01:20:511 I:
+And in order to search the huge amount of (A m p three;MP3) file
+0020 - 01:20:872-01:21:263 I:
+or
+0021 - 01:24:080-01:26:407 I:
+(F uh) the<H> operation with a key board
+0022 - 01:26:896-01:30:104 I:
+is very difficult to carry out especially with the equipment like
+0023 - 01:30:351-01:31:143 I:
+(F uhh)
+0024 - 01:33:248-01:33:879 I:
+Walkman,
+0025 - 01:34:960-01:36:095 I:
+and on the other hand
+0026 - 01:39:520-01:41:935 I:
+to carry out (D the) (F uhh) search
+0027 - 01:42:776-01:46:567 I:
+(F a-ha) for the huge amount of information or complicated search,
+0028 - 01:47:008-01:48:728 I:
+the voice input is
+0029 - 01:49:160-01:49:760 I:
+(F uh) quite
+0030 - 01:50:368-01:51:103 I:
+suitable
+0031 - 01:51:552-01:59:008 I:
+and also the (F ye) voice input is gathering attention (F uh) because it is an interface which is quite easy to handle<SB>
+0032 - 01:59:600-02:05:119 I:
+And therefore, we<H> would like to realize the spoken dialogue (A m p three;MP3) player<SB>
+0033 - 02:07:496-02:08:063 I:
+And (W this)
+0034 - 02:09:184-02:16:799 I:
+(F uhh) we have realized the operation with the spoken dialogue and operation (F uh) search, excuse me, with the spoken dialogue<SB>
+0035 - 02:17:832-02:21:839 I:
+And let me begin with (F ah) the<H> process of the spoken language<SB>
+0036 - 02:22:544-02:23:063 I:
+First,
+0037 - 02:29:488-02:35:231 I:
+in considering (A m p three;MP3) (F uh) equipment (F uhh) operation and utterance of the user,
+0038 - 02:35:576-02:37:415 I:
+we<H> determined key words<SB>
+0039 - 02:37:792-02:40:327 I:
+And (D usili) utilizing such key words,
+0040 - 02:40:704-02:42:495 I:
+the spoken language would be
+0041 - 02:42:784-02:43:415 I:
+processed<SB>
+0042 - 02:45:352-02:46:871 I:
+And our attempt,
+0043 - 02:47:208-02:47:903 I:
+(F uh) we
+0044 - 02:49:608-02:54:695 I:
+registered eighty-two languages (F oh), excuse me, eighty-two words as the key word<SB>
+0045 - 02:55:016-02:57:822 I:
+(W a) They include the (Q replay), (Q fast forward),
+0046 - 02:58:022-02:59:436 I:
+(Q a little), and so forth<SB>
+0047 - 03:02:632-03:04:487 I:
+And based on such a key word,
+0048 - 03:04:848-03:10:152 I:
+we have <FV> generated the patterns of the utterances or uttered sentences<SB>
+0049 - 03:10:616-03:13:735 I:
+We have analyzed such patterns and finally we
+0050 - 03:13:952-03:16:055 I:
+have come up with (A a hundred and eight;108)
+0051 - 03:16:287-03:16:847 I:
+patterns<SB>
+0052 - 03:17:800-03:18:919 I:
+And for example,
+0053 - 03:19:432-03:22:183 I:
+(F uh) let me show you an example o<H>f a pattern<SB>
+0054 - 03:23:648-03:24:111 I:
+(Q play
+0055 - 03:24:968-03:26:927 I:
+the title of (S the) the <FV> (F uh) song),
+0056 - 03:27:232-03:27:527 I:
+or
+0057 - 03:31:136-03:31:703 I:
+(Q little
+0058 - 03:31:944-03:32:935 I:
+fast forward),
+0059 - 03:34:000-03:36:880 I:
+meaning (Q fast forward with a certain degree)<SB>
+0060 - 03:36:880-03:37:111 I:<noise>
+0061 - 03:40:392-03:41:239 I:
+Then how
+0062 - 03:41:992-03:45:615 I:
+do we carry out the process based on the key word analysis?<SB>
+0063 - 03:47:776-03:50:719 I:
+For example, this is the input utterance,
+0064 - 03:51:144-03:51:783 I:
+(Q (F well),
+0065 - 03:52:160-03:54:055 I:
+please search Beetles),
+0066 - 03:54:840-03:58:495 I:
+and then it searches a key word out of the utterance
+0067 - 03:59:048-04:00:367 I:
+and here the (X key word),
+0068 - 04:01:456-04:02:424 I:
+Keywords are
+0069 - 04:02:832-04:04:768 I:
+(Q Beetles) and (Q search)<SB>
+0070 - 04:08:976-04:09:519 I:
+And these
+0071 - 04:10:056-04:11:511 I:
+found key words
+0072 - 04:11:848-04:14:047 I:
+were converted into commands<SB>
+0073 - 04:14:760-04:15:615 I:
+And here
+0074 - 04:15:848-04:18:255 I:
+the command for the (Q Beetles) is artist
+0075 - 04:18:600-04:20:056 I:
+and (X the command for),
+0076 - 04:20:504-04:22:447 I:
+command for (F oh) the search
+0077 - 04:23:136-04:23:408 I:
+is
+0078 - 04:23:640-04:24:159 I:
+a (Q search)<SB>
+0079 - 04:25:504-04:25:965 I:
+And
+0080 - 04:26:159-04:30:495 I:
+if we align these key words, then we can (F uhh) extract the<H>
+0081 - 04:31:112-04:35:912 I:
+(F uh) role of the key words and (F uh) we have (A a hundred and eight;108)
+0082 - 04:36:320-04:37:423 I:
+(F uh) key word
+0083 - 04:38:448-04:39:400 I:
+role patterns
+0084 - 04:40:536-04:41:207 I:
+found out<SB>
+0085 - 04:41:568-04:44:447 I:
+And after (W a) the key word role is generated,
+0086 - 04:44:736-04:45:767 I:
+(F ye) then, the
+0087 - 04:46:039-04:49:823 I:
+(F uh) motion or action will be defined for the key word<SB>
+0088 - 04:50:480-04:52:007 I:
+And towards the key word
+0089 - 04:52:304-04:52:847 I:
+(F uhh)
+0090 - 04:53:172-04:53:608 I:
+role
+0091 - 04:53:807-04:55:495 I:
+like (Q artist) and (Q search),
+0092 - 04:57:484-05:01:744 I:
+the required motion is that to search the name of the artist,
+0093 - 05:02:128-05:03:231 I:
+and then secondly,
+0094 - 05:03:600-05:04:207 I:
+the
+0095 - 05:04:471-05:07:287 I:
+response to the (Q search) (noise should be) generated<SB>
+0096 - 05:06:408-05:06:463 I:<noise>
+0097 - 05:07:592-05:11:143 I:
+(noise And based on that analysis), we have (D sys) realized the system<SB>
+0098 - 05:08:544-05:08:920 I:<noise>
+0099 - 05:11:712-05:15:055 I:
+The operating system is (A windows ninety-eight;Windows 98)<SB>
+0100 - 05:17:208-05:20:887 I:
+And the language is Visual C Plus Plus<SB>
+0101 - 05:23:896-05:23:975 I:<noise>
+0102 - 05:24:168-05:26:463 I:
+And as I said, the number of the key word
+0103 - 05:27:104-05:28:223 I:
+is eighty-two
+0104 - 05:28:728-05:28:856 I:
+at
+0105 - 05:29:200-05:29:855 I:
+this moment,
+0106 - 05:30:120-05:31:271 I:
+and as to the
+0107 - 05:31:640-05:33:191 I:
+(F uh) roles of the key words,
+0108 - 05:33:648-05:37:439 I:
+we have (A hundred and eight;108) patterns registered and defined<SB>
+0109 - 05:40:056-05:42:207 I:
+And this is the (D exa) (F uhh) test
+0110 - 05:42:496-05:43:615 I:
+for the evaluation<SB>
+0111 - 05:43:928-05:48:711 I:
+The goal of this test is the evaluation of the user friendliness of this system<SB>
+0112 - 05:50:368-05:52:232 I:
+And this is the method of the test<SB>
+0113 - 05:52:472-05:53:567 I:
+We had (F uh)
+0114 - 05:53:832-05:54:559 I:
+twenty
+0115 - 05:55:016-05:56:887 I:
+university student subjects<SB>
+0116 - 06:00:872-06:01:287 I:
+And
+0117 - 06:02:256-06:06:103 I:
+this is the comparative test between (W the) (W this) (F uhh) the voice
+0118 - 06:06:384-06:07:119 I:
+(F uh) (D dialo)
+0119 - 06:07:335-06:11:015 I:
+<FV> (S the) the spoken dialogue system versus the conventional system<SB>
+0120 - 06:13:232-06:13:711 I:
+And
+0121 - 06:14:552-06:15:599 I:
+as many
+0122 - 06:16:176-06:20:584 I:
+tasks as possible could be or should be repeated at the given time<SB>
+0123 - 06:24:096-06:26:144 I:
+And what is the task given?<SB>
+0124 - 06:28:592-06:30:320 I:
+This is the example of the task<SB>
+0125 - 06:30:784-06:31:511 I:
+For example,
+0126 - 06:32:056-06:32:823 I:
+(Q replay
+0127 - 06:33:320-06:34:655 I:
+(W a) (D s) the title of the song)
+0128 - 06:35:032-06:36:263 I:
+and in this case,
+0129 - 06:38:848-06:39:263 I:
+this
+0130 - 06:39:744-06:42:368 I:
+song will be searched and played<SB>
+0131 - 06:44:088-06:45:840 I:
+Or another example is that
+0132 - 06:46:287-06:50:368 I:
+(Q what is the title of the song that starts with (Q pure white)
+0133 - 06:50:583-06:52:167 I:
+by artist such and such?)<SB>
+0134 - 06:57:640-06:59:519 I:
+And this is the result of the test<SB>
+0135 - 07:00:840-07:05:336 I:
+This is the comparison between the spoken language system versus the conventional system<SB>
+0136 - 07:05:816-07:07:904 I:
+And this is average (F uh) number of
+0137 - 07:08:127-07:09:696 I:
+the tasks completed
+0138 - 07:10:448-07:11:895 I:
+(X on the) on the<H>
+0139 - 07:14:176-07:14:432 I:
+(D o)
+0140 - 07:14:936-07:17:664 I:
+(D o) ordinate we have the number of the (W task;tasks) (W com
+0141 - 07:17:999-07:21:600 I:
+<FV> pleted;completed) and on the<H> (? absis) (F uh) we have the average<SB>
+0142 - 07:22:384-07:29:495 I:
+And purple or blue is (S the) the system and green is the conventional system and as you can see
+0143 - 07:29:808-07:32:727 I:
+the number of the tasks completed increased
+0144 - 07:33:160-07:35:784 I:
+(F uh) with the implementation of the system
+0145 - 07:36:015-07:37:391 I:
+and as a result we
+0146 - 07:37:592-07:38:695 I:
+concluded that
+0147 - 07:39:916-07:40:607 I:
+the<H>
+0148 - 07:41:556-07:42:307 I:
+spoken
+0149 - 07:42:996-07:44:192 I:
+language system
+0150 - 07:44:524-07:46:675 I:
+(F uhh) improved the efficiency
+0151 - 07:46:896-07:49:104 I:
+of the operation and (noise search)<SB>
+0152 - 07:48:912-07:49:104 I:<noise>
+0153 - 07:49:800-07:51:968 I:
+This is the result number two of the test<SB>
+0154 - 07:52:288-07:55:416 I:
+And this is the (F uhh) questionnaire survey
+0155 - 07:55:792-08:00:831 I:
+in terms of the user friendliness comparison between the system and the conventional system<SB>
+0156 - 08:01:408-08:04:447 I:
+And the questionnaire asks (W their;the) subjects
+0157 - 08:04:856-08:06:064 I:
+(W and) to rate
+0158 - 08:06:296-08:10:072 I:
+the user friendliness in five rank scales,
+0159 - 08:10:432-08:13:360 I:
+five is the best and one is the worst<SB>
+0160 - 08:13:776-08:15:791 I:
+And according to this (F uh) scale,
+0161 - 08:17:584-08:18:055 I:
+six
+0162 - 08:18:584-08:19:608 I:
+<FV> rated (W is)
+0163 - 08:19:807-08:20:575 I:
+five,
+0164 - 08:20:823-08:23:656 I:
+and ten rated four, three rated
+0165 - 08:24:976-08:26:119 I:
+(F uh) three and
+0166 - 08:27:624-08:29:472 I:
+one rated it as two,
+0167 - 08:29:703-08:32:247 I:
+and as to the conventional system, eight rated
+0168 - 08:32:455-08:32:903 I:
+five,
+0169 - 08:33:152-08:34:311 I:
+eight rated four,
+0170 - 08:34:712-08:37:184 I:
+three rated it (F uhh) three
+0171 - 08:37:376-08:38:904 I:
+and one rated (W is) as
+0172 - 08:39:104-08:39:695 I:
+one<SB>
+0173 - 08:40:584-08:42:040 I:
+(F uh) So, with (S this)
+0174 - 08:44:096-08:46:543 I:
+(W and) (F uhh) (X this) (F uh) (S the) the
+0175 - 08:46:856-08:48:200 I:
+spoken language (D sys)
+0176 - 08:48:792-08:49:399 I:
+system,
+0177 - 08:49:783-08:52:207 I:
+(W is;it is) rated higher than the conventional system
+0178 - 08:52:464-08:53:655 I:
+and the average (S is)
+0179 - 08:53:912-09:00:024 I:
+point is (F uh) (A four point o five;4.05) for (F oh) the<H> (D iv) (X voice) <FV> (F uh) spoken language system
+0180 - 09:00:272-09:02:975 I:
+(W a) versus (A three point three five;3.35) for the conventional system<SB>
+0181 - 09:03:776-09:05:471 I:
+This is the summary of my talk<SB>
+0182 - 09:07:344-09:07:823 I:
+Today,
+0183 - 09:08:792-09:10:255 I:
+I talked (W (D abou);about) the
+0184 - 09:11:872-09:18:215 I:
+(F uh) realization of the (A m p three;MP3) player with the spoken language system and (F uh) with the
+0185 - 09:18:496-09:18:823 I:
+(F uh)
+0186 - 09:19:568-09:21:096 I:
+key word analysis process<SB>
+0187 - 09:21:359-09:29:064 I:
+And we have also confirmed that the effectiveness of the voice operation and search in our (F uhh) (W evelaratoinal;evaluational) test<SB>
+0188 - 09:29:344-09:29:840 I:
+Thank you.

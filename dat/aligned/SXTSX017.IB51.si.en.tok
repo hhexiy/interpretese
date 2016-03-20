@@ -1,0 +1,33 @@
+On this occasion , I 'd like to talk about derivational grammar approach to Japanese processing and its application , which is the theme of our study .
+the first of all , I 'd like to explain about the Japanese processing by computer . When you try to translate Japanese by computer , first you input the sentence and analyze it in a morphological approach and other process of parsing , semantic analysis , and context analysis .
+The first process is the morphological analysis . This is the first processing to the speech , so if if a mistake will be made at this stage a lot of processing will not be accurate .
+So the processing at this stage is really important .
+And in addition to this , Japanese language is not a divided into several words . In case of English the words are written in a divided form , while Japanese is written as a whole sentence , so we have to divide the sentence into several parts so that the computer recognize each parts .
+And we have to add function of the words to each parts .
+For example , hanseibun this part is a noun , this part is a auxiliary verbs . And the sentence will be divided into like this , nouns , postpositional particle , verb , auxiliary verbs .
+This is the process of morphological analysis . It looks very simple , but actually it is very complicated process . Will you please see the next slide ?
+This is the school grammar you might learn this at school . for example , in the school grammar , the word write kaku will be explained like this .
+It has a several forms including imperfect form , tintinuative ; continuative  form , conclusive form , attributive form like this from the top to bottom . And there are many complex form form of conjugation .
+And along with the conjugation this cell is a auxiliary verb which means the stimulation . And this auxiliary verb conjugate not only conjugate like this but it has a rule it will be attached to imperfect form alone .
+And if you see this part rareru it will be attached to continuative form alone . And ta this part means conclusion of the action but conjugation imperfect because it does n't have a continuative form and a imperative form .
+And will not be  it will be attached to continuative form alone .
+Like this , it has such a complex conjugation rule and the forms . So in order to analyze a verb or sentence I was forced to write  .
+You need this kind of complex processing . So first problem of morphological analysis of Japanese is the processing of conjugation of a verb .
+But Japanese has a conjugation form . Everybody might think like this way .
+But , we made assumption that the Japanese does n't conjugate . This approach is now proposed .
+I 'd like explain to explain about this approach .
+It is called derivational grammar . It takes advantage of agglutina tive feature of Japanese .
+Japanese or Korean language or Turkish a  has a similar characteristic with each other . We paid attention to this point .
+And the derivational grammar is based on this point . And regarding the conjugation of the verb , It has a stem attached with the suffix .
+It will be explained in this manner . For example , we will look take a look at the conjugation of the verb write , to write . In the school grammar , in the imperial form and con tinuative form they 'll make a conjugation .
+That 's a reason why this school grammar is called conjugation .
+But in a rational ; derivational  grammar , the word will be explained as follows . It consists of the kaku or this part , and part will not make any change and to this part other grammatical forms being attached .
+So this derivational grammar is much easier and simpler compared with the traditional school grammar . So in processing by computer this derivational grammar approach will be more adequate .
+So we have developed a morpheme analysis system Majo . It has a more simple grammar and more simpler analysis .
+Its analysis accuracy was ninety-eight percent .
+I t analyzed Japanese correctly and if you use this Majo system to analyze the word kakase rareta , I was forced to write will be explained on this chart . And we made application to the translation between Japanese and Uighur .
+You might not have knowledge about Uighur . But it is a language people of the Shinkyo Uighur region among Mongolia .
+Because the both of them have a similar word order . So the syntactical similarity is a very high .
+So by replacing each word from Japanese into Uighur , the translation to certain extent is possible . And on this chart , you can see the translation between Japanese and Uighur .
+In conclusion , instead of traditional school grammar 's analysis , we are adopting derivational analysis system which enables the translation more simpler .
+And as application , we are developing the translation between Japanese and Uighur based on the similarity of these two languages . the translation of verb phrase has been developed already .

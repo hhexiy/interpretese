@@ -1,0 +1,373 @@
+0001 - 00:07:282-00:09:658 I:
+The title of my presentation is
+0002 - 00:10:026-00:13:753 I:
+determining output timing in incremental parsing<SB>
+0003 - 00:17:970-00:18:986 I:
+Let me begin with
+0004 - 00:19:234-00:21:777 I:
+the definition of incremental parsing<SB>
+0005 - 00:25:186-00:25:913 I:
+Just in brief<SB>
+0006 - 00:29:482-00:31:017 I:
+What is incremental parsing?<SB>
+0007 - 00:34:034-00:35:066 I:
+It is a framework
+0008 - 00:35:538-00:36:226 I:
+to grasp
+0009 - 00:36:770-00:38:201 I:
+the syntactic structure
+0010 - 00:38:610-00:39:873 I:
+of a sentence
+0011 - 00:40:538-00:42:657 I:
+in half way through the input of a sentence<SB>
+0012 - 00:44:978-00:45:601 I:
+For example,
+0013 - 00:46:314-00:48:498 I:
+here we have a (F um) sentence like
+0014 - 00:48:793-00:50:873 I:
+(Q I saw her aunt in the park)<SB>
+0015 - 00:57:842-00:59:882 I:
+And after the input of
+0016 - 01:00:193-01:01:009 I:
+word (Q saw),
+0017 - 01:01:658-01:03:385 I:
+the parsing will start
+0018 - 01:03:785-01:05:097 I:
+and at that stage,
+0019 - 01:06:346-01:12:490 I:
+the incremental parsing says that (S the) (Q I), the pronoun is the subject of
+0020 - 01:12:714-01:13:185 I:
+the verb
+0021 - 01:13:410-01:13:817 I:
+(Q saw)<SB>
+0022 - 01:20:746-01:21:665 I:
+That's a framework<SB>
+0023 - 01:27:866-01:31:745 I:
+And for what purpose are we going to use such a (D fa) (F uh) framework?<SB>
+0024 - 01:35:778-01:39:873 I:
+It is necessary for the real time dialogue processing system<SB>
+0025 - 01:40:186-01:44:674 I:
+For example, to develop the simultaneous translation or interpretation systems<SB>
+0026 - 01:50:474-01:51:817 I:
+When we consider
+0027 - 01:52:562-01:54:721 I:
+(W the) (L such an incremental parsing),
+0028 - 01:55:033-01:56:961 I:
+it is very important to consider
+0029 - 01:57:442-01:57:810 I:
+the
+0030 - 01:58:450-01:59:521 I:
+output timing<SB>
+0031 - 02:06:066-02:06:713 I:
+Because
+0032 - 02:11:594-02:14:513 I:
+it is not very clear that (S what) at what stage
+0033 - 02:14:770-02:17:250 I:
+the syntactic relation is determined<SB>
+0034 - 02:23:049-02:25:177 I:
+Let's think about (F uh) input like this<SB>
+0035 - 02:26:450-02:27:425 I:
+At this stage,
+0036 - 02:28:522-02:28:953 I:
+the word
+0037 - 02:29:321-02:29:650 I:
+(Q her)
+0038 - 02:30:490-02:31:081 I:
+can be
+0039 - 02:31:546-02:33:993 I:
+the object of the verb (Q saw)
+0040 - 02:34:602-02:35:073 I:
+or
+0041 - 02:36:354-02:36:793 I:
+(Q her)
+0042 - 02:37:330-02:37:954 I:
+also
+0043 - 02:38:426-02:39:049 I:
+can be
+0044 - 02:39:522-02:40:153 I:
+the
+0045 - 02:41:218-02:42:529 I:
+possessive pronoun,
+0046 - 02:43:714-02:44:946 I:
+(F uh) with the
+0047 - 02:45:218-02:46:841 I:
+(F uh) following (F uhh) <FV>
+0048 - 02:47:570-02:48:681 I:
+noun afterwards<SB>
+0049 - 02:49:762-02:52:409 I:
+So we have the number of possibilities<SB>
+0050 - 02:56:794-03:00:098 I:
+Therefore at this stage, it can't be determined that
+0051 - 03:00:385-03:01:425 I:
+which syntactic
+0052 - 03:02:034-03:03:729 I:
+(F uh) relation it has
+0053 - 03:04:482-03:06:329 I:
+and then after the word
+0054 - 03:06:650-03:07:202 I:
+(Q her),
+0055 - 03:07:938-03:09:721 I:
+if the word (Q aunt)
+0056 - 03:10:130-03:10:761 I:
+follows,
+0057 - 03:11:458-03:11:897 I:
+then,
+0058 - 03:13:338-03:13:945 I:
+the (Q her)
+0059 - 03:14:346-03:14:929 I:
+now
+0060 - 03:15:281-03:16:602 I:
+cannot be
+0061 - 03:17:330-03:18:009 I:
+the
+0062 - 03:18:554-03:21:345 I:
+object of the word (Q saw), and rather
+0063 - 03:21:866-03:22:618 I:
+it is
+0064 - 03:23:114-03:23:946 I:
+a possession
+0065 - 03:24:906-03:26:522 I:
+and which (F um)
+0066 - 03:29:114-03:29:753 I:
+predicates
+0067 - 03:30:138-03:31:442 I:
+(F uh) the word (Q aunt)<SB>
+0068 - 03:32:082-03:37:697 I:
+And after the input of (Q aunt), we can determine the syntactic relations (noise for the first time)<SB>
+0069 - 03:36:382-03:37:518 I:<noise>
+0070 - 03:38:178-03:38:945 I:
+And like this,
+0071 - 03:39:570-03:41:385 I:
+in the incremental parsing,
+0072 - 03:43:514-03:45:434 I:
+it is very important to
+0073 - 03:45:858-03:47:641 I:
+determine the output timing<SB>
+0074 - 03:49:882-03:53:369 I:
+And now we would like to propose a method to determine it<SB>
+0075 - 03:56:338-03:58:297 I:
+What is characteristic with
+0076 - 03:58:738-03:59:130 I:
+this
+0077 - 04:00:314-04:01:009 I:
+method<SB>
+0078 - 04:01:385-04:03:473 I:
+I'd like to propose is that it is
+0079 - 04:03:818-04:07:250 I:
+quite dynamic to determine (F uh) the output timing<SB>
+0080 - 04:07:826-04:09:057 I:
+How is it determined?<SB>
+0081 - 04:13:994-04:14:905 I:
+To determine the
+0082 - 04:15:714-04:17:746 I:
+(F uh) syntactic structure,
+0083 - 04:20:506-04:22:434 I:
+the output timing should be delayed
+0084 - 04:22:946-04:25:273 I:
+as much as possible or as late as possible<SB>
+0085 - 04:26:706-04:28:234 I:
+And in that framework,
+0086 - 04:28:546-04:29:185 I:
+the input
+0087 - 04:29:738-04:30:465 I:
+should be
+0088 - 04:32:434-04:33:066 I:
+provided
+0089 - 04:33:634-04:34:810 I:
+as early as possible<SB>
+0090 - 04:43:786-04:48:626 I:
+And this is the outline of the method I'd like to propose and now I'd like to describe
+0091 - 04:49:730-04:51:265 I:
+this method briefly<SB>
+0092 - 04:54:122-04:54:897 I:
+First,
+0093 - 04:55:410-04:57:722 I:
+(X our system) (S we) (F uhh) (W the) (X for)
+0094 - 04:58:122-04:59:329 I:
+we (F uh) generate
+0095 - 04:59:801-05:02:234 I:
+the possible (D s) syntactic structure
+0096 - 05:02:794-05:04:753 I:
+with the incremental parsing<SB>
+0097 - 05:06:154-05:08:650 I:
+In the (W incremen<FV>tal;incremental) (D pars) parsing,
+0098 - 05:15:474-05:16:561 I:
+is carried out
+0099 - 05:17:010-05:18:209 I:
+(F uh) with the
+0100 - 05:18:449-05:19:033 I:
+input
+0101 - 05:19:273-05:19:833 I:
+words<SB>
+0102 - 05:22:938-05:24:706 I:
+And the syntactic structure
+0103 - 05:25:722-05:28:178 I:
+of the word input so far
+0104 - 05:29:450-05:29:929 I:
+would be
+0105 - 05:30:314-05:31:041 I:
+considered
+0106 - 05:31:329-05:34:298 I:
+and then the couple of possibilities are generated<SB>
+0107 - 05:34:794-05:37:385 I:
+And as the result of the parsing,
+0108 - 05:39:098-05:40:433 I:
+(F uhhh) and (X that would)
+0109 - 05:40:826-05:46:298 I:
+that syntactic structure is formed or possibilities of the syntactic structures are formed and that is
+0110 - 05:46:650-05:47:257 I:
+(F umm)
+0111 - 05:47:786-05:50:465 I:
+passed into the output control<SB>
+0112 - 05:55:434-05:57:041 I:
+And using that information,
+0113 - 05:58:210-05:59:770 I:
+in the framework of that (D stradi)
+0114 - 05:59:977-06:01:961 I:
+(F uh) (F uhh) syntactic structure,
+0115 - 06:03:818-06:07:353 I:
+what is determined and what is not determined are all judged<SB>
+0116 - 06:11:650-06:12:050 I:
+And
+0117 - 06:12:337-06:12:513 I:<FV>
+0118 - 06:14:466-06:14:650 I:
+the
+0119 - 06:14:850-06:15:457 I:
+part
+0120 - 06:16:106-06:18:817 I:
+in which the syntactic structures are determined
+0121 - 06:19:665-06:21:153 I:
+is now (D in) output<SB>
+0122 - 06:28:386-06:31:025 I:
+And let's consider this process with the
+0123 - 06:31:225-06:32:569 I:
+example sentence<SB>
+0124 - 06:32:890-06:36:738 I:
+This is the sentence I <FV> have shown to you a moment before<SB>
+0125 - 06:38:474-06:39:186 I:
+For example,
+0126 - 06:39:410-06:40:769 I:
+in the sentence,
+0127 - 06:41:202-06:41:817 I:
+when the
+0128 - 06:42:234-06:43:521 I:
+(Q her) is input,
+0129 - 06:47:562-06:48:025 I:
+the word
+0130 - 06:48:338-06:48:689 I:
+(Q her)
+0131 - 06:52:414-06:55:618 I:
+goes through the (F uh) (L incremental) parsing,
+0132 - 06:56:838-06:58:285 I:
+and with this input,
+0133 - 07:01:962-07:03:385 I:
+(L the incremental) parsing
+0134 - 07:05:482-07:07:194 I:
+will input the possible
+0135 - 07:07:417-07:08:977 I:
+syntactic structures<SB>
+0136 - 07:10:226-07:11:034 I:
+One is, the
+0137 - 07:11:235-07:14:177 I:
+(Q her) could be the object of the verb (Q saw),
+0138 - 07:15:410-07:15:865 I:
+or
+0139 - 07:16:574-07:17:713 I:
+(Q her) also could be
+0140 - 07:17:938-07:19:930 I:
+<FV> the (F uh) (W possess<FV>ive;possesive)
+0141 - 07:21:050-07:21:545 I:
+pronoun<SB>
+0142 - 07:23:642-07:25:073 I:
+And in the output control,
+0143 - 07:26:442-07:26:946 I:
+Two
+0144 - 07:27:186-07:28:689 I:
+possible relations
+0145 - 07:29:338-07:29:777 I:
+are
+0146 - 07:30:250-07:30:937 I:
+accepted<SB>
+0147 - 07:31:330-07:32:610 I:
+And at this stage,
+0148 - 07:36:042-07:41:497 I:
+it is too premature to make any judgment, which is the appropriate or correct relations<SB>
+0149 - 07:43:386-07:43:722 I:
+And
+0150 - 07:43:962-07:47:874 I:
+next, (S the) (D wor) at this stage of the input of the word (Q aunt)<SB>
+0151 - 07:50:194-07:53:857 I:
+First of all, the (Q aunt) is input to the incremental parsing,
+0152 - 07:55:858-07:56:274 I:
+Then
+0153 - 07:56:514-07:58:265 I:
+as the result of the parsing,
+0154 - 07:58:882-07:59:345 I:
+(Q aunt)
+0155 - 08:00:474-08:00:857 I:
+is
+0156 - 08:03:562-08:09:449 I:
+understood as a noun and this information is provided into or provided to output control<SB>
+0157 - 08:09:834-08:11:249 I:
+And with this information
+0158 - 08:11:674-08:12:905 I:
+it is now determined
+0159 - 08:13:354-08:17:530 I:
+that (S her) (Q her) is the possessive and (S it) (D cannon) it can
+0160 - 08:17:994-08:18:257 I:<FV>
+0161 - 08:18:737-08:20:353 I:
+no longer be the (W o <FV>
+0162 - 08:20:642-08:22:698 I:
+bject;object) of the verb (Q saw)
+0163 - 08:23:353-08:26:809 I:
+and now we know that (Q her) is the possessive (noise pronoun,
+0164 - 08:26:717-08:27:521 I:<noise>
+0165 - 08:27:161-08:29:305 I:
+so) at the output control,
+0166 - 08:30:538-08:31:513 I:
+this is output<SB>
+0167 - 08:32:698-08:33:353 I:
+Like this,
+0168 - 08:37:546-08:39:929 I:
+with (F uh) such a control of the output,
+0169 - 08:40:794-08:42:121 I:
+syntactic structure
+0170 - 08:43:658-08:43:866 I:
+(W a)
+0171 - 08:44:362-08:45:562 I:
+is determined and
+0172 - 08:45:898-08:47:033 I:
+at the stage of (X that)
+0173 - 08:47:289-08:48:090 I:
+the decision,
+0174 - 08:48:530-08:48:922 I:
+that
+0175 - 08:49:474-08:52:150 I:
+decided (noise or determined portion could be output)<SB>
+0176 - 08:50:106-08:52:310 I:<noise>
+0177 - 08:56:214-08:57:766 I:
+And in (F uhh)
+0178 - 08:58:094-08:59:237 I:
+<FV> my presentation,
+0179 - 08:59:538-09:01:310 I:
+I proposed the incremen<C>
+0180 - 09:03:166-09:04:850 I:
+tal parsing, and (F uh) the
+0181 - 09:05:210-09:07:514 I:
+dynamically determining output
+0182 - 09:09:502-09:11:141 I:
+with the incremental parsing
+0183 - 09:11:342-09:12:259 I:
+(F uh) technique
+0184 - 09:12:562-09:15:641 I:
+and this is actually mounted on the computer and we
+0185 - 09:15:930-09:17:594 I:
+(F uh) tested, we tried it out,
+0186 - 09:18:058-09:20:214 I:
+and we have confirmed that
+0187 - 09:20:494-09:22:921 I:
+(F uh) we can output the syntactic structure
+0188 - 09:23:098-09:23:862 I:
+incrementally<SB>
+0189 - 09:24:150-09:24:910 I:
+Thank you very much<SB>

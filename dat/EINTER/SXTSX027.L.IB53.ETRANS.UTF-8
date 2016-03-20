@@ -1,0 +1,407 @@
+0001 - 00:07:144-00:08:203 I:
+I'd like to give (F uh)
+0002 - 00:08:423-00:14:392 I:
+(D pro) <FV> a presentation under the title of a spoken dialogue mailtool based on incremental processing<SB>
+0003 - 00:15:652-00:16:847 I:
+In recent years,
+0004 - 00:20:336-00:21:387 I:
+people (noise who)
+0005 - 00:20:892-00:21:103 I:<noise>
+0006 - 00:22:476-00:23:099 I:<noise>
+0007 - 00:23:292-00:29:108 I:
+have not many (W opportunity;opportunities) to use (F ahh) (noise computers) <FV> like (F uh) elderly and children
+0008 - 00:26:228-00:26:364 I:<noise>
+0009 - 00:30:288-00:32:167 I:
+are using (F ah) (noise computers)<SB>
+0010 - 00:31:768-00:36:052 I:<noise>
+0011 - 00:33:236-00:34:060 I:
+Computer
+0012 - 00:34:784-00:37:020 I:
+users are increasing in number<SB>
+0013 - 00:38:164-00:40:824 I:
+In this case, (F ahh) interfaces,
+0014 - 00:41:612-00:42:935 I:
+such as mouse and (D key)
+0015 - 00:43:280-00:43:891 I:
+keyboard
+0016 - 00:45:792-00:47:047 I:
+are expected
+0017 - 00:48:520-00:49:875 I:
+to (noise be) more familiar
+0018 - 00:48:564-00:48:711 I:<noise>
+0019 - 00:50:088-00:50:115 I:<noise>
+0020 - 00:50:128-00:51:460 I:
+with (noise computer users)<SB>
+0021 - 00:50:736-00:51:076 I:<noise>
+0022 - 00:54:060-00:55:488 I:
+Considering the situation,
+0023 - 00:59:752-01:00:651 I:
+using
+0024 - 01:01:928-01:04:168 I:
+a spoken language as an input,
+0025 - 01:09:408-01:11:275 I:
+we are trying to (W the)
+0026 - 01:13:264-01:13:927 I:
+construct as
+0027 - 01:14:228-01:14:447 I:<noise>
+0028 - 01:14:620-01:15:107 I:
+system<SB>
+0029 - 01:19:540-01:19:775 I:<noise>
+0030 - 01:19:772-01:23:172 I:
+A spoken language is (F ahh) (F ahh) very
+0031 - 01:23:412-01:23:867 I:<noise>
+0032 - 01:24:120-01:27:260 I:
+most common communication method for humans<SB>
+0033 - 01:27:932-01:29:340 I:
+And it is possible
+0034 - 01:30:372-01:30:691 I:<noise>
+0035 - 01:30:772-01:32:591 I:
+to communicate better,
+0036 - 01:33:076-01:35:916 I:
+manipulate computer more intuitively
+0037 - 01:36:356-01:37:063 I:
+this case<SB>
+0038 - 01:39:036-01:39:211 I:<tongue>
+0039 - 01:39:372-01:40:519 I:
+Conventional
+0040 - 01:43:572-01:45:367 I:
+(S dialogue) spoken dialogue system
+0041 - 01:47:104-01:47:631 I:
+in this
+0042 - 01:47:839-01:50:976 I:
+system, the system (noise must) wait until the
+0043 - 01:49:504-01:49:579 I:<noise>
+0044 - 01:52:760-01:52:815 I:<tongue>
+0045 - 01:52:856-01:54:924 I:
+user stops speaking,
+0046 - 01:56:088-01:57:343 I:
+then, answers back<SB>
+0047 - 02:03:364-02:03:987 I:
+Therefore,
+0048 - 02:06:980-02:10:163 I:
+it is a kind of transceiver type
+0049 - 02:09:212-02:09:287 I:<noise>
+0050 - 02:10:408-02:11:079 I:
+dialogue<SB>
+0051 - 02:14:308-02:15:459 I:
+This has been common<SB>
+0052 - 02:16:880-02:17:516 I:
+However,
+0053 - 02:18:096-02:20:135 I:
+considering a human conversation,
+0054 - 02:22:092-02:24:307 I:
+one does not necessarily
+0055 - 02:24:572-02:25:039 I:
+wait
+0056 - 02:25:316-02:26:928 I:
+until the other is finished<SB>
+0057 - 02:29:604-02:30:671 I:
+One interrupts
+0058 - 02:30:943-02:31:816 I:
+the conversation
+0059 - 02:31:852-02:31:952 I:<noise>
+0060 - 02:32:384-02:33:175 I:
+whether or not
+0061 - 02:35:632-02:37:963 I:
+to keep the conversation going<SB>
+0062 - 02:39:992-02:40:871 I:
+It's quite common<SB>
+0063 - 02:44:360-02:46:452 I:
+Therefore, more user-friendly
+0064 - 02:47:688-02:48:827 I:
+and more familiar
+0065 - 02:50:232-02:51:191 I:
+interface,
+0066 - 02:52:348-02:54:631 I:
+a tool between the computer
+0067 - 02:55:128-02:56:239 I:
+and (noise humans)
+0068 - 02:55:744-02:55:819 I:<noise>
+0069 - 02:56:080-02:56:160 I:<noise>
+0070 - 02:58:484-02:59:991 I:
+in order to realize that,
+0071 - 03:07:028-03:07:096 I:<tongue>
+0072 - 03:07:184-03:08:387 I:
+while (noise the)
+0073 - 03:07:812-03:07:955 I:<noise>
+0074 - 03:08:612-03:12:024 I:
+user is speaking, (F ahh) system must
+0075 - 03:12:640-03:13:695 I:
+(W answers;answer) back<SB>
+0076 - 03:16:640-03:19:160 I:
+And (F uh) we call this system
+0077 - 03:20:308-03:20:983 I:
+(F ahh)
+0078 - 03:21:752-03:22:923 I:
+spoken dialogue
+0079 - 03:23:892-03:25:444 I:
+on incremental processing<SB>
+0080 - 03:27:432-03:28:703 I:
+By realizing
+0081 - 03:28:987-03:29:559 I:
+these (D t),
+0082 - 03:30:656-03:33:440 I:
+the user can change the contents of the speech
+0083 - 03:34:132-03:37:656 I:
+or the time to wait for the system to answer back is reduced<SB>
+0084 - 03:39:728-03:42:708 I:
+Therefore, this system ensures the smooth
+0085 - 03:43:116-03:43:811 I:
+dialogue<SB>
+0086 - 03:45:604-03:48:596 I:
+And (F uh) that makes (W a) users less stressful,
+0087 - 03:49:040-03:50:592 I:
+less uneasy
+0088 - 03:51:240-03:52:683 I:
+and efficiency
+0089 - 03:53:192-03:53:919 I:
+of the work
+0090 - 03:54:844-03:55:767 I:
+improves<SB>
+0091 - 04:01:756-04:01:839 I:<tongue>
+0092 - 04:01:868-04:01:936 I:<noise>
+0093 - 04:01:984-04:03:499 I:
+Based on this concept,
+0094 - 04:08:936-04:10:007 I:
+we<H>
+0095 - 04:11:128-04:12:151 I:
+constructed (F uh)
+0096 - 04:12:832-04:13:859 I:
+Sync Mail
+0097 - 04:15:916-04:16:295 I:
+<FV>
+0098 - 04:19:336-04:20:251 I:
+as a mailtool<SB>
+0099 - 04:21:224-04:22:052 I:
+Sync Mail
+0100 - 04:23:508-04:28:324 I:
+is based upon the incremental processing (F ah) spoken dialogue<SB>
+0101 - 04:30:452-04:35:300 I:
+(F uh) Retrieval is implemented as soon as necessary (noise information) is input<SB>
+0102 - 04:33:712-04:33:792 I:<noise>
+0103 - 04:35:376-04:36:131 I:
+For example,
+0104 - 04:36:488-04:38:127 I:
+the title is (F uh) (Q wedding ceremony)
+0105 - 04:38:652-04:39:411 I:
+and the sender
+0106 - 04:41:228-04:44:084 I:
+is looking for <FV> (Q Kimura's) e-mail<SB>
+0107 - 04:49:164-04:51:740 I:
+In this case, the title is (F ah) (Q wedding)<SB>
+0108 - 04:53:196-04:55:231 I:
+These words are input,
+0109 - 04:55:976-04:58:504 I:
+then the retrieval is (D inpl) in
+0110 - 04:58:836-04:59:395 I:
+putted,
+0111 - 05:02:976-05:05:380 I:
+reduce the number of the e-mail
+0112 - 05:06:080-05:07:207 I:
+one is looking for<SB>
+0113 - 05:08:172-05:08:735 I:
+Then,
+0114 - 05:10:132-05:10:924 I:
+the sender,
+0115 - 05:14:700-05:15:899 I:
+(Q Mr. Kimura's),
+0116 - 05:20:496-05:20:539 I:<noise>
+0117 - 05:20:684-05:21:359 I:
+then the (D re)
+0118 - 05:21:776-05:21:891 I:
+<FV>
+0119 - 05:22:292-05:23:595 I:
+retrieval is im<C>
+0120 - 05:23:988-05:25:443 I:
+plemented again<SB>
+0121 - 05:28:672-05:32:280 I:
+In this way, incrementally the retrieval is
+0122 - 05:32:724-05:33:624 I:
+implemented<SB>
+0123 - 05:36:064-05:37:212 I:
+While the user is
+0124 - 05:37:415-05:38:447 I:
+speaking,
+0125 - 05:40:104-05:40:719 I:
+(W the)
+0126 - 05:41:940-05:43:300 I:
+a lot of e-mail
+0127 - 05:44:456-05:46:100 I:
+(D yi) will be (W res duced;reduced)
+0128 - 05:46:316-05:48:191 I:
+and (W the) one can (F ah)
+0129 - 05:49:344-05:51:968 I:
+find the e-mail they look for
+0130 - 05:54:064-05:54:943 I:
+or (W the)
+0131 - 05:55:179-05:56:511 I:
+they can
+0132 - 05:57:280-05:58:595 I:
+do it again
+0133 - 05:58:980-05:59:663 I:
+on the way<SB>
+0134 - 06:00:932-06:02:843 I:
+Therefore, (W the) I believe (noise that)
+0135 - 06:02:744-06:02:832 I:<noise>
+0136 - 06:03:236-06:04:323 I:
+(X effectiveness)
+0137 - 06:04:764-06:06:027 I:
+efficiency improves<SB>
+0138 - 06:08:788-06:08:887 I:<tongue>
+0139 - 06:08:960-06:10:251 I:
+(F eh) in a concrete manner<SB>
+0140 - 06:10:688-06:13:964 I:
+Let me explain about how to comprehend
+0141 - 06:14:280-06:14:951 I:
+the speech<SB>
+0142 - 06:16:316-06:17:895 I:
+In the case of (W retrievation;retrieval),
+0143 - 06:21:060-06:21:867 I:
+attribute
+0144 - 06:22:700-06:23:399 I:
+and value
+0145 - 06:27:308-06:28:292 I:
+(F ah) (W consists;consist)
+0146 - 06:28:492-06:29:447 I:
+the retrieval<SB>
+0147 - 06:31:364-06:33:431 I:
+And as speech continues, (F ahh)
+0148 - 06:33:840-06:34:023 I:
+(D con)
+0149 - 06:34:728-06:36:067 I:
+if the combination
+0150 - 06:37:012-06:38:419 I:
+is determined,
+0151 - 06:39:184-06:40:708 I:
+the retrieval (X is (D i))
+0152 - 06:44:048-06:45:983 I:
+can be implemented on the way<SB>
+0153 - 06:48:192-06:50:100 I:
+For example, the title is (F ah)
+0154 - 06:50:104-06:50:135 I:<tongue>
+0155 - 06:51:116-06:51:227 I:
+<FV>
+0156 - 06:51:652-06:52:615 I:
+(Q wedding ceremony)<SB>
+0157 - 06:53:952-06:54:320 I:
+If the
+0158 - 06:55:024-06:57:764 I:
+title (W a) this group of words is input,
+0159 - 07:01:188-07:02:211 I:
+then attribute,
+0160 - 07:03:412-07:05:363 I:
+title, it is (D de) determined<SB>
+0161 - 07:07:104-07:08:831 I:
+Then (Q at the wedding ceremony)
+0162 - 07:10:836-07:11:747 I:
+is input<SB>
+0163 - 07:15:676-07:17:543 I:
+Then, the value,
+0164 - 07:18:456-07:20:091 I:
+(noise in the) item of value
+0165 - 07:18:656-07:18:804 I:<noise>
+0166 - 07:24:884-07:26:895 I:
+(F ahh) (W the) (Q wedding ceremony) is input<SB>
+0167 - 07:28:400-07:28:835 I:<noise>
+0168 - 07:28:872-07:29:643 I:
+Therefore, the
+0169 - 07:30:044-07:30:771 I:
+retrieval
+0170 - 07:31:596-07:32:820 I:
+will be implemented<SB>
+0171 - 07:34:604-07:34:667 I:<tongue>
+0172 - 07:34:872-07:36:115 I:
+<FV> Then the sender,
+0173 - 07:36:988-07:37:595 I:
+(Q Kimura),
+0174 - 07:38:908-07:40:135 I:
+in the same way,
+0175 - 07:40:800-07:41:900 I:
+the same process
+0176 - 07:44:344-07:45:467 I:
+will be conducted<SB>
+0177 - 07:47:648-07:49:999 I:
+Then (W the) before finishing the sentence,
+0178 - 07:50:524-07:52:112 I:
+the (D retrieva) retrieval
+0179 - 07:52:372-07:52:763 I:
+will
+0180 - 07:53:004-07:54:248 I:
+be implemented<SB>
+0181 - 07:54:588-07:55:968 I:
+In the conventional way,
+0182 - 07:56:816-07:57:623 I:
+(X after
+0183 - 07:57:976-07:59:944 I:
+inputting one sentence),
+0184 - 08:00:384-08:01:344 I:
+only after
+0185 - 08:01:476-08:01:647 I:<noise>
+0186 - 08:01:684-08:03:107 I:
+inputting one sentence,
+0187 - 08:04:828-08:05:647 I:
+retrieval
+0188 - 08:07:148-08:07:903 I:
+will be possible<SB>
+0189 - 08:09:128-08:09:351 I:<noise>
+0190 - 08:09:404-08:13:984 I:
+Therefore, (W the) this system I believe that makes (W a) users less stressful<SB>
+0191 - 08:16:136-08:17:676 I:
+Then now the evaluation<SB>
+0192 - 08:19:904-08:21:031 I:
+In terms of
+0193 - 08:21:988-08:23:851 I:
+(S efficiency) work efficiency,
+0194 - 08:28:392-08:29:047 I:
+in (noise a)
+0195 - 08:28:924-08:29:035 I:<noise>
+0196 - 08:29:296-08:30:591 I:
+certain amount
+0197 - 08:31:328-08:32:188 I:
+of (noise time),
+0198 - 08:31:580-08:31:675 I:<noise>
+0199 - 08:32:436-08:34:428 I:
+when the system answers back
+0200 - 08:34:636-08:35:792 I:
+before the end of the speech,
+0201 - 08:36:076-08:36:179 I:<noise>
+0202 - 08:37:600-08:38:923 I:
+efficiency improved<SB>
+0203 - 08:40:424-08:42:484 I:
+And (W the) (noise in) terms of the (D f) (D f)
+0204 - 08:40:932-08:41:031 I:<noise>
+0205 - 08:42:759-08:43:867 I:
+user-friendliness,
+0206 - 08:46:428-08:48:067 I:
+when the system answers back
+0207 - 08:48:283-08:49:619 I:
+before the end of the speech,
+0208 - 08:50:280-08:51:823 I:
+three point six
+0209 - 08:52:023-08:52:972 I:
+out of five,
+0210 - 08:55:888-08:56:919 I:
+higher score
+0211 - 08:57:832-08:58:687 I:
+was recorded<SB>
+0212 - 08:59:408-08:59:532 I:<noise>
+0213 - 08:59:676-09:00:603 I:
+Now, conclusion<SB>
+0214 - 09:03:752-09:06:680 I:
+We propose the method of the system
+0215 - 09:06:895-09:07:771 I:
+to answer back
+0216 - 09:08:644-09:09:927 I:
+before the user (W finish;finishes)
+0217 - 09:10:128-09:10:784 I:
+the speech<SB>
+0218 - 09:12:244-09:17:120 I:
+And by evaluation, we confirm the effectiveness of the method<SB>
+0219 - 09:18:136-09:20:627 I:
+And as to the problems to be solved,
+0220 - 09:26:496-09:28:223 I:
+more complicated dialogue
+0221 - 09:29:580-09:30:191 I:
+(S we)
+0222 - 09:30:692-09:36:560 I:
+(F ahh) we have to come up with (F uh) how to process (F uh) more complicated dialogue<SB> Thank you very much<SB>
